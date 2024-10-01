@@ -192,6 +192,8 @@ const updateProducts = async (
       updatedProducts: UpdateProductsInput,
       failedProduct: UpdateProductsInput[number]
     ) => Promise<void>;
+    onSuccess?: (updatedProduct: UpdateProductsInput[number]) => void;
+    onFinished?: (updatedProducts: UpdateProductsInput) => void;
   } & ClientOpts
 ) => {
   let updatedProducts: UpdateProductsInput = [];
@@ -253,7 +255,7 @@ const updateProducts = async (
 
     if (!response.ok) {
       if (opts.onError) await opts.onError(updatedProducts, product);
-      throw new Error(
+      console.error(
         `Error al actualizar el producto ${product.productId} de TiendaNube: ${response.statusText}`
       );
     }
@@ -264,9 +266,11 @@ const updateProducts = async (
     );
 
     updatedProducts.push(product);
+    opts.onSuccess?.(product);
 
     i++;
   }
+  opts.onFinished?.(updatedProducts);
 };
 
 const updateProductsBrands = async (

@@ -218,14 +218,17 @@ export const loadWholesaleMissingProducts = async () => {
 
   console.log("updating products");
   await tnWholesaleStore.updateProducts(productsToUpdate, {
-    onError: async (updatedProducts, failedProduct) => {
+    onError: async (_updatedProducts, failedProduct) => {
+      console.error(
+        `Error updating product ${failedProduct.sku} with id ${failedProduct.productId}`
+      );
+    },
+    onFinished: async (updatedProducts) => {
       writeFile(
         "updated_wholesale_products.json",
         JSON.stringify(updatedProducts, null, 2)
       );
-      console.error(
-        `Error updating product ${failedProduct.sku} with id ${failedProduct.productId}`
-      );
+      console.log("Finished updating products");
     },
   });
 

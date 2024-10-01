@@ -54,6 +54,10 @@ export const tnWholesaleStore = {
         updatedProducts: UpdateProductsInput,
         failedProduct: UpdateProductsInput[number]
       ) => Promise<void>;
+      onSuccess?: (
+        updatedProduct: UpdateProductsInput[number]
+      ) => Promise<void>;
+      onFinished?: (updatedProducts: UpdateProductsInput) => Promise<void>;
     } = {}
   ) => {
     return tiendaNube.updateProducts(data, {
