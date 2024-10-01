@@ -1,0 +1,8307 @@
+[
+  {
+    "handle": "la-botica-makers",
+    "normal": {
+      "id": 22630763,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:53:59+00:00",
+      "updated_at": "2024-08-02T20:01:33+00:00",
+      "name": {
+        "es": "La Botica Makers"
+      },
+      "handle": {
+        "es": "la-botica-makers"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011895,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "La Botica Makers"
+      },
+      "handle": {
+        "es": "la-botica-makers"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "ingredientes-comestibles",
+    "normal": {
+      "id": 22630765,
+      "parent": 0,
+      "subcategories": [
+        22630766,
+        22630771,
+        22630793,
+        22630776,
+        26729347
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:00+00:00",
+      "updated_at": "2024-08-27T21:40:12+00:00",
+      "name": {
+        "es": "Ingredientes "
+      },
+      "handle": {
+        "es": "ingredientes-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011896,
+      "parent": 0,
+      "subcategories": [
+        26011922,
+        26011923,
+        26011924,
+        26011925,
+        26769285
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Ingredientes "
+      },
+      "handle": {
+        "es": "ingredientes-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "fondant-pasta-de-azucar-y-modelado",
+    "normal": {
+      "id": 22630766,
+      "parent": 22630765,
+      "subcategories": [
+        22630767,
+        22630768,
+        22630770
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:01+00:00",
+      "updated_at": "2024-02-16T15:18:49+00:00",
+      "name": {
+        "es": "Fondant, Pasta de Azucar y Modelado"
+      },
+      "handle": {
+        "es": "fondant-pasta-de-azucar-y-modelado"
+      },
+      "description": {
+        "es": "Aquí encontraras los ingredientes necesarios para Fondant y Modelado"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011922,
+      "parent": 26011896,
+      "subcategories": [
+        26011926,
+        26011927,
+        26011928
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Fondant, Pasta de Azucar y Modelado"
+      },
+      "handle": {
+        "es": "fondant-pasta-de-azucar-y-modelado"
+      },
+      "description": {
+        "es": "Aquí encontraras los ingredientes necesarios para Fondant y Modelado"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pasta-de-flores",
+    "normal": {
+      "id": 22630767,
+      "parent": 22630766,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:01+00:00",
+      "updated_at": "2024-02-09T17:21:58+00:00",
+      "name": {
+        "es": "Pasta de Flores"
+      },
+      "handle": {
+        "es": "pasta-de-flores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011926,
+      "parent": 26011922,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Pasta de Flores"
+      },
+      "handle": {
+        "es": "pasta-de-flores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pasta-de-goma-modelar-y-pastillaje",
+    "normal": {
+      "id": 22630768,
+      "parent": 22630766,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:02+00:00",
+      "updated_at": "2024-02-09T17:22:05+00:00",
+      "name": {
+        "es": "Pasta de Goma, Modelar y Pastillaje"
+      },
+      "handle": {
+        "es": "pasta-de-goma-modelar-y-pastillaje"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011927,
+      "parent": 26011922,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Pasta de Goma, Modelar y Pastillaje"
+      },
+      "handle": {
+        "es": "pasta-de-goma-modelar-y-pastillaje"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pasta-para-cubrir-tortas",
+    "normal": {
+      "id": 22630770,
+      "parent": 22630766,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:02+00:00",
+      "updated_at": "2024-02-09T17:22:12+00:00",
+      "name": {
+        "es": "Pasta para Cubrir Tortas"
+      },
+      "handle": {
+        "es": "pasta-para-cubrir-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011928,
+      "parent": 26011922,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Pasta para Cubrir Tortas"
+      },
+      "handle": {
+        "es": "pasta-para-cubrir-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorantes-glitter-y-gibre",
+    "normal": {
+      "id": 22630771,
+      "parent": 22630765,
+      "subcategories": [
+        22630772,
+        22630773,
+        22630774,
+        22630775
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:03+00:00",
+      "updated_at": "2024-08-30T18:24:55+00:00",
+      "name": {
+        "es": "Colorantes Glitter y Gibre"
+      },
+      "handle": {
+        "es": "colorantes-glitter-y-gibre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011923,
+      "parent": 26011896,
+      "subcategories": [
+        26011929,
+        26011930,
+        26011931,
+        26011932
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Colorantes Glitter y Gibre"
+      },
+      "handle": {
+        "es": "colorantes-glitter-y-gibre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorantes-en-pasta-gel-hidrosolubles",
+    "normal": {
+      "id": 22630772,
+      "parent": 22630771,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:04+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Colorantes En Pasta, Gel Hidrosolubles"
+      },
+      "handle": {
+        "es": "colorantes-en-pasta-gel-hidrosolubles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011929,
+      "parent": 26011923,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Colorantes En Pasta, Gel Hidrosolubles"
+      },
+      "handle": {
+        "es": "colorantes-en-pasta-gel-hidrosolubles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorante-para-aerografo",
+    "normal": {
+      "id": 22630773,
+      "parent": 22630771,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:05+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Colorante para Aerografo"
+      },
+      "handle": {
+        "es": "colorante-para-aerografo"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011930,
+      "parent": 26011923,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Colorante para Aerografo"
+      },
+      "handle": {
+        "es": "colorante-para-aerografo"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorantes-metalizados-glitter-y-gibre",
+    "normal": {
+      "id": 22630774,
+      "parent": 22630771,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:05+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Colorantes Metalizados, Glitter y Gibre"
+      },
+      "handle": {
+        "es": "colorantes-metalizados-glitter-y-gibre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011931,
+      "parent": 26011923,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Colorantes Metalizados, Glitter y Gibre"
+      },
+      "handle": {
+        "es": "colorantes-metalizados-glitter-y-gibre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorantes-para-chocolate-liposolubles",
+    "normal": {
+      "id": 22630775,
+      "parent": 22630771,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:06+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Colorantes para Chocolate Liposolubles"
+      },
+      "handle": {
+        "es": "colorantes-para-chocolate-liposolubles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011932,
+      "parent": 26011923,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Colorantes para Chocolate Liposolubles"
+      },
+      "handle": {
+        "es": "colorantes-para-chocolate-liposolubles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "decoraciones-comestibles",
+    "normal": {
+      "id": 22630793,
+      "parent": 22630765,
+      "subcategories": [
+        22630794,
+        22630795,
+        22630796,
+        22630797,
+        22630798
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:14+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Decoraciones Comestibles"
+      },
+      "handle": {
+        "es": "decoraciones-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011924,
+      "parent": 26011896,
+      "subcategories": [
+        26011933,
+        26011934,
+        26011935,
+        26011936,
+        26011937
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Decoraciones Comestibles"
+      },
+      "handle": {
+        "es": "decoraciones-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "fibras-de-tinta-comestible",
+    "normal": {
+      "id": 22630794,
+      "parent": 22630793,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:15+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Fibras de tinta comestible"
+      },
+      "handle": {
+        "es": "fibras-de-tinta-comestible"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011933,
+      "parent": 26011924,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Fibras de tinta comestible"
+      },
+      "handle": {
+        "es": "fibras-de-tinta-comestible"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "figuras-de-azucar",
+    "normal": {
+      "id": 22630795,
+      "parent": 22630793,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:15+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Figuras de Azucar"
+      },
+      "handle": {
+        "es": "figuras-de-azucar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011934,
+      "parent": 26011924,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Figuras de Azucar"
+      },
+      "handle": {
+        "es": "figuras-de-azucar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "papel-comestible-encaje-y-puntillas-comestibles",
+    "normal": {
+      "id": 22630796,
+      "parent": 22630793,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:16+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Papel comestible, encaje y Puntillas comestibles"
+      },
+      "handle": {
+        "es": "papel-comestible-encaje-y-puntillas-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011935,
+      "parent": 26011924,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Papel comestible, encaje y Puntillas comestibles"
+      },
+      "handle": {
+        "es": "papel-comestible-encaje-y-puntillas-comestibles"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "perlas-sprinkles-granas-y-decoraciones",
+    "normal": {
+      "id": 22630797,
+      "parent": 22630793,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:17+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Perlas Sprinkles Granas y Decoraciones"
+      },
+      "handle": {
+        "es": "perlas-sprinkles-granas-y-decoraciones"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011936,
+      "parent": 26011924,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Perlas Sprinkles Granas y Decoraciones"
+      },
+      "handle": {
+        "es": "perlas-sprinkles-granas-y-decoraciones"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "transfer-para-chocolate",
+    "normal": {
+      "id": 22630798,
+      "parent": 22630793,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:17+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Transfer para chocolate"
+      },
+      "handle": {
+        "es": "transfer-para-chocolate"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011937,
+      "parent": 26011924,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Transfer para chocolate"
+      },
+      "handle": {
+        "es": "transfer-para-chocolate"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "ingredientes-para-cocinar",
+    "normal": {
+      "id": 22630776,
+      "parent": 22630765,
+      "subcategories": [
+        22630778,
+        22630779,
+        22630780,
+        22630781,
+        22630782,
+        22630783,
+        22630784,
+        22630785,
+        22630786,
+        22630787,
+        22630788,
+        22630790,
+        22630791,
+        22630792
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:06+00:00",
+      "updated_at": "2024-08-30T18:03:50+00:00",
+      "name": {
+        "es": "Ingredientes para Cocinar"
+      },
+      "handle": {
+        "es": "ingredientes-para-cocinar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011925,
+      "parent": 26011896,
+      "subcategories": [
+        26011938,
+        26011939,
+        26011940,
+        26011941,
+        26011942,
+        26011943,
+        26011944,
+        26011945,
+        26011946,
+        26011947,
+        26011948,
+        26011949,
+        26011950,
+        26011951
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Ingredientes para Cocinar"
+      },
+      "handle": {
+        "es": "ingredientes-para-cocinar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "azucares",
+    "normal": {
+      "id": 22630778,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:07+00:00",
+      "updated_at": "2024-08-30T18:03:50+00:00",
+      "name": {
+        "es": "Azucares"
+      },
+      "handle": {
+        "es": "azucares"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011938,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Azucares"
+      },
+      "handle": {
+        "es": "azucares"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "chocolate-cobertura-bano-de-reposteria-y-cacao",
+    "normal": {
+      "id": 22630779,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:07+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Chocolate Cobertura, Baño De Reposteria Y Cacao"
+      },
+      "handle": {
+        "es": "chocolate-cobertura-bano-de-reposteria-y-cacao"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011939,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Chocolate Cobertura, Baño De Reposteria Y Cacao"
+      },
+      "handle": {
+        "es": "chocolate-cobertura-bano-de-reposteria-y-cacao"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "crema-de-leche-manteca-y-cremas-listas",
+    "normal": {
+      "id": 22630780,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:08+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Crema de Leche, Manteca y Cremas Listas"
+      },
+      "handle": {
+        "es": "crema-de-leche-manteca-y-cremas-listas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011940,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Crema de Leche, Manteca y Cremas Listas"
+      },
+      "handle": {
+        "es": "crema-de-leche-manteca-y-cremas-listas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "dulce-de-leche",
+    "normal": {
+      "id": 22630781,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:09+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Dulce de Leche"
+      },
+      "handle": {
+        "es": "dulce-de-leche"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011941,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Dulce de Leche"
+      },
+      "handle": {
+        "es": "dulce-de-leche"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "esencias-emulsiones-y-saborizantes",
+    "normal": {
+      "id": 22630782,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:09+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Esencias, emulsiones y Saborizantes"
+      },
+      "handle": {
+        "es": "esencias-emulsiones-y-saborizantes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011942,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Esencias, emulsiones y Saborizantes"
+      },
+      "handle": {
+        "es": "esencias-emulsiones-y-saborizantes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "frutos-congelados-y-enlatados",
+    "normal": {
+      "id": 22630783,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:10+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Frutos congelados y Enlatados"
+      },
+      "handle": {
+        "es": "frutos-congelados-y-enlatados"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011943,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Frutos congelados y Enlatados"
+      },
+      "handle": {
+        "es": "frutos-congelados-y-enlatados"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "frutos-secos-y-especias",
+    "normal": {
+      "id": 22630784,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:10+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Frutos Secos y especias"
+      },
+      "handle": {
+        "es": "frutos-secos-y-especias"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011944,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Frutos Secos y especias"
+      },
+      "handle": {
+        "es": "frutos-secos-y-especias"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "glaseados-listos-y-polvos",
+    "normal": {
+      "id": 22630785,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:11+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Glaseados Listos y Polvos "
+      },
+      "handle": {
+        "es": "glaseados-listos-y-polvos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011945,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Glaseados Listos y Polvos "
+      },
+      "handle": {
+        "es": "glaseados-listos-y-polvos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "glucosa-jarabes-y-pegamento-comestible",
+    "normal": {
+      "id": 22630786,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:11+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Glucosa, jarabes y pegamento comestible "
+      },
+      "handle": {
+        "es": "glucosa-jarabes-y-pegamento-comestible"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011946,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Glucosa, jarabes y pegamento comestible "
+      },
+      "handle": {
+        "es": "glucosa-jarabes-y-pegamento-comestible"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "golosinas-galletitas-y-confituras",
+    "normal": {
+      "id": 22630787,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:12+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Golosinas, Galletitas y confituras"
+      },
+      "handle": {
+        "es": "golosinas-galletitas-y-confituras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011947,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Golosinas, Galletitas y confituras"
+      },
+      "handle": {
+        "es": "golosinas-galletitas-y-confituras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "harinas-premezclas-y-polvos",
+    "normal": {
+      "id": 22630788,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:12+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Harinas, Premezclas y Polvos "
+      },
+      "handle": {
+        "es": "harinas-premezclas-y-polvos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011948,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Harinas, Premezclas y Polvos "
+      },
+      "handle": {
+        "es": "harinas-premezclas-y-polvos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "lacteos-y-aceites",
+    "normal": {
+      "id": 22630790,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:13+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Lacteos y Aceites "
+      },
+      "handle": {
+        "es": "lacteos-y-aceites"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011949,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Lacteos y Aceites "
+      },
+      "handle": {
+        "es": "lacteos-y-aceites"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "mermeladas-variegatos-y-pastas-de-relleno",
+    "normal": {
+      "id": 22630791,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:13+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Mermeladas, Variegatos y Pastas de Relleno "
+      },
+      "handle": {
+        "es": "mermeladas-variegatos-y-pastas-de-relleno"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011950,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Mermeladas, Variegatos y Pastas de Relleno "
+      },
+      "handle": {
+        "es": "mermeladas-variegatos-y-pastas-de-relleno"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "varios",
+    "normal": {
+      "id": 22630792,
+      "parent": 22630776,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:14+00:00",
+      "updated_at": "2024-06-11T15:33:28+00:00",
+      "name": {
+        "es": "Varios "
+      },
+      "handle": {
+        "es": "varios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011951,
+      "parent": 26011925,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Varios "
+      },
+      "handle": {
+        "es": "varios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "sin-tacc-gluten-free",
+    "normal": {
+      "id": 26729347,
+      "parent": 22630765,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-08-30T14:23:24+00:00",
+      "updated_at": "2024-08-30T14:23:24+00:00",
+      "name": {
+        "es": "SIN TACC - GLUTEN FREE"
+      },
+      "handle": {
+        "es": "sin-tacc-gluten-free"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26769285,
+      "parent": 26011896,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-09-02T09:25:52+00:00",
+      "updated_at": "2024-09-02T09:25:52+00:00",
+      "name": {
+        "es": "SIN TACC - GLUTEN FREE"
+      },
+      "handle": {
+        "es": "sin-tacc-gluten-free"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bazar",
+    "normal": {
+      "id": 22630800,
+      "parent": 0,
+      "subcategories": [
+        22630801,
+        22630814,
+        22630817,
+        22630823,
+        22630830,
+        22630831,
+        24207798,
+        25091419
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:18+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Bazar/textil"
+      },
+      "handle": {
+        "es": "bazar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011897,
+      "parent": 0,
+      "subcategories": [
+        26011952,
+        26011953,
+        26011954,
+        26011955,
+        26011956,
+        26011957,
+        26011958,
+        26011959
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Bazar/textil"
+      },
+      "handle": {
+        "es": "bazar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-de-reposteria",
+    "normal": {
+      "id": 22630801,
+      "parent": 22630800,
+      "subcategories": [
+        22630802,
+        22630804,
+        22630805,
+        22630807,
+        22630808,
+        22630809,
+        22630810,
+        22630812,
+        22630813
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:18+00:00",
+      "updated_at": "2024-08-30T17:59:09+00:00",
+      "name": {
+        "es": "Moldes de Reposteria "
+      },
+      "handle": {
+        "es": "moldes-de-reposteria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011952,
+      "parent": 26011897,
+      "subcategories": [
+        26011960,
+        26011961,
+        26011962,
+        26011963,
+        26011964,
+        26011965,
+        26011966,
+        26011967,
+        26011968
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Moldes de Reposteria "
+      },
+      "handle": {
+        "es": "moldes-de-reposteria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "aros-marcos-y-cinturas",
+    "normal": {
+      "id": 22630802,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:19+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Aros, Marcos y Cinturas"
+      },
+      "handle": {
+        "es": "aros-marcos-y-cinturas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011960,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Aros, Marcos y Cinturas"
+      },
+      "handle": {
+        "es": "aros-marcos-y-cinturas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-de-papel",
+    "normal": {
+      "id": 22630804,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:19+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Moldes de Papel"
+      },
+      "handle": {
+        "es": "moldes-de-papel"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011961,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Moldes de Papel"
+      },
+      "handle": {
+        "es": "moldes-de-papel"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-para-chocolate-y-bombones",
+    "normal": {
+      "id": 22630805,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:20+00:00",
+      "updated_at": "2024-08-30T18:50:30+00:00",
+      "name": {
+        "es": "Moldes para chocolate y Bombones"
+      },
+      "handle": {
+        "es": "moldes-para-chocolate-y-bombones"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011962,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Moldes para chocolate y Bombones"
+      },
+      "handle": {
+        "es": "moldes-para-chocolate-y-bombones"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "placas-de-horno-tapetes-rejillas-y-silpat",
+    "normal": {
+      "id": 22630807,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:20+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Placas de Horno, Tapetes, Rejillas y Silpat"
+      },
+      "handle": {
+        "es": "placas-de-horno-tapetes-rejillas-y-silpat"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011963,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Placas de Horno, Tapetes, Rejillas y Silpat"
+      },
+      "handle": {
+        "es": "placas-de-horno-tapetes-rejillas-y-silpat"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "torteras-y-tarteras",
+    "normal": {
+      "id": 22630808,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:21+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Torteras y Tarteras"
+      },
+      "handle": {
+        "es": "torteras-y-tarteras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011964,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Torteras y Tarteras"
+      },
+      "handle": {
+        "es": "torteras-y-tarteras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "muffins-cupcakes-donas-y-madeleins",
+    "normal": {
+      "id": 22630809,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:22+00:00",
+      "updated_at": "2024-08-30T18:00:16+00:00",
+      "name": {
+        "es": "Muffins, Cupcakes, Donas y Madeleins"
+      },
+      "handle": {
+        "es": "muffins-cupcakes-donas-y-madeleins"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011965,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Muffins, Cupcakes, Donas y Madeleins"
+      },
+      "handle": {
+        "es": "muffins-cupcakes-donas-y-madeleins"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "budineras-flaneras-savarin",
+    "normal": {
+      "id": 22630810,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:22+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Budineras, Flaneras, Savarin"
+      },
+      "handle": {
+        "es": "budineras-flaneras-savarin"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011966,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Budineras, Flaneras, Savarin"
+      },
+      "handle": {
+        "es": "budineras-flaneras-savarin"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "paletas-ice-pop-helados-y-cake-pops",
+    "normal": {
+      "id": 22630812,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:23+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Paletas, Ice Pop, Helados y Cake Pops"
+      },
+      "handle": {
+        "es": "paletas-ice-pop-helados-y-cake-pops"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011967,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Paletas, Ice Pop, Helados y Cake Pops"
+      },
+      "handle": {
+        "es": "paletas-ice-pop-helados-y-cake-pops"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-pan-churreras-tubos-cannoli-y-pericos",
+    "normal": {
+      "id": 22630813,
+      "parent": 22630801,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:23+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Moldes Pan, Churreras, Tubos Cannoli y Pericos"
+      },
+      "handle": {
+        "es": "moldes-pan-churreras-tubos-cannoli-y-pericos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011968,
+      "parent": 26011952,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Moldes Pan, Churreras, Tubos Cannoli y Pericos"
+      },
+      "handle": {
+        "es": "moldes-pan-churreras-tubos-cannoli-y-pericos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bandejas-y-tablas",
+    "normal": {
+      "id": 22630814,
+      "parent": 22630800,
+      "subcategories": [
+        22630815,
+        22630816
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:24+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Bandejas y Tablas "
+      },
+      "handle": {
+        "es": "bandejas-y-tablas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011953,
+      "parent": 26011897,
+      "subcategories": [
+        26011969,
+        26011970
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Bandejas y Tablas "
+      },
+      "handle": {
+        "es": "bandejas-y-tablas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pie-de-torta-y-bandejas",
+    "normal": {
+      "id": 22630815,
+      "parent": 22630814,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:24+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Pie de Torta y Bandejas"
+      },
+      "handle": {
+        "es": "pie-de-torta-y-bandejas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011969,
+      "parent": 26011953,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pie de Torta y Bandejas"
+      },
+      "handle": {
+        "es": "pie-de-torta-y-bandejas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "tablas-de-picar",
+    "normal": {
+      "id": 22630816,
+      "parent": 22630814,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:25+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Tablas de Picar"
+      },
+      "handle": {
+        "es": "tablas-de-picar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011970,
+      "parent": 26011953,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Tablas de Picar"
+      },
+      "handle": {
+        "es": "tablas-de-picar"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "electrodomesticos",
+    "normal": {
+      "id": 22630817,
+      "parent": 22630800,
+      "subcategories": [
+        22630818,
+        22630819,
+        22630821,
+        25015258
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:25+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Electrodomésticos"
+      },
+      "handle": {
+        "es": "electrodomesticos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011954,
+      "parent": 26011897,
+      "subcategories": [
+        26011971,
+        26011972,
+        26011973,
+        26011974
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Electrodomésticos"
+      },
+      "handle": {
+        "es": "electrodomesticos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "aerografos",
+    "normal": {
+      "id": 22630818,
+      "parent": 22630817,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:26+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Aerógrafos"
+      },
+      "handle": {
+        "es": "aerografos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011971,
+      "parent": 26011954,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Aerógrafos"
+      },
+      "handle": {
+        "es": "aerografos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "batidoras",
+    "normal": {
+      "id": 22630819,
+      "parent": 22630817,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:26+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Batidoras"
+      },
+      "handle": {
+        "es": "batidoras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011972,
+      "parent": 26011954,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Batidoras"
+      },
+      "handle": {
+        "es": "batidoras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pequenos-electrodomesticos",
+    "normal": {
+      "id": 22630821,
+      "parent": 22630817,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:27+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Pequeños Electrodomésticos"
+      },
+      "handle": {
+        "es": "pequenos-electrodomesticos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011973,
+      "parent": 26011954,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pequeños Electrodomésticos"
+      },
+      "handle": {
+        "es": "pequenos-electrodomesticos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "santini",
+    "normal": {
+      "id": 25015258,
+      "parent": 22630817,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-24T17:29:18+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Santini"
+      },
+      "handle": {
+        "es": "santini"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011974,
+      "parent": 26011954,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Santini"
+      },
+      "handle": {
+        "es": "santini"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "hogar-deco-y-accesorios-pasteleros",
+    "normal": {
+      "id": 22630823,
+      "parent": 22630800,
+      "subcategories": [
+        22630824,
+        22630825,
+        22630826,
+        22630827,
+        22630828,
+        22630829
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:27+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Hogar, Deco y Accesorios Pasteleros"
+      },
+      "handle": {
+        "es": "hogar-deco-y-accesorios-pasteleros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011955,
+      "parent": 26011897,
+      "subcategories": [
+        26011975,
+        26011976,
+        26011977,
+        26011978,
+        26011979,
+        26011980
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Hogar, Deco y Accesorios Pasteleros"
+      },
+      "handle": {
+        "es": "hogar-deco-y-accesorios-pasteleros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "alfombras-y-trapos-de-piso",
+    "normal": {
+      "id": 22630824,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:28+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Alfombras y Trapos de Piso"
+      },
+      "handle": {
+        "es": "alfombras-y-trapos-de-piso"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011975,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Alfombras y Trapos de Piso"
+      },
+      "handle": {
+        "es": "alfombras-y-trapos-de-piso"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "delantales",
+    "normal": {
+      "id": 22630825,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:28+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Delantales"
+      },
+      "handle": {
+        "es": "delantales"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011976,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Delantales"
+      },
+      "handle": {
+        "es": "delantales"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "manteles-y-servilletas",
+    "normal": {
+      "id": 22630826,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:29+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Manteles y Servilletas"
+      },
+      "handle": {
+        "es": "manteles-y-servilletas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011977,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Manteles y Servilletas"
+      },
+      "handle": {
+        "es": "manteles-y-servilletas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "repasadores",
+    "normal": {
+      "id": 22630827,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:29+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Repasadores"
+      },
+      "handle": {
+        "es": "repasadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011978,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Repasadores"
+      },
+      "handle": {
+        "es": "repasadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "varios1",
+    "normal": {
+      "id": 22630828,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:30+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011979,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pines-stickers-y-accesorios",
+    "normal": {
+      "id": 22630829,
+      "parent": 22630823,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:30+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Pines, stickers y accesorios"
+      },
+      "handle": {
+        "es": "pines-stickers-y-accesorios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011980,
+      "parent": 26011955,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pines, stickers y accesorios"
+      },
+      "handle": {
+        "es": "pines-stickers-y-accesorios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "varios2",
+    "normal": {
+      "id": 22630830,
+      "parent": 22630800,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:31+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios2"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011956,
+      "parent": 26011897,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios2"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "utensilios",
+    "normal": {
+      "id": 22630831,
+      "parent": 22630800,
+      "subcategories": [
+        22630832,
+        22630833,
+        22630834,
+        22630835,
+        22630836,
+        22630837,
+        22630838,
+        22630839
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:31+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Utensilios"
+      },
+      "handle": {
+        "es": "utensilios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011957,
+      "parent": 26011897,
+      "subcategories": [
+        26011981,
+        26011982,
+        26011983,
+        26011984,
+        26011985,
+        26011986,
+        26011987,
+        26011988
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Utensilios"
+      },
+      "handle": {
+        "es": "utensilios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "batidores",
+    "normal": {
+      "id": 22630832,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:32+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Batidores"
+      },
+      "handle": {
+        "es": "batidores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011981,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Batidores"
+      },
+      "handle": {
+        "es": "batidores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bowls",
+    "normal": {
+      "id": 22630833,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:32+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Bowls"
+      },
+      "handle": {
+        "es": "bowls"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011982,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Bowls"
+      },
+      "handle": {
+        "es": "bowls"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cucharas-medidoras-balanzas-y-medidores",
+    "normal": {
+      "id": 22630834,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:33+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Cucharas Medidoras, Balanzas y Medidores"
+      },
+      "handle": {
+        "es": "cucharas-medidoras-balanzas-y-medidores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011983,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cucharas Medidoras, Balanzas y Medidores"
+      },
+      "handle": {
+        "es": "cucharas-medidoras-balanzas-y-medidores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cuchillos-cuchillas-y-bisturi",
+    "normal": {
+      "id": 22630835,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:33+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Cuchillos, Cuchillas y Bisturi"
+      },
+      "handle": {
+        "es": "cuchillos-cuchillas-y-bisturi"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011984,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cuchillos, Cuchillas y Bisturi"
+      },
+      "handle": {
+        "es": "cuchillos-cuchillas-y-bisturi"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "espatulas-cucharas-pinceles-y-palas-levanta-tortas",
+    "normal": {
+      "id": 22630836,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:34+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Espatulas, cucharas, Pinceles y Palas Levanta Tortas"
+      },
+      "handle": {
+        "es": "espatulas-cucharas-pinceles-y-palas-levanta-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011985,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Espatulas, cucharas, Pinceles y Palas Levanta Tortas"
+      },
+      "handle": {
+        "es": "espatulas-cucharas-pinceles-y-palas-levanta-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pinzas",
+    "normal": {
+      "id": 22630837,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:34+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Pinzas"
+      },
+      "handle": {
+        "es": "pinzas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011986,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pinzas"
+      },
+      "handle": {
+        "es": "pinzas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "tamizadores-y-ralladores",
+    "normal": {
+      "id": 22630838,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:35+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Tamizadores Y Ralladores"
+      },
+      "handle": {
+        "es": "tamizadores-y-ralladores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011987,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Tamizadores Y Ralladores"
+      },
+      "handle": {
+        "es": "tamizadores-y-ralladores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "termometros-y-sopletes",
+    "normal": {
+      "id": 22630839,
+      "parent": 22630831,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:35+00:00",
+      "updated_at": "2024-08-30T14:23:26+00:00",
+      "name": {
+        "es": "Termometros y Sopletes"
+      },
+      "handle": {
+        "es": "termometros-y-sopletes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011988,
+      "parent": 26011957,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Termometros y Sopletes"
+      },
+      "handle": {
+        "es": "termometros-y-sopletes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "ollas-cacerolas-y-sartenes",
+    "normal": {
+      "id": 24207798,
+      "parent": 22630800,
+      "subcategories": [
+        24207799,
+        24207800
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-04-09T17:52:46+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Ollas, cacerolas y sartenes"
+      },
+      "handle": {
+        "es": "ollas-cacerolas-y-sartenes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011958,
+      "parent": 26011897,
+      "subcategories": [
+        26011989,
+        26011990
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Ollas, cacerolas y sartenes"
+      },
+      "handle": {
+        "es": "ollas-cacerolas-y-sartenes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "ollas-y-cacerolas",
+    "normal": {
+      "id": 24207799,
+      "parent": 24207798,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-04-09T17:52:46+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Ollas y cacerolas"
+      },
+      "handle": {
+        "es": "ollas-y-cacerolas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011989,
+      "parent": 26011958,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Ollas y cacerolas"
+      },
+      "handle": {
+        "es": "ollas-y-cacerolas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "sartenes",
+    "normal": {
+      "id": 24207800,
+      "parent": 24207798,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-04-09T17:52:46+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Sartenes"
+      },
+      "handle": {
+        "es": "sartenes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011990,
+      "parent": 26011958,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Sartenes"
+      },
+      "handle": {
+        "es": "sartenes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bazar-regaleria-y-bolucompras1",
+    "normal": {
+      "id": 25091419,
+      "parent": 22630800,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-28T20:47:05+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Bazar, regalería y bolucompras"
+      },
+      "handle": {
+        "es": "bazar-regaleria-y-bolucompras1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011959,
+      "parent": 26011897,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Bazar, regalería y bolucompras"
+      },
+      "handle": {
+        "es": "bazar-regaleria-y-bolucompras1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "fechas-especiales-y-tematicas",
+    "normal": {
+      "id": 22630841,
+      "parent": 0,
+      "subcategories": [
+        22630854,
+        22630855,
+        22630856,
+        22630857,
+        22630859,
+        22630860,
+        22630861,
+        22630862,
+        22630866,
+        22630867,
+        22630868,
+        22630869,
+        22630870,
+        22630871,
+        22630872,
+        22630873,
+        22630874,
+        22630875,
+        22630877,
+        22630878
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:36+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Fechas Especiales Y Tematicas"
+      },
+      "handle": {
+        "es": "fechas-especiales-y-tematicas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011898,
+      "parent": 0,
+      "subcategories": [
+        26011991,
+        26011992,
+        26011993,
+        26011994,
+        26011995,
+        26011996,
+        26011997,
+        26011998,
+        26011999,
+        26012000,
+        26012001,
+        26012002,
+        26012003,
+        26012004,
+        26012005,
+        26012006,
+        26012007,
+        26012008,
+        26012009,
+        26012010
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Fechas Especiales Y Tematicas"
+      },
+      "handle": {
+        "es": "fechas-especiales-y-tematicas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cumpleanos-mario-bros",
+    "normal": {
+      "id": 22630854,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:37+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Cumpleaños Mario Bros"
+      },
+      "handle": {
+        "es": "cumpleanos-mario-bros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011991,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cumpleaños Mario Bros"
+      },
+      "handle": {
+        "es": "cumpleanos-mario-bros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cumpleanos-de-barbie",
+    "normal": {
+      "id": 22630855,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:38+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Cumpleaños de Barbie"
+      },
+      "handle": {
+        "es": "cumpleanos-de-barbie"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011992,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cumpleaños de Barbie"
+      },
+      "handle": {
+        "es": "cumpleanos-de-barbie"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "futbol-messi",
+    "normal": {
+      "id": 22630856,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:38+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Futbol - Messi"
+      },
+      "handle": {
+        "es": "futbol-messi"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011993,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Futbol - Messi"
+      },
+      "handle": {
+        "es": "futbol-messi"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "dinosaurios-jurassic-park",
+    "normal": {
+      "id": 22630857,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:39+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Dinosaurios - Jurassic Park"
+      },
+      "handle": {
+        "es": "dinosaurios-jurassic-park"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011994,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Dinosaurios - Jurassic Park"
+      },
+      "handle": {
+        "es": "dinosaurios-jurassic-park"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "mickey-minnie-y-sus-amigos",
+    "normal": {
+      "id": 22630859,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:39+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Mickey, Minnie y sus Amigos"
+      },
+      "handle": {
+        "es": "mickey-minnie-y-sus-amigos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011995,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Mickey, Minnie y sus Amigos"
+      },
+      "handle": {
+        "es": "mickey-minnie-y-sus-amigos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "baby-shower",
+    "normal": {
+      "id": 22630860,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:40+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Baby Shower"
+      },
+      "handle": {
+        "es": "baby-shower"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011996,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Baby Shower"
+      },
+      "handle": {
+        "es": "baby-shower"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bodas",
+    "normal": {
+      "id": 22630861,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:40+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Bodas"
+      },
+      "handle": {
+        "es": "bodas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011997,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Bodas"
+      },
+      "handle": {
+        "es": "bodas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "comunion",
+    "normal": {
+      "id": 22630862,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:41+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Comunión"
+      },
+      "handle": {
+        "es": "comunion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011998,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Comunión"
+      },
+      "handle": {
+        "es": "comunion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "dia-de-la-madre",
+    "normal": {
+      "id": 22630866,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:42+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Dia De La Madre"
+      },
+      "handle": {
+        "es": "dia-de-la-madre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011999,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Dia De La Madre"
+      },
+      "handle": {
+        "es": "dia-de-la-madre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "dia-del-padre",
+    "normal": {
+      "id": 22630867,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:42+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Dia Del Padre"
+      },
+      "handle": {
+        "es": "dia-del-padre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012000,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Dia Del Padre"
+      },
+      "handle": {
+        "es": "dia-del-padre"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "halloween",
+    "normal": {
+      "id": 22630868,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:43+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Halloween"
+      },
+      "handle": {
+        "es": "halloween"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012001,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Halloween"
+      },
+      "handle": {
+        "es": "halloween"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "navidad",
+    "normal": {
+      "id": 22630869,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:43+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Navidad"
+      },
+      "handle": {
+        "es": "navidad"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012002,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Navidad"
+      },
+      "handle": {
+        "es": "navidad"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pascuas",
+    "normal": {
+      "id": 22630870,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:44+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Pascuas"
+      },
+      "handle": {
+        "es": "pascuas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012003,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pascuas"
+      },
+      "handle": {
+        "es": "pascuas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "dia-de-los-enamorados",
+    "normal": {
+      "id": 22630871,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:44+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Dia De Los Enamorados"
+      },
+      "handle": {
+        "es": "dia-de-los-enamorados"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012004,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Dia De Los Enamorados"
+      },
+      "handle": {
+        "es": "dia-de-los-enamorados"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "vida-marina-nautico-sirenas",
+    "normal": {
+      "id": 22630872,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:45+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Vida Marina, Nautico, Sirenas "
+      },
+      "handle": {
+        "es": "vida-marina-nautico-sirenas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012005,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Vida Marina, Nautico, Sirenas "
+      },
+      "handle": {
+        "es": "vida-marina-nautico-sirenas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "naturaleza",
+    "normal": {
+      "id": 22630873,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:45+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Naturaleza"
+      },
+      "handle": {
+        "es": "naturaleza"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012006,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Naturaleza"
+      },
+      "handle": {
+        "es": "naturaleza"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "princesas-y-super-heroes",
+    "normal": {
+      "id": 22630874,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:46+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Princesas Y Super Heroes"
+      },
+      "handle": {
+        "es": "princesas-y-super-heroes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012007,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Princesas Y Super Heroes"
+      },
+      "handle": {
+        "es": "princesas-y-super-heroes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cumpleanos",
+    "normal": {
+      "id": 22630875,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:47+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Cumpleaños "
+      },
+      "handle": {
+        "es": "cumpleanos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012008,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cumpleaños "
+      },
+      "handle": {
+        "es": "cumpleanos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "deportes",
+    "normal": {
+      "id": 22630877,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:47+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Deportes "
+      },
+      "handle": {
+        "es": "deportes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012009,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Deportes "
+      },
+      "handle": {
+        "es": "deportes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "personajes-y-peliculas",
+    "normal": {
+      "id": 22630878,
+      "parent": 22630841,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:48+00:00",
+      "updated_at": "2024-08-30T14:23:27+00:00",
+      "name": {
+        "es": "Personajes Y Peliculas"
+      },
+      "handle": {
+        "es": "personajes-y-peliculas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012010,
+      "parent": 26011898,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Personajes Y Peliculas"
+      },
+      "handle": {
+        "es": "personajes-y-peliculas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "utensilios1",
+    "normal": {
+      "id": 22630879,
+      "parent": 0,
+      "subcategories": [
+        22630905,
+        22630881,
+        22630890,
+        22630894,
+        22630914
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:48+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Repostería"
+      },
+      "handle": {
+        "es": "utensilios1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011899,
+      "parent": 0,
+      "subcategories": [
+        26012011,
+        26012012,
+        26012013,
+        26012014,
+        26012015
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Repostería"
+      },
+      "handle": {
+        "es": "utensilios1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "artistica",
+    "normal": {
+      "id": 22630905,
+      "parent": 22630879,
+      "subcategories": [
+        22630907,
+        22630908,
+        22630909,
+        22630911,
+        22630912,
+        22630913
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:58+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Artística"
+      },
+      "handle": {
+        "es": "artistica"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012011,
+      "parent": 26011899,
+      "subcategories": [
+        26012016,
+        26012017,
+        26012018,
+        26012019,
+        26012020,
+        26012021
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Artística"
+      },
+      "handle": {
+        "es": "artistica"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-para-artesanias-y-decoraciones",
+    "normal": {
+      "id": 22630907,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:59+00:00",
+      "updated_at": "2024-08-30T17:50:45+00:00",
+      "name": {
+        "es": "Moldes Para Artesanias Y Decoraciones"
+      },
+      "handle": {
+        "es": "moldes-para-artesanias-y-decoraciones"
+      },
+      "description": {
+        "es": "<p>En esta secci&oacute;n encontraras todo tipo de moldes para artesanias y decoraciones</p>"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012016,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Moldes Para Artesanias Y Decoraciones"
+      },
+      "handle": {
+        "es": "moldes-para-artesanias-y-decoraciones"
+      },
+      "description": {
+        "es": "<p>En esta secci&oacute;n encontraras todo tipo de moldes para artesanias y decoraciones</p>"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "ceramica",
+    "normal": {
+      "id": 22630908,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:59+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Cerámica"
+      },
+      "handle": {
+        "es": "ceramica"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012017,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cerámica"
+      },
+      "handle": {
+        "es": "ceramica"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "sellos",
+    "normal": {
+      "id": 22630909,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:00+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Sellos y Stencil"
+      },
+      "handle": {
+        "es": "sellos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012018,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Sellos y Stencil"
+      },
+      "handle": {
+        "es": "sellos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pinceles-y-brochas",
+    "normal": {
+      "id": 22630911,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:00+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Pinceles y Brochas"
+      },
+      "handle": {
+        "es": "pinceles-y-brochas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012019,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pinceles y Brochas"
+      },
+      "handle": {
+        "es": "pinceles-y-brochas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "colorantes-y-pigmentos",
+    "normal": {
+      "id": 22630912,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:01+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Colorantes y Pigmentos "
+      },
+      "handle": {
+        "es": "colorantes-y-pigmentos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012020,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Colorantes y Pigmentos "
+      },
+      "handle": {
+        "es": "colorantes-y-pigmentos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "porcelana-fria",
+    "normal": {
+      "id": 22630913,
+      "parent": 22630905,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:01+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Porcelana Fría"
+      },
+      "handle": {
+        "es": "porcelana-fria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012021,
+      "parent": 26012011,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Porcelana Fría"
+      },
+      "handle": {
+        "es": "porcelana-fria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "basicos",
+    "normal": {
+      "id": 22630881,
+      "parent": 22630879,
+      "subcategories": [
+        22630882,
+        22630884,
+        22630885,
+        22630886,
+        22630887,
+        22630888,
+        22630889
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:49+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Basicos"
+      },
+      "handle": {
+        "es": "basicos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012012,
+      "parent": 26011899,
+      "subcategories": [
+        26012022,
+        26012023,
+        26012024,
+        26012025,
+        26012026,
+        26012027,
+        26012028
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Basicos"
+      },
+      "handle": {
+        "es": "basicos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "boquillas-picos-y-cuplas",
+    "normal": {
+      "id": 22630882,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:50+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Boquillas Picos y Cuplas"
+      },
+      "handle": {
+        "es": "boquillas-picos-y-cuplas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012022,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Boquillas Picos y Cuplas"
+      },
+      "handle": {
+        "es": "boquillas-picos-y-cuplas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "utensilios-varios",
+    "normal": {
+      "id": 22630884,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:50+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Utensilios Varios"
+      },
+      "handle": {
+        "es": "utensilios-varios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012023,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Utensilios Varios"
+      },
+      "handle": {
+        "es": "utensilios-varios"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "libros-de-pasteleria",
+    "normal": {
+      "id": 22630885,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:51+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Libros de Pasteleria"
+      },
+      "handle": {
+        "es": "libros-de-pasteleria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012024,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Libros de Pasteleria"
+      },
+      "handle": {
+        "es": "libros-de-pasteleria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "liras-corta-capas-y-ruedas-cortantes",
+    "normal": {
+      "id": 22630886,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:51+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Liras corta Capas y Ruedas Cortantes"
+      },
+      "handle": {
+        "es": "liras-corta-capas-y-ruedas-cortantes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012025,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Liras corta Capas y Ruedas Cortantes"
+      },
+      "handle": {
+        "es": "liras-corta-capas-y-ruedas-cortantes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "mangas-dosificadores-y-dispenser",
+    "normal": {
+      "id": 22630887,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:52+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Mangas Dosificadores y Dispenser"
+      },
+      "handle": {
+        "es": "mangas-dosificadores-y-dispenser"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012026,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Mangas Dosificadores y Dispenser"
+      },
+      "handle": {
+        "es": "mangas-dosificadores-y-dispenser"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "palo-de-amasar-y-rodillos-texturadores",
+    "normal": {
+      "id": 22630888,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:52+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Palo de Amasar y Rodillos Texturadores"
+      },
+      "handle": {
+        "es": "palo-de-amasar-y-rodillos-texturadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012027,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Palo de Amasar y Rodillos Texturadores"
+      },
+      "handle": {
+        "es": "palo-de-amasar-y-rodillos-texturadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "platos-giratorios-tornamesa",
+    "normal": {
+      "id": 22630889,
+      "parent": 22630881,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:53+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Platos giratorios, Tornamesa"
+      },
+      "handle": {
+        "es": "platos-giratorios-tornamesa"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012028,
+      "parent": 26012012,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Platos giratorios, Tornamesa"
+      },
+      "handle": {
+        "es": "platos-giratorios-tornamesa"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cortantes-y-marcadores",
+    "normal": {
+      "id": 22630890,
+      "parent": 22630879,
+      "subcategories": [
+        22630891,
+        22630892,
+        22630893
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:53+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Cortantes y Marcadores"
+      },
+      "handle": {
+        "es": "cortantes-y-marcadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012013,
+      "parent": 26011899,
+      "subcategories": [
+        26012029,
+        26012030,
+        26012031
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cortantes y Marcadores"
+      },
+      "handle": {
+        "es": "cortantes-y-marcadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "marcadores-y-texturadores",
+    "normal": {
+      "id": 22630891,
+      "parent": 22630890,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:54+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Marcadores Y Texturadores "
+      },
+      "handle": {
+        "es": "marcadores-y-texturadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012029,
+      "parent": 26012013,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Marcadores Y Texturadores "
+      },
+      "handle": {
+        "es": "marcadores-y-texturadores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cortantes-basicos",
+    "normal": {
+      "id": 22630892,
+      "parent": 22630890,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:54+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Cortantes Básicos"
+      },
+      "handle": {
+        "es": "cortantes-basicos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012030,
+      "parent": 26012013,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cortantes Básicos"
+      },
+      "handle": {
+        "es": "cortantes-basicos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cortantes-con-relieve-y-expulsor",
+    "normal": {
+      "id": 22630893,
+      "parent": 22630890,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:55+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Cortantes con Relieve y Expulsor"
+      },
+      "handle": {
+        "es": "cortantes-con-relieve-y-expulsor"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012031,
+      "parent": 26012013,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cortantes con Relieve y Expulsor"
+      },
+      "handle": {
+        "es": "cortantes-con-relieve-y-expulsor"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "herramienta-para-flores",
+    "normal": {
+      "id": 22630894,
+      "parent": 22630879,
+      "subcategories": [
+        22630895,
+        22630896,
+        22630897,
+        22630898
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:56+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Herramienta para flores"
+      },
+      "handle": {
+        "es": "herramienta-para-flores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012014,
+      "parent": 26011899,
+      "subcategories": [
+        26012032,
+        26012033,
+        26012034,
+        26012035
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Herramienta para flores"
+      },
+      "handle": {
+        "es": "herramienta-para-flores"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "placa-de-alambrado-venadores-y-pads",
+    "normal": {
+      "id": 22630895,
+      "parent": 22630894,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:56+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Placa de Alambrado, Venadores y Pads"
+      },
+      "handle": {
+        "es": "placa-de-alambrado-venadores-y-pads"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012032,
+      "parent": 26012014,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Placa de Alambrado, Venadores y Pads"
+      },
+      "handle": {
+        "es": "placa-de-alambrado-venadores-y-pads"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "alambre-floral-cinta-engomada-y-pistilos",
+    "normal": {
+      "id": 22630896,
+      "parent": 22630894,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:57+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Alambre Floral, Cinta Engomada y Pistilos"
+      },
+      "handle": {
+        "es": "alambre-floral-cinta-engomada-y-pistilos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012033,
+      "parent": 26012014,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Alambre Floral, Cinta Engomada y Pistilos"
+      },
+      "handle": {
+        "es": "alambre-floral-cinta-engomada-y-pistilos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cortantes-de-flores-hojas-y-petalos",
+    "normal": {
+      "id": 22630897,
+      "parent": 22630894,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:57+00:00",
+      "updated_at": "2024-08-30T17:45:57+00:00",
+      "name": {
+        "es": "Cortantes de Flores, Hojas y Petalos "
+      },
+      "handle": {
+        "es": "cortantes-de-flores-hojas-y-petalos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012034,
+      "parent": 26012014,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cortantes de Flores, Hojas y Petalos "
+      },
+      "handle": {
+        "es": "cortantes-de-flores-hojas-y-petalos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "armadores-de-flores-clavos-y-tijeras",
+    "normal": {
+      "id": 22630898,
+      "parent": 22630894,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:54:58+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Armadores de Flores, clavos y Tijeras"
+      },
+      "handle": {
+        "es": "armadores-de-flores-clavos-y-tijeras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012035,
+      "parent": 26012014,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Armadores de Flores, clavos y Tijeras"
+      },
+      "handle": {
+        "es": "armadores-de-flores-clavos-y-tijeras"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "herramientas-para-fondant",
+    "normal": {
+      "id": 22630914,
+      "parent": 22630879,
+      "subcategories": [
+        22630915,
+        22630917,
+        22630918
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:02+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Herramienta para Fondant"
+      },
+      "handle": {
+        "es": "herramientas-para-fondant"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012015,
+      "parent": 26011899,
+      "subcategories": [
+        26012036,
+        26012037,
+        26012038
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Herramienta para Fondant"
+      },
+      "handle": {
+        "es": "herramientas-para-fondant"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "estecas-y-bolillos",
+    "normal": {
+      "id": 22630915,
+      "parent": 22630914,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:02+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Estecas y Bolillos"
+      },
+      "handle": {
+        "es": "estecas-y-bolillos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012036,
+      "parent": 26012015,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Estecas y Bolillos"
+      },
+      "handle": {
+        "es": "estecas-y-bolillos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "alisadores-scrapers-peines-y-cornet",
+    "normal": {
+      "id": 22630917,
+      "parent": 22630914,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:03+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Alisadores, Scrapers, peines y Cornet"
+      },
+      "handle": {
+        "es": "alisadores-scrapers-peines-y-cornet"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012037,
+      "parent": 26012015,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Alisadores, Scrapers, peines y Cornet"
+      },
+      "handle": {
+        "es": "alisadores-scrapers-peines-y-cornet"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "placas-de-corte-y-trabajo-antiadherentes",
+    "normal": {
+      "id": 22630918,
+      "parent": 22630914,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:04+00:00",
+      "updated_at": "2024-08-30T14:23:28+00:00",
+      "name": {
+        "es": "Placas de Corte y Trabajo antiadherentes"
+      },
+      "handle": {
+        "es": "placas-de-corte-y-trabajo-antiadherentes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012038,
+      "parent": 26012015,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Placas de Corte y Trabajo antiadherentes"
+      },
+      "handle": {
+        "es": "placas-de-corte-y-trabajo-antiadherentes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "fiestas",
+    "normal": {
+      "id": 22630919,
+      "parent": 0,
+      "subcategories": [
+        22630920,
+        22630926
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:04+00:00",
+      "updated_at": "2024-08-30T17:57:20+00:00",
+      "name": {
+        "es": "Fiestas/Cotillón"
+      },
+      "handle": {
+        "es": "fiestas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011900,
+      "parent": 0,
+      "subcategories": [
+        26012039,
+        26012040
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Fiestas/Cotillón"
+      },
+      "handle": {
+        "es": "fiestas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "decoracion",
+    "normal": {
+      "id": 22630920,
+      "parent": 22630919,
+      "subcategories": [
+        22630921,
+        22630922,
+        22630923,
+        22630924,
+        22630925
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:05+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Decoración"
+      },
+      "handle": {
+        "es": "decoracion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012039,
+      "parent": 26011900,
+      "subcategories": [
+        26012041,
+        26012042,
+        26012043,
+        26012044,
+        26012045
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Decoración"
+      },
+      "handle": {
+        "es": "decoracion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "globos-pinatas-y-guirnaldas",
+    "normal": {
+      "id": 22630921,
+      "parent": 22630920,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:05+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Globos, Piñatas y Guirnaldas"
+      },
+      "handle": {
+        "es": "globos-pinatas-y-guirnaldas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012041,
+      "parent": 26012039,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Globos, Piñatas y Guirnaldas"
+      },
+      "handle": {
+        "es": "globos-pinatas-y-guirnaldas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "platos-vasos-servilletas",
+    "normal": {
+      "id": 22630922,
+      "parent": 22630920,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:06+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Platos - Vasos - Servilletas"
+      },
+      "handle": {
+        "es": "platos-vasos-servilletas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012042,
+      "parent": 26012039,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Platos - Vasos - Servilletas"
+      },
+      "handle": {
+        "es": "platos-vasos-servilletas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "sorbetes",
+    "normal": {
+      "id": 22630923,
+      "parent": 22630920,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:06+00:00",
+      "updated_at": "2024-08-30T18:04:21+00:00",
+      "name": {
+        "es": "Sorbetes  "
+      },
+      "handle": {
+        "es": "sorbetes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012043,
+      "parent": 26012039,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Sorbetes  "
+      },
+      "handle": {
+        "es": "sorbetes"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "varios3",
+    "normal": {
+      "id": 22630924,
+      "parent": 22630920,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:07+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios3"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012044,
+      "parent": 26012039,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Varios"
+      },
+      "handle": {
+        "es": "varios3"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "velas-bengalas-y-toppers",
+    "normal": {
+      "id": 22630925,
+      "parent": 22630920,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:07+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Velas, Bengalas y Toppers "
+      },
+      "handle": {
+        "es": "velas-bengalas-y-toppers"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012045,
+      "parent": 26012039,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Velas, Bengalas y Toppers "
+      },
+      "handle": {
+        "es": "velas-bengalas-y-toppers"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "descartables",
+    "normal": {
+      "id": 22630926,
+      "parent": 22630919,
+      "subcategories": [
+        22630927,
+        22630928,
+        22630929,
+        22630930,
+        22630931
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:08+00:00",
+      "updated_at": "2024-08-30T18:05:12+00:00",
+      "name": {
+        "es": "Descartables"
+      },
+      "handle": {
+        "es": "descartables"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012040,
+      "parent": 26011900,
+      "subcategories": [
+        26012046,
+        26012047,
+        26012048,
+        26012049,
+        26012050
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Descartables"
+      },
+      "handle": {
+        "es": "descartables"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "cajas-bolsas-y-papel-de-envoltorio",
+    "normal": {
+      "id": 22630927,
+      "parent": 22630926,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:08+00:00",
+      "updated_at": "2024-08-30T18:52:29+00:00",
+      "name": {
+        "es": "Cajas, Bolsas y Papel de envoltorio"
+      },
+      "handle": {
+        "es": "cajas-bolsas-y-papel-de-envoltorio"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012046,
+      "parent": 26012040,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Cajas, Bolsas y Papel de envoltorio"
+      },
+      "handle": {
+        "es": "cajas-bolsas-y-papel-de-envoltorio"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "pirotines-y-moldes-de-papel",
+    "normal": {
+      "id": 22630928,
+      "parent": 22630926,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:09+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Pirotines Y Moldes De Papel "
+      },
+      "handle": {
+        "es": "pirotines-y-moldes-de-papel"
+      },
+      "description": {
+        "es": "Pirotines para muffins o cupcakes. Pirotines Temáticos para comunión, halloween. Diseños navideños. Pirotines de silicona o papel."
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012047,
+      "parent": 26012040,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Pirotines Y Moldes De Papel "
+      },
+      "handle": {
+        "es": "pirotines-y-moldes-de-papel"
+      },
+      "description": {
+        "es": "Pirotines para muffins o cupcakes. Pirotines Temáticos para comunión, halloween. Diseños navideños. Pirotines de silicona o papel."
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "telgopor-y-dummies",
+    "normal": {
+      "id": 22630929,
+      "parent": 22630926,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:09+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Telgopor y Dummies "
+      },
+      "handle": {
+        "es": "telgopor-y-dummies"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012048,
+      "parent": 26012040,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Telgopor y Dummies "
+      },
+      "handle": {
+        "es": "telgopor-y-dummies"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "varios4",
+    "normal": {
+      "id": 22630930,
+      "parent": 22630926,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:10+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Varios "
+      },
+      "handle": {
+        "es": "varios4"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012049,
+      "parent": 26012040,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Varios "
+      },
+      "handle": {
+        "es": "varios4"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "bandejas-bases-y-discos-de-ganache",
+    "normal": {
+      "id": 22630931,
+      "parent": 22630926,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-12T18:55:10+00:00",
+      "updated_at": "2024-08-30T17:50:16+00:00",
+      "name": {
+        "es": "Bandejas, Bases y Discos de Ganache "
+      },
+      "handle": {
+        "es": "bandejas-bases-y-discos-de-ganache"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012050,
+      "parent": 26012040,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Bandejas, Bases y Discos de Ganache "
+      },
+      "handle": {
+        "es": "bandejas-bases-y-discos-de-ganache"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "gift-cards",
+    "normal": {
+      "id": 22860322,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-01-25T21:12:56+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Gift Cards"
+      },
+      "handle": {
+        "es": "gift-cards"
+      },
+      "description": {
+        "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011901,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Gift Cards"
+      },
+      "handle": {
+        "es": "gift-cards"
+      },
+      "description": {
+        "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "chocolate-alpino",
+    "normal": {
+      "id": 23201643,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-15T19:54:07+00:00",
+      "updated_at": "2024-08-30T18:50:54+00:00",
+      "name": {
+        "es": "Chocolate alpino"
+      },
+      "handle": {
+        "es": "chocolate-alpino"
+      },
+      "description": {
+        "es": "Disfruta del sabor del auténtico chocolate Alpino. Encontrá chocolate alpino para modelar, chips, semiamargo y en muchas variedades."
+      },
+      "seo_title": {
+        "es": "Chocolate alpino"
+      },
+      "seo_description": {
+        "es": "Disfruta del sabor del auténtico chocolate Alpino. Encontrá en la botica chocolate alpino para modelar, chips, semiamargo. Todas las variedades al mejor precio."
+      }
+    },
+    "wholesale": {
+      "id": 26011902,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Chocolate alpino"
+      },
+      "handle": {
+        "es": "chocolate-alpino"
+      },
+      "description": {
+        "es": "Disfruta del sabor del auténtico chocolate Alpino. Encontrá chocolate alpino para modelar, chips, semiamargo y en muchas variedades."
+      },
+      "seo_title": {
+        "es": "Chocolate alpino"
+      },
+      "seo_description": {
+        "es": "Disfruta del sabor del auténtico chocolate Alpino. Encontrá en la botica chocolate alpino para modelar, chips, semiamargo. Todas las variedades al mejor precio."
+      }
+    }
+  },
+  {
+    "handle": "cajas-para-tortas",
+    "normal": {
+      "id": 23260543,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-19T14:52:29+00:00",
+      "updated_at": "2024-08-30T18:52:29+00:00",
+      "name": {
+        "es": "Cajas para Tortas"
+      },
+      "handle": {
+        "es": "cajas-para-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Caja para torta y repostería - Las más lindas"
+      },
+      "seo_description": {
+        "es": "Cajas para repostería. Cajas para tortas, budines, huevos de pascua. Cajas para bombones Tenemos todo tipo de cajas para presentar tus creaciones de pastelería. Armá tu pedido y comprá online en La Botica o visitanos.Renovamos stock constantemente. Consultá novedades"
+      }
+    },
+    "wholesale": {
+      "id": 26011903,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Cajas para Tortas"
+      },
+      "handle": {
+        "es": "cajas-para-tortas"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Caja para torta y repostería - Las más lindas"
+      },
+      "seo_description": {
+        "es": "Cajas para repostería. Cajas para tortas, budines, huevos de pascua. Cajas para bombones Tenemos todo tipo de cajas para presentar tus creaciones de pastelería. Armá tu pedido y comprá online en La Botica o visitanos.Renovamos stock constantemente. Consultá novedades"
+      }
+    }
+  },
+  {
+    "handle": "bandejas-cajas-para-desayuno",
+    "normal": {
+      "id": 23262465,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-19T16:05:38+00:00",
+      "updated_at": "2024-08-30T18:53:39+00:00",
+      "name": {
+        "es": "Bandejas y cajas para desayuno"
+      },
+      "handle": {
+        "es": "bandejas-cajas-para-desayuno"
+      },
+      "description": {
+        "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con "
+      },
+      "seo_title": {
+        "es": "Bandejas y cajas para desayuno ☕"
+      },
+      "seo_description": {
+        "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con la presentación del desayuno"
+      }
+    },
+    "wholesale": {
+      "id": 26011904,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Bandejas y cajas para desayuno"
+      },
+      "handle": {
+        "es": "bandejas-cajas-para-desayuno"
+      },
+      "description": {
+        "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con "
+      },
+      "seo_title": {
+        "es": "Bandejas y cajas para desayuno ☕"
+      },
+      "seo_description": {
+        "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con la presentación del desayuno"
+      }
+    }
+  },
+  {
+    "handle": "grageas-de-colores",
+    "normal": {
+      "id": 23263994,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-19T17:20:01+00:00",
+      "updated_at": "2024-08-30T18:54:22+00:00",
+      "name": {
+        "es": "Grageas de colores"
+      },
+      "handle": {
+        "es": "grageas-de-colores"
+      },
+      "description": {
+        "es": "Grageas para decorar. Encontrá una gran variedad de grageas de colores, grageas navideñas, grageas multicolor. Además drops, sprinkles"
+      },
+      "seo_title": {
+        "es": "Grageas de colores Elegí tus favoritas"
+      },
+      "seo_description": {
+        "es": "Grageas para decorar. Encontrá una gran variedad de grageas de colores, grageas navideñas, grageas multicolor. Además grana, drops, sprinkles y todo para decorar."
+      }
+    },
+    "wholesale": {
+      "id": 26011905,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Grageas de colores"
+      },
+      "handle": {
+        "es": "grageas-de-colores"
+      },
+      "description": {
+        "es": "Grageas para decorar. Encontrá una gran variedad de grageas de colores, grageas navideñas, grageas multicolor. Además drops, sprinkles"
+      },
+      "seo_title": {
+        "es": "Grageas de colores Elegí tus favoritas"
+      },
+      "seo_description": {
+        "es": "Grageas para decorar. Encontrá una gran variedad de grageas de colores, grageas navideñas, grageas multicolor. Además grana, drops, sprinkles y todo para decorar."
+      }
+    }
+  },
+  {
+    "handle": "scraper-para-tortas",
+    "normal": {
+      "id": 23264244,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-19T17:28:30+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Scraper para tortas"
+      },
+      "handle": {
+        "es": "scraper-para-tortas"
+      },
+      "description": {
+        "es": "Scraper para tortas y repostería. Espatula alisadora para tortas. Variedad de scrapers de acero inoxidable y plástico. Fratacho alisasador."
+      },
+      "seo_title": {
+        "es": "Scraper para tortas"
+      },
+      "seo_description": {
+        "es": "Scraper para tortas y repostería. Espatula alisadora para tortas. Tenemos variedad de scrapers de acero inoxidable y plástico.Fratacho alisador para tortas y peines alisadores."
+      }
+    },
+    "wholesale": {
+      "id": 26011906,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Scraper para tortas"
+      },
+      "handle": {
+        "es": "scraper-para-tortas"
+      },
+      "description": {
+        "es": "Scraper para tortas y repostería. Espatula alisadora para tortas. Variedad de scrapers de acero inoxidable y plástico. Fratacho alisasador."
+      },
+      "seo_title": {
+        "es": "Scraper para tortas"
+      },
+      "seo_description": {
+        "es": "Scraper para tortas y repostería. Espatula alisadora para tortas. Tenemos variedad de scrapers de acero inoxidable y plástico.Fratacho alisador para tortas y peines alisadores."
+      }
+    }
+  },
+  {
+    "handle": "chips-de-chocolate",
+    "normal": {
+      "id": 23267408,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-19T19:09:24+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Chips de Chocolate"
+      },
+      "handle": {
+        "es": "chips-de-chocolate"
+      },
+      "description": {
+        "es": "Chips de chocolate para agregar a preparaciones como muffins, galletitas, cookies. Para bañar alfajores y golosinas. Chips chocolate blanco"
+      },
+      "seo_title": {
+        "es": "Chips de Chocolate"
+      },
+      "seo_description": {
+        "es": "Chips de chocolate para agregar a preparaciones como muffins, galletitas, cookies. Para bañar alfajores y golosinas. Chips de chocolate blanco y negro. Chips de chocolate de distintos colores para decorar."
+      }
+    },
+    "wholesale": {
+      "id": 26011907,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Chips de Chocolate"
+      },
+      "handle": {
+        "es": "chips-de-chocolate"
+      },
+      "description": {
+        "es": "Chips de chocolate para agregar a preparaciones como muffins, galletitas, cookies. Para bañar alfajores y golosinas. Chips chocolate blanco"
+      },
+      "seo_title": {
+        "es": "Chips de Chocolate"
+      },
+      "seo_description": {
+        "es": "Chips de chocolate para agregar a preparaciones como muffins, galletitas, cookies. Para bañar alfajores y golosinas. Chips de chocolate blanco y negro. Chips de chocolate de distintos colores para decorar."
+      }
+    }
+  },
+  {
+    "handle": "cmc-reposteria",
+    "normal": {
+      "id": 23284070,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T14:11:38+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Cmc Reposteria - Pegamento comestible"
+      },
+      "handle": {
+        "es": "cmc-reposteria"
+      },
+      "description": {
+        "es": "Encontra las mejores opciones de pegamento comestible a base de CMC, con las diferentes opciones que La Botica tiene para vos"
+      },
+      "seo_title": {
+        "es": "Cmc Reposteria - Pegamento comestible"
+      },
+      "seo_description": {
+        "es": "Encontra las mejores opciones de pegamento comestible a base de CMC, con las diferentes opciones que La Botica tiene para vos"
+      }
+    },
+    "wholesale": {
+      "id": 26011908,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Cmc Reposteria - Pegamento comestible"
+      },
+      "handle": {
+        "es": "cmc-reposteria"
+      },
+      "description": {
+        "es": "Encontra las mejores opciones de pegamento comestible a base de CMC, con las diferentes opciones que La Botica tiene para vos"
+      },
+      "seo_title": {
+        "es": "Cmc Reposteria - Pegamento comestible"
+      },
+      "seo_description": {
+        "es": "Encontra las mejores opciones de pegamento comestible a base de CMC, con las diferentes opciones que La Botica tiene para vos"
+      }
+    }
+  },
+  {
+    "handle": "crema-chantilly",
+    "normal": {
+      "id": 23284806,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T14:45:16+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Crema Chantilly"
+      },
+      "handle": {
+        "es": "crema-chantilly"
+      },
+      "description": {
+        "es": "La Crema tipo chantilly es muy usada en reposteria para rellenar y decorar los postres. En la Botica podes encotrar la que estás buscando"
+      },
+      "seo_title": {
+        "es": "Crema Chantilly "
+      },
+      "seo_description": {
+        "es": "La Crema tipo chantilly es muy usada en reposteria para rellenar y decorar los postres. En la Botica podes encotrar distintas cremas para crear postres exquisitos."
+      }
+    },
+    "wholesale": {
+      "id": 26011909,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Crema Chantilly"
+      },
+      "handle": {
+        "es": "crema-chantilly"
+      },
+      "description": {
+        "es": "La Crema tipo chantilly es muy usada en reposteria para rellenar y decorar los postres. En la Botica podes encotrar la que estás buscando"
+      },
+      "seo_title": {
+        "es": "Crema Chantilly "
+      },
+      "seo_description": {
+        "es": "La Crema tipo chantilly es muy usada en reposteria para rellenar y decorar los postres. En la Botica podes encotrar distintas cremas para crear postres exquisitos."
+      }
+    }
+  },
+  {
+    "handle": "proximos-cursos",
+    "normal": {
+      "id": 24327821,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "Cursos>Pasteleria",
+      "created_at": "2024-04-16T16:14:46+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Proximos Cursos"
+      },
+      "handle": {
+        "es": "proximos-cursos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Cursos de pastelería y repostería"
+      },
+      "seo_description": {
+        "es": "Conocé los próximos cursos, talleres y demos que se darán en la Botica del Pastelero en CABA y en Lomas de Zamora"
+      }
+    },
+    "wholesale": {
+      "id": 26011910,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Proximos Cursos"
+      },
+      "handle": {
+        "es": "proximos-cursos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Cursos de pastelería y repostería"
+      },
+      "seo_description": {
+        "es": "Conocé los próximos cursos, talleres y demos que se darán en la Botica del Pastelero en CABA y en Lomas de Zamora"
+      }
+    }
+  },
+  {
+    "handle": "placa-de-silicona-antiadherente-silpat",
+    "normal": {
+      "id": 23285751,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T15:33:51+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Placas de Silicona Antiadherente"
+      },
+      "handle": {
+        "es": "placa-de-silicona-antiadherente-silpat"
+      },
+      "description": {
+        "es": "Con nuestras placas de silicona antiadherentes para horno y Silpat podras cocinar tus macarons y cookies  mas facil. Aptas para horno"
+      },
+      "seo_title": {
+        "es": "Silpat - Placa de silicona "
+      },
+      "seo_description": {
+        "es": "Con nuestras placas de silicona antiadherentes podras cocinar tus postres y comidas mucha mas facil. Encontra el modelo perfecto para vos con nosotros."
+      }
+    },
+    "wholesale": {
+      "id": 26011911,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Placas de Silicona Antiadherente"
+      },
+      "handle": {
+        "es": "placa-de-silicona-antiadherente-silpat"
+      },
+      "description": {
+        "es": "Con nuestras placas de silicona antiadherentes para horno y Silpat podras cocinar tus macarons y cookies  mas facil. Aptas para horno"
+      },
+      "seo_title": {
+        "es": "Silpat - Placa de silicona "
+      },
+      "seo_description": {
+        "es": "Con nuestras placas de silicona antiadherentes podras cocinar tus postres y comidas mucha mas facil. Encontra el modelo perfecto para vos con nosotros."
+      }
+    }
+  },
+  {
+    "handle": "agar-agar",
+    "normal": {
+      "id": 23285977,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T15:51:34+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Agar Agar"
+      },
+      "handle": {
+        "es": "agar-agar"
+      },
+      "description": {
+        "es": "Agar Agar es una sustancia de origen vegetal usada en la cocina. En La Botica tenemos distintas presentaciones de este producto"
+      },
+      "seo_title": {
+        "es": "Agar Agar"
+      },
+      "seo_description": {
+        "es": "Agar Agar es una sustancia de origen vegetal usada en la cocina. En La Botica tenemos distintas presentaciones de este producto para tus postres"
+      }
+    },
+    "wholesale": {
+      "id": 26011912,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Agar Agar"
+      },
+      "handle": {
+        "es": "agar-agar"
+      },
+      "description": {
+        "es": "Agar Agar es una sustancia de origen vegetal usada en la cocina. En La Botica tenemos distintas presentaciones de este producto"
+      },
+      "seo_title": {
+        "es": "Agar Agar"
+      },
+      "seo_description": {
+        "es": "Agar Agar es una sustancia de origen vegetal usada en la cocina. En La Botica tenemos distintas presentaciones de este producto para tus postres"
+      }
+    }
+  },
+  {
+    "handle": "wilton-reposteria",
+    "normal": {
+      "id": 23288030,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T17:24:47+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Wilton Reposteria"
+      },
+      "handle": {
+        "es": "wilton-reposteria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Reposteria Wilton"
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011913,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Wilton Reposteria"
+      },
+      "handle": {
+        "es": "wilton-reposteria"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Reposteria Wilton"
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "moldes-abecedario-letras-y-numeros",
+    "normal": {
+      "id": 23289504,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-02-20T18:29:05+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Moldes Abecedario Letras y Números"
+      },
+      "handle": {
+        "es": "moldes-abecedario-letras-y-numeros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Abecedario Letras y Números Moldes y Cortantes"
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011914,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Moldes Abecedario Letras y Números"
+      },
+      "handle": {
+        "es": "moldes-abecedario-letras-y-numeros"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Abecedario Letras y Números Moldes y Cortantes"
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "promociones-y-descuentos",
+    "normal": {
+      "id": 23526514,
+      "parent": 0,
+      "subcategories": [
+        24683648,
+        24683652
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-03-01T15:58:24+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Promociones y Descuentos"
+      },
+      "handle": {
+        "es": "promociones-y-descuentos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011915,
+      "parent": 0,
+      "subcategories": [
+        26012051,
+        26012052
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Promociones y Descuentos"
+      },
+      "handle": {
+        "es": "promociones-y-descuentos"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "10off",
+    "normal": {
+      "id": 24683648,
+      "parent": 23526514,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-06T18:08:39+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "10% OFF"
+      },
+      "handle": {
+        "es": "10off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012051,
+      "parent": 26011915,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "10% OFF"
+      },
+      "handle": {
+        "es": "10off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "20off",
+    "normal": {
+      "id": 24683652,
+      "parent": 23526514,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-06T18:09:00+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "20% OFF"
+      },
+      "handle": {
+        "es": "20off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012052,
+      "parent": 26011915,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "20% OFF"
+      },
+      "handle": {
+        "es": "20off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "parpen-moldes-huevos1",
+    "normal": {
+      "id": 23702334,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-03-11T20:52:11+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Parpen Moldes Huevos"
+      },
+      "handle": {
+        "es": "parpen-moldes-huevos1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Parpen Moldes Huevos"
+      },
+      "seo_description": {
+        "es": "Encontrá en la Botica los Moldes PARPEN para preparar los huevos más lindos y originales. Lucite en estas Pascuas !! Ventas minoristas y mayoristas. Tenemos los mejores precios. No busques más!"
+      }
+    },
+    "wholesale": {
+      "id": 26011916,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Parpen Moldes Huevos"
+      },
+      "handle": {
+        "es": "parpen-moldes-huevos1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": "Parpen Moldes Huevos"
+      },
+      "seo_description": {
+        "es": "Encontrá en la Botica los Moldes PARPEN para preparar los huevos más lindos y originales. Lucite en estas Pascuas !! Ventas minoristas y mayoristas. Tenemos los mejores precios. No busques más!"
+      }
+    }
+  },
+  {
+    "handle": "dona-clara-promocion",
+    "normal": {
+      "id": 24438049,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "Molderia>Promocion",
+      "created_at": "2024-04-22T20:53:47+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Doña Clara Promocion"
+      },
+      "handle": {
+        "es": "dona-clara-promocion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011917,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Doña Clara Promocion"
+      },
+      "handle": {
+        "es": "dona-clara-promocion"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "boti-sale",
+    "normal": {
+      "id": 24743082,
+      "parent": 0,
+      "subcategories": [
+        24743121,
+        24743122,
+        24743123
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-05-09T16:55:03+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "BOTI Sale"
+      },
+      "handle": {
+        "es": "boti-sale"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011918,
+      "parent": 0,
+      "subcategories": [
+        26012053,
+        26012054,
+        26012055
+      ],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "BOTI Sale"
+      },
+      "handle": {
+        "es": "boti-sale"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "hasta-10-off",
+    "normal": {
+      "id": 24743121,
+      "parent": 24743082,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-09T16:56:15+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Hasta 10% OFF"
+      },
+      "handle": {
+        "es": "hasta-10-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012053,
+      "parent": 26011918,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Hasta 10% OFF"
+      },
+      "handle": {
+        "es": "hasta-10-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "hasta-20-off",
+    "normal": {
+      "id": 24743122,
+      "parent": 24743082,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-09T16:56:15+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Hasta 20% OFF"
+      },
+      "handle": {
+        "es": "hasta-20-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012054,
+      "parent": 26011918,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Hasta 20% OFF"
+      },
+      "handle": {
+        "es": "hasta-20-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "hasta-30-off",
+    "normal": {
+      "id": 24743123,
+      "parent": 24743082,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-09T16:56:15+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Hasta 30% OFF"
+      },
+      "handle": {
+        "es": "hasta-30-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26012055,
+      "parent": 26011918,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:01+00:00",
+      "updated_at": "2024-07-22T14:24:02+00:00",
+      "name": {
+        "es": "Hasta 30% OFF"
+      },
+      "handle": {
+        "es": "hasta-30-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "regalos-para-papa",
+    "normal": {
+      "id": 25082230,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-05-28T16:37:56+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Regalos para papa"
+      },
+      "handle": {
+        "es": "regalos-para-papa"
+      },
+      "description": {
+        "es": "Regalos geniales para ese papá repostero o chef"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011919,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Regalos para papa"
+      },
+      "handle": {
+        "es": "regalos-para-papa"
+      },
+      "description": {
+        "es": "Regalos geniales para ese papá repostero o chef"
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "gift-cards1",
+    "normal": {
+      "id": 25255795,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-06-06T17:40:30+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Gift Cards"
+      },
+      "handle": {
+        "es": "gift-cards1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011920,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "Gift Cards"
+      },
+      "handle": {
+        "es": "gift-cards1"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "30-off",
+    "normal": {
+      "id": 25753737,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-06T12:22:05+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "30-OFF"
+      },
+      "handle": {
+        "es": "30-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26011921,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-22T14:24:00+00:00",
+      "updated_at": "2024-07-22T14:24:01+00:00",
+      "name": {
+        "es": "30-OFF"
+      },
+      "handle": {
+        "es": "30-off"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  },
+  {
+    "handle": "descuento-por-cantidad",
+    "normal": {
+      "id": 26062705,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-07-24T19:11:13+00:00",
+      "updated_at": "2024-08-30T14:23:29+00:00",
+      "name": {
+        "es": "Descuento por cantidad"
+      },
+      "handle": {
+        "es": "descuento-por-cantidad"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    },
+    "wholesale": {
+      "id": 26769271,
+      "parent": 0,
+      "subcategories": [],
+      "google_shopping_category": "",
+      "created_at": "2024-09-02T09:23:35+00:00",
+      "updated_at": "2024-09-02T09:23:35+00:00",
+      "name": {
+        "es": "Descuento por cantidad"
+      },
+      "handle": {
+        "es": "descuento-por-cantidad"
+      },
+      "description": {
+        "es": ""
+      },
+      "seo_title": {
+        "es": ""
+      },
+      "seo_description": {
+        "es": ""
+      }
+    }
+  }
+]

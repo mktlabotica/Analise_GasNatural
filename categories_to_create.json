@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Parpen",
+    "parent": 0,
+    "description": "",
+    "handle": "parpen"
+  },
+  {
+    "name": "Fleibor",
+    "parent": 0,
+    "description": "Encontrá todos los productos Fleibor",
+    "handle": "fleibor"
+  },
+  {
+    "name": "Mil Artes",
+    "parent": 0,
+    "description": "",
+    "handle": "mil-artes"
+  },
+  {
+    "name": "Flogus",
+    "parent": 0,
+    "description": "",
+    "handle": "flogus"
+  },
+  {
+    "name": "Mama Dora",
+    "parent": 0,
+    "description": "",
+    "handle": "mama-dora"
+  },
+  {
+    "name": "Decor",
+    "parent": 0,
+    "description": "",
+    "handle": "decor"
+  },
+  {
+    "name": "Ballina",
+    "parent": 0,
+    "description": "",
+    "handle": "ballina"
+  },
+  {
+    "name": "Castillo",
+    "parent": 0,
+    "description": "",
+    "handle": "castillo"
+  },
+  {
+    "name": "Doña Clara",
+    "parent": 0,
+    "description": "",
+    "handle": "dona-clara"
+  },
+  {
+    "name": "Vacalin",
+    "parent": 0,
+    "description": "",
+    "handle": "vacalin"
+  },
+  {
+    "name": "King Dust",
+    "parent": 0,
+    "description": "",
+    "handle": "king-dust"
+  },
+  {
+    "name": "Plastichok",
+    "parent": 0,
+    "description": "",
+    "handle": "plastichok"
+  },
+  {
+    "name": "Arcor",
+    "parent": 0,
+    "description": "",
+    "handle": "arcor"
+  },
+  {
+    "name": "Fenix",
+    "parent": 0,
+    "description": "",
+    "handle": "fenix"
+  },
+  {
+    "name": "Decormagic",
+    "parent": 0,
+    "description": "",
+    "handle": "decor-magic"
+  },
+  {
+    "name": "Telaflex",
+    "parent": 0,
+    "description": "",
+    "handle": "telaflex"
+  },
+  {
+    "name": "Puratos",
+    "parent": 0,
+    "description": "",
+    "handle": "puratos"
+  },
+  {
+    "name": "Bonafide",
+    "parent": 0,
+    "description": "",
+    "handle": "bonafide"
+  },
+  {
+    "name": "Pomona",
+    "parent": 0,
+    "description": "",
+    "handle": "pomona"
+  },
+  {
+    "name": "Aguila",
+    "parent": 0,
+    "description": "",
+    "handle": "aguila"
+  },
+  {
+    "name": "Deli Food",
+    "parent": 0,
+    "description": "",
+    "handle": "deli-food"
+  },
+  {
+    "name": "Lodiser",
+    "parent": 0,
+    "description": "",
+    "handle": "lodiser"
+  },
+  {
+    "name": "Sil&Home",
+    "parent": 0,
+    "description": "",
+    "handle": "silhome"
+  },
+  {
+    "name": "Moldpack",
+    "parent": 0,
+    "description": "",
+    "handle": "moldpack"
+  },
+  {
+    "name": "Top Class",
+    "parent": 0,
+    "description": "",
+    "handle": "top-class"
+  },
+  {
+    "name": "Pastelar",
+    "parent": 0,
+    "description": "",
+    "handle": "pastelar"
+  },
+  {
+    "name": "Airfryer - Freidora",
+    "parent": 0,
+    "description": "",
+    "handle": "airfryer-freidora"
+  }
+]
