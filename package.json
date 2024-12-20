@@ -5,10 +5,11 @@
   "description": "A cron node application",
   "main": "dist/index.js",
   "scripts": {
-    "cron": "ts-node-esm cron/index.ts",
-    "run-job": "ts-node-esm cron/runJob.ts",
-    "scripts": "ts-node-esm scripts/index.ts",
-    "build": "tsc"
+    "cron": "tsx cron/index.ts",
+    "run-job": "tsx cron/runJob.ts",
+    "scripts": "tsx scripts/index.ts",
+    "build": "tsc",
+    "tmp-fix": "dotenv tsx tmp-fix/index.ts"
   },
   "keywords": [
     "cron",
@@ -34,6 +35,7 @@
     "@types/node": "^20.11.6",
     "prisma": "^5.8.1",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.3.3"
   }
 }

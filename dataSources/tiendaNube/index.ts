@@ -74,7 +74,11 @@ const getAllProducts = async (
 
   await writeFile("getAllProducts.json", JSON.stringify(output, null, 2));
 
-  return products;
+  return products.filter((product) => {
+    if (product.variants[0].sku === "GIFTY") return false;
+    if (!product.requires_shipping) return false;
+    return true;
+  });
 };
 
 const getOneProductsPage = async (
@@ -160,12 +164,12 @@ const patchStockPrice = async (
   });
 
   if (!response.ok) {
-    throw new Error(
+    console.error(
       `Error al actualizar el stock y precio de los productos: ${response.statusText}`
     );
+  } else {
+    patchedProducts.push(...currentBatch);
   }
-
-  patchedProducts.push(...currentBatch);
 
   if (rest.length) {
     writeStdOut(
@@ -203,7 +207,7 @@ const updateProducts = async (
     let token = opts.tokens[i % opts.tokens.length];
     if (!token) throw new Error("No se encontró el token de TiendaNube");
 
-    if (product.categories)
+    if (product.categories || product.published !== undefined)
       await fetch(`${opts.baseUrl}/products/${product.productId}`, {
         method: "PUT",
         headers: {
@@ -213,6 +217,7 @@ const updateProducts = async (
         },
         body: JSON.stringify({
           categories: product.categories,
+          published: product.published,
         }),
       }).then((response) => waitRequestLimit(response));
 
@@ -332,6 +337,7 @@ const uploadProductPics = async (
         },
         body: JSON.stringify({
           src: productPic.src,
+          position: productPic.position,
         }),
       }).then(async (response) => {
         await waitRequestLimit(response);
@@ -530,37 +536,106 @@ export const updateProductsCustomFields = async (
   }
 };
 
-export const getAllCategories = async (opts: ClientOpts) => {
-  const urlParams = new URLSearchParams({
-    per_page: "200",
-  });
+const getAllCategories = async (
+  opts: {
+    withImages?: boolean;
+    published?: boolean;
+    created_at_min?: string;
+    requiresShipping?: boolean;
+  } & ClientOpts
+) => {
+  const output: { page: number; data: Category[] }[] = [];
+  const categories: Category[] = [];
+  let page = 1;
+  let token = opts.tokens[0];
 
-  const token = opts.tokens[0];
   if (!token) throw new Error("No se encontró el token de TiendaNube");
 
+  const { data, totalPages } = await getOneCategoriesPage(page, {
+    token,
+    baseUrl: opts.baseUrl,
+    userAgent: opts.userAgent,
+  });
+
+  data.forEach((category) => {
+    categories.push(category);
+  });
+
+  page++;
+  while (page <= totalPages + opts.tokens.length) {
+    await Promise.all(
+      opts.tokens.map(async (token, i) => {
+        if (page + i <= totalPages) {
+          const { data } = await getOneCategoriesPage(page + i, {
+            token,
+            baseUrl: opts.baseUrl,
+            userAgent: opts.userAgent,
+          });
+          output.push({ page: page + i, data });
+          data.forEach((category) => {
+            categories.push(category);
+          });
+        }
+      })
+    ).then(() => (page += opts.tokens.length));
+  }
+
+  console.log(`Fetched ${categories.length} products...`);
+
+  await writeFile("getAllCategories.json", JSON.stringify(output, null, 2));
+
+  return categories;
+};
+
+const getOneCategoriesPage = async (
+  page: number,
+  opts: {
+    token: string;
+    baseUrl: string;
+    userAgent: string;
+  }
+) => {
+  const urlParams = new URLSearchParams({
+    per_page: "200",
+    sort_by: "created-at-ascending",
+  });
+
+  urlParams.set("page", page.toString());
   const response = await fetch(
     `${opts.baseUrl}/categories?${urlParams.toString()}`,
     {
       headers: {
-        "user-agent": opts.userAgent,
-        Authentication: `bearer ${token}`,
+        "User-Agent": opts.userAgent,
+        Authentication: `bearer ${opts.token}`,
       },
     }
   );
 
   if (!response.ok) {
-    console.error(
-      `Error al obtener las categorías de TiendaNube: ${response.statusText}`
+    throw new Error(
+      `Error al obtener las categorias de TiendaNube: ${response.statusText}`
     );
-    return [];
   }
+
+  await waitRequestLimit(response);
+
+  const totalCount = response.headers.get("X-Total-Count");
+
+  if (!totalCount) throw new Error("No se encontró el header X-Total-Count");
+
+  let totalPages = Math.ceil(parseInt(totalCount) / 200);
 
   const data = (await response.json().catch((err) => {
     console.error(response.text());
     throw new Error(`Error al parsear la respuesta de TiendaNube: ${err}`);
   })) as Category[];
 
-  return data;
+  console.log(`Fetched page ${page} of ${totalPages}...`);
+  if (page === totalPages) {
+    console.log(`Fetched all pages...`);
+  }
+
+  return { data, totalPages };
 };
 
 export const createProduct = async (
@@ -665,7 +740,7 @@ export const createCategory = async (
       description: {
         es: input.description,
       },
-      parent: input.parent,
+      parent: input.parent || null,
       handle: {
         es: input.handle,
       },
@@ -678,6 +753,8 @@ export const createCategory = async (
     console.error(
       `Error al crear la categoría ${input.name} de TiendaNube: ${response.statusText}`
     );
+    console.error("response", await response.text());
+    console.error("input", input);
   }
 
   const createdCategoryData = (await response.json().catch((err) => {
@@ -686,6 +763,28 @@ export const createCategory = async (
   })) as Category;
 
   return createdCategoryData;
+};
+
+export const deleteCategory = async (id: number, opts: ClientOpts) => {
+  let token = opts.tokens[0];
+  if (!token) throw new Error("No se encontró el token de TiendaNube");
+
+  const response = await fetch(`${opts.baseUrl}/categories/${id}`, {
+    method: "DELETE",
+    headers: {
+      "user-agent": opts.userAgent,
+      Authentication: `bearer ${token}`,
+    },
+  });
+
+  await waitRequestLimit(response);
+
+  if (!response.ok) {
+    console.error(
+      `Error al borrar la categoría ${id} de TiendaNube: ${response.statusText}`
+    );
+  }
+  console.log(`Deleted category ${id}...`);
 };
 
 export const tiendaNube = {
@@ -701,6 +800,7 @@ export const tiendaNube = {
   createProduct,
   getAllCategories,
   createCategory,
+  deleteCategory,
 };
 
 const waitRequestLimit = async (response: Response) => {

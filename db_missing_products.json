@@ -1,0 +1,4893 @@
+[
+  {
+    "id": 198560391,
+    "name": {
+      "es": "Sprinkles Perlas Comestibles Dorado - WILTON"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "sprinkles-perlas-comestibles-dorado-wilton"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T14:42:22+0000",
+    "variants": [
+      {
+        "id": 810879612,
+        "image_id": 592838282,
+        "product_id": 198560391,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.100",
+        "width": "2.00",
+        "height": "4.00",
+        "depth": "2.00",
+        "sku": "710041",
+        "values": [],
+        "barcode": "70896411730",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T14:42:23+0000",
+        "updated_at": "2024-07-29T11:53:35+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419177787,
+            "variant_id": 810879612,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630793,
+        "name": {
+          "es": "Decoraciones Comestibles"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoraciones-comestibles"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630794,
+          22630795,
+          22630796,
+          22630797,
+          22630798
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:14+0000",
+        "updated_at": "2024-10-10T15:51:10+0000"
+      },
+      {
+        "id": 22630797,
+        "name": {
+          "es": "Perlas Sprinkles Granas y Decoraciones"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "perlas-sprinkles-granas-y-decoraciones"
+        },
+        "parent": 22630793,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:17+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      },
+      {
+        "id": 22630841,
+        "name": {
+          "es": "Fechas Especiales Y Tematicas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fechas-especiales-y-tematicas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630854,
+          22630855,
+          22630856,
+          22630857,
+          22630859,
+          22630860,
+          22630861,
+          22630862,
+          22630866,
+          22630867,
+          22630868,
+          22630869,
+          22630870,
+          22630871,
+          22630872,
+          22630873,
+          22630874,
+          22630875,
+          22630877,
+          22630878,
+          26903165
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:36+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      },
+      {
+        "id": 22630869,
+        "name": {
+          "es": "Navidad"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "navidad"
+        },
+        "parent": 22630841,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:43+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      }
+    ]
+  },
+  {
+    "id": 198560395,
+    "name": {
+      "es": "Sprinkles Blancas Nonpareil Comestibles x 85 gr. - WILTON"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "sprinkles-blancas-nonpareil-comestibles-x-85-gr-wilton"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T14:42:22+0000",
+    "variants": [
+      {
+        "id": 810879614,
+        "image_id": 592838288,
+        "product_id": 198560395,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "710773",
+        "values": [],
+        "barcode": "70896717733",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T14:42:23+0000",
+        "updated_at": "2024-02-11T23:48:23+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419177789,
+            "variant_id": 810879614,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630793,
+        "name": {
+          "es": "Decoraciones Comestibles"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoraciones-comestibles"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630794,
+          22630795,
+          22630796,
+          22630797,
+          22630798
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:14+0000",
+        "updated_at": "2024-10-10T15:51:10+0000"
+      },
+      {
+        "id": 22630797,
+        "name": {
+          "es": "Perlas Sprinkles Granas y Decoraciones"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "perlas-sprinkles-granas-y-decoraciones"
+        },
+        "parent": 22630793,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:17+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      },
+      {
+        "id": 22630841,
+        "name": {
+          "es": "Fechas Especiales Y Tematicas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fechas-especiales-y-tematicas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630854,
+          22630855,
+          22630856,
+          22630857,
+          22630859,
+          22630860,
+          22630861,
+          22630862,
+          22630866,
+          22630867,
+          22630868,
+          22630869,
+          22630870,
+          22630871,
+          22630872,
+          22630873,
+          22630874,
+          22630875,
+          22630877,
+          22630878,
+          26903165
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:36+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      },
+      {
+        "id": 22630861,
+        "name": {
+          "es": "Bodas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bodas"
+        },
+        "parent": 22630841,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:40+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      }
+    ]
+  },
+  {
+    "id": 198569839,
+    "name": {
+      "es": "Sorbete Biodegradable Negro 22cm x 40 unidades"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "sorbete-biodegradable-negro-22cm-x-40-unidades"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:15:11+0000",
+    "variants": [
+      {
+        "id": 810910264,
+        "image_id": 592860994,
+        "product_id": 198569839,
+        "position": 1,
+        "price": "1567.25",
+        "compare_at_price": "1567.25",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.040",
+        "width": "4.00",
+        "height": "11.00",
+        "depth": "1.00",
+        "sku": "41662",
+        "values": [],
+        "barcode": "000000041662",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:15:11+0000",
+        "updated_at": "2024-07-29T12:15:06+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419208534,
+            "variant_id": 810910264,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630841,
+        "name": {
+          "es": "Fechas Especiales Y Tematicas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fechas-especiales-y-tematicas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630854,
+          22630855,
+          22630856,
+          22630857,
+          22630859,
+          22630860,
+          22630861,
+          22630862,
+          22630866,
+          22630867,
+          22630868,
+          22630869,
+          22630870,
+          22630871,
+          22630872,
+          22630873,
+          22630874,
+          22630875,
+          22630877,
+          22630878,
+          26903165
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:36+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      },
+      {
+        "id": 22630868,
+        "name": {
+          "es": "Halloween"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "halloween"
+        },
+        "parent": 22630841,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:43+0000",
+        "updated_at": "2024-08-30T14:23:27+0000"
+      },
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630923,
+        "name": {
+          "es": "Sorbetes  "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "sorbetes"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:06+0000",
+        "updated_at": "2024-10-10T15:36:14+0000"
+      }
+    ]
+  },
+  {
+    "id": 198570789,
+    "name": {
+      "es": "Caja para cake pop -17 x 17 x 12 cm - WINCOPACK"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "caja-para-cake-pop-17-x-17-x-12-cm-wincopack"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:20:47+0000",
+    "variants": [
+      {
+        "id": 810913813,
+        "image_id": 592864993,
+        "product_id": 198570789,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 80,
+        "weight": "0.020",
+        "width": "8.50",
+        "height": "0.50",
+        "depth": "8.50",
+        "sku": "TARS",
+        "values": [],
+        "barcode": "TARS!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:20:47+0000",
+        "updated_at": "2024-07-29T12:18:34+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419212082,
+            "variant_id": 810913813,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 80
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630926,
+        "name": {
+          "es": "Descartables"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descartables"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630927,
+          22630928,
+          22630929,
+          22630930,
+          22630931
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:39:08+0000"
+      },
+      {
+        "id": 22630927,
+        "name": {
+          "es": "Cajas, Bolsas y Papel de envoltorio"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "cajas-bolsas-y-papel-de-envoltorio"
+        },
+        "parent": 22630926,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:28:17+0000"
+      },
+      {
+        "id": 23260543,
+        "name": {
+          "es": "Cajas para Tortas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "cajas-para-tortas"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": "Caja para torta y repostería - Las más lindas"
+        },
+        "seo_description": {
+          "es": "Cajas para repostería. Cajas para tortas, budines, huevos de pascua. Cajas para bombones Tenemos todo tipo de cajas para presentar tus creaciones de pastelería. Armá tu pedido y comprá online en La Botica o visitanos.Renovamos stock constantemente. Consultá novedades"
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-02-19T14:52:29+0000",
+        "updated_at": "2024-10-07T14:54:12+0000"
+      },
+      {
+        "id": 23262465,
+        "name": {
+          "es": "Bandejas y cajas para desayuno"
+        },
+        "description": {
+          "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con "
+        },
+        "handle": {
+          "es": "bandejas-cajas-para-desayuno"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": "Bandejas y cajas para desayuno ☕"
+        },
+        "seo_description": {
+          "es": "Las bandejas para desayuno más lindas, las encontrás en La Botica del Pastelero. Encontrá la bandeja o caja que estás buscando y lucite con la presentación del desayuno"
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-02-19T16:05:38+0000",
+        "updated_at": "2024-10-07T14:54:17+0000"
+      }
+    ]
+  },
+  {
+    "id": 198575838,
+    "name": {
+      "es": "GLOBO- Redondo Espiral Azul x 1U."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "globo-redondo-espiral-azul-x-1u"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:43:24+0000",
+    "variants": [
+      {
+        "id": 810929095,
+        "image_id": 592879863,
+        "product_id": 198575838,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.030",
+        "width": "2.50",
+        "height": "0.50",
+        "depth": "2.50",
+        "sku": "3260060",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:43:24+0000",
+        "updated_at": "2024-07-29T12:22:46+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419227511,
+            "variant_id": 810929095,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630921,
+        "name": {
+          "es": "Globos, Piñatas y Guirnaldas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "globos-pinatas-y-guirnaldas"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-10-10T15:39:05+0000"
+      }
+    ]
+  },
+  {
+    "id": 198572539,
+    "name": {
+      "es": "WILTON - Azucar Perlada Dorada 148gr"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "wilton-azucar-perlada-dorada-148gr"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:30:49+0000",
+    "variants": [
+      {
+        "id": 810919704,
+        "image_id": 592871900,
+        "product_id": 198572539,
+        "position": 1,
+        "price": "13024.00",
+        "compare_at_price": "13024.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 2,
+        "weight": "0.200",
+        "width": "2.50",
+        "height": "5.00",
+        "depth": "2.50",
+        "sku": "710041",
+        "values": [],
+        "barcode": "070896700414",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:30:49+0000",
+        "updated_at": "2024-08-09T21:01:59+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419218026,
+            "variant_id": 810919704,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630793,
+        "name": {
+          "es": "Decoraciones Comestibles"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoraciones-comestibles"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630794,
+          22630795,
+          22630796,
+          22630797,
+          22630798
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:14+0000",
+        "updated_at": "2024-10-10T15:51:10+0000"
+      },
+      {
+        "id": 22630797,
+        "name": {
+          "es": "Perlas Sprinkles Granas y Decoraciones"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "perlas-sprinkles-granas-y-decoraciones"
+        },
+        "parent": 22630793,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:17+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      },
+      {
+        "id": 22630776,
+        "name": {
+          "es": "Ingredientes para Cocinar"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-para-cocinar"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630778,
+          22630779,
+          22630780,
+          22630781,
+          22630782,
+          22630783,
+          22630784,
+          22630785,
+          22630786,
+          22630787,
+          22630788,
+          22630790,
+          22630791,
+          22630792
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:06+0000",
+        "updated_at": "2024-10-10T15:54:21+0000"
+      },
+      {
+        "id": 22630778,
+        "name": {
+          "es": "Azucares"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "azucares"
+        },
+        "parent": 22630776,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:07+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      },
+      {
+        "id": 23288030,
+        "name": {
+          "es": "Wilton Reposteria"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "wilton-reposteria"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": "Reposteria Wilton"
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-02-20T17:24:47+0000",
+        "updated_at": "2024-10-10T16:34:21+0000"
+      }
+    ]
+  },
+  {
+    "id": 198574105,
+    "name": {
+      "es": "GLOBO- Redondo Espiral Verde x 1"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "globo-redondo-espiral-verde-x-1"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:36:58+0000",
+    "variants": [
+      {
+        "id": 810923597,
+        "image_id": 592875770,
+        "product_id": 198574105,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.040",
+        "width": "2.50",
+        "height": "0.50",
+        "depth": "2.50",
+        "sku": "3260060",
+        "values": [],
+        "barcode": "6908312561308",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:36:58+0000",
+        "updated_at": "2024-07-29T12:28:56+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419221944,
+            "variant_id": 810923597,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630921,
+        "name": {
+          "es": "Globos, Piñatas y Guirnaldas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "globos-pinatas-y-guirnaldas"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-10-10T15:39:05+0000"
+      }
+    ]
+  },
+  {
+    "id": 198574411,
+    "name": {
+      "es": "Microperlas en paquetito Blanco - WILTON"
+    },
+    "description": {
+      "es": "<p>&nbsp;</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul><p>&nbsp;</p>"
+    },
+    "handle": {
+      "es": "microperlas-en-paquetito-blanco-wilton"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:38:03+0000",
+    "variants": [
+      {
+        "id": 810924573,
+        "image_id": 592876424,
+        "product_id": 198574411,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.080",
+        "width": "2.00",
+        "height": "1.00",
+        "depth": "4.00",
+        "sku": "710773",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:38:03+0000",
+        "updated_at": "2024-07-29T12:29:37+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419222921,
+            "variant_id": 810924573,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      }
+    ]
+  },
+  {
+    "id": 198580453,
+    "name": {
+      "es": "Sorbete Polipapel Iridiscente Blanco 20 cm. x 24u."
+    },
+    "description": {
+      "es": ""
+    },
+    "handle": {
+      "es": "sorbete-polipapel-iridiscente-blanco-20-cm-x-24u"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:58:14+0000",
+    "variants": [
+      {
+        "id": 810939249,
+        "image_id": 592889375,
+        "product_id": 198580453,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 6,
+        "weight": "0.100",
+        "width": "5.00",
+        "height": "10.00",
+        "depth": "1.00",
+        "sku": "DSPP050",
+        "values": [],
+        "barcode": "7799088007829",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:58:14+0000",
+        "updated_at": "2024-10-10T16:31:54+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419237683,
+            "variant_id": 810939249,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 6
+          }
+        ]
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": 198579807,
+    "name": {
+      "es": "Pigmento celeste cielo para Porcelana Fria x 15 gr. MAMA DORA"
+    },
+    "description": {
+      "es": ""
+    },
+    "handle": {
+      "es": "pigmento-celeste-cielo-para-porcelana-fria-x-15-gr-mama-dora"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T15:54:45+0000",
+    "variants": [
+      {
+        "id": 810937508,
+        "image_id": 592887277,
+        "product_id": 198579807,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 3,
+        "weight": "0.020",
+        "width": "1.50",
+        "height": "1.50",
+        "depth": "1.50",
+        "sku": "PG.CE",
+        "values": [],
+        "barcode": "PG.CE!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T15:54:45+0000",
+        "updated_at": "2024-07-29T12:45:44+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419235941,
+            "variant_id": 810937508,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630879,
+        "name": {
+          "es": "Repostería"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "utensilios1"
+        },
+        "parent": null,
+        "subcategories": [
+          22630905,
+          22630881,
+          22630890,
+          22630894,
+          22630914
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:48+0000",
+        "updated_at": "2024-09-09T18:20:41+0000"
+      },
+      {
+        "id": 22630905,
+        "name": {
+          "es": "Artística"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "artistica"
+        },
+        "parent": 22630879,
+        "subcategories": [
+          22630907,
+          22630908,
+          22630909,
+          22630911,
+          22630912,
+          22630913
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:58+0000",
+        "updated_at": "2024-10-10T16:29:40+0000"
+      },
+      {
+        "id": 22630912,
+        "name": {
+          "es": "Colorantes y Pigmentos "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "colorantes-y-pigmentos"
+        },
+        "parent": 22630905,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:01+0000",
+        "updated_at": "2024-09-09T18:20:41+0000"
+      }
+    ]
+  },
+  {
+    "id": 198584532,
+    "name": {
+      "es": "Sprinkles Confeti Blanco x 60 gr. Barril WILTON"
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "sprinkles-confeti-blanco-x-60-gr-barril-wilton"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:21:06+0000",
+    "variants": [
+      {
+        "id": 810950571,
+        "image_id": 592902510,
+        "product_id": 198584532,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "7107886",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:21:07+0000",
+        "updated_at": "2024-02-12T01:28:17+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419249416,
+            "variant_id": 810950571,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630793,
+        "name": {
+          "es": "Decoraciones Comestibles"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoraciones-comestibles"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630794,
+          22630795,
+          22630796,
+          22630797,
+          22630798
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:14+0000",
+        "updated_at": "2024-10-10T15:51:10+0000"
+      },
+      {
+        "id": 22630797,
+        "name": {
+          "es": "Perlas Sprinkles Granas y Decoraciones"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "perlas-sprinkles-granas-y-decoraciones"
+        },
+        "parent": 22630793,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:17+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      }
+    ]
+  },
+  {
+    "id": 198584782,
+    "name": {
+      "es": "Vela Gibre Estrella Plateada x 1 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "vela-gibre-estrella-plateada-x-1-u1"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:22:20+0000",
+    "variants": [
+      {
+        "id": 810951108,
+        "image_id": 592903319,
+        "product_id": 198584782,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "44074",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:22:20+0000",
+        "updated_at": "2024-02-12T01:29:52+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419249953,
+            "variant_id": 810951108,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      }
+    ]
+  },
+  {
+    "id": 198583646,
+    "name": {
+      "es": "Vela Gibre Estrella Plateada x 1 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "vela-gibre-estrella-plateada-x-1-u"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:15:10+0000",
+    "variants": [
+      {
+        "id": 810947772,
+        "image_id": 592899077,
+        "product_id": 198583646,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "44074",
+        "values": [],
+        "barcode": "44074!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:15:10+0000",
+        "updated_at": "2024-02-12T01:21:43+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419246609,
+            "variant_id": 810947772,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      }
+    ]
+  },
+  {
+    "id": 198583810,
+    "name": {
+      "es": "Caja Blanca con Visor 17x17x10 cm. - WINCOPACK"
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "caja-blanca-con-visor-17x17x10-cm-wincopack"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:16:18+0000",
+    "variants": [
+      {
+        "id": 810948361,
+        "image_id": 592899754,
+        "product_id": 198583810,
+        "position": 1,
+        "price": "2458.00",
+        "compare_at_price": "2458.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 77,
+        "weight": "0.080",
+        "width": "8.50",
+        "height": "2.50",
+        "depth": "8.50",
+        "sku": "TARS",
+        "values": [],
+        "barcode": "TARS!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:16:18+0000",
+        "updated_at": "2024-08-31T19:30:24+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419247202,
+            "variant_id": 810948361,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 77
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630926,
+        "name": {
+          "es": "Descartables"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descartables"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630927,
+          22630928,
+          22630929,
+          22630930,
+          22630931
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:39:08+0000"
+      },
+      {
+        "id": 22630927,
+        "name": {
+          "es": "Cajas, Bolsas y Papel de envoltorio"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "cajas-bolsas-y-papel-de-envoltorio"
+        },
+        "parent": 22630926,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:28:17+0000"
+      }
+    ]
+  },
+  {
+    "id": 198583894,
+    "name": {
+      "es": "Sprinkles Confeti Blanco x 60 gr. - WILTON"
+    },
+    "description": {
+      "es": ""
+    },
+    "handle": {
+      "es": "sprinkles-confeti-blanco-x-60-gr-wilton"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:16:50+0000",
+    "variants": [
+      {
+        "id": 810948553,
+        "image_id": 592900131,
+        "product_id": 198583894,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "7107886",
+        "values": [],
+        "barcode": "70896178862",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:16:50+0000",
+        "updated_at": "2024-02-12T01:23:26+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419247396,
+            "variant_id": 810948553,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630793,
+        "name": {
+          "es": "Decoraciones Comestibles"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoraciones-comestibles"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630794,
+          22630795,
+          22630796,
+          22630797,
+          22630798
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:14+0000",
+        "updated_at": "2024-10-10T15:51:10+0000"
+      },
+      {
+        "id": 22630797,
+        "name": {
+          "es": "Perlas Sprinkles Granas y Decoraciones"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "perlas-sprinkles-granas-y-decoraciones"
+        },
+        "parent": 22630793,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:17+0000",
+        "updated_at": "2024-10-10T15:06:01+0000"
+      }
+    ]
+  },
+  {
+    "id": 198585248,
+    "name": {
+      "es": "Sorbete Polipapel Iridiscente Blanco 20 cm x 24 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "sorbete-polipapel-iridiscente-blanco-20-cm-x-24-u"
+    },
+    "published": false,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:25:11+0000",
+    "variants": [
+      {
+        "id": 810952760,
+        "image_id": 592905145,
+        "product_id": 198585248,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 6,
+        "weight": "0.030",
+        "width": "10.50",
+        "height": "0.50",
+        "depth": "4.50",
+        "sku": "DSPP050",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:25:11+0000",
+        "updated_at": "2024-07-29T15:07:41+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419251602,
+            "variant_id": 810952760,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 6
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      }
+    ]
+  },
+  {
+    "id": 198589931,
+    "name": {
+      "es": "Bengala Gibre Verde Agua Pastel x 1 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "bengala-gibre-verde-agua-pastel-x-1-u"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T16:50:12+0000",
+    "variants": [
+      {
+        "id": 810968985,
+        "image_id": 592921546,
+        "product_id": 198589931,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 9,
+        "weight": "0.020",
+        "width": "6.00",
+        "height": "1.00",
+        "depth": "1.00",
+        "sku": "44690",
+        "values": [],
+        "barcode": "44690!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T16:50:12+0000",
+        "updated_at": "2024-07-29T15:34:38+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419268783,
+            "variant_id": 810968985,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 9
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      },
+      {
+        "id": 26062705,
+        "name": {
+          "es": "Descuento por cantidad"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descuento-por-cantidad"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-07-24T19:11:13+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 198600642,
+    "name": {
+      "es": "Bengala Gibre Verde Agua Pastel x 1 u"
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "bengala-gibre-verde-agua-pastel-x-1-u1"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T17:43:08+0000",
+    "variants": [
+      {
+        "id": 811010717,
+        "image_id": 592958097,
+        "product_id": 198600642,
+        "position": 1,
+        "price": null,
+        "compare_at_price": null,
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 9,
+        "weight": "0.020",
+        "width": "1.00",
+        "height": "1.00",
+        "depth": "7.00",
+        "sku": "44690",
+        "values": [],
+        "barcode": "44690!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T17:43:08+0000",
+        "updated_at": "2024-07-29T15:56:16+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419310168,
+            "variant_id": 811010717,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 9
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      },
+      {
+        "id": 26062705,
+        "name": {
+          "es": "Descuento por cantidad"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descuento-por-cantidad"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-07-24T19:11:13+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 198613097,
+    "name": {
+      "es": "Bengala Gibre Remolino Azul y Celeste x 1 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "bengala-gibre-remolino-azul-y-celeste-x-1-u"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T18:38:27+0000",
+    "variants": [
+      {
+        "id": 811057023,
+        "image_id": 592997947,
+        "product_id": 198613097,
+        "position": 1,
+        "price": "696.00",
+        "compare_at_price": "696.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.020",
+        "width": "1.00",
+        "height": "1.00",
+        "depth": "7.00",
+        "sku": "49751A",
+        "values": [],
+        "barcode": "49751A!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T18:38:27+0000",
+        "updated_at": "2024-07-30T14:12:01+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419357216,
+            "variant_id": 811057023,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      },
+      {
+        "id": 22630926,
+        "name": {
+          "es": "Descartables"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descartables"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630927,
+          22630928,
+          22630929,
+          22630930,
+          22630931
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:39:08+0000"
+      },
+      {
+        "id": 22630930,
+        "name": {
+          "es": "Varios "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "varios4"
+        },
+        "parent": 22630926,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:10+0000",
+        "updated_at": "2024-10-10T16:11:08+0000"
+      },
+      {
+        "id": 26062705,
+        "name": {
+          "es": "Descuento por cantidad"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descuento-por-cantidad"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-07-24T19:11:13+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 198613154,
+    "name": {
+      "es": "Bengala Gibre Remolino Negro y Plateado x 1 u."
+    },
+    "description": {
+      "es": "<ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "bengala-gibre-remolino-negro-y-plateado-x-1-u"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-01-24T18:38:38+0000",
+    "variants": [
+      {
+        "id": 811057251,
+        "image_id": 592998087,
+        "product_id": 198613154,
+        "position": 1,
+        "price": "696.00",
+        "compare_at_price": "696.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.020",
+        "width": "1.00",
+        "height": "8.00",
+        "depth": "1.00",
+        "sku": "49751A",
+        "values": [],
+        "barcode": "49751A!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-01-24T18:38:38+0000",
+        "updated_at": "2024-07-30T14:12:22+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 419357444,
+            "variant_id": 811057251,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630925,
+        "name": {
+          "es": "Velas, Bengalas y Toppers "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "velas-bengalas-y-toppers"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:07+0000",
+        "updated_at": "2024-10-10T15:54:39+0000"
+      },
+      {
+        "id": 22630926,
+        "name": {
+          "es": "Descartables"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descartables"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630927,
+          22630928,
+          22630929,
+          22630930,
+          22630931
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:08+0000",
+        "updated_at": "2024-10-10T16:39:08+0000"
+      },
+      {
+        "id": 22630930,
+        "name": {
+          "es": "Varios "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "varios4"
+        },
+        "parent": 22630926,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:10+0000",
+        "updated_at": "2024-10-10T16:11:08+0000"
+      },
+      {
+        "id": 26062705,
+        "name": {
+          "es": "Descuento por cantidad"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "descuento-por-cantidad"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-07-24T19:11:13+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 199594666,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card1"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-01T19:59:04+0000",
+    "variants": [
+      {
+        "id": 818527798,
+        "image_id": 597214266,
+        "product_id": 199594666,
+        "position": 1,
+        "price": "10000.00",
+        "compare_at_price": "10000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-01T19:59:04+0000",
+        "updated_at": "2024-02-15T19:02:08+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 426828358,
+            "variant_id": 818527798,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 199595642,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card2"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-01T20:01:50+0000",
+    "variants": [
+      {
+        "id": 818531508,
+        "image_id": 597218027,
+        "product_id": 199595642,
+        "position": 1,
+        "price": "5000.00",
+        "compare_at_price": "5000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-01T20:01:50+0000",
+        "updated_at": "2024-02-15T19:02:01+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 426832100,
+            "variant_id": 818531508,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 200225939,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card3"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-07T13:43:45+0000",
+    "variants": [
+      {
+        "id": 822765394,
+        "image_id": 600123347,
+        "product_id": 200225939,
+        "position": 1,
+        "price": "25000.00",
+        "compare_at_price": "25000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-07T13:43:46+0000",
+        "updated_at": "2024-02-15T19:01:51+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 431062225,
+            "variant_id": 822765394,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 200226004,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card4"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-07T13:44:19+0000",
+    "variants": [
+      {
+        "id": 822765582,
+        "image_id": 600123712,
+        "product_id": 200226004,
+        "position": 1,
+        "price": "50000.00",
+        "compare_at_price": "50000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-07T13:44:19+0000",
+        "updated_at": "2024-02-15T19:01:43+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 431062414,
+            "variant_id": 822765582,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 200226085,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card5"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-07T13:45:00+0000",
+    "variants": [
+      {
+        "id": 822765905,
+        "image_id": 600124092,
+        "product_id": 200226085,
+        "position": 1,
+        "price": "30000.00",
+        "compare_at_price": "30000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-07T13:45:00+0000",
+        "updated_at": "2024-02-15T19:01:33+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 431062737,
+            "variant_id": 822765905,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 200226360,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "¡Gracias Boti por elegirnos!\n\nAl comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras. Chequea en spam o correo no deseado.\n\nPuede ser utilizada en nuestra web o en ambos locales.\n\nBesos y confites"
+    },
+    "handle": {
+      "es": "gift-card6"
+    },
+    "published": false,
+    "requires_shipping": false,
+    "created_at": "2024-02-07T13:47:12+0000",
+    "variants": [
+      {
+        "id": 822767005,
+        "image_id": 600125275,
+        "product_id": 200226360,
+        "position": 1,
+        "price": "20000.00",
+        "compare_at_price": "20000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-02-07T13:47:12+0000",
+        "updated_at": "2024-02-15T18:10:37+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 431063833,
+            "variant_id": 822767005,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      }
+    ]
+  },
+  {
+    "id": 204895285,
+    "name": {
+      "es": "Sorbete Biodegradable Negro x 40 u."
+    },
+    "description": {
+      "es": "<ul>\n<li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li>\n<li>El Color puede variar segun disponibilidad.</li>\n<li>Las im&aacute;genes son meramente ilustrativas.</li>\n<li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li>\n</ul>"
+    },
+    "handle": {
+      "es": "sorbete-biodegradable-negro-x-40-u"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-03-15T15:28:54+0000",
+    "variants": [
+      {
+        "id": 854146218,
+        "image_id": 619624338,
+        "product_id": 204895285,
+        "position": 1,
+        "price": "2144.00",
+        "compare_at_price": "2144.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.040",
+        "width": "7.50",
+        "height": "1.00",
+        "depth": "11.50",
+        "sku": "41662",
+        "values": [],
+        "barcode": "000000041662",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-03-15T15:28:54+0000",
+        "updated_at": "2024-07-30T14:19:27+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 472256040,
+            "variant_id": 854146218,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630923,
+        "name": {
+          "es": "Sorbetes  "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "sorbetes"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:06+0000",
+        "updated_at": "2024-10-10T15:36:14+0000"
+      }
+    ]
+  },
+  {
+    "id": 215019126,
+    "name": {
+      "es": "Tres Leches Receta UHT x 1 Ltr - Tres Riches - RICH"
+    },
+    "description": {
+      "es": "<p>NO APTO ENV&Iacute;O - SOLO RETIRO EN TIENDA</p><ul><li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li><li>El Color puede variar segun disponibilidad.</li><li>Las im&aacute;genes son meramente ilustrativas.</li><li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li></ul>"
+    },
+    "handle": {
+      "es": "tres-leches-receta-uht-x-1-ltr-tres-riches-rich"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-05-31T14:12:11+0000",
+    "variants": [
+      {
+        "id": 941313287,
+        "image_id": null,
+        "product_id": 215019126,
+        "position": 1,
+        "price": "8026.00",
+        "compare_at_price": "8026.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "1.000",
+        "width": "10.00",
+        "height": "4.00",
+        "depth": "4.00",
+        "sku": "22184",
+        "values": [],
+        "barcode": "7898403910308",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-05-31T14:12:12+0000",
+        "updated_at": "2024-08-26T16:56:12+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 567953135,
+            "variant_id": 941313287,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630776,
+        "name": {
+          "es": "Ingredientes para Cocinar"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-para-cocinar"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630778,
+          22630779,
+          22630780,
+          22630781,
+          22630782,
+          22630783,
+          22630784,
+          22630785,
+          22630786,
+          22630787,
+          22630788,
+          22630790,
+          22630791,
+          22630792
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:06+0000",
+        "updated_at": "2024-10-10T15:54:21+0000"
+      },
+      {
+        "id": 22630780,
+        "name": {
+          "es": "Crema de Leche, Manteca y Cremas Listas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "crema-de-leche-manteca-y-cremas-listas"
+        },
+        "parent": 22630776,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:08+0000",
+        "updated_at": "2024-06-11T15:33:28+0000"
+      }
+    ]
+  },
+  {
+    "id": 215919206,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:40:31+0000",
+    "variants": [
+      {
+        "id": 945337943,
+        "image_id": 664703570,
+        "product_id": 215919206,
+        "position": 1,
+        "price": "5000.00",
+        "compare_at_price": "5000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:40:32+0000",
+        "updated_at": "2024-06-06T17:40:43+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572012419,
+            "variant_id": 945337943,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 215920049,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card7"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:42:39+0000",
+    "variants": [
+      {
+        "id": 945340271,
+        "image_id": 664705119,
+        "product_id": 215920049,
+        "position": 1,
+        "price": "10000.00",
+        "compare_at_price": "10000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:42:39+0000",
+        "updated_at": "2024-06-06T17:42:50+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572014751,
+            "variant_id": 945340271,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 215920465,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card8"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:43:41+0000",
+    "variants": [
+      {
+        "id": 945341141,
+        "image_id": 664705864,
+        "product_id": 215920465,
+        "position": 1,
+        "price": "20000.00",
+        "compare_at_price": "20000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:43:41+0000",
+        "updated_at": "2024-06-06T17:43:52+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572015620,
+            "variant_id": 945341141,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 215920950,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card9"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:45:00+0000",
+    "variants": [
+      {
+        "id": 945342814,
+        "image_id": 664706736,
+        "product_id": 215920950,
+        "position": 1,
+        "price": "25000.00",
+        "compare_at_price": "25000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:45:00+0000",
+        "updated_at": "2024-06-06T17:45:11+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572017294,
+            "variant_id": 945342814,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 215925532,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card10"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:47:32+0000",
+    "variants": [
+      {
+        "id": 945345172,
+        "image_id": 664708821,
+        "product_id": 215925532,
+        "position": 1,
+        "price": "30000.00",
+        "compare_at_price": "30000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:47:32+0000",
+        "updated_at": "2024-06-06T17:47:43+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572019652,
+            "variant_id": 945345172,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 215925768,
+    "name": {
+      "es": "GIFT CARD"
+    },
+    "description": {
+      "es": "Al comprar esta GiftCard, recibirás un código único en tu email para enviar y compartir con la persona que quieras"
+    },
+    "handle": {
+      "es": "gift-card11"
+    },
+    "published": true,
+    "requires_shipping": false,
+    "created_at": "2024-06-06T17:48:41+0000",
+    "variants": [
+      {
+        "id": 945346178,
+        "image_id": 664709769,
+        "product_id": 215925768,
+        "position": 1,
+        "price": "50000.00",
+        "compare_at_price": "50000.00",
+        "promotional_price": null,
+        "stock_management": false,
+        "stock": null,
+        "weight": "0.000",
+        "width": "0.00",
+        "height": "0.00",
+        "depth": "0.00",
+        "sku": "GIFTY",
+        "values": [],
+        "barcode": null,
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-06-06T17:48:41+0000",
+        "updated_at": "2024-06-06T17:48:52+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 572020659,
+            "variant_id": 945346178,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": null
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630800,
+        "name": {
+          "es": "Bazar/textil"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar"
+        },
+        "parent": null,
+        "subcategories": [
+          22630801,
+          22630814,
+          22630817,
+          22630823,
+          22630830,
+          22630831,
+          24207798,
+          25091419
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:18+0000",
+        "updated_at": "2024-10-10T16:14:43+0000"
+      },
+      {
+        "id": 25091419,
+        "name": {
+          "es": "Bazar, regalería y bolucompras"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "bazar-regaleria-y-bolucompras1"
+        },
+        "parent": 22630800,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-05-28T20:47:05+0000",
+        "updated_at": "2024-10-10T16:27:46+0000"
+      },
+      {
+        "id": 22860322,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": "Regala Gift Card: elige online, entrega instantánea. Ideal para sorprender, permitiendo al agasajado elegir su regalo favorito."
+        },
+        "handle": {
+          "es": "gift-cards"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-25T21:12:56+0000",
+        "updated_at": "2024-09-09T18:20:43+0000"
+      },
+      {
+        "id": 25255795,
+        "name": {
+          "es": "Gift Cards"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "gift-cards1"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-06-06T17:40:30+0000",
+        "updated_at": "2024-09-12T16:52:09+0000"
+      }
+    ]
+  },
+  {
+    "id": 219265637,
+    "name": {
+      "es": "Arándanos Liofilizados x 100 gr - Pomona"
+    },
+    "description": {
+      "es": "<p>Disfruta de nuestro&nbsp;mango liofilizado 100% natural y saludable. Para lograrlo, el mango es cortado en rodajas y liofilizado, lo que elimina su contenido de agua y transforma en un&nbsp;alimento crujiente&nbsp;que lo hace&nbsp;absolutamente irresistible&nbsp;a cualquier paladar. Este producto combina las vitaminas, la fibra y dem&aacute;s propiedades de la fruta fresca con el crujido de un chip y la dulzura de un caramelo.</p>\n<p>Las frutas liofilizadas son ideales en pasteler&iacute;a para agregar una explosi&oacute;n de sabor en tu paladar, vistosidad y textura en distintas preparaciones y productos gastron&oacute;micos como tortas, cupcakes, postres y sobre todo combinar con chocolate! ​​​​​Adem&aacute;s, es ideal para utilizarse como insumo en la elaboraci&oacute;n de blends de t&eacute; de alt&iacute;sima calidad. De igual manera, se la puede comer directamente del paquete, agregarse en mezclas de frutos secos, en un bowl acompa&ntilde;ado de unos cereales o como vos quieras!</p>\n<p>&nbsp;</p>\n<p><strong>Producto libre de gluten con certificaci&oacute;n Sin T.A.C.C</strong></p>\n<ul>\n<li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li>\n<li>El Color puede variar segun disponibilidad.</li>\n<li>Las im&aacute;genes son meramente ilustrativas.</li>\n<li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li>\n</ul>"
+    },
+    "handle": {
+      "es": "arandanos-liofilizados-x-100-gr-pomona1"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-07-02T14:03:11+0000",
+    "variants": [
+      {
+        "id": 962196947,
+        "image_id": 678827721,
+        "product_id": 219265637,
+        "position": 1,
+        "price": "16831.00",
+        "compare_at_price": "16831.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 3,
+        "weight": "0.100",
+        "width": "5.00",
+        "height": "5.00",
+        "depth": "7.50",
+        "sku": "POMAR",
+        "values": [],
+        "barcode": "0736372396792",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-07-02T14:03:12+0000",
+        "updated_at": "2024-10-09T18:20:02+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 589152433,
+            "variant_id": 962196947,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630765,
+        "name": {
+          "es": "Ingredientes "
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-comestibles"
+        },
+        "parent": null,
+        "subcategories": [
+          22630766,
+          22630771,
+          22630793,
+          22630776,
+          26931725
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:00+0000",
+        "updated_at": "2024-08-27T21:40:12+0000"
+      },
+      {
+        "id": 22630776,
+        "name": {
+          "es": "Ingredientes para Cocinar"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "ingredientes-para-cocinar"
+        },
+        "parent": 22630765,
+        "subcategories": [
+          22630778,
+          22630779,
+          22630780,
+          22630781,
+          22630782,
+          22630783,
+          22630784,
+          22630785,
+          22630786,
+          22630787,
+          22630788,
+          22630790,
+          22630791,
+          22630792
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:06+0000",
+        "updated_at": "2024-10-10T15:54:21+0000"
+      },
+      {
+        "id": 22630784,
+        "name": {
+          "es": "Frutos Secos y especias"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "frutos-secos-y-especias"
+        },
+        "parent": 22630776,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:54:10+0000",
+        "updated_at": "2024-06-11T15:33:28+0000"
+      },
+      {
+        "id": 26931725,
+        "name": {
+          "es": "SIN TACC - GLUTEN FREE"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "sin-tacc-gluten-free"
+        },
+        "parent": 22630765,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-09-10T21:27:09+0000",
+        "updated_at": "2024-09-10T21:43:43+0000"
+      },
+      {
+        "id": 27176309,
+        "name": {
+          "es": "Pomona"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "pomona"
+        },
+        "parent": null,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-09-24T19:57:38+0000",
+        "updated_at": "2024-10-07T14:42:48+0000"
+      }
+    ]
+  },
+  {
+    "id": 230858921,
+    "name": {
+      "es": "Globo Numero Metalizado Rose Gold N°6 x 70 cm"
+    },
+    "description": {
+      "es": "<ul>\n<li>El producto vendido corresponde a la descripci&oacute;n en la publicaci&oacute;n, la foto es meramente ilustrativa.</li>\n<li>El Color puede variar segun disponibilidad.</li>\n<li>Las im&aacute;genes son meramente ilustrativas.</li>\n<li>La Botica del Pastelero no se responsabiliza por los posibles da&ntilde;os ocasionados por las empresas de transporte, correo o mensajeria.</li>\n</ul>"
+    },
+    "handle": {
+      "es": "globo-numero-metalizado-rose-gold-n6-x-70-cm"
+    },
+    "published": true,
+    "requires_shipping": true,
+    "created_at": "2024-09-13T18:03:13+0000",
+    "variants": [
+      {
+        "id": 1016645871,
+        "image_id": 724034043,
+        "product_id": 230858921,
+        "position": 1,
+        "price": "1729.00",
+        "compare_at_price": "1729.00",
+        "promotional_price": null,
+        "stock_management": true,
+        "stock": 0,
+        "weight": "0.010",
+        "width": "10.00",
+        "height": "1.00",
+        "depth": "10.00",
+        "sku": "15788",
+        "values": [],
+        "barcode": "15788!!",
+        "mpn": null,
+        "age_group": null,
+        "gender": null,
+        "created_at": "2024-09-13T18:03:13+0000",
+        "updated_at": "2024-09-13T18:03:14+0000",
+        "cost": null,
+        "inventory_levels": [
+          {
+            "id": 644070241,
+            "variant_id": 1016645871,
+            "location_id": "01HGZWV79KP15VNJD64G6KNTNM",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": 22630919,
+        "name": {
+          "es": "Fiestas/Cotillón"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "fiestas"
+        },
+        "parent": null,
+        "subcategories": [
+          22630920,
+          22630926
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:04+0000",
+        "updated_at": "2024-10-10T14:58:26+0000"
+      },
+      {
+        "id": 22630920,
+        "name": {
+          "es": "Decoración"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "decoracion"
+        },
+        "parent": 22630919,
+        "subcategories": [
+          22630921,
+          22630922,
+          22630923,
+          22630924,
+          22630925
+        ],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-09-09T18:20:42+0000"
+      },
+      {
+        "id": 22630921,
+        "name": {
+          "es": "Globos, Piñatas y Guirnaldas"
+        },
+        "description": {
+          "es": ""
+        },
+        "handle": {
+          "es": "globos-pinatas-y-guirnaldas"
+        },
+        "parent": 22630920,
+        "subcategories": [],
+        "seo_title": {
+          "es": ""
+        },
+        "seo_description": {
+          "es": ""
+        },
+        "google_shopping_category": "",
+        "created_at": "2024-01-12T18:55:05+0000",
+        "updated_at": "2024-10-10T15:39:05+0000"
+      }
+    ]
+  }
+]

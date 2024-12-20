@@ -1,4 +1,4 @@
-import { createProduct, getAllCategories, tiendaNube } from "./index.js";
+import { createProduct, tiendaNube } from "./index.js";
 import {
   CreateCategoryInput,
   CreateProductInput,
@@ -8,6 +8,9 @@ import {
   UpdateProductsInput,
   UploadProductsPicsInput,
 } from "./types.js";
+
+export const BRAND_CF_ID = "278d15da-9ddd-4687-a6cd-e5753286c7d3";
+export const PROVIDER_CF_ID = "2a0e20a3-ff7d-4da3-897b-8d296c5cbd3f";
 
 const BASE_URL = process.env.TIENDANUBE_MAY_URL; // URL base de la API de TiendaNube
 const TOKEN1 = process.env.TIENDANUBE_MAY_TOKEN1; // Token de acceso a la API de TiendaNube
@@ -113,7 +116,7 @@ export const tnWholesaleStore = {
     return tiendaNube.updateProductsCustomFields(input, defaultOpts);
   },
   getAllCategories: async () => {
-    return getAllCategories(defaultOpts);
+    return tiendaNube.getAllCategories(defaultOpts);
   },
   createProduct: async (input: CreateProductInput) => {
     return createProduct(input, defaultOpts);
@@ -126,5 +129,8 @@ export const tnWholesaleStore = {
       ...defaultOpts,
       ...opts,
     });
+  },
+  deleteCategory: async (id: number) => {
+    return tiendaNube.deleteCategory(id, defaultOpts);
   },
 };

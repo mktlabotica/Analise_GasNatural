@@ -1,8 +1,4 @@
-import {
-  createProduct,
-  getAllCategories,
-  tiendaNube as tiendaNubeClient,
-} from "./index.js";
+import { createProduct, tiendaNube as tiendaNubeClient } from "./index.js";
 import {
   CreateProductInput,
   DeleteProductPicsInput,
@@ -53,7 +49,12 @@ export const tnNormalStore = {
   updateProducts: async (
     data: UpdateProductsInput,
     opts: {
-      onError?: (updatedProducts: UpdateProductsInput) => Promise<void>;
+      onError?: (
+        updatedProducts: UpdateProductsInput,
+        failedProduct: UpdateProductsInput[number]
+      ) => Promise<void>;
+      onSuccess?: (updatedProduct: UpdateProductsInput[number]) => void;
+      onFinished?: (updatedProducts: UpdateProductsInput) => void;
     } = {}
   ) => {
     return tiendaNubeClient.updateProducts(data, {
@@ -109,9 +110,12 @@ export const tnNormalStore = {
     return tiendaNubeClient.updateProductsCustomFields(input, defaultOpts);
   },
   getAllCategories: async () => {
-    return getAllCategories(defaultOpts);
+    return tiendaNubeClient.getAllCategories(defaultOpts);
   },
   createProduct: async (input: CreateProductInput) => {
     return createProduct(input, defaultOpts);
+  },
+  deleteCategory: async (id: number) => {
+    return tiendaNubeClient.deleteCategory(id, defaultOpts);
   },
 };

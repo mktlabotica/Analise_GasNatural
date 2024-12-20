@@ -83,10 +83,13 @@ const getAllProducts = async ({
   return products;
 };
 
-const RETRY_DELAY = 100;
+const RETRY_DELAY = 0;
 const MAX_RETRIES = 1;
 
-const getOneProduct = async (code: string) => {
+const getOneProduct = async (
+  code: string,
+  opts: { priceList?: number } = {}
+) => {
   let retries = 0;
   let response: Response | undefined = undefined;
   let data: GetOneProductResponse | undefined;
@@ -102,7 +105,7 @@ const getOneProduct = async (code: string) => {
         con_foto: 0,
         tipo_codigo: 1,
         deposito: 2,
-        lista_cod: 1,
+        lista_cod: opts.priceList ?? 1,
       }),
     });
 
@@ -227,9 +230,25 @@ const getStockUpdates = async ({
   return data.vProductos;
 };
 
+const getProductsBatch = async (codes: string[]) => {
+  const products = await Promise.all(codes.map((code) => getOneProduct(code)))
+    .then((products) => products.filter((p) => p !== undefined))
+    .catch((err) => {
+      console.error(
+        `Error al obtener los productos del ERP: ${err}, codes: ${codes.join(
+          ", "
+        )}`
+      );
+      return [];
+    });
+
+  return products as GetOneProductResponse[];
+};
+
 export const erp = {
   getAllProducts,
   getOneProduct,
   createOrder,
   getStockUpdates,
+  getProductsBatch,
 };

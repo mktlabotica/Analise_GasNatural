@@ -1,5 +1,9 @@
 import nodemailer from "nodemailer";
-import { text } from "stream/consumers";
+
+const sentEmailsSet = new Set<string>();
+setInterval(() => {
+  sentEmailsSet.clear();
+}, 1000 * 60 * 60 * 24);
 
 // create a transporter using gmail SMTP
 const transporter = nodemailer.createTransport({
@@ -10,7 +14,12 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export const sendEmail = async (text: string) => {
+export const sendEmail = async (text: string, tag?: string) => {
+  if (sentEmailsSet.has(tag || text)) {
+    console.log("Email already sent");
+    return;
+  }
+
   const mailOptions = {
     from: "tomiemailsnodejs@gmail.com",
     to: "dev@digitalmix.ar",
@@ -28,6 +37,7 @@ export const sendEmail = async (text: string) => {
   }
 
   console.log("Email sent: " + info.response);
+  sentEmailsSet.add(tag || text);
 
   return info;
 };

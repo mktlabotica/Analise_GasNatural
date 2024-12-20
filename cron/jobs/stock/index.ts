@@ -81,7 +81,7 @@ const job = async () => {
       type: "info",
       data: productsToPatch.map((p) => ({
         productId: p.id,
-        stock: p.variants[0].inventory_levels[0].stock,
+        stock: p.variants[0].inventory_levels?.[0].stock ?? 0,
       })),
     },
   ]);
@@ -89,6 +89,6 @@ const job = async () => {
 
 export default {
   name: "stock",
-  cronJob: new CronJob("*/5 6-22 * * *", job),
+  cronJob: new CronJob("*/5 8-20 * * *", job),
   run: job,
 };

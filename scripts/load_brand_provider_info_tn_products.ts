@@ -57,9 +57,9 @@ export const loadBrandProviderInfoTnProducts = async () => {
         if (!erpProduct) throw new Error("Product not found in ERP");
         return {
           productId: product.id,
-          proveedorFieldId: "e9f15ed2-8dcb-4496-82d0-75acdea74fd9",
+          proveedorFieldId: "2a0e20a3-ff7d-4da3-897b-8d296c5cbd3f",
           proveedorValue: erpProduct.prd_proveedor || "No especificado",
-          marcaFieldId: "d16692d6-adae-4e7a-9b25-40393d11f1cd",
+          marcaFieldId: "278d15da-9ddd-4687-a6cd-e5753286c7d3",
           marcaValue: erpProduct.prd_marca_nom || "No especificado",
         };
       });

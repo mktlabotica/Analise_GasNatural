@@ -2,12 +2,11 @@ import { CronJob } from "cron";
 import { erp } from "../../../dataSources/erp/index.js";
 import prisma from "../../../db/index.js";
 import { CreateOrderInput } from "../../../dataSources/erp/types.js";
-import { writeFile } from "fs/promises";
-import { writeStdOut } from "../../../utils/writeStdOut.js";
 import { tnNormalStore } from "../../../dataSources/tiendaNube/normalStore.js";
 import { sendEmail } from "../../../mail/index.js";
 import { saveLogs } from "../../../log/index.js";
 import { Prisma } from "@prisma/client";
+import { tnWholesaleStore } from "../../../dataSources/tiendaNube/wholesaleStore.js";
 
 const dayInMs = 24 * 60 * 60 * 1000;
 
@@ -31,11 +30,40 @@ const job = async () => {
     },
   });
 
-  const newOrders = await tnNormalStore.getNewOrders();
+  const syncedWholesaleOrders = await prisma.wholesaleOrder.findMany({
+    where: {
+      AND: [
+        {
+          syncAt: {
+            not: null,
+          },
+          createdAt: {
+            gte: new Date(new Date().getTime() - dayInMs * 4),
+          },
+        },
+      ],
+    },
+  });
 
-  const ordersToCreate: (CreateOrderInput & { orderId: number })[] = [];
-  for (const newOrder of newOrders) {
-    if (syncedOrders.some((o) => o.orderId === newOrder.id)) continue;
+  const newOrders = await tnNormalStore.getNewOrders();
+  const newWholesaleOrders = await tnWholesaleStore.getNewOrders();
+
+  const ordersToCreate: (CreateOrderInput & {
+    orderId: number;
+    ogOrderNumber: number;
+  })[] = [];
+  const allNewOrders = [
+    ...newOrders.map((order) => ({ ...order, type: "normal" })),
+    ...newWholesaleOrders.map((order) => ({ ...order, type: "wholesale" })),
+  ];
+  for (const newOrder of allNewOrders) {
+    if (
+      (newOrder.type === "normal" &&
+        syncedOrders.some((o) => o.orderId === newOrder.id)) ||
+      (newOrder.type === "wholesale" &&
+        syncedWholesaleOrders.some((o) => o.orderId === newOrder.id))
+    )
+      continue;
 
     const products = await Promise.all(
       newOrder.products
@@ -57,7 +85,8 @@ const job = async () => {
         })
     ).catch(async (error) => {
       await sendEmail(
-        `Error al sincronizar orden ${newOrder.number}: ${error.message}`
+        `Error al sincronizar orden ${newOrder.number}: ${error.message}`,
+        `Error al sincronizar orden ${newOrder.number}`
       );
       return [];
     });
@@ -105,8 +134,13 @@ const job = async () => {
         newOrder.shipping_option || ""
       }, Costo: ${newOrder.shipping_cost_customer || ""}\nNumero de orden: ${
         newOrder.number
-      }\n${usedCoupons ? `Cupones: ${usedCoupons}` : ""}`,
-      pk_id: newOrder.number,
+      }\nTienda: ${newOrder.type === "normal" ? "minorista" : "mayorista"}\n${
+        usedCoupons ? `Cupones: ${usedCoupons}` : ""
+      }`,
+      pk_id:
+        newOrder.type === "normal"
+          ? parseInt("5" + newOrder.number)
+          : parseInt("6" + newOrder.number),
       productos: products
         .map((product): CreateOrderInput["productos"][number] => ({
           producto_codigo: product.productIdInterData,
@@ -126,30 +160,46 @@ const job = async () => {
             : []
         ),
       orderId: newOrder.id,
-      sucursal_codigo: "5",
+      sucursal_codigo: newOrder.type === "normal" ? "5" : "6",
+      ogOrderNumber: newOrder.number,
     });
   }
 
   for (const order of ordersToCreate) {
-    const { orderId, ...rest } = order;
+    const { orderId, ogOrderNumber, ...rest } = order;
     await erp.createOrder(rest, {
       onSuccess: async () => {
         console.log("Order created!!!!");
         logs.push({
-          message: `Orden ${order.pk_id} sincronizada correctamente`,
+          message: `Orden ${order.pk_id} en la tienda ${
+            order.sucursal_codigo === "5" ? "minorista" : "mayorista"
+          } sincronizada correctamente`,
           type: "success",
           data: JSON.stringify(order),
         });
-        await prisma.order.create({
-          data: {
-            orderId: orderId,
-            syncAt: new Date(),
-            number: order.pk_id,
-          },
-        });
+        if (order.sucursal_codigo === "5") {
+          await prisma.order.create({
+            data: {
+              orderId: orderId,
+              syncAt: new Date(),
+              number: ogOrderNumber,
+            },
+          });
+        } else {
+          await prisma.wholesaleOrder.create({
+            data: {
+              orderId: orderId,
+              syncAt: new Date(),
+              number: ogOrderNumber,
+            },
+          });
+        }
       },
       onError: async (_, error) => {
-        await sendEmail(`Error al sincronizar orden ${order.pk_id}: ${error}`);
+        await sendEmail(
+          `Error al sincronizar orden ${order.pk_id}: ${error}`,
+          `Error al sincronizar orden ${order.pk_id}`
+        );
       },
     });
   }
@@ -162,6 +212,6 @@ const job = async () => {
 
 export default {
   name: "orders",
-  cronJob: new CronJob("*/5 * * * *", job),
+  cronJob: new CronJob("2,7,12,17,22,27,32,37,42,47,52,57 8-20 * * *", job),
   run: job,
 };

@@ -59,7 +59,7 @@ export type PatchStockPriceInput = {
   variants: {
     id: number;
     price?: number | undefined;
-    inventory_levels: {
+    inventory_levels?: {
       stock: number;
     }[];
   }[];
@@ -68,6 +68,7 @@ export type PatchStockPriceInput = {
 export type UpdateProductsInput = {
   productId: number;
   variantId: number;
+  published?: boolean;
   brand?: string;
   weight?: string;
   height?: string;

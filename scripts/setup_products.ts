@@ -5,8 +5,6 @@ import { Prisma } from "@prisma/client";
 import { saveLogs } from "../log/index.js";
 
 export const setupProducts = async () => {
-  await cleanupDatabase();
-
   const tnProducts = await getTiendaNubeProducts();
 
   await saveProducts(tnProducts);
@@ -21,7 +19,9 @@ async function cleanupDatabase() {
 
 async function getTiendaNubeProducts() {
   console.log("Getting TiendaNube products...");
-  const products = await tnNormalStore.getAllProducts();
+  const products = await tnNormalStore.getAllProducts({
+    requiresShipping: true,
+  });
   console.log("TiendaNube products retrieved!");
 
   saveLogs([
@@ -68,13 +68,25 @@ async function saveProducts(tnProducts: TiendaNubeProduct[]) {
     });
   }
 
-  await prisma.tNProduct.createMany({
-    data: productsToSave,
-  });
+  await prisma.$transaction(
+    productsToSave.map((product) =>
+      prisma.tNProduct.upsert({
+        where: { productId: product.productId },
+        update: product,
+        create: product,
+      })
+    )
+  );
 
   console.log("Products saved to database!");
 
-  await prisma.tNDuplicatedCodes.createMany({
-    data: duplicatedCodes.map((code) => ({ code })),
-  });
+  await Promise.all(
+    duplicatedCodes.map((code) =>
+      prisma.tNDuplicatedCodes.upsert({
+        where: { code },
+        update: { code },
+        create: { code },
+      })
+    )
+  );
 }
