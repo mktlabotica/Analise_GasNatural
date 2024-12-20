@@ -185,6 +185,7 @@ const compareProducts = async ({
       height: variant.height,
       weight: variant.weight,
       width: variant.width,
+      tags: productsPair.normal.tags,
     });
   }
 

@@ -50,6 +50,7 @@ export type Product = {
     src: string;
     position: number;
   }[];
+  tags: string;
 };
 
 export type GetProductsResponse = Product[];
@@ -208,6 +209,7 @@ export type CreateProductInput = {
   description: string | null;
   barcode: string | null;
   stock: number;
+  tags?: string;
 };
 
 export type CreateCategoryInput = {
