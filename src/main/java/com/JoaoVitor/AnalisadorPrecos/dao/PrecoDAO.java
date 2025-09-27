@@ -8,6 +8,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PrecoDAO {
 
@@ -68,5 +70,46 @@ public class PrecoDAO {
         }
 
         return media;
+    }
+    /**
+     * Busca no banco de dados os N registros com o menor preço para um determinado produto.
+     * @param produto O nome do produto a ser pesquisado (ex: "Térmico").
+     * @param limite A quantidade de registros a serem retornados (ex: 10).
+     * @return Uma lista de objetos RegistroGasNatural.
+     */
+    public List<RegistroGasNatural> encontrarMaisBaratosPorProduto(String produto, int limite) {
+        String sql = "SELECT * FROM registro_gas_natural WHERE tipo_mercado = ? AND preco_reais_mmbtu > 0 ORDER BY preco_reais_mmbtu ASC LIMIT ?";
+
+        List<RegistroGasNatural> registros = new ArrayList<>();
+
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setString(1, produto);
+            stmt.setInt(2, limite);
+
+            ResultSet rs = stmt.executeQuery();
+
+            // Loop para percorrer todos os resultados retornados pela query
+            while (rs.next()) {
+                // Para cada linha do resultado, cria um objeto RegistroGasNatural
+                int ano = rs.getInt("ano");
+                int mes = rs.getInt("mes");
+                String tipoMercado = rs.getString("tipo_mercado");
+                String regiaoAgregada = rs.getString("regiao_agregada");
+                Double preco = rs.getDouble("preco_reais_mmbtu");
+                Integer volume = rs.getInt("volume_mil_m3_dia");
+
+                RegistroGasNatural registro = new RegistroGasNatural(ano, mes, tipoMercado, regiaoAgregada, preco, volume);
+
+                // Adiciona o objeto criado à lista
+                registros.add(registro);
+            }
+
+        } catch (SQLException e) {
+            System.err.println("Erro ao buscar os registros mais baratos: " + e.getMessage());
+        }
+
+        return registros;
     }
 }

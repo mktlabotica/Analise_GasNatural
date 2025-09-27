@@ -1,6 +1,8 @@
 package com.JoaoVitor.AnalisadorPrecos.service;
 
 import com.JoaoVitor.AnalisadorPrecos.dao.PrecoDAO;
+import com.JoaoVitor.AnalisadorPrecos.model.RegistroGasNatural;
+import java.util.List;
 
 public class AnalisadorService {
 
@@ -31,7 +33,8 @@ public class AnalisadorService {
         // O serviço retorna o resultado que o DAO encontrou
         return media;
     }
-
-    // (No futuro, você adicionará mais métodos aqui para outras análises)
-    // Ex: public void getMunicipiosMaisBaratos() { ... }
+    public List<RegistroGasNatural> getMaisBaratosPorProduto(String produto, int limite) {
+        System.out.println("SERVIÇO: Recebida solicitação para buscar os " + limite + " mais baratos para o produto " + produto);
+        return precoDAO.encontrarMaisBaratosPorProduto(produto, limite);
+    }
 }
