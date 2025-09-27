@@ -112,4 +112,41 @@ public class PrecoDAO {
 
         return registros;
     }
+    // Dentro da classe PrecoDAO.java
+
+    /**
+     * Busca a série histórica de preços para um determinado produto, ordenada por data.
+     * @param produto O tipo de mercado (ex: "Térmico").
+     * @return Uma lista de registros ordenada por ano e mês.
+     */
+    public List<RegistroGasNatural> obterEvolucaoDePrecoPorProduto(String produto) {
+        String sql = "SELECT * FROM registro_gas_natural WHERE tipo_mercado = ? AND preco_reais_mmbtu > 0 ORDER BY ano ASC, mes ASC";
+
+        List<RegistroGasNatural> registros = new ArrayList<>();
+
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setString(1, produto);
+
+            ResultSet rs = stmt.executeQuery();
+
+            while (rs.next()) {
+                int ano = rs.getInt("ano");
+                int mes = rs.getInt("mes");
+                String tipoMercado = rs.getString("tipo_mercado");
+                String regiaoAgregada = rs.getString("regiao_agregada");
+                Double preco = rs.getDouble("preco_reais_mmbtu");
+                Integer volume = rs.getInt("volume_mil_m3_dia");
+
+                RegistroGasNatural registro = new RegistroGasNatural(ano, mes, tipoMercado, regiaoAgregada, preco, volume);
+                registros.add(registro);
+            }
+
+        } catch (SQLException e) {
+            System.err.println("Erro ao buscar a evolução de preços: " + e.getMessage());
+        }
+
+        return registros;
+    }
 }

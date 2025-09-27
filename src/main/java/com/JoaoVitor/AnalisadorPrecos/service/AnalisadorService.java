@@ -37,4 +37,10 @@ public class AnalisadorService {
         System.out.println("SERVIÇO: Recebida solicitação para buscar os " + limite + " mais baratos para o produto " + produto);
         return precoDAO.encontrarMaisBaratosPorProduto(produto, limite);
     }
+    // Dentro da classe AnalisadorService.java
+
+    public List<RegistroGasNatural> getEvolucaoDePrecoPorProduto(String produto) {
+        System.out.println("SERVIÇO: Recebida solicitação para buscar a evolução de preços para " + produto);
+        return precoDAO.obterEvolucaoDePrecoPorProduto(produto);
+    }
 }

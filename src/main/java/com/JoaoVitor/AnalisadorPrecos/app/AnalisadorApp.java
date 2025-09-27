@@ -8,16 +8,17 @@ import java.util.List;
 public class AnalisadorApp {
 
     public static void main(String[] args) {
-        // Cria uma instância do Scanner para ler a entrada do usuário
+        // Cria uma instância do Scanner para ler a entrada do utilizador
         Scanner scanner = new Scanner(System.in);
         // Cria uma instância do nosso Serviço, que contém a lógica de negócio
         AnalisadorService service = new AnalisadorService();
 
-        // Loop infinito para manter o menu ativo até o usuário decidir sair
+        // Loop infinito para manter o menu ativo até o utilizador decidir sair
         while (true) {
             System.out.println("\n===== Análise de Preços de Gás Natural =====");
             System.out.println("1 - Calcular Preço Médio Geral");
             System.out.println("2 - Ver os 10 mais baratos");
+            System.out.println("3 - Ver evolução de preço por Tipo de Mercado");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -71,6 +72,39 @@ public class AnalisadorApp {
                                 registro.getPrecoEmReaisPorMMBtu(),
                                 registro.getMes(),
                                 registro.getAno());
+                    }
+                    break;
+                case 3:
+                    System.out.println("\n--- Escolha o Tipo de Mercado para ver a evolução ---");
+                    System.out.println("1 - Térmico");
+                    System.out.println("2 - Não Térmico");
+                    System.out.print("Digite sua escolha: ");
+
+                    String tipoEscolhidoEvolucao;
+                    try {
+                        int escolhaMercado = Integer.parseInt(scanner.nextLine());
+                        if (escolhaMercado == 1) {
+                            tipoEscolhidoEvolucao = "Térmico";
+                        } else if (escolhaMercado == 2) {
+                            tipoEscolhidoEvolucao = "Não Térmico";
+                        } else {
+                            System.out.println("Opção inválida. Voltando ao menu principal.");
+                            continue;
+                        }
+                    } catch (NumberFormatException e) {
+                        System.out.println("Entrada inválida. Voltando ao menu principal.");
+                        continue;
+                    }
+
+                    List<RegistroGasNatural> evolucao = service.getEvolucaoDePrecoPorProduto(tipoEscolhidoEvolucao);
+
+                    System.out.printf("\n--- Evolução de Preços para Gás (%s) ---%n", tipoEscolhidoEvolucao);
+                    for (RegistroGasNatural registro : evolucao) {
+                        System.out.printf("Data: %02d/%d | Região: %-30s | Preço: R$ %.2f%n",
+                                registro.getMes(),
+                                registro.getAno(),
+                                registro.getRegiaoAgregada(),
+                                registro.getPrecoEmReaisPorMMBtu());
                     }
                     break;
                 case 0:
