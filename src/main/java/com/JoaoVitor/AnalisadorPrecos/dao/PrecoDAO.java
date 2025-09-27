@@ -6,7 +6,8 @@ import com.JoaoVitor.AnalisadorPrecos.util.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Types; // Novo import
+import java.sql.Types;
+import java.sql.ResultSet;
 
 public class PrecoDAO {
 
@@ -36,5 +37,36 @@ public class PrecoDAO {
 
             stmt.executeUpdate();
         }
+    }
+    /**
+     * Calcula o preço médio de todos os registros válidos no banco de dados.
+     * @return o preço médio, ou 0.0 em caso de erro.
+     */
+    public double calcularPrecoMedioGeral() {
+        // A query SQL para calcular a média da coluna de preço
+        // Adicionamos WHERE para ignorar os valores 0 que inserimos para os "NA"
+        String sql = "SELECT AVG(preco_reais_mmbtu) FROM registro_gas_natural WHERE preco_reais_mmbtu > 0";
+
+        double media = 0.0;
+
+        // Conecta ao banco e prepara a declaração
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            // ResultSet é o objeto que recebe os resultados de uma consulta SELECT
+            ResultSet rs = stmt.executeQuery();
+
+            // Verifica se a consulta retornou algum resultado
+            if (rs.next()) {
+                // Pega o valor da primeira coluna do resultado
+                media = rs.getDouble(1);
+            }
+
+        } catch (SQLException e) {
+            System.err.println("Erro ao calcular a média de preços: " + e.getMessage());
+            // Em um caso real, um tratamento de erro mais robusto seria ideal
+        }
+
+        return media;
     }
 }
