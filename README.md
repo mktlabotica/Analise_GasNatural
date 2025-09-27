@@ -85,14 +85,11 @@ private static final String PASSWORD = "sua_senha_aqui";
 
 ### 3. Carregar os Dados (ETL)
 
-* Baixe o arquivo `.csv` da ANP.
 * No arquivo:
 
 ```
 src/main/java/com/JoaoVitor/AnalisadorPrecos/app/CargaDadosApp.java
 ```
-
-altere o `caminhoDoArquivo` para o local onde você salvou o `.csv`.
 
 * Execute o método `main` da classe `CargaDadosApp.java`.
 * Aguarde a mensagem **"Carga de dados finalizada!"**.
