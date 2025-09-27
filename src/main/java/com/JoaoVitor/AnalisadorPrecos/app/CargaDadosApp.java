@@ -8,13 +8,36 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.SQLException;
+import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 
 public class CargaDadosApp {
 
     public static void main(String[] args) {
         PrecoDAO precoDAO = new PrecoDAO();
-        String caminhoDoArquivo = "C:\\Users\\joaov\\IdeaProjects\\Analise_GasNatural\\arquivosLeitura\\distribuidoras-consumidores-livres.csv";
+        String caminhoDoArquivo;
         int linhaAtual = 1;
+        try {
+            // Pede ao Java para encontrar o arquivo no diretório de recursos
+            URL resourceUrl = CargaDadosApp.class.getClassLoader().getResource("distribuidoras-consumidores-livres.csv");
+
+            if (resourceUrl == null) {
+                System.err.println("ERRO FATAL: Não foi possível encontrar o arquivo CSV nos recursos do projeto.");
+                System.err.println("Verifique se o arquivo está em 'src/main/resources'");
+                return; // Encerra a aplicação
+            }
+
+            // Converte a localização do recurso em um caminho de arquivo que o FileReader entende
+            URI resourceUri = resourceUrl.toURI();
+            caminhoDoArquivo = new File(resourceUri).getAbsolutePath();
+
+        } catch (URISyntaxException e) {
+            System.err.println("ERRO FATAL: URL do arquivo CSV é inválida.");
+            e.printStackTrace();
+            return;
+        }
 
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(caminhoDoArquivo), "UTF-16"))) {
