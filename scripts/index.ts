@@ -6,7 +6,6 @@ import { findErpDuplicates } from "./find_erp_duplicates.js";
 import { fixImages } from "./fix_images.js";
 import { findErpDisabledProducts } from "./find_erp_disabled_products.js";
 import { findTnShouldEnableProducts } from "./find_tn_should_enable_products.js";
-import { deleteErpDisabledProducts } from "./delete_erp_disabled_products.js";
 import { updateProductInterdataCodes } from "./updateProductInterdataCodes.js";
 import { refreshProducts } from "./refresh_products.js";
 import { loadBrandProviderInfoTnProducts } from "./load_brand_provider_info_tn_products.js";
@@ -17,6 +16,9 @@ import { listErpMissingProducts } from "./list_erp_missing_products.js";
 import { disableTnProducts } from "./disable_tn_products.js";
 import { fixTnWholesaleStore } from "./fix_tnwholesalestore.js";
 import { syncImages } from "./sync_images.js";
+import { syncTags } from "./sync_tags.js";
+import { compareStoresProducts } from "./compare_stores_products.js";
+import { deleteWsProductsNotNormal } from "./delete_ws_products_not_normal.js";
 
 const script = await prompts({
   type: "select",
@@ -34,10 +36,6 @@ const script = await prompts({
     {
       title: "find_tn_should_enable_products",
       value: findTnShouldEnableProducts,
-    },
-    {
-      title: "delete_erp_disabled_products",
-      value: deleteErpDisabledProducts,
     },
     {
       title: "update_product_interdata_codes",
@@ -75,6 +73,18 @@ const script = await prompts({
     {
       title: "sync_images",
       value: syncImages,
+    },
+    {
+      title: "sync_tags",
+      value: syncTags,
+    },
+    {
+      title: "compare_stores_products",
+      value: compareStoresProducts,
+    },
+    {
+      title: "delete_ws_products_not_normal",
+      value: deleteWsProductsNotNormal,
     },
   ],
 }).then((res) => {

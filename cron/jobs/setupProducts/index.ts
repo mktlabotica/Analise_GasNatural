@@ -48,16 +48,17 @@ const createMissingProducts = async (
     variants: [{ id: p.variantId, inventory_levels: [{ stock: p.stock }] }],
   }));
 
-  await tnNormalStore.patchStockPrice(productsToPatch).catch((e) => {
-    void sendEmail(`Error patching stock and prices: ${e.message}`);
-    void saveLogs([
-      {
-        message: `Error patching stock and prices: ${e.message}`,
-        type: "error",
-        data: JSON.stringify(productsToPatch),
-      },
-    ]);
-  });
+  if (productsToPatch.length > 0)
+    await tnNormalStore.patchStockPrice(productsToPatch).catch((e) => {
+      void sendEmail(`Error patching stock and prices: ${e.message}`);
+      void saveLogs([
+        {
+          message: `Error patching stock and prices: ${e.message}`,
+          type: "error",
+          data: JSON.stringify(productsToPatch),
+        },
+      ]);
+    });
 
   const createdOrUpdatedDBProducts: Prisma.TNProductCreateInput[] = [];
   for (const product of dbProducts) {
@@ -100,10 +101,10 @@ const compareProducts = async ({
 }: {
   categoriesIdsMap: Map<number, number>;
 }) => {
-  const normalProducts = await tnNormalStore.getAllProducts({
-    withImages: true,
-  });
-  const wholesaleProducts = await tnWholesaleStore.getAllProducts();
+  const [normalProducts, wholesaleProducts] = await Promise.all([
+    tnNormalStore.getAllProducts({ withImages: true }),
+    tnWholesaleStore.getAllProducts(),
+  ]);
   const dbProducts = await prisma.tNProduct.findMany();
   const erpProductsMap = new Map<string, ERPProduct>();
 
@@ -111,6 +112,7 @@ const compareProducts = async ({
     string,
     { normal: Product; wholesale?: Product; dbProduct?: TNProduct }
   >();
+
   for (const normalProduct of normalProducts) {
     const sku = normalProduct.variants[0].sku?.toUpperCase();
     if (!sku) {
@@ -180,7 +182,7 @@ const compareProducts = async ({
       sku: sku,
       promotional_price: "0",
       requires_shipping: productsPair.normal.requires_shipping,
-      stock: 0,
+      stock: null,
       depth: variant.depth,
       height: variant.height,
       weight: variant.weight,

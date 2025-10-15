@@ -35,7 +35,8 @@ export const tnNormalStore = {
       withImages?: boolean;
       published?: boolean;
       created_at_min?: string;
-      requiresShipping?: boolean;
+      includeVirtualProducts?: boolean;
+      includeGiftCards?: boolean;
     } = {}
   ) => {
     return tiendaNubeClient.getAllProducts({

@@ -23,7 +23,7 @@ export const sendEmail = async (text: string, tag?: string) => {
   const mailOptions = {
     from: "tomiemailsnodejs@gmail.com",
     to: "dev@digitalmix.ar",
-    subject: "Sending Email using Node.js",
+    subject: "lb: " + (tag || "Notificación"),
     text,
   };
 

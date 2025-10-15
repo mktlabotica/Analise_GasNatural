@@ -167,6 +167,18 @@ const job = async () => {
 
   for (const order of ordersToCreate) {
     const { orderId, ogOrderNumber, ...rest } = order;
+    if (
+      order.sucursal_codigo === "5" &&
+      (await prisma.order.findFirst({ where: { orderId: orderId } }))
+    ) {
+      continue;
+    }
+    if (
+      order.sucursal_codigo === "6" &&
+      (await prisma.wholesaleOrder.findFirst({ where: { orderId: orderId } }))
+    ) {
+      continue;
+    }
     await erp.createOrder(rest, {
       onSuccess: async () => {
         console.log("Order created!!!!");

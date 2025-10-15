@@ -72,7 +72,7 @@ const job = async () => {
           variants: [
             {
               id: variantId,
-              price: erpProduct.prd_pvp_sin_iva,
+              price: erpProduct.prd_stock > 0 ? erpProduct.prd_pvp_sin_iva : 0,
             },
           ],
         };

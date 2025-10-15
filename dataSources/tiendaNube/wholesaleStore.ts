@@ -39,7 +39,8 @@ export const tnWholesaleStore = {
       withImages?: boolean;
       published?: boolean;
       created_at_min?: string;
-      requiresShipping?: boolean;
+      includeVirtualProducts?: boolean;
+      includeGiftCards?: boolean;
     } = {}
   ) => {
     return tiendaNube.getAllProducts({

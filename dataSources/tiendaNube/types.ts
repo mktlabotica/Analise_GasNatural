@@ -77,6 +77,7 @@ export type UpdateProductsInput = {
   depth?: string;
   categories?: number[];
   sku?: string;
+  tags?: string;
 }[];
 
 export type UploadProductsPicsInput = {
@@ -208,7 +209,7 @@ export type CreateProductInput = {
   proveedorFieldId: string | null;
   description: string | null;
   barcode: string | null;
-  stock: number;
+  stock: number | null;
   tags?: string;
 };
 

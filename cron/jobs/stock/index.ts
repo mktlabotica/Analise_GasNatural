@@ -5,6 +5,7 @@ import { PatchStockPriceInput } from "../../../dataSources/tiendaNube/types.js";
 import { sendEmail } from "../../../mail/index.js";
 import { tnNormalStore } from "../../../dataSources/tiendaNube/normalStore.js";
 import { saveLogs } from "../../../log/index.js";
+import { tnWholesaleStore } from "../../../dataSources/tiendaNube/wholesaleStore.js";
 
 const halfHourInMs = 30 * 60 * 1000;
 
@@ -35,7 +36,26 @@ const job = async () => {
   const tnProducts = await prisma.tNProduct.findMany();
   const tnProductsMap = new Map(tnProducts.map((p) => [p.interdataCode, p]));
 
-  const productsToPatch: PatchStockPriceInput = erpProducts
+  const wholesaleProductsToPatch: PatchStockPriceInput = erpProducts
+    .filter(
+      (erpProduct) =>
+        tnProductsMap.has(erpProduct.prd_codigo) && erpProduct.prd_stock === 0
+    )
+    .map((erpProduct) => {
+      const tnProduct = tnProductsMap.get(erpProduct.prd_codigo);
+      if (!tnProduct) throw new Error("Product not found in Tienda Nube");
+
+      return {
+        id: tnProduct.productId,
+        variants: [
+          {
+            id: tnProduct.variantId,
+            price: 0,
+          },
+        ],
+      };
+    });
+  const normalProductsToPatch: PatchStockPriceInput = erpProducts
     .filter((erpProduct) => tnProductsMap.has(erpProduct.prd_codigo))
     .map((erpProduct) => {
       const tnProduct = tnProductsMap.get(erpProduct.prd_codigo);
@@ -56,30 +76,46 @@ const job = async () => {
       };
     });
 
-  if (productsToPatch.length === 0) {
+  if (normalProductsToPatch.length === 0) {
     console.log("No products to update");
     return;
   }
 
-  await tnNormalStore.patchStockPrice(productsToPatch).catch((err) => {
+  await tnNormalStore.patchStockPrice(normalProductsToPatch).catch((err) => {
     void sendEmail(`Error updating stock in Tienda Nube: ${err}`);
     void saveLogs([
       {
         message: "Error updating stock in Tienda Nube",
         type: "error",
         data: {
-          productsToPatch,
+          productsToPatch: normalProductsToPatch,
           error: err,
         },
       },
     ]);
   });
 
+  await tnWholesaleStore
+    .patchStockPrice(wholesaleProductsToPatch)
+    .catch((err) => {
+      void sendEmail(`Error updating wholesale stock in Tienda Nube: ${err}`);
+      void saveLogs([
+        {
+          message: "Error updating wholesale stock in Tienda Nube",
+          type: "error",
+          data: {
+            productsToPatch: wholesaleProductsToPatch,
+            error: err,
+          },
+        },
+      ]);
+    });
+
   await saveLogs([
     {
       message: "Stock updated",
       type: "info",
-      data: productsToPatch.map((p) => ({
+      data: normalProductsToPatch.map((p) => ({
         productId: p.id,
         stock: p.variants[0].inventory_levels?.[0].stock ?? 0,
       })),

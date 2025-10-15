@@ -1,14807 +1,7535 @@
-import { tnNormalStore } from "../dataSources/tiendaNube/normalStore.js";
+import { tnWholesaleStore } from "../dataSources/tiendaNube/wholesaleStore.js";
 
 const disabledCodes = [
   {
-    cod: "CHOABAN",
+    code: "51453",
   },
   {
-    cod: "STENCILABC",
+    code: "64166",
   },
   {
-    cod: "ABC-LABRADO",
+    code: "NIÑOSLOMAS",
   },
   {
-    cod: "INN002",
+    code: "327804",
   },
   {
-    cod: "LAMCOM.1",
+    code: "DEMODOLCE",
   },
   {
-    cod: "LAMCOM.2",
+    code: "CASITACONBETTI18",
   },
   {
-    cod: "TMCH6",
+    code: "327806",
   },
   {
-    cod: "OUTLETA",
+    code: "327808",
   },
   {
-    cod: "ACE2",
+    code: "327809",
   },
   {
-    cod: "ACE",
+    code: "327822",
   },
   {
-    cod: "ACITRICO",
+    code: "327824",
   },
   {
-    cod: "CEN4519",
+    code: "327825",
   },
   {
-    cod: "660",
+    code: "327826",
   },
   {
-    cod: "87888",
+    code: "327827",
   },
   {
-    cod: "ARGLA",
+    code: "BM1929",
   },
   {
-    cod: "KINGAGUA",
+    code: "TALLERPARPENLOMAS",
   },
   {
-    cod: "R036",
+    code: "DEMOFLOPYDIAZ",
   },
   {
-    cod: "ALAMB20",
+    code: "LUNAVIDADNIÑOS22",
   },
   {
-    cod: "SM711",
+    code: "DEMOMILARTES",
   },
   {
-    cod: "ALAS",
+    code: "1291",
   },
   {
-    cod: "FD3708",
+    code: "PINTURASOBREGLASE",
   },
   {
-    cod: "COT4074",
+    code: "BSPARR28",
   },
   {
-    cod: "COT4078",
+    code: "BSPARB28",
   },
   {
-    cod: "RUPHAS016",
+    code: "BSPARB24",
   },
   {
-    cod: "ARG101007",
+    code: "BSPARR24",
   },
   {
-    cod: "ARG1084",
+    code: "BSBANDO",
   },
   {
-    cod: "ARGALMBCA1101",
+    code: "BSBANRE",
   },
   {
-    cod: "34808",
+    code: "BSPMB26",
   },
   {
-    cod: "CEN7024",
+    code: "BSCH3",
   },
   {
-    cod: "7473",
+    code: "BSOR1",
   },
   {
-    cod: "MAH02P",
+    code: "BSV1SC",
   },
   {
-    cod: "OUTLETALMFLOR",
+    code: "BSV5SC",
   },
   {
-    cod: "BOTI016B",
+    code: "BSV1",
   },
   {
-    cod: "ALZA25X10",
+    code: "BSV1",
   },
   {
-    cod: "ALZA25X15",
+    code: "BSPA2",
   },
   {
-    cod: "ALZA25X20",
+    code: "BSMTK4",
   },
   {
-    cod: "ALZA30X10",
+    code: "BSLI1",
   },
   {
-    cod: "ALZA30X15",
+    code: "BSCO3",
   },
   {
-    cod: "ALZA30X20",
+    code: "BSAL1",
   },
   {
-    cod: "ALZOGRA",
+    code: "BSBallinegra500",
   },
   {
-    cod: "FLIPO.01",
+    code: "BSBallirojo500",
   },
   {
-    cod: "FPETF.AMA",
+    code: "BS10000448",
   },
   {
-    cod: "FLECOLPET.01",
+    code: "BSBallvaix0.5",
   },
   {
-    cod: "PASTE125",
+    code: "BSBAD302",
   },
   {
-    cod: "PASTE107",
+    code: "BSBAD242",
   },
   {
-    cod: "PASTE115",
+    code: "BSTF1810",
   },
   {
-    cod: "DELIPRIMX1AM",
+    code: "BSTF1210",
   },
   {
-    cod: "WIL073.3",
+    code: "BSTF1610",
   },
   {
-    cod: "WIL062.11",
+    code: "BSTF1410",
   },
   {
-    cod: "D033",
+    code: "BSTF1815",
   },
   {
-    cod: "FPET.70",
+    code: "BSTF1615",
   },
   {
-    cod: "FPET.71",
+    code: "BSTF1415",
   },
   {
-    cod: "FPET.72",
+    code: "BSTF1215",
   },
   {
-    cod: "FPET.73",
+    code: "BSPA DECOR 05",
   },
   {
-    cod: "DELI2PUNTAAM",
+    code: "BSPA DECOR 04",
   },
   {
-    cod: "FLEESC.04",
+    code: "BSPA DECOR 02",
   },
   {
-    cod: "CHINANA",
+    code: "BSPA DECOR 06",
   },
   {
-    cod: "T03",
+    code: "BSMD12R5",
   },
   {
-    cod: "COT4015",
+    code: "BSGP",
   },
   {
-    cod: "T10",
+    code: "BSMD08R05",
   },
   {
-    cod: "LAMCOM.3",
+    code: "BSMD08R1",
   },
   {
-    cod: "ANGEL",
+    code: "BSMD23R1",
   },
   {
-    cod: "MULTI-MINI-ANGE",
+    code: "BSMD23R05",
   },
   {
-    cod: "LAMCOM.46",
+    code: "BSMD18",
   },
   {
-    cod: "LAMCOM.4",
+    code: "BSMD18R5",
   },
   {
-    cod: "INN511",
+    code: "BSMD18R1",
   },
   {
-    cod: "SIL05",
+    code: "BSMD12R1",
   },
   {
-    cod: "SIL01",
+    code: "BSMD08",
   },
   {
-    cod: "SIL06",
+    code: "BSBGC01.C10",
   },
   {
-    cod: "SIL31",
+    code: "BSBGC01.2D",
   },
   {
-    cod: "SIL32",
+    code: "BSBGC01.6B",
   },
   {
-    cod: "SIL03",
+    code: "BSBGC01.1M",
   },
   {
-    cod: "SIL02",
+    code: "BSTOR0134",
   },
   {
-    cod: "SIL04",
+    code: "BSTOR0133",
   },
   {
-    cod: "FLEESC.05",
+    code: "BSTOR0132",
   },
   {
-    cod: "20054600",
+    code: "BSTOR0131",
   },
   {
-    cod: "ANTGOLD",
+    code: "BSCIN0483",
   },
   {
-    cod: "COT4087",
+    code: "BSBUD0123",
   },
   {
-    cod: "COT4085",
+    code: "DEMOJUANMANUEL",
   },
   {
-    cod: "COT4089",
+    code: "BSLPCOM",
   },
   {
-    cod: "SOLP0220",
+    code: "BSLOCOM",
   },
   {
-    cod: "DBAP24",
+    code: "BSKLROJO",
   },
   {
-    cod: "DBAP26",
+    code: "BSKLASR",
   },
   {
-    cod: "DBAP30",
+    code: "BSKLASG",
   },
   {
-    cod: "D080",
+    code: "BSKDOR",
   },
   {
-    cod: "LAMCOM90",
+    code: "BSC1504",
   },
   {
-    cod: "LAMCOM.5",
+    code: "BSC1503",
   },
   {
-    cod: "LAMCOM.6",
+    code: "BSC637",
   },
   {
-    cod: "2230",
+    code: "BSPD0103",
   },
   {
-    cod: "GA77",
+    code: "BSCG0115",
   },
   {
-    cod: "LAMCOM.55",
+    code: "BSCV0215",
   },
   {
-    cod: "S4",
+    code: "BSCR0615",
   },
   {
-    cod: "S2",
+    code: "BSPOMFRA",
   },
   {
-    cod: "FLEESC.06",
+    code: "BSPOMFR",
   },
   {
-    cod: "R4",
+    code: "BSPOMAR",
   },
   {
-    cod: "ASAFLOR - 32943",
+    code: "BSCMLGDF003",
   },
   {
-    cod: "CBPEOSK",
+    code: "BSCMLGDF002",
   },
   {
-    cod: "CBPEONIA",
+    code: "BS3401133",
   },
   {
-    cod: "CBROSK",
+    code: "BS3381312",
   },
   {
-    cod: "CBROSA",
+    code: "BS3401143",
   },
   {
-    cod: "AFRYRSK",
+    code: "BS3381153",
   },
   {
-    cod: "AMLCPASC",
+    code: "BSM10N",
   },
   {
-    cod: "DLCRISSK",
+    code: "BSM9AM",
   },
   {
-    cod: "DLCRIS",
+    code: "BSM8A",
   },
   {
-    cod: "AFRYR",
+    code: "BS1289A",
   },
   {
-    cod: "GSCARSK",
+    code: "BS2004C",
   },
   {
-    cod: "GSCAR",
+    code: "BS1953GI",
   },
   {
-    cod: "MCCUASK",
+    code: "BS1798A",
   },
   {
-    cod: "MCTORCUA",
+    code: "BS1521",
   },
   {
-    cod: "MCFRUSK",
+    code: "BS1497A",
   },
   {
-    cod: "MCFRUTI",
+    code: "BS2014C",
   },
   {
-    cod: "SIL46",
+    code: "BS3DCUJC",
   },
   {
-    cod: "SM816",
+    code: "BS3DTJC",
   },
   {
-    cod: "ARGAVEC/C102001",
+    code: "BS3DCJC",
   },
   {
-    cod: "FLES07",
+    code: "BS3DKDU",
   },
   {
-    cod: "KINGAG",
+    code: "BS3DC10",
   },
   {
-    cod: "710-754",
+    code: "BS3DCRO",
   },
   {
-    cod: "710-750",
+    code: "BS3DC1",
   },
   {
-    cod: "710-650",
+    code: "BS3DCL",
   },
   {
-    cod: "710-756",
+    code: "BS3DUCF",
   },
   {
-    cod: "710-759",
+    code: "BS3DBANM",
   },
   {
-    cod: "710-762",
+    code: "BS3DPOP",
   },
   {
-    cod: "710-766",
+    code: "BS3DBAN",
   },
   {
-    cod: "710-752",
+    code: "BS3DPLU",
   },
   {
-    cod: "710-764",
+    code: "BS3DCI",
   },
   {
-    cod: "710-758",
+    code: "BS3DSAN",
   },
   {
-    cod: "AZI07",
+    code: "BS3DBAR",
   },
   {
-    cod: "AZI01",
+    code: "BS3DKJA",
   },
   {
-    cod: "241022",
+    code: "BSDLR004",
   },
   {
-    cod: "DEWAZNEGRX10",
+    code: "BSDLR005",
   },
   {
-    cod: "DEWAZRUBIX10",
+    code: "BSDLR006",
   },
   {
-    cod: "DEWAZTALCX10FR",
+    code: "BSDLR0010",
   },
   {
-    cod: "FLIPO.02",
+    code: "BSDLR3",
   },
   {
-    cod: "FPETF.AZ",
+    code: "BSDLR007",
   },
   {
-    cod: "FPET.02",
+    code: "BSF5287",
   },
   {
-    cod: "PASTE106",
+    code: "BSF5436",
   },
   {
-    cod: "DELIPRIMX1A",
+    code: "BSF9973",
   },
   {
-    cod: "WIL073.9",
+    code: "BSF854",
   },
   {
-    cod: "WIL062.8",
+    code: "BS270",
   },
   {
-    cod: "FPET.22",
+    code: "BSPaste01",
   },
   {
-    cod: "20050402",
+    code: "DEMOBUTTERCREAM",
   },
   {
-    cod: "LAMCOM.45",
+    code: "LUNAVIDADNIÑOS",
   },
   {
-    cod: "SNBB",
+    code: "DEMOMAURICIOASTA",
   },
   {
-    cod: "D031",
+    code: "DEMOSANDRAFERRARA",
   },
   {
-    cod: "VCEC205R",
+    code: "tallerdecupackes",
   },
   {
-    cod: "B0208",
+    code: "COOKIESDECORADAS",
   },
   {
-    cod: "19951",
+    code: "TALLERNIÑOSLU25",
   },
   {
-    cod: "AX0691",
+    code: "53637",
   },
   {
-    cod: "MULTI-MINI-BALL",
+    code: "TALLERNAVIDADMARA",
   },
   {
-    cod: "WIL079",
+    code: "PIZPIRETAINICIAL",
   },
   {
-    cod: "CIERRAX6",
+    code: "MINITARTAS",
   },
   {
-    cod: "BLON13",
+    code: "PIZPIRETAFAMILIAR",
   },
   {
-    cod: "BLON15",
+    code: "ALFAJORESAMAZINGCAKES",
   },
   {
-    cod: "BLON18",
+    code: "TORTAFENGSHUI",
   },
   {
-    cod: "WINCOPOPS",
+    code: "COCINAANTIINFLAMATORIA",
   },
   {
-    cod: "4160881",
+    code: "MARAINTENSAMENTE",
   },
   {
-    cod: "4158011",
+    code: "TECNICACONMANGA",
   },
   {
-    cod: "4158010",
+    code: "ALFAJORESARGENTINOS",
   },
   {
-    cod: "DZ.03",
+    code: "PIZPIRETA2809",
   },
   {
-    cod: "4160882",
+    code: "TITITASINICIAL",
   },
   {
-    cod: "4160883",
+    code: "TALLERNIÑOSLU",
   },
   {
-    cod: "POSAIMPCALAROSA",
+    code: "TALLERADULTXSLU",
   },
   {
-    cod: "BAR03P",
+    code: "demolucia",
   },
   {
-    cod: "BAR01P",
+    code: "LC125C",
   },
   {
-    cod: "BAM10",
+    code: "6339RF",
   },
   {
-    cod: "F501",
+    code: "demorichs",
   },
   {
-    cod: "CODELATTEX250LE",
+    code: "26079",
   },
   {
-    cod: "BAM18",
+    code: "60641",
   },
   {
-    cod: "PASTE22",
+    code: "60040",
   },
   {
-    cod: "BAM14",
+    code: "327810",
   },
   {
-    cod: "BAM12",
+    code: "DEMOCARI",
   },
   {
-    cod: "BAM16",
+    code: "demorichs",
   },
   {
-    cod: "BAM20",
+    code: "demoledevit08",
   },
   {
-    cod: "AGUI3147/8494",
+    code: "ALECABALLITO",
   },
   {
-    cod: "AGUI3164/7469",
+    code: "JUANARGENTINA",
   },
   {
-    cod: "AGUI3155/7895",
+    code: "Aleysami",
   },
   {
-    cod: "17241",
+    code: "BAR01A",
   },
   {
-    cod: "LAMCOM.7",
+    code: "Tititas",
   },
   {
-    cod: "PS35",
+    code: "MH200686",
   },
   {
-    cod: "CAPI14",
+    code: "BSM1B",
   },
   {
-    cod: "BACT24",
+    code: "BSM2R",
   },
   {
-    cod: "DISCHEX24B",
+    code: "BSM4CE",
   },
   {
-    cod: "BBCT28",
+    code: "M5L",
   },
   {
-    cod: "BBCT20",
+    code: "BSM7V",
   },
   {
-    cod: "BBCT22",
+    code: "TC2470",
   },
   {
-    cod: "BBCT24",
+    code: "TC2471",
   },
   {
-    cod: "DISCO26",
+    code: "TC2472",
   },
   {
-    cod: "DISCO30B",
+    code: "TC2475",
   },
   {
-    cod: "BBCT35",
+    code: "MH210921",
   },
   {
-    cod: "CUAD24B",
+    code: "46PE5024",
   },
   {
-    cod: "BBCCT28",
+    code: "46PE5023",
   },
   {
-    cod: "CUAD35B",
+    code: "REPFRA32",
   },
   {
-    cod: "BBCRT42",
+    code: "REPFRA31",
   },
   {
-    cod: "BBRED18",
+    code: "GIFTY",
   },
   {
-    cod: "BBREDN18",
+    code: "104161O",
   },
   {
-    cod: "BCCT24",
+    code: "104161V",
   },
   {
-    cod: "BBPT2525",
+    code: "atelierfrench",
   },
   {
-    cod: "BBM30",
+    code: "SOLROSCAREYES",
   },
   {
-    cod: "BASE24",
+    code: "CAPAJUMA",
   },
   {
-    cod: "BASE28",
+    code: "CK198664C",
   },
   {
-    cod: "BASE30",
+    code: "CK198664B",
   },
   {
-    cod: "DISCHEX24D",
+    code: "CK198664A",
   },
   {
-    cod: "DISCO20",
+    code: "CK198664R",
   },
   {
-    cod: "BDCT20",
+    code: "CK198664N",
   },
   {
-    cod: "BDCT22",
+    code: "CK198664G",
   },
   {
-    cod: "BDCT24",
+    code: "CK198664V",
   },
   {
-    cod: "BDCT28",
+    code: "VTOCFRUT",
   },
   {
-    cod: "DISCO30D",
+    code: "VTO30/05C",
   },
   {
-    cod: "BDCT35",
+    code: "CAPAJULO",
   },
   {
-    cod: "CUAD24D",
+    code: "CDINSC",
   },
   {
-    cod: "BDCRT28",
+    code: "PORT",
   },
   {
-    cod: "CUAD35D",
+    code: "CAPAGEOR14",
   },
   {
-    cod: "BDCRT42",
+    code: "CAPAGEOR13",
   },
   {
-    cod: "BFRED18",
+    code: "SECAPAJU",
   },
   {
-    cod: "BFREDN18",
+    code: "119724",
   },
   {
-    cod: "GIRAG",
+    code: "119696",
   },
   {
-    cod: "HO1818",
+    code: "42078C",
   },
   {
-    cod: "HO1532",
+    code: "42078A",
   },
   {
-    cod: "HO18R",
+    code: "REJOY",
   },
   {
-    cod: "BNAV26X26",
+    code: "CTCAR",
   },
   {
-    cod: "DEC104",
+    code: "CTCO",
   },
   {
-    cod: "BPCT24",
+    code: "CTHC",
   },
   {
-    cod: "BPCT28",
+    code: "CTROC",
   },
   {
-    cod: "BPCT35",
+    code: "CTVI",
   },
   {
-    cod: "BPCRT42",
+    code: "CTTA",
   },
   {
-    cod: "BREC35X50",
+    code: "CTLOV",
   },
   {
-    cod: "BBEN",
+    code: "CTMAR",
   },
   {
-    cod: "BMBD",
+    code: "CTFP",
   },
   {
-    cod: "BBMC332",
+    code: "CTLN",
   },
   {
-    cod: "BB332",
+    code: "CTARC",
   },
   {
-    cod: "BRECT23",
+    code: "BURTA",
   },
   {
-    cod: "DEC121",
+    code: "BURM",
   },
   {
-    cod: "BV30BAR",
+    code: "LCMES",
   },
   {
-    cod: "BV25CHA",
+    code: "LCPIN",
   },
   {
-    cod: "BV25CRA",
+    code: "LCMER",
   },
   {
-    cod: "BV25CUE",
+    code: "LCDEF",
   },
   {
-    cod: "BV30FHA",
+    code: "LCHA",
   },
   {
-    cod: "BBF25",
+    code: "LCKITT",
   },
   {
-    cod: "BBF30",
+    code: "LCMAR",
   },
   {
-    cod: "BBF35",
+    code: "LCMAP",
   },
   {
-    cod: "BFGD25",
+    code: "LCCEB",
   },
   {
-    cod: "BBFG30",
+    code: "LCMIC",
   },
   {
-    cod: "BFGD30",
+    code: "KOPYAN06",
   },
   {
-    cod: "BFGD35",
+    code: "KOPYAN05",
   },
   {
-    cod: "BFGP25",
+    code: "KOPYAN07",
   },
   {
-    cod: "BFGP30",
+    code: "P1741",
   },
   {
-    cod: "BFGP35",
+    code: "DLA10",
   },
   {
-    cod: "BCMC25",
+    code: "3324",
   },
   {
-    cod: "BCMC30",
+    code: "DRIPLE120",
   },
   {
-    cod: "BV25FLOR",
+    code: "NUMLE113",
   },
   {
-    cod: "BV25GEON",
+    code: "DESLE105",
   },
   {
-    cod: "BV25GEOR",
+    code: "DELLE103",
   },
   {
-    cod: "BV25GRB",
+    code: "50849V",
   },
   {
-    cod: "BV30HHA",
+    code: "C213SA",
   },
   {
-    cod: "BV30HA",
+    code: "TWOO",
   },
   {
-    cod: "BV25HOL",
+    code: "TSTI",
   },
   {
-    cod: "BV30MAI",
+    code: "TPOK",
   },
   {
-    cod: "BV30MAII",
+    code: "TBAU",
   },
   {
-    cod: "BV30MV",
+    code: "TVALE",
   },
   {
-    cod: "BV25MAN",
+    code: "GIFTY",
   },
   {
-    cod: "BV30MAN",
+    code: "GIFTY",
   },
   {
-    cod: "BV25CO",
+    code: "GIFTY",
   },
   {
-    cod: "BV30CO",
+    code: "GIFTY",
   },
   {
-    cod: "BV30MN",
+    code: "GIFTY",
   },
   {
-    cod: "BV25MARM",
+    code: "GIFTY",
   },
   {
-    cod: "BB025",
+    code: "I21726",
   },
   {
-    cod: "BOB25",
+    code: "I21725",
   },
   {
-    cod: "BBO30",
+    code: "I21727",
   },
   {
-    cod: "BASE",
+    code: "3DCNT",
   },
   {
-    cod: "BBO35",
+    code: "TBOCA",
   },
   {
-    cod: "BV30OTO",
+    code: "TRIVE",
   },
   {
-    cod: "BB25",
+    code: "MID25C",
   },
   {
-    cod: "BB30",
+    code: "16751",
   },
   {
-    cod: "BB35",
+    code: "22184",
   },
   {
-    cod: "BV30GD",
+    code: "PPP0133",
   },
   {
-    cod: "BV25GD",
+    code: "TNAV",
   },
   {
-    cod: "BV35GD",
+    code: "E004202",
   },
   {
-    cod: "BASENEGRA",
+    code: "OLEO",
   },
   {
-    cod: "BV25GP",
+    code: "DESM",
   },
   {
-    cod: "BV30GP",
+    code: "Y438",
   },
   {
-    cod: "BV35GP",
+    code: "Y440",
   },
   {
-    cod: "BBVGRJ25",
+    code: "Y440V",
   },
   {
-    cod: "BBVGRJ30",
+    code: "Y438R",
   },
   {
-    cod: "BBVGRJ35",
+    code: "Y438A",
   },
   {
-    cod: "BASENEGRA25",
+    code: "Y438V",
   },
   {
-    cod: "BASENEGRAM",
+    code: "NAV",
   },
   {
-    cod: "BASENEGRA35",
+    code: "6212",
   },
   {
-    cod: "BV25V",
+    code: "X6C",
   },
   {
-    cod: "BV30V",
+    code: "Y483V",
   },
   {
-    cod: "BV35V",
+    code: "S66",
   },
   {
-    cod: "BV25C",
+    code: "1664R",
   },
   {
-    cod: "BV30C",
+    code: "651R",
   },
   {
-    cod: "BV35C",
+    code: "651",
   },
   {
-    cod: "BV25D",
+    code: "3741V",
   },
   {
-    cod: "BV30D",
+    code: "6391",
   },
   {
-    cod: "BV35D",
+    code: "X6R",
   },
   {
-    cod: "BJSR25",
+    code: "2020RV",
   },
   {
-    cod: "BHOV25",
+    code: "3741",
   },
   {
-    cod: "BV25L",
+    code: "651A",
   },
   {
-    cod: "BV30L",
+    code: "Z0226",
   },
   {
-    cod: "BV35L",
+    code: "MR36",
   },
   {
-    cod: "BLO25",
+    code: "SB154",
   },
   {
-    cod: "BLO30",
+    code: "SC354",
   },
   {
-    cod: "BLO35",
+    code: "SC364",
   },
   {
-    cod: "BLPJ30",
+    code: "SA245",
   },
   {
-    cod: "MDC25",
+    code: "PRISMA",
   },
   {
-    cod: "MBQ30",
+    code: "1352L",
   },
   {
-    cod: "BRMC30",
+    code: "24001",
   },
   {
-    cod: "BRMC30",
+    code: "210500852",
   },
   {
-    cod: "BV30P",
+    code: "210700331",
   },
   {
-    cod: "BV35P",
+    code: "210500141",
   },
   {
-    cod: "BV35VR",
+    code: "230800361",
   },
   {
-    cod: "BV25R",
+    code: "23088932",
   },
   {
-    cod: "BV30R",
+    code: "210700413",
   },
   {
-    cod: "BV35R",
+    code: "SORBE2",
   },
   {
-    cod: "DEC106",
+    code: "SPNARV",
   },
   {
-    cod: "DEC108",
+    code: "SPERV",
   },
   {
-    cod: "BV25PA",
+    code: "SPNMJ",
   },
   {
-    cod: "BV30PA",
+    code: "68157",
   },
   {
-    cod: "BV25PIE",
+    code: "KODK03",
   },
   {
-    cod: "BV30PIE",
+    code: "KODK01",
   },
   {
-    cod: "BV25RBB",
+    code: "KODK02",
   },
   {
-    cod: "BRED18",
+    code: "KODK04",
   },
   {
-    cod: "BREDN18",
+    code: "KOCF03",
   },
   {
-    cod: "BV25ZIG",
+    code: "KONF01",
   },
   {
-    cod: "BRCT24",
+    code: "KONF02",
   },
   {
-    cod: "CUP2",
+    code: "KONF04",
   },
   {
-    cod: "FV91304",
+    code: "P1727",
   },
   {
-    cod: "SM018",
+    code: "HOLD",
   },
   {
-    cod: "SIL38",
+    code: "COSSS",
   },
   {
-    cod: "SIL37",
+    code: "COXMM",
   },
   {
-    cod: "SIL54",
+    code: "CARTBGXS",
   },
   {
-    cod: "S386",
+    code: "SK66",
   },
   {
-    cod: "CIRBIAMOX1",
+    code: "SC413",
   },
   {
-    cod: "CIRBISODX1",
+    code: "SA324",
   },
   {
-    cod: "VI009",
+    code: "SC415",
   },
   {
-    cod: "VE016",
+    code: "30336",
   },
   {
-    cod: "14905",
+    code: "BP4099A",
   },
   {
-    cod: "NV13555",
+    code: "BP4099V",
   },
   {
-    cod: "29972",
+    code: "BP4099L",
   },
   {
-    cod: "29971",
+    code: "VGAN",
   },
   {
-    cod: "D-027",
+    code: "TBAND",
   },
   {
-    cod: "FLECOLPET.75",
+    code: "TCOMU",
   },
   {
-    cod: "PASTE120",
+    code: "LOCOM1",
   },
   {
-    cod: "WIL073.4",
+    code: "41007",
   },
   {
-    cod: "FPET.76",
+    code: "41048",
   },
   {
-    cod: "COT4083",
+    code: "41004",
   },
   {
-    cod: "MSDORAD",
+    code: "41047",
   },
   {
-    cod: "PUNZ3",
+    code: "103037D",
   },
   {
-    cod: "PUNZ8",
+    code: "VHUEL",
   },
   {
-    cod: "PUNZ9",
+    code: "VLAB",
   },
   {
-    cod: "CA.132",
+    code: "VMAR",
   },
   {
-    cod: "131000015",
+    code: "FRUE850",
   },
   {
-    cod: "34851",
+    code: "SHCF1",
   },
   {
-    cod: "BMU1",
+    code: "SHMFA1",
   },
   {
-    cod: "BMU2",
+    code: "B4BAR",
   },
   {
-    cod: "BMU3",
+    code: "SHCC1",
   },
   {
-    cod: "BMU4",
+    code: "200708",
   },
   {
-    cod: "BMU5",
+    code: "2561363",
   },
   {
-    cod: "BOTI025A",
+    code: "BAN6",
   },
   {
-    cod: "BOTI025B",
+    code: "BAN4",
   },
   {
-    cod: "BOLSAB",
+    code: "BAN7",
   },
   {
-    cod: "BOL019",
+    code: "BAN1",
   },
   {
-    cod: "BCC",
+    code: "BAN5",
   },
   {
-    cod: "CBR1",
+    code: "VMBN3",
   },
   {
-    cod: "LAMCOM.72",
+    code: "VMBN8",
   },
   {
-    cod: "LAMCOM.73",
+    code: "VMBN4",
   },
   {
-    cod: "126539C",
+    code: "VMBN2",
   },
   {
-    cod: "126539R",
+    code: "VMBN7",
   },
   {
-    cod: "126539V",
+    code: "VMBN1",
   },
   {
-    cod: "CHINTDL2655",
+    code: "VDIN5",
   },
   {
-    cod: "CHINT2530",
+    code: "VDIN0",
   },
   {
-    cod: "BOTONBANANAX3",
+    code: "VDIN3",
   },
   {
-    cod: "463473K",
+    code: "VDIN4",
   },
   {
-    cod: "MAPMARX3",
+    code: "VDIN7",
   },
   {
-    cod: "BOTONESX10",
+    code: "VDIN1",
   },
   {
-    cod: "CUORE",
+    code: "VDIN8",
   },
   {
-    cod: "S351",
+    code: "VMER8",
   },
   {
-    cod: "BOTONES X 5",
+    code: "VMER1",
   },
   {
-    cod: "10020902",
+    code: "VMER5",
   },
   {
-    cod: "100209",
+    code: "VMER7",
   },
   {
-    cod: "4171007",
+    code: "VMER4",
   },
   {
-    cod: "4171008",
+    code: "VMER6",
   },
   {
-    cod: "4171004",
+    code: "GUFANRS",
   },
   {
-    cod: "4171089",
+    code: "DRIP25C",
   },
   {
-    cod: "FTE MEZCLADOR -",
+    code: "MID32C",
   },
   {
-    cod: "4171000",
+    code: "MU04",
   },
   {
-    cod: "504105",
+    code: "TARC",
   },
   {
-    cod: "KINGBBG",
+    code: "CHEESSC",
   },
   {
-    cod: "LAMCOM.63",
+    code: "MTARB",
   },
   {
-    cod: "LAMCOM.65",
+    code: "MU03",
   },
   {
-    cod: "LAMCOM.62",
+    code: "12CUPV",
   },
   {
-    cod: "LAMCOM.66",
+    code: "MU06",
   },
   {
-    cod: "LAMCOM.61",
+    code: "BA08",
   },
   {
-    cod: "FPET.03",
+    code: "BA06",
   },
   {
-    cod: "WIL073.2",
+    code: "COLVAI",
   },
   {
-    cod: "EDIBLEBB",
+    code: "TGBER",
   },
   {
-    cod: "T01",
+    code: "TGBEF",
   },
   {
-    cod: "S441",
+    code: "TGMRCC",
   },
   {
-    cod: "200547",
+    code: "TGMVC",
   },
   {
-    cod: "FLEESC.10",
+    code: "TGBERO",
   },
   {
-    cod: "111914202",
+    code: "GPOK5",
   },
   {
-    cod: "CCUIS",
+    code: "PUN.90",
   },
   {
-    cod: "914202X250",
+    code: "PUN134",
   },
   {
-    cod: "CAC16",
+    code: "71000450",
   },
   {
-    cod: "CAC3",
+    code: "71000459",
   },
   {
-    cod: "VI049",
+    code: "SPMEB",
   },
   {
-    cod: "CAC1",
+    code: "SPLVP",
   },
   {
-    cod: "LAMCOMC1",
+    code: "SPMBR",
   },
   {
-    cod: "CAC2",
+    code: "SPMCM",
   },
   {
-    cod: "LAMCOMC2",
+    code: "SPLPL",
   },
   {
-    cod: "LAMCOMC3",
+    code: "SPENPD",
   },
   {
-    cod: "S129",
+    code: "SPFROZ",
   },
   {
-    cod: "S130",
+    code: "SPBAR",
   },
   {
-    cod: "FLES11",
+    code: "SPSBM",
   },
   {
-    cod: "DELY22CV",
+    code: "SPMINN",
   },
   {
-    cod: "ICEPOP",
+    code: "DCCM",
   },
   {
-    cod: "TARS",
+    code: "8842A",
   },
   {
-    cod: "CAJA30X20",
+    code: "71000432",
   },
   {
-    cod: "CAJA25X25",
+    code: "71000451",
   },
   {
-    cod: "BFV",
+    code: "7107091",
   },
   {
-    cod: "BFVB",
+    code: "71000460",
   },
   {
-    cod: "MH2",
+    code: "71000453",
   },
   {
-    cod: "H1",
+    code: "71000457",
   },
   {
-    cod: "BOX42X32",
+    code: "230800061",
   },
   {
-    cod: "CAJA30X40",
+    code: "230800292",
   },
   {
-    cod: "WINCAPKE",
+    code: "230800358",
   },
   {
-    cod: "CK6",
+    code: "71000452",
   },
   {
-    cod: "CAJA30X20C",
+    code: "230800357",
   },
   {
-    cod: "DONUTS",
+    code: "30193",
   },
   {
-    cod: "BUD7.5",
+    code: "101149",
   },
   {
-    cod: "COXM",
+    code: "101101C",
   },
   {
-    cod: "COXXL",
+    code: "101101R",
   },
   {
-    cod: "COXXXL",
+    code: "21053241",
   },
   {
-    cod: "CARTBAGL",
+    code: "2265A",
   },
   {
-    cod: "CARTBGM",
+    code: "6123",
   },
   {
-    cod: "CARTBGL",
+    code: "M322",
   },
   {
-    cod: "MTAR",
+    code: "2374A",
   },
   {
-    cod: "DRIP12",
+    code: "1003N",
   },
   {
-    cod: "DRIP25",
+    code: "1003RJ",
   },
   {
-    cod: "HEXADRIP25",
+    code: "1003VI",
   },
   {
-    cod: "DRIP32",
+    code: "1003VP",
   },
   {
-    cod: "HEXADRIP32",
+    code: "1003C",
   },
   {
-    cod: "DRIP40",
+    code: "1003R",
   },
   {
-    cod: "CHEESS",
+    code: "MTMI12",
   },
   {
-    cod: "TAR",
+    code: "MTMP12",
   },
   {
-    cod: "MID12",
+    code: "MTMD12",
   },
   {
-    cod: "MID25",
+    code: "MTMR12",
   },
   {
-    cod: "HEXAMID25",
+    code: "40510",
   },
   {
-    cod: "HEXAMID32",
+    code: "10582",
   },
   {
-    cod: "MID40",
+    code: "20384",
   },
   {
-    cod: "BIG12",
+    code: "46023",
   },
   {
-    cod: "BIG25",
+    code: "HH379",
   },
   {
-    cod: "BIG32",
+    code: "HH015",
   },
   {
-    cod: "BIG40",
+    code: "260136",
   },
   {
-    cod: "BIG45",
+    code: "HH016",
   },
   {
-    cod: "MAC6",
+    code: "61598",
   },
   {
-    cod: "CK12M",
+    code: "R22L",
   },
   {
-    cod: "CAJABOTI",
+    code: "F01",
   },
   {
-    cod: "BOTI019",
+    code: "N195",
   },
   {
-    cod: "2115-0014",
+    code: "TMARI",
   },
   {
-    cod: "710-0134",
+    code: "TMSA",
   },
   {
-    cod: "MR.1",
+    code: "CMMSA",
   },
   {
-    cod: "S3121",
+    code: "AX5002",
   },
   {
-    cod: "S382",
+    code: "CPF3",
   },
   {
-    cod: "FLEESC.12",
+    code: "CPF4",
   },
   {
-    cod: "CEN2122",
+    code: "CPF9",
   },
   {
-    cod: "CEN2023",
+    code: "CPF7",
   },
   {
-    cod: "CAPI",
+    code: "CPF6",
   },
   {
-    cod: "PA10A",
+    code: "CPF5",
   },
   {
-    cod: "CAPBOM",
+    code: "CPM4",
   },
   {
-    cod: "S207",
+    code: "CPM8",
   },
   {
-    cod: "3DEF",
+    code: "CPM5",
   },
   {
-    cod: "S439",
+    code: "CPF1",
   },
   {
-    cod: "T06",
+    code: "CPM6",
   },
   {
-    cod: "S3167",
+    code: "CPF2",
   },
   {
-    cod: "T05",
+    code: "CPM3",
   },
   {
-    cod: "CARACOLES NEW",
+    code: "CPM7",
   },
   {
-    cod: "S3166",
+    code: "CPM1",
   },
   {
-    cod: "20055700",
+    code: "CPM2",
   },
   {
-    cod: "SM786",
+    code: "STTK1",
   },
   {
-    cod: "SIL45",
+    code: "SCPP1",
   },
   {
-    cod: "SIL44",
+    code: "SLYP1",
   },
   {
-    cod: "SIL42",
+    code: "SLOVE1",
   },
   {
-    cod: "SIL43",
+    code: "SNBBO1",
   },
   {
-    cod: "AM023",
+    code: "TSIR",
   },
   {
-    cod: "NJ010",
+    code: "GUT045",
   },
   {
-    cod: "NJ013",
+    code: "BAN205",
   },
   {
-    cod: "GA73",
+    code: "PIMROS",
   },
   {
-    cod: "CEN7222",
+    code: "1375VO",
   },
   {
-    cod: "FD3753",
+    code: "MIXBAN",
   },
   {
-    cod: "BOTI026B",
+    code: "SESAMO",
   },
   {
-    cod: "FPET.04",
+    code: "SMCF1",
   },
   {
-    cod: "PASTE121",
+    code: "SMEF1",
   },
   {
-    cod: "DELIPASTX1C",
+    code: "5008",
   },
   {
-    cod: "D028",
+    code: "SDDP1",
   },
   {
-    cod: "FPET.77",
+    code: "CANDY",
   },
   {
-    cod: "FD3777",
+    code: "CEL012",
   },
   {
-    cod: "LAMCOM.67",
+    code: "SK268",
   },
   {
-    cod: "LAMCOM.68",
+    code: "P038",
   },
   {
-    cod: "SOLP0420",
+    code: "SA301",
   },
   {
-    cod: "SP0424",
+    code: "SA303",
   },
   {
-    cod: "DBCP26",
+    code: "SA306",
   },
   {
-    cod: "DBCP30",
+    code: "SA302",
   },
   {
-    cod: "PIR5009X8C",
+    code: "PINTAPON",
   },
   {
-    cod: "KINGCELESTE",
+    code: "SC146",
   },
   {
-    cod: "INN515",
+    code: "SC211",
   },
   {
-    cod: "FLEESC.13",
+    code: "SC147",
   },
   {
-    cod: "CERECARLE",
+    code: "SC74",
   },
   {
-    cod: "EDIBLECG",
+    code: "DM0371",
   },
   {
-    cod: "FLEESC.14",
+    code: "COL",
   },
   {
-    cod: "MAPSA58-93",
+    code: "DM0439",
   },
   {
-    cod: "MAPSA58-95",
+    code: "TMB",
   },
   {
-    cod: "GOTAALPI500",
+    code: "B0870",
   },
   {
-    cod: "GOTAALPI1KG",
+    code: "LBT21",
   },
   {
-    cod: "CGRATER",
+    code: "LCOM",
   },
   {
-    cod: "FLEESC.16",
+    code: "880001",
   },
   {
-    cod: "PASTE03",
+    code: "880005",
   },
   {
-    cod: "KINGCHOCO",
+    code: "LPAW",
   },
   {
-    cod: "FLEESC.15",
+    code: "TMM",
   },
   {
-    cod: "MAPSA58-86",
+    code: "LHE",
   },
   {
-    cod: "MAPSA58-82",
+    code: "ANILL",
   },
   {
-    cod: "MAPSA58-78",
+    code: "95140600",
   },
   {
-    cod: "AGUI6408",
+    code: "SMNRD1",
   },
   {
-    cod: "RC0566",
+    code: "SRZR1",
   },
   {
-    cod: "RC0627",
+    code: "SNEDP1",
   },
   {
-    cod: "RC0603",
+    code: "SFCL1",
   },
   {
-    cod: "14067",
+    code: "SMNRA1",
   },
   {
-    cod: "AGUI9985",
+    code: "SRRB1",
   },
   {
-    cod: "COB01A",
+    code: "SPPS1",
   },
   {
-    cod: "14067X250",
+    code: "1026RO",
   },
   {
-    cod: "MOLDSILICHOCABC",
+    code: "PINL5",
   },
   {
-    cod: "30667",
+    code: "SPH11P",
   },
   {
-    cod: "121",
+    code: "PINL3",
   },
   {
-    cod: "CAPI15",
+    code: "PINL1",
   },
   {
-    cod: "PS23",
+    code: "3DLOEN",
   },
   {
-    cod: "B99332G",
+    code: "HUCON",
   },
   {
-    cod: "MAPCIRCULOS",
+    code: "DIBCON",
   },
   {
-    cod: "R3",
+    code: "FMPROS",
   },
   {
-    cod: "CAPI8",
+    code: "104049",
   },
   {
-    cod: "S662",
+    code: "103037T",
   },
   {
-    cod: "FPET.79",
+    code: "103037G",
   },
   {
-    cod: "H003",
+    code: "HARRO",
   },
   {
-    cod: "SM864",
+    code: "4198",
   },
   {
-    cod: "FS0002",
+    code: "48535",
   },
   {
-    cod: "FSF16",
+    code: "20381",
   },
   {
-    cod: "COCOBCOX250",
+    code: "48133",
   },
   {
-    cod: "CEN2037",
+    code: "70665",
   },
   {
-    cod: "FLEESC.18",
+    code: "70381",
   },
   {
-    cod: "COLA",
+    code: "70439",
   },
   {
-    cod: "S450",
+    code: "70664",
   },
   {
-    cod: "CMAI.DF.001",
+    code: "70406",
   },
   {
-    cod: "CMAI.DF.004",
+    code: "70662",
   },
   {
-    cod: "CMAI.DF.002",
+    code: "70661",
   },
   {
-    cod: "CMAI.DF.003",
+    code: "1005",
   },
   {
-    cod: "CMAI.DF.005",
+    code: "ST115",
   },
   {
-    cod: "CMAI.DF.006",
+    code: "ST114",
   },
   {
-    cod: "DECOMIX SET",
+    code: "ST112",
   },
   {
-    cod: "WILTON",
+    code: "ST111",
   },
   {
-    cod: "WIL054.9",
+    code: "HTESP",
   },
   {
-    cod: "WIL054.4",
+    code: "32000",
   },
   {
-    cod: "CH3157",
+    code: "SALAS",
   },
   {
-    cod: "CH3147",
+    code: "F04MTART",
   },
   {
-    cod: "CH3136",
+    code: "SCUPI",
   },
   {
-    cod: "CH3138",
+    code: "28128",
   },
   {
-    cod: "CH3140",
+    code: "281380",
   },
   {
-    cod: "CH3141",
+    code: "BRLX2",
   },
   {
-    cod: "CH3142",
+    code: "BRDX2",
   },
   {
-    cod: "CH3144",
+    code: "WRLX3",
   },
   {
-    cod: "CH3150",
+    code: "BRFX2",
   },
   {
-    cod: "CH3155",
+    code: "BRPX2",
   },
   {
-    cod: "CH3152",
+    code: "WRDX2",
   },
   {
-    cod: "CH3148",
+    code: "I21345",
   },
   {
-    cod: "WIL090",
+    code: "I21410",
   },
   {
-    cod: "CA.51",
+    code: "TOCON",
   },
   {
-    cod: "CA.51B",
+    code: "I21207",
   },
   {
-    cod: "CA.52",
+    code: "AGUILA",
   },
   {
-    cod: "CA.52B",
+    code: "41637",
   },
   {
-    cod: "4176138",
+    code: "41003",
   },
   {
-    cod: "CHINTMCH7",
+    code: "240413",
   },
   {
-    cod: "710-1159",
+    code: "240430",
   },
   {
-    cod: "32327200",
+    code: "I21423",
   },
   {
-    cod: "PROCONPLAN1X1",
+    code: "58881",
   },
   {
-    cod: "PROCONPLAN2X100",
+    code: "858805",
   },
   {
-    cod: "PROCONPLAN3X100",
+    code: "8805",
   },
   {
-    cod: "PROCONPLAN4X1",
+    code: "58805",
   },
   {
-    cod: "PROCONPLAN5X1",
+    code: "BBBA4331",
   },
   {
-    cod: "CEN2209",
+    code: "6106",
   },
   {
-    cod: "BOTI030",
+    code: "1355",
   },
   {
-    cod: "BOTI030B",
+    code: "KDIGOL",
   },
   {
-    cod: "BOTI028",
+    code: "PX1",
   },
   {
-    cod: "BOTI028B",
+    code: "KDISILV",
   },
   {
-    cod: "BOTI029B",
+    code: "SG327",
   },
   {
-    cod: "SM759",
+    code: "SET48",
   },
   {
-    cod: "CAPI5",
+    code: "SET52",
   },
   {
-    cod: "AM032",
+    code: "SG328",
   },
   {
-    cod: "VI006",
+    code: "SG318",
   },
   {
-    cod: "PASTE127",
+    code: "SG319",
   },
   {
-    cod: "KINGFCORAL",
+    code: "P043",
   },
   {
-    cod: "CORTCORZ",
+    code: "P040",
   },
   {
-    cod: "710-0233",
+    code: "SK267",
   },
   {
-    cod: "RJ001",
+    code: "SK253",
   },
   {
-    cod: "17179",
+    code: "SG322",
   },
   {
-    cod: "REP3515",
+    code: "SK249",
   },
   {
-    cod: "CA.108",
+    code: "SG331",
   },
   {
-    cod: "VI010",
+    code: "SK272",
   },
   {
-    cod: "REPPAL15",
+    code: "SA149",
   },
   {
-    cod: "INN047",
+    code: "SK254",
   },
   {
-    cod: "REP4621",
+    code: "SK255",
   },
   {
-    cod: "DROPSSUPERCORAZ",
+    code: "SA148",
   },
   {
-    cod: "DROPSMIXDORADOP",
+    code: "SK250",
   },
   {
-    cod: "INN214",
+    code: "SK245",
   },
   {
-    cod: "FV9-12-03.05",
+    code: "SA147",
   },
   {
-    cod: "CORAX4",
+    code: "SK251",
   },
   {
-    cod: "CORAX5",
+    code: "SA281",
   },
   {
-    cod: "SM745",
+    code: "SA289",
   },
   {
-    cod: "MAPCORAZ",
+    code: "SA280",
   },
   {
-    cod: "S3148",
+    code: "SA292",
   },
   {
-    cod: "LAMCOM.8",
+    code: "SA290",
   },
   {
-    cod: "WIL210",
+    code: "SA278",
   },
   {
-    cod: "AZ001",
+    code: "SA150",
   },
   {
-    cod: "VI008",
+    code: "SA244",
   },
   {
-    cod: "S3161",
+    code: "SA279",
   },
   {
-    cod: "S3169",
+    code: "MR30",
   },
   {
-    cod: "S397",
+    code: "MR28",
   },
   {
-    cod: "CORONAX2",
+    code: "F7281",
   },
   {
-    cod: "CORONAX3",
+    code: "PASTE1673",
   },
   {
-    cod: "LAMCOM.9",
+    code: "PASTE1406",
   },
   {
-    cod: "S372",
+    code: "PASTE1642",
   },
   {
-    cod: "CHINT0880",
+    code: "80219B",
   },
   {
-    cod: "CAVEN6",
+    code: "80219C",
   },
   {
-    cod: "BOTI008B",
+    code: "80219V",
   },
   {
-    cod: "EXPULSTARWARS",
+    code: "80219F",
   },
   {
-    cod: "CA.129",
+    code: "80219",
   },
   {
-    cod: "CPC",
+    code: "EHTDR",
   },
   {
-    cod: "BOTI023B",
+    code: "1004VI",
   },
   {
-    cod: "BOTI021B",
+    code: "1044VE",
   },
   {
-    cod: "BOTI002B",
+    code: "1044R",
   },
   {
-    cod: "BOTI022B",
+    code: "1004V",
   },
   {
-    cod: "C1195",
+    code: "1004B",
   },
   {
-    cod: "C1187",
+    code: "EASYP",
   },
   {
-    cod: "C1199",
+    code: "TEGR",
   },
   {
-    cod: "C1344",
+    code: "PIFLUR",
   },
   {
-    cod: "C1345",
+    code: "PLGLI",
   },
   {
-    cod: "C1346",
+    code: "10119",
   },
   {
-    cod: "C1348",
+    code: "2371V",
   },
   {
-    cod: "C1350",
+    code: "071L",
   },
   {
-    cod: "C1352",
+    code: "525R",
   },
   {
-    cod: "C1353",
+    code: "2371AM",
   },
   {
-    cod: "C1354",
+    code: "071M",
   },
   {
-    cod: "C1355",
+    code: "2371N",
   },
   {
-    cod: "C1356",
+    code: "2373A",
   },
   {
-    cod: "C1357",
+    code: "2371A",
   },
   {
-    cod: "C1358",
+    code: "2373V",
   },
   {
-    cod: "C1359",
+    code: "1048",
   },
   {
-    cod: "C1360",
+    code: "071S",
   },
   {
-    cod: "C1362",
+    code: "1049",
   },
   {
-    cod: "C1363",
+    code: "2087",
   },
   {
-    cod: "C1364",
+    code: "2208R",
   },
   {
-    cod: "FV91308",
+    code: "S1271",
   },
   {
-    cod: "CORT0",
+    code: "S1272",
   },
   {
-    cod: "CORT1",
+    code: "11189372",
   },
   {
-    cod: "CORT2",
+    code: "C184",
   },
   {
-    cod: "CORT3",
+    code: "CORFN",
   },
   {
-    cod: "CORT4",
+    code: "CCMUN",
   },
   {
-    cod: "CORT5",
+    code: "CCNAV",
   },
   {
-    cod: "CORT6",
+    code: "710772",
   },
   {
-    cod: "CORT7",
+    code: "POMAR",
   },
   {
-    cod: "CORT8",
+    code: "POMCN",
   },
   {
-    cod: "CORT9",
+    code: "BGS",
   },
   {
-    cod: "COA0200",
+    code: "ECX2",
   },
   {
-    cod: "BOTI006B",
+    code: "ECM15",
   },
   {
-    cod: "BOTI024B",
+    code: "LFLA",
   },
   {
-    cod: "CHIN51D5",
+    code: "LCAM",
   },
   {
-    cod: "CHIN1A10",
+    code: "LPA",
   },
   {
-    cod: "CHINTS659",
+    code: "LMB",
   },
   {
-    cod: "CHINT0238",
+    code: "LNA",
   },
   {
-    cod: "CPINK",
+    code: "LUN",
   },
   {
-    cod: "ENVIO",
+    code: "LMM",
   },
   {
-    cod: "POA33",
+    code: "LTS",
   },
   {
-    cod: "LEDEPARCHO",
+    code: "PLFA",
   },
   {
-    cod: "POC34H",
+    code: "PLFVA",
   },
   {
-    cod: "CIRCEPASX1K",
+    code: "PLFS",
   },
   {
-    cod: "PROCREMTAR",
+    code: "71000668",
   },
   {
-    cod: "CIOCREMTAR",
+    code: "710-0520",
   },
   {
-    cod: "CRUCES",
+    code: "CO1201",
   },
   {
-    cod: "S336",
+    code: "COM01",
   },
   {
-    cod: "S3129",
+    code: "PCAGP",
   },
   {
-    cod: "CAPI2",
+    code: "PCRGP",
   },
   {
-    cod: "CUBIK",
+    code: "PCAZGP",
   },
   {
-    cod: "CUMET",
+    code: "PCFGP",
   },
   {
-    cod: "21043805",
+    code: "DCM04",
   },
   {
-    cod: "36789",
+    code: "PCVGP",
   },
   {
-    cod: "SM868",
+    code: "PCNAGP",
   },
   {
-    cod: "AM024",
+    code: "PCVIGP",
   },
   {
-    cod: "CUC",
+    code: "DCM01",
   },
   {
-    cod: "CUGT",
+    code: "PCM10",
   },
   {
-    cod: "FLEESC.100",
+    code: "SPCCB",
   },
   {
-    cod: "902-1377",
+    code: "RCM15",
   },
   {
-    cod: "2116-2116",
+    code: "FCPAC",
   },
   {
-    cod: "DAMA",
+    code: "SASS",
   },
   {
-    cod: "FLEESC.19",
+    code: "SDIN",
   },
   {
-    cod: "LEDEGELBRIFRUX3",
+    code: "SCAD",
   },
   {
-    cod: "TITANIO",
+    code: "P1307",
   },
   {
-    cod: "DAMSIL",
+    code: "77302R",
   },
   {
-    cod: "DBLACKH",
+    code: "77302L",
   },
   {
-    cod: "CIRCULO24",
+    code: "77302V",
   },
   {
-    cod: "CIRCULO28",
+    code: "77302c",
   },
   {
-    cod: "D086",
+    code: "44015",
   },
   {
-    cod: "D001",
+    code: "41635",
   },
   {
-    cod: "D003",
+    code: "S683",
   },
   {
-    cod: "D034",
+    code: "S619",
   },
   {
-    cod: "DGOLDI",
+    code: "S3206.1",
   },
   {
-    cod: "SIL26",
+    code: "CAKEPOP",
   },
   {
-    cod: "SIL24",
+    code: "CPN1",
   },
   {
-    cod: "SIL23",
+    code: "VTFAZ",
   },
   {
-    cod: "SIL25",
+    code: "VTFVM",
   },
   {
-    cod: "SM830",
+    code: "VTFMA",
   },
   {
-    cod: "AX7003SE",
+    code: "VTFGR",
   },
   {
-    cod: "SF011",
+    code: "8147VP",
   },
   {
-    cod: "SF012",
+    code: "128144",
   },
   {
-    cod: "FPET.80",
+    code: "8147CP",
   },
   {
-    cod: "PASTE584",
+    code: "8147LP",
   },
   {
-    cod: "WIL073.6",
+    code: "8147RP",
   },
   {
-    cod: "7105520",
+    code: "128143",
   },
   {
-    cod: "D085",
+    code: "80055",
   },
   {
-    cod: "H001",
+    code: "AD0174",
   },
   {
-    cod: "SPDOR",
+    code: "80062",
   },
   {
-    cod: "SPDORC",
+    code: "603413",
   },
   {
-    cod: "SPDORP",
+    code: "28863",
   },
   {
-    cod: "LOVESUGARSN",
+    code: "28862",
   },
   {
-    cod: "LOVESUGARMP",
+    code: "1413",
   },
   {
-    cod: "LOVESUGAR",
+    code: "FLEIBORSUPERP",
   },
   {
-    cod: "FLEESC.21",
+    code: "MEBOSI21",
   },
   {
-    cod: "VC2092",
+    code: "104038",
   },
   {
-    cod: "2070",
+    code: "10303G",
   },
   {
-    cod: "VC1056",
+    code: "6033",
   },
   {
-    cod: "17790244001658",
+    code: "28215",
   },
   {
-    cod: "FLEESC.20",
+    code: "28214",
   },
   {
-    cod: "EDIBLEPALET",
+    code: "SA117",
   },
   {
-    cod: "SILIEMOJI",
+    code: "SET49",
   },
   {
-    cod: "S3159",
+    code: "SET26",
   },
   {
-    cod: "GA78",
+    code: "SET23",
   },
   {
-    cod: "S3158",
+    code: "SET27",
   },
   {
-    cod: "GMC194",
+    code: "C1372",
   },
   {
-    cod: "E1",
+    code: "C1368",
   },
   {
-    cod: "LAMCOME1",
+    code: "40999",
   },
   {
-    cod: "3DONDASSIRENA",
+    code: "813782",
   },
   {
-    cod: "ESCUDOS BOCA",
+    code: "813775",
   },
   {
-    cod: "ESCUDOS RIVER",
+    code: "813799",
   },
   {
-    cod: "SWALM",
+    code: "610-951",
   },
   {
-    cod: "SWAVE",
+    code: "FDP1201",
   },
   {
-    cod: "SWBAN",
+    code: "FDP1202",
   },
   {
-    cod: "SWEETBUTTER",
+    code: "3895C",
   },
   {
-    cod: "SWEETCAFE",
+    code: "FDPR1201",
   },
   {
-    cod: "SWEETCAPU",
+    code: "3895R",
   },
   {
-    cod: "SWEETCHAMP",
+    code: "FDPR1202",
   },
   {
-    cod: "SWEETCHOC",
+    code: "3894L",
   },
   {
-    cod: "SWCO",
+    code: "3895L",
   },
   {
-    cod: "SWCRA",
+    code: "3894V",
   },
   {
-    cod: "CH0203",
+    code: "3894C",
   },
   {
-    cod: "WIL105",
+    code: "3895V",
   },
   {
-    cod: "SWEETDDL",
+    code: "3893L",
   },
   {
-    cod: "6042235",
+    code: "3893V",
   },
   {
-    cod: "SWFRT",
+    code: "3893R",
   },
   {
-    cod: "SWEETFRUTOS",
+    code: "3893C",
   },
   {
-    cod: "SWLIM",
+    code: "SET20",
   },
   {
-    cod: "SWEETMANT",
+    code: "P35",
   },
   {
-    cod: "SWEETMARA",
+    code: "P28",
   },
   {
-    cod: "SWEETMEREN",
+    code: "SET14",
   },
   {
-    cod: "SWNAR",
+    code: "SET6",
   },
   {
-    cod: "SWEETNUEZ",
+    code: "SET13",
   },
   {
-    cod: "SWPS",
+    code: "SET51",
   },
   {
-    cod: "SWPAN",
+    code: "SET11",
   },
   {
-    cod: "SWPD",
+    code: "P033",
   },
   {
-    cod: "SWEETRHUM",
+    code: "SET1",
   },
   {
-    cod: "SWEETSAN",
+    code: "P07",
   },
   {
-    cod: "SWEETROP",
+    code: "P04",
   },
   {
-    cod: "SWVGO",
+    code: "P042",
   },
   {
-    cod: "6042269",
+    code: "SET2",
   },
   {
-    cod: "SWVAI",
+    code: "P036",
   },
   {
-    cod: "INN517",
+    code: "P15",
   },
   {
-    cod: "EM",
+    code: "P21",
   },
   {
-    cod: "YDGC197",
+    code: "SET4",
   },
   {
-    cod: "WIL005",
+    code: "P41",
   },
   {
-    cod: "EP",
+    code: "P11",
   },
   {
-    cod: "CHINTEP32",
+    code: "P30",
   },
   {
-    cod: "CA1507",
+    code: "P24",
   },
   {
-    cod: "CEN3426",
+    code: "P39",
   },
   {
-    cod: "CEN1340",
+    code: "P34",
   },
   {
-    cod: "BOTI020B",
+    code: "P38",
   },
   {
-    cod: "ESPOX4",
+    code: "P19",
   },
   {
-    cod: "NJ040",
+    code: "SET53",
   },
   {
-    cod: "AZ028",
+    code: "P22",
   },
   {
-    cod: "RUEDITA",
+    code: "SET9",
   },
   {
-    cod: "ESTEX9",
+    code: "SET50",
   },
   {
-    cod: "T04",
+    code: "404100",
   },
   {
-    cod: "CA.67",
+    code: "PINL4",
   },
   {
-    cod: "ESTRELLA",
+    code: "PINL12",
   },
   {
-    cod: "710-0236",
+    code: "PINL10",
   },
   {
-    cod: "MAPESTRE",
+    code: "PINL2",
   },
   {
-    cod: "R17",
+    code: "PINL6",
   },
   {
-    cod: "DEWMALTAX350",
+    code: "PINL8",
   },
   {
-    cod: "MP35",
+    code: "10303D",
   },
   {
-    cod: "710-0131",
+    code: "10303T",
   },
   {
-    cod: "20071100",
+    code: "DVA074",
   },
   {
-    cod: "SIL56",
+    code: "TBD",
   },
   {
-    cod: "SM747",
+    code: "SICO226",
   },
   {
-    cod: "S366",
+    code: "TLD",
   },
   {
-    cod: "S454",
+    code: "T15D",
   },
   {
-    cod: "FORMOUT",
+    code: "TM15D",
   },
   {
-    cod: "SF154",
+    code: "TTAD",
   },
   {
-    cod: "FA390",
+    code: "DRAIP",
   },
   {
-    cod: "FA031",
+    code: "793.7CA",
   },
   {
-    cod: "FA032",
+    code: "SICO271",
   },
   {
-    cod: "FA085",
+    code: "VRETRO",
   },
   {
-    cod: "FA086",
+    code: "VFIES",
   },
   {
-    cod: "FA108",
+    code: "PMIXSAN",
   },
   {
-    cod: "FA191",
+    code: "P10H",
   },
   {
-    cod: "FA304",
+    code: "PCLFRO",
   },
   {
-    cod: "GA37",
+    code: "PMIXCP",
   },
   {
-    cod: "FA188",
+    code: "PMIXFRU",
   },
   {
-    cod: "FA340",
+    code: "511",
   },
   {
-    cod: "FA073",
+    code: "I21514T",
   },
   {
-    cod: "GA44",
+    code: "REP2018",
   },
   {
-    cod: "FA066",
+    code: "PPFAM5",
   },
   {
-    cod: "FA070",
+    code: "CAJA18x15K",
   },
   {
-    cod: "FA071",
+    code: "CAJA23x16K",
   },
   {
-    cod: "FA072",
+    code: "CAJA16.5K",
   },
   {
-    cod: "GA21",
+    code: "113CA",
   },
   {
-    cod: "FA069",
+    code: "CAJA17x17x20",
   },
   {
-    cod: "FA334",
+    code: "CAJA12x12x16",
   },
   {
-    cod: "FA052",
+    code: "TSMIP",
   },
   {
-    cod: "FA169",
+    code: "TSMID",
   },
   {
-    cod: "FA369",
+    code: "TSMIRG",
   },
   {
-    cod: "FA275",
+    code: "TFCCPC",
   },
   {
-    cod: "GA16",
+    code: "TFCCNC",
   },
   {
-    cod: "FA146",
+    code: "TFCCRG",
   },
   {
-    cod: "FA306",
+    code: "MSTCD",
   },
   {
-    cod: "GA41",
+    code: "TFCCDC",
   },
   {
-    cod: "FA331",
+    code: "CSSD",
   },
   {
-    cod: "FA109",
+    code: "MR25",
   },
   {
-    cod: "GA32",
+    code: "MR26",
   },
   {
-    cod: "FA174",
+    code: "CSSP",
   },
   {
-    cod: "FA233",
+    code: "CSSN",
   },
   {
-    cod: "GA4",
+    code: "O04MH2",
   },
   {
-    cod: "FA212",
+    code: "O03MH2",
   },
   {
-    cod: "FA213",
+    code: "TAGPAR",
   },
   {
-    cod: "FA214",
+    code: "TAGPA",
   },
   {
-    cod: "FA382",
+    code: "TAGFDC",
   },
   {
-    cod: "FA383",
+    code: "VSTX39",
   },
   {
-    cod: "FA384",
+    code: "114CA",
   },
   {
-    cod: "FA234",
+    code: "122CA",
   },
   {
-    cod: "FA321",
+    code: "COFC",
   },
   {
-    cod: "FA322",
+    code: "COC2",
   },
   {
-    cod: "FA303",
+    code: "952",
   },
   {
-    cod: "FA018",
+    code: "953",
   },
   {
-    cod: "FA273",
+    code: "COC1",
   },
   {
-    cod: "FA054",
+    code: "951",
   },
   {
-    cod: "FA175",
+    code: "1338",
   },
   {
-    cod: "GA59",
+    code: "1321",
   },
   {
-    cod: "FA176",
+    code: "1345",
   },
   {
-    cod: "FA298",
+    code: "34213",
   },
   {
-    cod: "FA299",
+    code: "793CA",
   },
   {
-    cod: "FH06",
+    code: "MR22",
   },
   {
-    cod: "FA112",
+    code: "SC379",
   },
   {
-    cod: "FA001",
+    code: "SB162",
   },
   {
-    cod: "FH02",
+    code: "SK111",
   },
   {
-    cod: "GA60",
+    code: "SW74",
   },
   {
-    cod: "FA120",
+    code: "BP01004",
   },
   {
-    cod: "FA124",
+    code: "BP01021",
   },
   {
-    cod: "FA125",
+    code: "BP01002",
   },
   {
-    cod: "FA126",
+    code: "BP01005",
   },
   {
-    cod: "FA127",
+    code: "BP01003",
   },
   {
-    cod: "FA130",
+    code: "BP26007",
   },
   {
-    cod: "FA132",
+    code: "BP26004",
   },
   {
-    cod: "FA134",
+    code: "BP26006",
   },
   {
-    cod: "FA142",
+    code: "BAMP01",
   },
   {
-    cod: "FA143",
+    code: "BAM01",
   },
   {
-    cod: "FA144",
+    code: "BAM03",
   },
   {
-    cod: "FA151",
+    code: "BAMP02",
   },
   {
-    cod: "FA160",
+    code: "BAMP03",
   },
   {
-    cod: "FA122",
+    code: "BAM02",
   },
   {
-    cod: "FA141",
+    code: "77301L",
   },
   {
-    cod: "FA187",
+    code: "77301N",
   },
   {
-    cod: "FA192",
+    code: "77301V",
   },
   {
-    cod: "FA285",
+    code: "17211",
   },
   {
-    cod: "GA50",
+    code: "5410V",
   },
   {
-    cod: "FA254",
+    code: "MALH",
   },
   {
-    cod: "GA23",
+    code: "77301C",
   },
   {
-    cod: "FA193",
+    code: "77301R",
   },
   {
-    cod: "FA211",
+    code: "5410R",
   },
   {
-    cod: "FA090",
+    code: "C8X4",
   },
   {
-    cod: "FA380",
+    code: "1084D",
   },
   {
-    cod: "GA51",
+    code: "1343F",
   },
   {
-    cod: "FA284",
+    code: "79270",
   },
   {
-    cod: "FA262",
+    code: "21946",
   },
   {
-    cod: "FA007",
+    code: "44014",
   },
   {
-    cod: "FA003",
+    code: "PASTE1277",
   },
   {
-    cod: "GA5",
+    code: "PASTE1222",
   },
   {
-    cod: "FA204",
+    code: "PASTE1260",
   },
   {
-    cod: "FA258",
+    code: "I21360",
   },
   {
-    cod: "FA368",
+    code: "I21367",
   },
   {
-    cod: "FA367",
+    code: "I21361",
   },
   {
-    cod: "GA35",
+    code: "I21363",
   },
   {
-    cod: "FA332",
+    code: "I21421",
   },
   {
-    cod: "FA039",
+    code: "I21366",
   },
   {
-    cod: "FA037",
+    code: "I21362",
   },
   {
-    cod: "FA038",
+    code: "I21365",
   },
   {
-    cod: "FA39-1",
+    code: "68853C",
   },
   {
-    cod: "FA333",
+    code: "68853R",
   },
   {
-    cod: "GA22",
+    code: "68853V",
   },
   {
-    cod: "FA164",
+    code: "68853L",
   },
   {
-    cod: "FA364",
+    code: "305105",
   },
   {
-    cod: "FA088",
+    code: "68845V",
   },
   {
-    cod: "FA087",
+    code: "68845R",
   },
   {
-    cod: "FA276",
+    code: "68845C",
   },
   {
-    cod: "FA388",
+    code: "68844C",
   },
   {
-    cod: "FA307",
+    code: "68843C",
   },
   {
-    cod: "FA036",
+    code: "68840V",
   },
   {
-    cod: "FA034",
+    code: "68843V",
   },
   {
-    cod: "FA035",
+    code: "68840C",
   },
   {
-    cod: "FA237",
+    code: "68844V",
   },
   {
-    cod: "GA56",
+    code: "68840L",
   },
   {
-    cod: "FA287",
+    code: "68843R",
   },
   {
-    cod: "FA096",
+    code: "68840R",
   },
   {
-    cod: "FA178",
+    code: "68839C",
   },
   {
-    cod: "FA179",
+    code: "68839R",
   },
   {
-    cod: "FA335",
+    code: "68839L",
   },
   {
-    cod: "GA67",
+    code: "68836L",
   },
   {
-    cod: "FA259",
+    code: "68836C",
   },
   {
-    cod: "FA249",
+    code: "68836V",
   },
   {
-    cod: "GA57",
+    code: "7570",
   },
   {
-    cod: "GA69",
+    code: "TC2113",
   },
   {
-    cod: "FA098",
+    code: "TC2112",
   },
   {
-    cod: "FA351",
+    code: "TC2115",
   },
   {
-    cod: "FA239",
+    code: "TC2114",
   },
   {
-    cod: "FA257",
+    code: "R103048",
   },
   {
-    cod: "FA290",
+    code: "R103047",
   },
   {
-    cod: "FA227",
+    code: "I21531",
   },
   {
-    cod: "FA288",
+    code: "I21535",
   },
   {
-    cod: "FA279",
+    code: "I21534",
   },
   {
-    cod: "FA236",
+    code: "I21530",
   },
   {
-    cod: "FA393",
+    code: "I21529",
   },
   {
-    cod: "FA281",
+    code: "I21536",
   },
   {
-    cod: "FH10",
+    code: "I21533",
   },
   {
-    cod: "FH11",
+    code: "5195",
   },
   {
-    cod: "FA371",
+    code: "F01CHEES",
   },
   {
-    cod: "FA330",
+    code: "F02MTART",
   },
   {
-    cod: "GA55",
+    code: "F02O",
   },
   {
-    cod: "FA283",
+    code: "TAGFC",
   },
   {
-    cod: "FA362",
+    code: "TAGFD",
   },
   {
-    cod: "FA361",
+    code: "F01O",
   },
   {
-    cod: "FA185",
+    code: "TRFCC",
   },
   {
-    cod: "FA059",
+    code: "TRFCG",
   },
   {
-    cod: "FA060",
+    code: "TAGNAV",
   },
   {
-    cod: "FA061",
+    code: "TRFCHE",
   },
   {
-    cod: "FA186",
+    code: "TRH",
   },
   {
-    cod: "FA063",
+    code: "TRFCHC",
   },
   {
-    cod: "FA062",
+    code: "TFCHR",
   },
   {
-    cod: "FA292",
+    code: "I21359",
   },
   {
-    cod: "FA201",
+    code: "43294",
   },
   {
-    cod: "FA319",
+    code: "43293",
   },
   {
-    cod: "FA252",
+    code: "Boti052b",
   },
   {
-    cod: "CAPI18",
+    code: "I21358",
   },
   {
-    cod: "RJ018",
+    code: "I21355",
   },
   {
-    cod: "LAMCOM91",
+    code: "I21357",
   },
   {
-    cod: "R1",
+    code: "I21356",
   },
   {
-    cod: "CAPI13",
+    code: "D5922",
   },
   {
-    cod: "MR.3",
+    code: "D5924",
   },
   {
-    cod: "LAMCOMFC",
+    code: "D5923",
   },
   {
-    cod: "10020008",
+    code: "D6349",
   },
   {
-    cod: "CA.113",
+    code: "I21353",
   },
   {
-    cod: "LAMCOMFH1",
+    code: "I21352",
   },
   {
-    cod: "LAMCOMFH2",
+    code: "I21351",
   },
   {
-    cod: "LAMCOMFH3",
+    code: "I21350",
   },
   {
-    cod: "LAMCOMFH4",
+    code: "I21339",
   },
   {
-    cod: "LAMCOMFH5",
+    code: "I21416",
   },
   {
-    cod: "LAMCOMFH6",
+    code: "I21419",
   },
   {
-    cod: "MR.4",
+    code: "I21417",
   },
   {
-    cod: "RJ012",
+    code: "I21348",
   },
   {
-    cod: "S124",
+    code: "I21340",
   },
   {
-    cod: "CA.114",
+    code: "I21341",
   },
   {
-    cod: "AM044",
+    code: "I21414",
   },
   {
-    cod: "R16",
+    code: "I21338",
   },
   {
-    cod: "R19",
+    code: "I21413",
   },
   {
-    cod: "MAPFLORCITAS",
+    code: "I21344",
   },
   {
-    cod: "R14",
+    code: "I21342",
   },
   {
-    cod: "FV9-12-03.02",
+    code: "I21415",
   },
   {
-    cod: "MULTI-FLORES-1",
+    code: "I21324",
   },
   {
-    cod: "JR504",
+    code: "I21336",
   },
   {
-    cod: "LAMCOM.10",
+    code: "I21325",
   },
   {
-    cod: "LAMCOM.11",
+    code: "I21326",
   },
   {
-    cod: "LAMCOM.12",
+    code: "I21408",
   },
   {
-    cod: "LAMCOM.13",
+    code: "boti039b",
   },
   {
-    cod: "LAMCOM.14",
+    code: "I21327",
   },
   {
-    cod: "LAMCOM.15",
+    code: "I21329",
   },
   {
-    cod: "LAMCOM.16",
+    code: "I21328",
   },
   {
-    cod: "LAMCOM.17",
+    code: "I21332",
   },
   {
-    cod: "LAMCOM.18",
+    code: "TORTA3",
   },
   {
-    cod: "LAMCOM.50",
+    code: "SET39",
   },
   {
-    cod: "LAMCOM.19",
+    code: "SET38",
   },
   {
-    cod: "LANCOMF22",
+    code: "SA131",
   },
   {
-    cod: "LAMCOM.20",
+    code: "SET37",
   },
   {
-    cod: "LAMCOM.21",
+    code: "P10CR",
   },
   {
-    cod: "LAMCOM.52",
+    code: "P10LFV",
   },
   {
-    cod: "LANCOMF26",
+    code: "I21321",
   },
   {
-    cod: "LANCOMF27",
+    code: "I21323",
   },
   {
-    cod: "LANCOMF28",
+    code: "I21407",
   },
   {
-    cod: "LAMCOMF29",
+    code: "TDCMPC",
   },
   {
-    cod: "LAMCOM.22",
+    code: "I21322",
   },
   {
-    cod: "LANCOMF30",
+    code: "TDHMPC",
   },
   {
-    cod: "LANCOMF31",
+    code: "D6131",
   },
   {
-    cod: "LANCOMF32",
+    code: "D6132",
   },
   {
-    cod: "LANCOMF33",
+    code: "D6130",
   },
   {
-    cod: "LANCOMF34",
+    code: "GLF12",
   },
   {
-    cod: "LANCOMF36",
+    code: "GLF13",
   },
   {
-    cod: "LAMCOM.23",
+    code: "GLF14",
   },
   {
-    cod: "710-1490",
+    code: "GLF15",
   },
   {
-    cod: "LAMCOM.24",
+    code: "210700185",
   },
   {
-    cod: "LAMCOMFLORES50",
+    code: "210500671",
   },
   {
-    cod: "LAMCOM.25",
+    code: "S701",
   },
   {
-    cod: "LAMCOM.26",
+    code: "S515",
   },
   {
-    cod: "LAMCOM.27",
+    code: "S1209",
   },
   {
-    cod: "LAMCOM.28",
+    code: "S1260",
   },
   {
-    cod: "S111",
+    code: "S1239",
   },
   {
-    cod: "SM842",
+    code: "S1266",
   },
   {
-    cod: "710-1101",
+    code: "S1265",
   },
   {
-    cod: "710-2215",
+    code: "S3170",
   },
   {
-    cod: "SM840",
+    code: "S3218",
   },
   {
-    cod: "710-1536",
+    code: "S3220",
   },
   {
-    cod: "INN001",
+    code: "S3219",
   },
   {
-    cod: "INN043",
+    code: "BC1036",
   },
   {
-    cod: "LAMCOMFVG",
+    code: "T0500",
   },
   {
-    cod: "REP3507",
+    code: "TFCHCP",
   },
   {
-    cod: "SM838",
+    code: "TFCHEP",
   },
   {
-    cod: "4092530",
+    code: "TFCCP",
   },
   {
-    cod: "S108",
+    code: "TFCGP",
   },
   {
-    cod: "4176133",
+    code: "TFCHP",
   },
   {
-    cod: "FLEESC.22",
+    code: "THBP",
   },
   {
-    cod: "BOTI005B",
+    code: "SA51",
   },
   {
-    cod: "BOTI004B",
+    code: "SA237",
   },
   {
-    cod: "MAPFROZEN",
+    code: "SL33",
   },
   {
-    cod: "COT4047",
+    code: "SL19",
   },
   {
-    cod: "COT4028",
+    code: "SL27",
   },
   {
-    cod: "COT4024",
+    code: "SL25",
   },
   {
-    cod: "PASTE11",
+    code: "SL13",
   },
   {
-    cod: "FLEESC.25",
+    code: "SA158",
   },
   {
-    cod: "DELI2PUNTAFUC",
+    code: "P02",
   },
   {
-    cod: "DELIPASTX1F",
+    code: "SL30",
   },
   {
-    cod: "GFUCSIA200",
+    code: "SL28",
   },
   {
-    cod: "PUNZ2",
+    code: "SW115",
   },
   {
-    cod: "504102",
+    code: "SW201",
   },
   {
-    cod: "504101",
+    code: "SW216",
   },
   {
-    cod: "TFFR",
+    code: "SW324",
   },
   {
-    cod: "SM772",
+    code: "SW298",
   },
   {
-    cod: "SF158",
+    code: "SW284",
   },
   {
-    cod: "23598",
+    code: "SW29",
   },
   {
-    cod: "1235",
+    code: "SW104",
   },
   {
-    cod: "GELSSAB",
+    code: "SW145",
   },
   {
-    cod: "CEN4500",
+    code: "SW105",
   },
   {
-    cod: "GESTIONENVIOS",
+    code: "SW140",
   },
   {
-    cod: "R9",
+    code: "SW76",
   },
   {
-    cod: "R7",
+    code: "SW85",
   },
   {
-    cod: "23001700",
+    code: "SW148",
   },
   {
-    cod: "3260020",
+    code: "SW75",
   },
   {
-    cod: "3260010",
+    code: "SW69",
   },
   {
-    cod: "12164C",
+    code: "SW155",
   },
   {
-    cod: "12164CE",
+    code: "SW231",
   },
   {
-    cod: "12164G",
+    code: "SW17",
   },
   {
-    cod: "12164L",
+    code: "SW66",
   },
   {
-    cod: "12164N",
+    code: "SW157",
   },
   {
-    cod: "12164R",
+    code: "SK220",
   },
   {
-    cod: "12164V",
+    code: "SK06",
   },
   {
-    cod: "3260050",
+    code: "SK219",
   },
   {
-    cod: "3260060",
+    code: "sk208",
   },
   {
-    cod: "32600500",
+    code: "SK203",
   },
   {
-    cod: "PROGLUX170",
+    code: "SK35",
   },
   {
-    cod: "CIRGLUX170",
+    code: "SK151",
   },
   {
-    cod: "GSPARK",
+    code: "SK08",
   },
   {
-    cod: "GXAN",
+    code: "SK84",
   },
   {
-    cod: "GA83",
+    code: "sk63",
   },
   {
-    cod: "CEN1615",
+    code: "SK213",
   },
   {
-    cod: "GRG400M",
+    code: "SK218",
   },
   {
-    cod: "CEN50GR",
+    code: "SK263",
   },
   {
-    cod: "GAMARILLA",
+    code: "SK264",
   },
   {
-    cod: "GRANAZUL",
+    code: "SK64",
   },
   {
-    cod: "GRABLANCA",
+    code: "SK62",
   },
   {
-    cod: "GCELESTE",
+    code: "SK215",
   },
   {
-    cod: "GRANLILLA",
+    code: "SK265",
   },
   {
-    cod: "GMULTIC",
+    code: "DMD55",
   },
   {
-    cod: "GRANA400N",
+    code: "11002002",
   },
   {
-    cod: "ROJA400",
+    code: "401408",
   },
   {
-    cod: "GRANAROJ",
+    code: "SSHOO",
   },
   {
-    cod: "GRANAROS",
+    code: "318713",
   },
   {
-    cod: "GRANAVERD",
+    code: "I21405",
   },
   {
-    cod: "DELIPRIMX1G",
+    code: "I21403",
   },
   {
-    cod: "CENAMA",
+    code: "I21404",
   },
   {
-    cod: "CEN1509",
+    code: "I21316",
   },
   {
-    cod: "CENAZU",
+    code: "I21305",
   },
   {
-    cod: "CEN1424",
+    code: "I21320",
   },
   {
-    cod: "CENBCA",
+    code: "I21318",
   },
   {
-    cod: "CEN1448",
+    code: "I21315",
   },
   {
-    cod: "CENCELE",
+    code: "I21317",
   },
   {
-    cod: "CEN1479",
+    code: "I21400",
   },
   {
-    cod: "CENMARRON",
+    code: "I21402",
   },
   {
-    cod: "CEN1417",
+    code: "I21319",
   },
   {
-    cod: "CENMULTI",
+    code: "I21307",
   },
   {
-    cod: "CENNARA",
+    code: "I21310",
   },
   {
-    cod: "CEN150GR",
+    code: "I21304",
   },
   {
-    cod: "CENROJO",
+    code: "I21314",
   },
   {
-    cod: "CEN1455",
+    code: "I21313",
   },
   {
-    cod: "CENROSA",
+    code: "I21312",
   },
   {
-    cod: "CEN1431",
+    code: "I21301",
   },
   {
-    cod: "KINGGR",
+    code: "I21300",
   },
   {
-    cod: "FPET.81",
+    code: "MR20",
   },
   {
-    cod: "FLECOLPET.82",
+    code: "MR17",
   },
   {
-    cod: "KINGGRIS",
+    code: "MR13",
   },
   {
-    cod: "SIL09",
+    code: "MR19",
   },
   {
-    cod: "S643",
+    code: "MR14",
   },
   {
-    cod: "S629",
+    code: "MR15",
   },
   {
-    cod: "S644",
+    code: "MR11",
   },
   {
-    cod: "S654",
+    code: "MR18",
   },
   {
-    cod: "VI040",
+    code: "MR16",
   },
   {
-    cod: "NJ012",
+    code: "MR12",
   },
   {
-    cod: "S615",
+    code: "MR09",
   },
   {
-    cod: "AM036",
+    code: "MR06",
   },
   {
-    cod: "NJ046",
+    code: "MR07",
   },
   {
-    cod: "AM035",
+    code: "MR08",
   },
   {
-    cod: "NJ029",
+    code: "MR01",
   },
   {
-    cod: "NJ045",
+    code: "MR02",
   },
   {
-    cod: "SIL53",
+    code: "80216",
   },
   {
-    cod: "CHINPL3",
+    code: "80217",
   },
   {
-    cod: "CHINPL4",
+    code: "I21102",
   },
   {
-    cod: "CHINPL5",
+    code: "I21103",
   },
   {
-    cod: "CHINT16C7",
+    code: "I21106",
   },
   {
-    cod: "CHINT16C72",
+    code: "I21105",
   },
   {
-    cod: "CHINT16C",
+    code: "I21104",
   },
   {
-    cod: "FLEESC.26",
+    code: "I21101",
   },
   {
-    cod: "COT4071",
+    code: "I21100",
   },
   {
-    cod: "SM801",
+    code: "DONUTSV+DIV",
   },
   {
-    cod: "HH125",
+    code: "MTARXL",
   },
   {
-    cod: "AZ050",
+    code: "5435AM",
   },
   {
-    cod: "S128",
+    code: "5435R",
   },
   {
-    cod: "MG1",
+    code: "5435V",
   },
   {
-    cod: "S127",
+    code: "5435A",
   },
   {
-    cod: "CA.112",
+    code: "5435VE",
   },
   {
-    cod: "CA.111",
+    code: "42075L",
   },
   {
-    cod: "CHINTHOJAS1",
+    code: "300262",
   },
   {
-    cod: "MG3",
+    code: "42075V",
   },
   {
-    cod: "INN508",
+    code: "42075N",
   },
   {
-    cod: "CA.110",
+    code: "300224",
   },
   {
-    cod: "7107283",
+    code: "506023",
   },
   {
-    cod: "CA.109",
+    code: "133021",
   },
   {
-    cod: "S118",
+    code: "133026",
   },
   {
-    cod: "3294330",
+    code: "71000511",
   },
   {
-    cod: "WILTONDEC",
+    code: "SV9101",
   },
   {
-    cod: "LAMCOM.49",
+    code: "BM1608",
   },
   {
-    cod: "LAMCOM.29",
+    code: "LM1520",
   },
   {
-    cod: "AZ002",
+    code: "WM1901",
   },
   {
-    cod: "SPF10",
+    code: "SW1801",
   },
   {
-    cod: "HUEPASC10",
+    code: "LI0101",
   },
   {
-    cod: "H3",
+    code: "ME0101",
   },
   {
-    cod: "H4",
+    code: "RP5191",
   },
   {
-    cod: "H6",
+    code: "RP5192",
   },
   {
-    cod: "LAMCOMH2",
+    code: "CDCV",
   },
   {
-    cod: "LAMCOMH3",
+    code: "101066",
   },
   {
-    cod: "LAMCOMH4",
+    code: "101017",
   },
   {
-    cod: "LAMCOMH5",
+    code: "BOTI015B",
   },
   {
-    cod: "LAMCOMH6",
+    code: "BA45CD",
   },
   {
-    cod: "80249",
+    code: "BA50CD",
   },
   {
-    cod: "FLEESC.27",
+    code: "YIMANO01",
   },
   {
-    cod: "TRANSFER",
+    code: "16246",
   },
   {
-    cod: "JAL22",
+    code: "17146",
   },
   {
-    cod: "109346B",
+    code: "15894",
   },
   {
-    cod: "AM007",
+    code: "17149",
   },
   {
-    cod: "AM005",
+    code: "16263",
   },
   {
-    cod: "FLEESC.28",
+    code: "15888",
   },
   {
-    cod: "JRPIL",
+    code: "P1611",
   },
   {
-    cod: "JRPILLOW",
+    code: "19126",
   },
   {
-    cod: "HGB49",
+    code: "536L",
   },
   {
-    cod: "CHINT1847",
+    code: "536V",
   },
   {
-    cod: "FLEESC.101",
+    code: "16741",
   },
   {
-    cod: "CHIN2692",
+    code: "536R",
   },
   {
-    cod: "GMC174",
+    code: "48051",
   },
   {
-    cod: "RLG",
+    code: "10481",
   },
   {
-    cod: "8030",
+    code: "CAJACC15",
   },
   {
-    cod: "7004",
+    code: "CAJACM20",
   },
   {
-    cod: "710-0235",
+    code: "CAJARBYN20",
   },
   {
-    cod: "SPICE",
+    code: "CAJAROCKBYN",
   },
   {
-    cod: "415-9668",
+    code: "P10HR",
   },
   {
-    cod: "LE",
+    code: "P8BARBIEP",
   },
   {
-    cod: "LADRILLITOS",
+    code: "P54.8",
   },
   {
-    cod: "7795522",
+    code: "P41.8",
   },
   {
-    cod: "PALLENTAMAX0.5",
+    code: "P58.10",
   },
   {
-    cod: "PALLENTAZX0.5",
+    code: "P41.10",
   },
   {
-    cod: "PALLENTBLX0.5",
+    code: "P42.10",
   },
   {
-    cod: "PALLENTCELX0.5",
+    code: "P59.10",
   },
   {
-    cod: "ROCKLENCHOX1",
+    code: "P38.10",
   },
   {
-    cod: "PALLENTNAX0.5",
+    code: "CAJAROCK",
   },
   {
-    cod: "PALLENTROX0.5",
+    code: "GLOBOPVE",
   },
   {
-    cod: "PALLENTROSX0.5",
+    code: "CAJACM",
   },
   {
-    cod: "PALLENTVERX0.5",
+    code: "GLOBTIK",
   },
   {
-    cod: "PALLENTVIOX0.5",
+    code: "BP02101",
   },
   {
-    cod: "PALLENTMIAMAX0.",
+    code: "BP26101",
   },
   {
-    cod: "PALLENTMIAZX0.5",
+    code: "BP01101",
   },
   {
-    cod: "PALLENTMIBLX0.5",
+    code: "11002001",
   },
   {
-    cod: "PALLENTMIROX0.5",
+    code: "BP26001",
   },
   {
-    cod: "PALLENTMIROSX0.",
+    code: "BP01001",
   },
   {
-    cod: "PALLENTMIVERX0.",
+    code: "5360L",
   },
   {
-    cod: "PALLENTMIVIOX0.",
+    code: "BP26003",
   },
   {
-    cod: "COT4823",
+    code: "946",
   },
   {
-    cod: "COT4825",
+    code: "945",
   },
   {
-    cod: "COT4824",
+    code: "15602",
   },
   {
-    cod: "COT4820",
+    code: "44711",
   },
   {
-    cod: "COT4821",
+    code: "100564",
   },
   {
-    cod: "COT4822",
+    code: "610-314",
   },
   {
-    cod: "COT8069",
+    code: "PROSASFB",
   },
   {
-    cod: "AF201002",
+    code: "PSCKRAFT",
   },
   {
-    cod: "WILSEQUINS",
+    code: "PCIRCOCV",
   },
   {
-    cod: "REP2005",
+    code: "PROMBOC",
   },
   {
-    cod: "FPET.05",
+    code: "PESTREM",
   },
   {
-    cod: "POLVOLILA",
+    code: "PBARBIEP",
   },
   {
-    cod: "D032",
+    code: "MTL1186",
   },
   {
-    cod: "FLEESC.29",
+    code: "TNFCG",
   },
   {
-    cod: "SM723",
+    code: "SA70",
   },
   {
-    cod: "SIL51",
+    code: "SA152",
   },
   {
-    cod: "R10",
+    code: "SA84",
   },
   {
-    cod: "SF026",
+    code: "SA80",
   },
   {
-    cod: "COT4063",
+    code: "SA223",
   },
   {
-    cod: "COT4075",
+    code: "TNHB",
   },
   {
-    cod: "S452",
+    code: "TDHB",
   },
   {
-    cod: "COT4067",
+    code: "SA71",
   },
   {
-    cod: "S3111",
+    code: "SA74",
   },
   {
-    cod: "BOTI025.B",
+    code: "SA40",
   },
   {
-    cod: "LAMCOM.51",
+    code: "SA55",
   },
   {
-    cod: "AZ021",
+    code: "SA30",
   },
   {
-    cod: "CROSA31",
+    code: "SA54",
   },
   {
-    cod: "LS1001",
+    code: "SA53",
   },
   {
-    cod: "LS1003",
+    code: "SA46",
   },
   {
-    cod: "LS0153",
+    code: "SA52",
   },
   {
-    cod: "LS0139",
+    code: "SA11",
   },
   {
-    cod: "INN050",
+    code: "SA21",
   },
   {
-    cod: "R2",
+    code: "SA47",
   },
   {
-    cod: "WIL050",
+    code: "SA04",
   },
   {
-    cod: "FLIPO.66",
+    code: "SA03",
   },
   {
-    cod: "FLEMAG",
+    code: "SA33",
   },
   {
-    cod: "COT4025",
+    code: "SA34",
   },
   {
-    cod: "COT4022",
+    code: "SA35",
   },
   {
-    cod: "MBUFFYCHO",
+    code: "SA31",
   },
   {
-    cod: "MBUFFYLIM",
+    code: "901053",
   },
   {
-    cod: "MALVABUFFYFRESA",
+    code: "AX20520",
   },
   {
-    cod: "BUFFYVIOL",
+    code: "211326",
   },
   {
-    cod: "95484",
+    code: "GUANTV",
   },
   {
-    cod: "INN506",
+    code: "GUANTR",
   },
   {
-    cod: "INN010",
+    code: "10306",
   },
   {
-    cod: "NJ001",
+    code: "65459",
   },
   {
-    cod: "LAMCOM.30",
+    code: "PA001",
   },
   {
-    cod: "FLEESC.31",
+    code: "MMbudin",
   },
   {
-    cod: "RP5190",
+    code: "7063",
   },
   {
-    cod: "RP5191",
+    code: "7574ve",
   },
   {
-    cod: "RP5192",
+    code: "7574neg",
   },
   {
-    cod: "FV9-14-08",
+    code: "7574Gri",
   },
   {
-    cod: "FV9-14-10",
+    code: "7134",
   },
   {
-    cod: "MCY0",
+    code: "7574ro",
   },
   {
-    cod: "MCY1",
+    code: "7135",
   },
   {
-    cod: "MCY2",
+    code: "AX2026",
   },
   {
-    cod: "MCY3",
+    code: "4107",
   },
   {
-    cod: "MCY4",
+    code: "42916",
   },
   {
-    cod: "MCY5",
+    code: "42920",
   },
   {
-    cod: "MCY6",
+    code: "N8752030",
   },
   {
-    cod: "MBN2",
+    code: "676580",
   },
   {
-    cod: "MBN3",
+    code: "676581",
   },
   {
-    cod: "CHINT2375",
+    code: "P011880",
   },
   {
-    cod: "CA.02",
+    code: "41729",
   },
   {
-    cod: "REP5010",
+    code: "48081",
   },
   {
-    cod: "M2C",
+    code: "838014",
   },
   {
-    cod: "M3C",
+    code: "145952",
   },
   {
-    cod: "M4C",
+    code: "GLF09",
   },
   {
-    cod: "AF106003",
+    code: "GLF11",
   },
   {
-    cod: "BALLMANICROCX1",
+    code: "GLF10",
   },
   {
-    cod: "ARGMANICROCX1",
+    code: "VI808",
   },
   {
-    cod: "BALLMANIFILX0.8",
+    code: "SILIBX9",
   },
   {
-    cod: "MANO MICKEY",
+    code: "SILIR13",
   },
   {
-    cod: "FLEESC.32",
+    code: "F1806",
   },
   {
-    cod: "9417",
+    code: "404098",
   },
   {
-    cod: "9415",
+    code: "404097",
   },
   {
-    cod: "9416",
+    code: "45191",
   },
   {
-    cod: "MAPSA56-50",
+    code: "90121",
   },
   {
-    cod: "MAPSA53-80",
+    code: "FPETF.ROSA",
   },
   {
-    cod: "MAQUILLAJE",
+    code: "19071343",
   },
   {
-    cod: "WIL083",
+    code: "PPFVE5",
   },
   {
-    cod: "CHINT1413",
+    code: "PPFAZ5",
   },
   {
-    cod: "SIL10",
+    code: "DM4686",
   },
   {
-    cod: "SIL21",
+    code: "PPFVI5",
   },
   {
-    cod: "609-1192",
+    code: "PPFNA5",
   },
   {
-    cod: "NJ027",
+    code: "DM4543",
   },
   {
-    cod: "S317",
+    code: "CAJA18x15",
   },
   {
-    cod: "S3103",
+    code: "CAJA16.5",
   },
   {
-    cod: "S3102",
+    code: "CAJA15x10x1",
   },
   {
-    cod: "S3110",
+    code: "SAHP9",
   },
   {
-    cod: "R5",
+    code: "SACONEJO",
   },
   {
-    cod: "SIL39",
+    code: "SAFP",
   },
   {
-    cod: "REPPAL06",
+    code: "SAHP6",
   },
   {
-    cod: "AZ047",
+    code: "SAA",
   },
   {
-    cod: "RJ021",
+    code: "SK120",
   },
   {
-    cod: "VI027",
+    code: "5017",
   },
   {
-    cod: "REP5038",
+    code: "SK114",
   },
   {
-    cod: "SIL40",
+    code: "SK113",
   },
   {
-    cod: "200517",
+    code: "SK116",
   },
   {
-    cod: "417-2591",
+    code: "39343",
   },
   {
-    cod: "INN507",
+    code: "N8752026",
   },
   {
-    cod: "FLEESC 102",
+    code: "PALLENTCELX0.5",
   },
   {
-    cod: "DELIPASTX1M",
+    code: "AX91",
   },
   {
-    cod: "FPET.85",
+    code: "MIXPRE",
   },
   {
-    cod: "FPET.58",
+    code: "1352UI",
   },
   {
-    cod: "T02",
+    code: "AF506522",
   },
   {
-    cod: "MERCADOENVIOS",
+    code: "SDONAG",
   },
   {
-    cod: "MICKEY Y VS.",
+    code: "586746",
   },
   {
-    cod: "CA584",
+    code: "STX24",
   },
   {
-    cod: "ARGMICGALLBLXQ",
+    code: "2105967",
   },
   {
-    cod: "ARGMICGALLXQ",
+    code: "SILIAVENX4",
   },
   {
-    cod: "W710773",
+    code: "4181123",
   },
   {
-    cod: "FLEESC.35",
+    code: "MTL1182",
   },
   {
-    cod: "RM",
+    code: "3294203",
   },
   {
-    cod: "CUCU",
+    code: "336C",
   },
   {
-    cod: "MULTIPERLAS1",
+    code: "SET8",
   },
   {
-    cod: "CARAPAL",
+    code: "QUESOM",
   },
   {
-    cod: "PALLENTMINAX0.5",
+    code: "942",
   },
   {
-    cod: "PALLENTNAX250",
+    code: "JB2742M",
   },
   {
-    cod: "PALLENTNAX250",
+    code: "JB2742C",
   },
   {
-    cod: "S3155",
+    code: "PS3040",
   },
   {
-    cod: "S664",
+    code: "JB2742G",
   },
   {
-    cod: "MMACORAZON",
+    code: "MH1",
   },
   {
-    cod: "MMAESTRELLA",
+    code: "TH1",
   },
   {
-    cod: "MMAREDONDO",
+    code: "ESP0329",
   },
   {
-    cod: "S3143",
+    code: "REJ0810",
   },
   {
-    cod: "10022715",
+    code: "TOPPYLY",
   },
   {
-    cod: "10022712",
+    code: "TFCCN",
   },
   {
-    cod: "SF168",
+    code: "TFCHE",
   },
   {
-    cod: "TORTAS",
+    code: "TFCHC",
   },
   {
-    cod: "MINNIE",
+    code: "TFCHN",
   },
   {
-    cod: "DROPSMIXACQUAPE",
+    code: "TOPPJLP",
   },
   {
-    cod: "PRB15A",
+    code: "TOPPFDIA",
   },
   {
-    cod: "DROPSMIXCELESTE",
+    code: "TOPPSMI",
   },
   {
-    cod: "POA33A",
+    code: "TOPPBDE",
   },
   {
-    cod: "SIL34",
+    code: "TOPPALL",
   },
   {
-    cod: "CEN7932",
+    code: "TOPPDES",
   },
   {
-    cod: "DROPSMIXLILAPER",
+    code: "TOPPVIVE",
   },
   {
-    cod: "DROPSMIXNEGROPE",
+    code: "TOPPLOVE",
   },
   {
-    cod: "DROPSMIXPLATEAD",
+    code: "TOPPSIEM",
   },
   {
-    cod: "DROPSMIXROSAPER",
+    code: "TOPPBE",
   },
   {
-    cod: "POC40",
+    code: "TOPPFY",
   },
   {
-    cod: "CUP17",
+    code: "PORTAGLCB",
   },
   {
-    cod: "CUP18",
+    code: "PORTAGLX7",
   },
   {
-    cod: "PS12",
+    code: "TOPPLP",
   },
   {
-    cod: "PS15",
+    code: "TOPPCH",
   },
   {
-    cod: "PS16",
+    code: "PORTAGLM",
   },
   {
-    cod: "PS20",
+    code: "PORTAGLEN",
   },
   {
-    cod: "PS22",
+    code: "GLOBOBT",
   },
   {
-    cod: "PS29",
+    code: "952769",
   },
   {
-    cod: "PS31",
+    code: "952776",
   },
   {
-    cod: "PS33",
+    code: "952332",
   },
   {
-    cod: "REP4604",
+    code: "TOPPFCH",
   },
   {
-    cod: "PCHUPE",
+    code: "hola50",
   },
   {
-    cod: "SFT303",
+    code: "TOPPDD",
   },
   {
-    cod: "REP3001",
+    code: "hola30",
   },
   {
-    cod: "2115-0030",
+    code: "TOPPCD",
   },
   {
-    cod: "PS01",
+    code: "TOPPMD",
   },
   {
-    cod: "PS02",
+    code: "hola40",
   },
   {
-    cod: "PS03",
+    code: "TOPCZD",
   },
   {
-    cod: "PS04",
+    code: "TOPPFCC",
   },
   {
-    cod: "PS09",
+    code: "holacin",
   },
   {
-    cod: "PS10",
+    code: "holatre",
   },
   {
-    cod: "PS11",
+    code: "holacua",
   },
   {
-    cod: "PS13",
+    code: "TOPPFC",
   },
   {
-    cod: "PS14",
+    code: "SILIPASTO",
   },
   {
-    cod: "PS18",
+    code: "SILIHYH",
   },
   {
-    cod: "PS21",
+    code: "DM4140",
   },
   {
-    cod: "PS08",
+    code: "PMBN",
   },
   {
-    cod: "PS05",
+    code: "106040",
   },
   {
-    cod: "PS06",
+    code: "BUDIN5",
   },
   {
-    cod: "PS07",
+    code: "3DAUS",
   },
   {
-    cod: "FLANFLOR - 3294",
+    code: "CAJABUD",
   },
   {
-    cod: "119228",
+    code: "CAJADIVNAV",
   },
   {
-    cod: "S126",
+    code: "210500145",
   },
   {
-    cod: "MUFCORAN",
+    code: "210500067",
   },
   {
-    cod: "REPANT04",
+    code: "210500070",
   },
   {
-    cod: "S125",
+    code: "210500149",
   },
   {
-    cod: "PANDULCE1000F",
+    code: "210500146",
   },
   {
-    cod: "PANDULCE1000FG",
+    code: "210500071",
   },
   {
-    cod: "PANDULCE1000",
+    code: "210500066",
   },
   {
-    cod: "PANDULCE1000VC",
+    code: "P031",
   },
   {
-    cod: "PANDULCE1000.2",
+    code: "P016",
   },
   {
-    cod: "PANDULCE100F",
+    code: "SP018",
   },
   {
-    cod: "PANDULCE100PN",
+    code: "21050070",
   },
   {
-    cod: "PANDULCE100VC",
+    code: "210400019",
   },
   {
-    cod: "PANDULCE100",
+    code: "230800223",
   },
   {
-    cod: "PANDULCE250F",
+    code: "P025",
   },
   {
-    cod: "PANDULCE250FG",
+    code: "P01",
   },
   {
-    cod: "PANDULCE250PN",
+    code: "SW307",
   },
   {
-    cod: "PANDULCE250VC",
+    code: "SW308",
   },
   {
-    cod: "PANDULCE250",
+    code: "SW09",
   },
   {
-    cod: "PANDULCE500FG",
+    code: "SW306",
   },
   {
-    cod: "PANDULCE500",
+    code: "SW200",
   },
   {
-    cod: "PANDULCE500VC",
+    code: "SW82",
   },
   {
-    cod: "PANDULCE500.2",
+    code: "SW229",
   },
   {
-    cod: "4K15",
+    code: "SW230",
   },
   {
-    cod: "CHINTMRT",
+    code: "SW217",
   },
   {
-    cod: "AX2059",
+    code: "SW152",
   },
   {
-    cod: "MOLROSA",
+    code: "SA58",
   },
   {
-    cod: "REP4553",
+    code: "SA132",
   },
   {
-    cod: "ALU1211",
+    code: "SA64",
   },
   {
-    cod: "ALU1411",
+    code: "SA57",
   },
   {
-    cod: "ALU1611",
+    code: "SW158",
   },
   {
-    cod: "ALU2211",
+    code: "SA22",
   },
   {
-    cod: "ALU123",
+    code: "SA144",
   },
   {
-    cod: "ALU163",
+    code: "SW168",
   },
   {
-    cod: "ALU183",
+    code: "SA62",
   },
   {
-    cod: "ALU203",
+    code: "SA118",
   },
   {
-    cod: "ALU223",
+    code: "SK32",
   },
   {
-    cod: "ALU243",
+    code: "SA143",
   },
   {
-    cod: "ALU143",
+    code: "SK43",
   },
   {
-    cod: "MBM0006",
+    code: "SK201",
   },
   {
-    cod: "METBU",
+    code: "SK34",
   },
   {
-    cod: "MBM0001",
+    code: "SK37",
   },
   {
-    cod: "MBM0002",
+    code: "SK13",
   },
   {
-    cod: "MBM0003",
+    code: "SK44",
   },
   {
-    cod: "MBM0004",
+    code: "SK180",
   },
   {
-    cod: "MBM0005",
+    code: "sk160",
   },
   {
-    cod: "MBM0007",
+    code: "sk28",
   },
   {
-    cod: "S623",
+    code: "sk25",
   },
   {
-    cod: "S609",
+    code: "sk214",
   },
   {
-    cod: "S649",
+    code: "sk207",
   },
   {
-    cod: "S622",
+    code: "sk31",
   },
   {
-    cod: "S611",
+    code: "sk179",
   },
   {
-    cod: "S647",
+    code: "sk205",
   },
   {
-    cod: "S648",
+    code: "SK83",
   },
   {
-    cod: "MULTI-MOLDURITA",
+    code: "sk236",
   },
   {
-    cod: "S638",
+    code: "SK89",
   },
   {
-    cod: "S625",
+    code: "SK217",
   },
   {
-    cod: "SM805",
+    code: "sk206",
   },
   {
-    cod: "SIL52",
+    code: "SK181",
   },
   {
-    cod: "710-0230",
+    code: "sk96",
   },
   {
-    cod: "S341",
+    code: "SET19",
   },
   {
-    cod: "MULTI-MOÑOS-1",
+    code: "SK45",
   },
   {
-    cod: "S361",
+    code: "OB10SS",
   },
   {
-    cod: "PTR004",
+    code: "SK81",
   },
   {
-    cod: "710-0229",
+    code: "Sk56",
   },
   {
-    cod: "LAMCOM.31",
+    code: "sk79",
   },
   {
-    cod: "CAPI19",
+    code: "sk52",
   },
   {
-    cod: "LAMCOM.43",
+    code: "SK46",
   },
   {
-    cod: "POM40A",
+    code: "MTL1183",
   },
   {
-    cod: "POM40",
+    code: "DSPP050",
   },
   {
-    cod: "POM42",
+    code: "634805",
   },
   {
-    cod: "POM43",
+    code: "S31912",
   },
   {
-    cod: "710-0119",
+    code: "S31913",
   },
   {
-    cod: "LAMCOM.69",
+    code: "S729",
   },
   {
-    cod: "MOLDECHONAV",
+    code: "STX1",
   },
   {
-    cod: "INN516",
+    code: "S31911",
   },
   {
-    cod: "FLIPO.07",
+    code: "S694",
   },
   {
-    cod: "FPETF.NA",
+    code: "S731",
   },
   {
-    cod: "FPET.86",
+    code: "S31893",
   },
   {
-    cod: "DELIPRIMX1NJ",
+    code: "STX2",
   },
   {
-    cod: "KINGNNAR",
+    code: "ESCHOCO",
   },
   {
-    cod: "WIL062.6",
+    code: "S31891",
   },
   {
-    cod: "FPET.87",
+    code: "S3192",
   },
   {
-    cod: "FPET.88",
+    code: "Silisavnc",
   },
   {
-    cod: "NEONNARA",
+    code: "mcake20",
   },
   {
-    cod: "DELI2PUNTANAR",
+    code: "103015",
   },
   {
-    cod: "FPET.74",
+    code: "hexamid12",
   },
   {
-    cod: "LAMCOMNAVIDAD",
+    code: "4171199",
   },
   {
-    cod: "LAMCOMNAV1",
+    code: "Bm0748",
   },
   {
-    cod: "LAMCOMNAV10",
+    code: "103012",
   },
   {
-    cod: "LAMCOMNAV11",
+    code: "Silipanal",
   },
   {
-    cod: "LAMCOMNAV12",
+    code: "D10RGS",
   },
   {
-    cod: "LAMCOMNAV13",
+    code: "44074",
   },
   {
-    cod: "LAMCOMNAV14",
+    code: "siliformas",
   },
   {
-    cod: "LAMCOMNAV2",
+    code: "33071",
   },
   {
-    cod: "LAMCOMNAV3",
+    code: "Hidroverh",
   },
   {
-    cod: "LAMCOMNAV4",
+    code: "Hidrotur",
   },
   {
-    cod: "LAMCOMNAV5",
+    code: "Hidrolila",
   },
   {
-    cod: "LAMCOMNAV6",
+    code: "Hidroverv",
   },
   {
-    cod: "LAMCOMNAV7",
+    code: "Hidroverl",
   },
   {
-    cod: "LAMCOMNAV8",
+    code: "Hidroviop",
   },
   {
-    cod: "LAMCOMNAV9",
+    code: "Hidrocel",
   },
   {
-    cod: "MTNAVD",
+    code: "Hidrorosat",
   },
   {
-    cod: "MTNAVP",
+    code: "Hidrorojoc",
   },
   {
-    cod: "FLIPO.09",
+    code: "Hidronskin",
   },
   {
-    cod: "PASTE737",
+    code: "Hidrobor",
   },
   {
-    cod: "PASTE150",
+    code: "Hidroazb",
   },
   {
-    cod: "WIL073.5",
+    code: "Hidroazm",
   },
   {
-    cod: "WIL062.7",
+    code: "Hidroana",
   },
   {
-    cod: "MC-DF-0003/1",
+    code: "MMGZ",
   },
   {
-    cod: "FPET.89",
+    code: "7107887",
   },
   {
-    cod: "COT4079",
+    code: "7107886",
   },
   {
-    cod: "VI035",
+    code: "101985",
   },
   {
-    cod: "MR.7",
+    code: "bcollvdem",
   },
   {
-    cod: "7107290",
+    code: "BCOLLAMA",
   },
   {
-    cod: "CLOUD",
+    code: "bcollmar",
   },
   {
-    cod: "NBPX20",
+    code: "BCOLLLILA",
   },
   {
-    cod: "CEN7123",
+    code: "bcollman",
   },
   {
-    cod: "FLES37",
+    code: "BCOLLROJ",
   },
   {
-    cod: "CHINT1629",
+    code: "BCOLLAZU",
   },
   {
-    cod: "CHINT1636",
+    code: "BCOLLROSA",
   },
   {
-    cod: "CHINT1650",
+    code: "bcollvdel",
   },
   {
-    cod: "CHINT1667",
+    code: "44308",
   },
   {
-    cod: "CHINT1612",
+    code: "79182",
   },
   {
-    cod: "CHINT1643",
+    code: "35538",
   },
   {
-    cod: "CHINT1681",
+    code: "Silic16x16",
   },
   {
-    cod: "CHINT1698",
+    code: "Pun.39",
   },
   {
-    cod: "NUMERO",
+    code: "41728",
   },
   {
-    cod: "PS24",
+    code: "41727",
   },
   {
-    cod: "INN513",
+    code: "silioreo6",
   },
   {
-    cod: "LD012",
+    code: "P36.10",
   },
   {
-    cod: "OREOMDE",
+    code: "4172582",
   },
   {
-    cod: "KINGFORO",
+    code: "4172581",
   },
   {
-    cod: "SIL08",
+    code: "ax1011x20",
   },
   {
-    cod: "R21",
+    code: "PAR15",
   },
   {
-    cod: "OUTDEC106",
+    code: "44418",
   },
   {
-    cod: "OUTCHINTMCH6",
+    code: "BD14X2",
   },
   {
-    cod: "OUTDEC104",
+    code: "BD16X2",
   },
   {
-    cod: "OUTBASEN",
+    code: "C1371",
   },
   {
-    cod: "OUT7896",
+    code: "4206811",
   },
   {
-    cod: "OUTCHINT2530",
+    code: "BCOLSAL",
   },
   {
-    cod: "OUTAX02330",
+    code: "BCOLVH",
   },
   {
-    cod: "VC7535OUT",
+    code: "BCOLPLAT",
   },
   {
-    cod: "OUTCH1",
+    code: "BCOLCOR",
   },
   {
-    cod: "OUTESPCH",
+    code: "BCOLBOR",
   },
   {
-    cod: "OUTREP4659",
+    code: "BCOLTU",
   },
   {
-    cod: "OUT4176129",
+    code: "BCOLLI",
   },
   {
-    cod: "OUTJARRA",
+    code: "BCOLAMA",
   },
   {
-    cod: "OUTCHINTLT25",
+    code: "BR0036",
   },
   {
-    cod: "OUTTOR0134",
+    code: "BCOLAMAP",
   },
   {
-    cod: "OUTTOR0131",
+    code: "7107886",
   },
   {
-    cod: "OUTTOR0132",
+    code: "210500417",
   },
   {
-    cod: "OUTTOR0133",
+    code: "21054820",
   },
   {
-    cod: "OUTCHONAV",
+    code: "2105979",
   },
   {
-    cod: "OUTLETPALO",
+    code: "21050615",
   },
   {
-    cod: "OUTLETPALO33",
+    code: "210500416",
   },
   {
-    cod: "OUTPINCELCH",
+    code: "67135",
   },
   {
-    cod: "PINCELOUT",
+    code: "S458",
   },
   {
-    cod: "OUTLETPLACA",
+    code: "318712",
   },
   {
-    cod: "OUTPION5",
+    code: "318711",
   },
   {
-    cod: "OUTPION6",
+    code: "PICOGLA",
   },
   {
-    cod: "GPOUTLET",
+    code: "S681",
   },
   {
-    cod: "OUTLERSCRAP",
+    code: "TARS",
   },
   {
-    cod: "OUTCHIN1534",
+    code: "COCORA",
   },
   {
-    cod: "OUTTAMIZSET",
+    code: "12753",
   },
   {
-    cod: "OUTTAMIZ",
+    code: "HARALM",
   },
   {
-    cod: "OUTAX7200",
+    code: "PPP0123",
   },
   {
-    cod: "OUTCHINT4125",
+    code: "940413",
   },
   {
-    cod: "OUTAX5004",
+    code: "44074",
   },
   {
-    cod: "OUTCA.10",
+    code: "350052",
   },
   {
-    cod: "OUTHOJ26X10",
+    code: "38545",
   },
   {
-    cod: "OUTHOJACUA26X10",
+    code: "106K49",
   },
   {
-    cod: "OUTHOJAREN28X10",
+    code: "106I83",
   },
   {
-    cod: "OUTCHINTMCH3",
+    code: "106J39",
   },
   {
-    cod: "STENCILP",
+    code: "CHIPSA",
   },
   {
-    cod: "7107291",
+    code: "CHIPL",
   },
   {
-    cod: "LAMCOM.32",
+    code: "CHIPB",
   },
   {
-    cod: "VI034",
+    code: "129535",
   },
   {
-    cod: "AM22898",
+    code: "129529",
   },
   {
-    cod: "CP20GP",
+    code: "129528",
   },
   {
-    cod: "CHOOK250GR",
+    code: "COM",
   },
   {
-    cod: "OUTLET",
+    code: "105051",
   },
   {
-    cod: "BOTI009",
+    code: "105083",
   },
   {
-    cod: "BOTI010",
+    code: "106I84",
   },
   {
-    cod: "BOTI011",
+    code: "110247",
   },
   {
-    cod: "1907-1088",
+    code: "101A13",
   },
   {
-    cod: "PAPELALUM25X5",
+    code: "110248",
   },
   {
-    cod: "PAPELARROZLISO",
+    code: "504104",
   },
   {
-    cod: "BOMBDORD",
+    code: "4196562",
   },
   {
-    cod: "BOMBLUN",
+    code: "4196563",
   },
   {
-    cod: "35607",
+    code: "PAN35",
   },
   {
-    cod: "BOMBFUCS",
+    code: "W2094117",
   },
   {
-    cod: "35997",
+    code: "6809",
   },
   {
-    cod: "26896",
+    code: "6800",
   },
   {
-    cod: "35615",
+    code: "7121",
   },
   {
-    cod: "PBROJO",
+    code: "7124",
   },
   {
-    cod: "689AP",
+    code: "7128",
   },
   {
-    cod: "BOMBAROS",
+    code: "7127",
   },
   {
-    cod: "BOMBAVIO",
+    code: "7126",
   },
   {
-    cod: "BOMBBD",
+    code: "7130",
   },
   {
-    cod: "BOMBMAC",
+    code: "SILMARGA",
   },
   {
-    cod: "BOMBLILA",
+    code: "CHINCACTUS",
   },
   {
-    cod: "BOMBMA",
+    code: "SILRAYITO",
   },
   {
-    cod: "BOMBMAD",
+    code: "PASTE8002",
   },
   {
-    cod: "689M",
+    code: "503221M",
   },
   {
-    cod: "BOMBNAR",
+    code: "4196672",
   },
   {
-    cod: "689RR",
+    code: "NIC250",
   },
   {
-    cod: "689RRM",
+    code: "YIPLAGIRECO",
   },
   {
-    cod: "PBOMT",
+    code: "GLKM02",
   },
   {
-    cod: "BOMBVE",
+    code: "6606",
   },
   {
-    cod: "3DPR",
+    code: "3187.8",
   },
   {
-    cod: "PAR15",
+    code: "BM0238",
   },
   {
-    cod: "PAR17",
+    code: "3187.3",
   },
   {
-    cod: "PAR19",
+    code: "3187.1",
   },
   {
-    cod: "PAR21",
+    code: "DRG10",
   },
   {
-    cod: "PAR23",
+    code: "DISC1S",
   },
   {
-    cod: "PAR25",
+    code: "DISC12",
   },
   {
-    cod: "GAN15",
+    code: "7103626",
   },
   {
-    cod: "GAN17",
+    code: "CAKE20",
   },
   {
-    cod: "GAN19",
+    code: "HEXADES25",
   },
   {
-    cod: "GAN21",
+    code: "REP2005",
   },
   {
-    cod: "GAN23",
+    code: "3200860",
   },
   {
-    cod: "GAN25",
+    code: "VTSB",
   },
   {
-    cod: "GAN27",
+    code: "PVTR64",
   },
   {
-    cod: "LAMCOM.33",
+    code: "503222",
   },
   {
-    cod: "LAMCOM.34",
+    code: "4196541",
   },
   {
-    cod: "LAMCOM.35",
+    code: "4196593",
   },
   {
-    cod: "AM019",
+    code: "4196580",
   },
   {
-    cod: "AZ048",
+    code: "104123",
   },
   {
-    cod: "PA DECOR 28",
+    code: "3294201",
   },
   {
-    cod: "PA DECOR 27",
+    code: "SILICOPI",
   },
   {
-    cod: "PA DECOR 08",
+    code: "SMGAT",
   },
   {
-    cod: "PA DECOR 03",
+    code: "VT6RI",
   },
   {
-    cod: "PA DECOR 30K",
+    code: "VT6BO",
   },
   {
-    cod: "PA DECOR 19",
+    code: "390041",
   },
   {
-    cod: "PA DECOR 20",
+    code: "7026016",
   },
   {
-    cod: "PA DECOR 29",
+    code: "DELY17CV",
   },
   {
-    cod: "PA DECOR 32V",
+    code: "paste150",
   },
   {
-    cod: "CARX1.5",
+    code: "DELY17SV",
   },
   {
-    cod: "CARX3",
+    code: "YIMEDL",
   },
   {
-    cod: "CARX0.5",
+    code: "16750",
   },
   {
-    cod: "CARX0.75",
+    code: "16755",
   },
   {
-    cod: "PEPYPAN",
+    code: "16754",
   },
   {
-    cod: "PG DECOR 06",
+    code: "16753",
   },
   {
-    cod: "PG DECOR 05",
+    code: "ALAMBREVDE18",
   },
   {
-    cod: "PG DECOR 15",
+    code: "AX0691",
   },
   {
-    cod: "BAGOMX0.5N",
+    code: "COT4824",
   },
   {
-    cod: "PG DECOR 07",
+    code: "COT4825",
   },
   {
-    cod: "BAGOMX0.5R",
+    code: "COT4823",
   },
   {
-    cod: "PG DECOR 08",
+    code: "Glitplata",
   },
   {
-    cod: "PG DECOR 16",
+    code: "38551",
   },
   {
-    cod: "PAS40P",
+    code: "WI208016",
   },
   {
-    cod: "PAS30P",
+    code: "34851",
   },
   {
-    cod: "BAMAZAX0.5",
+    code: "7473",
   },
   {
-    cod: "BALLCHOX0.75",
+    code: "44149",
   },
   {
-    cod: "BALLIFORMH",
+    code: "7795522",
   },
   {
-    cod: "BALLVAIX0.75",
+    code: "30665",
   },
   {
-    cod: "MAPRELLALM59-09",
+    code: "23598",
   },
   {
-    cod: "MAPRELLAVE59-16",
+    code: "25218",
   },
   {
-    cod: "MAPRELLBAN59-07",
+    code: "30667",
   },
   {
-    cod: "MAPRELLCHOC59-1",
+    code: "25217",
   },
   {
-    cod: "MAPRELLFRU59-12",
+    code: "21338",
   },
   {
-    cod: "MAPRELLLIM59-08",
+    code: "16736",
   },
   {
-    cod: "MAPRELLMANI59-1",
+    code: "COA0200",
   },
   {
-    cod: "MAPRELLMEN59-15",
+    code: "2105-950",
   },
   {
-    cod: "MAPRELLTIRA59-1",
+    code: "38546",
   },
   {
-    cod: "10481",
+    code: "PASTE101",
   },
   {
-    cod: "WIL051",
+    code: "940411",
   },
   {
-    cod: "PTR013",
+    code: "COT8069",
   },
   {
-    cod: "PTR001",
+    code: "COT4821",
   },
   {
-    cod: "PTR002",
+    code: "COT4822",
   },
   {
-    cod: "LAMCOM.47",
+    code: "COT4820",
   },
   {
-    cod: "FLEESC.39",
+    code: "SILIDELF",
   },
   {
-    cod: "7105522",
+    code: "002D5",
   },
   {
-    cod: "PERLAS X 3",
+    code: "SGP104",
   },
   {
-    cod: "S603",
+    code: "SET46",
   },
   {
-    cod: "SIL15",
+    code: "SGP107",
   },
   {
-    cod: "S607",
+    code: "SGP86",
   },
   {
-    cod: "S602",
+    code: "SA186",
   },
   {
-    cod: "WIL031",
+    code: "SA203",
   },
   {
-    cod: "S601",
+    code: "SET42",
   },
   {
-    cod: "710-2081",
+    code: "SET44",
   },
   {
-    cod: "WIL028",
+    code: "SET43",
   },
   {
-    cod: "WIL026",
+    code: "SA188",
   },
   {
-    cod: "WIL027",
+    code: "SET45",
   },
   {
-    cod: "WIL029",
+    code: "SA116",
   },
   {
-    cod: "LAMCOM.44",
+    code: "SA113",
   },
   {
-    cod: "SM701",
+    code: "SA114",
   },
   {
-    cod: "PICOGLOBO",
+    code: "P026",
   },
   {
-    cod: "PICOGLOBO1",
+    code: "COOKIES5",
   },
   {
-    cod: "PICOGLOBO5",
+    code: "COOKIES4",
   },
   {
-    cod: "PICOGLOBO8",
+    code: "COOKIES1",
   },
   {
-    cod: "PR32",
+    code: "NAV70",
   },
   {
-    cod: "BR.70",
+    code: "COOKIES8",
   },
   {
-    cod: "BR.71",
+    code: "COOKIES2",
   },
   {
-    cod: "BR.73",
+    code: "COOKIES3",
   },
   {
-    cod: "BR.74",
+    code: "CAPI1",
   },
   {
-    cod: "BR.76",
+    code: "ALAMBREVER28",
   },
   {
-    cod: "BR.78",
+    code: "2371875",
   },
   {
-    cod: "BR.80",
+    code: "415801",
   },
   {
-    cod: "BR.95",
+    code: "40862",
   },
   {
-    cod: "BR.96",
+    code: "30666",
   },
   {
-    cod: "BR.97",
+    code: "38549",
   },
   {
-    cod: "CHINT1489",
+    code: "30009",
   },
   {
-    cod: "S224",
+    code: "35571",
   },
   {
-    cod: "ESTAM",
+    code: "35569",
   },
   {
-    cod: "ESTAMR",
+    code: "35572",
   },
   {
-    cod: "SID24",
+    code: "30664",
   },
   {
-    cod: "LCR20",
+    code: "SW83",
   },
   {
-    cod: "LCR",
+    code: "SW60",
   },
   {
-    cod: "SIDR24",
+    code: "SW84",
   },
   {
-    cod: "LG20",
+    code: "SW202",
   },
   {
-    cod: "LG4524",
+    code: "SW297",
   },
   {
-    cod: "LGR20",
+    code: "SW138",
   },
   {
-    cod: "KIEVG",
+    code: "SW224",
   },
   {
-    cod: "LGR",
+    code: "SW159",
   },
   {
-    cod: "MK106F15",
+    code: "SW146",
   },
   {
-    cod: "LC4524",
+    code: "SW278",
   },
   {
-    cod: "LCRR",
+    code: "SW160",
   },
   {
-    cod: "LGRO",
+    code: "SR103",
   },
   {
-    cod: "LGR24",
+    code: "SW136",
   },
   {
-    cod: "VE001",
+    code: "SK224",
   },
   {
-    cod: "SIL41",
+    code: "SK53",
   },
   {
-    cod: "LAMCOM.36",
+    code: "SK227",
   },
   {
-    cod: "LAMCOM.37",
+    code: "SK82",
   },
   {
-    cod: "LAMCOM.38",
+    code: "SK212",
   },
   {
-    cod: "R12",
+    code: "SK222",
   },
   {
-    cod: "FPET.07",
+    code: "SK225",
   },
   {
-    cod: "8031",
+    code: "SGP82",
   },
   {
-    cod: "FPET.90",
+    code: "SK161",
   },
   {
-    cod: "PIN10",
+    code: "SK133",
   },
   {
-    cod: "PIN12",
+    code: "SGP96",
   },
   {
-    cod: "PINCEL",
+    code: "SK158",
   },
   {
-    cod: "SFCHATO1",
+    code: "SGP94",
   },
   {
-    cod: "SFCHATO3",
+    code: "SGP80",
   },
   {
-    cod: "FALCONN6",
+    code: "SGP15",
   },
   {
-    cod: "FALCONN8",
+    code: "SGP56",
   },
   {
-    cod: "19071111",
+    code: "SGP31",
   },
   {
-    cod: "PINCELN12",
+    code: "MID32",
   },
   {
-    cod: "SFRED0",
+    code: "RODI",
   },
   {
-    cod: "SFRED3",
+    code: "MID25",
   },
   {
-    cod: "SFRED5",
+    code: "SGP100",
   },
   {
-    cod: "TRANSPINCEL",
+    code: "SG158",
   },
   {
-    cod: "LAMCOM.74",
+    code: "SA169",
   },
   {
-    cod: "609-7275",
+    code: "DONUTS",
   },
   {
-    cod: "PI0",
+    code: "MTAR",
   },
   {
-    cod: "PI1",
+    code: "COXXL",
   },
   {
-    cod: "PI2",
+    code: "MID12",
   },
   {
-    cod: "PI3",
+    code: "7105352",
   },
   {
-    cod: "PI4",
+    code: "PG.CE",
   },
   {
-    cod: "PI5",
+    code: "ARGCERCHOMUL100",
   },
   {
-    cod: "PI6",
+    code: "95484",
   },
   {
-    cod: "PI7",
+    code: "40284",
   },
   {
-    cod: "PI8",
+    code: "100S",
   },
   {
-    cod: "PI9",
+    code: "34808",
   },
   {
-    cod: "SM810",
+    code: "4196713",
   },
   {
-    cod: "PIR5009-8",
+    code: "4196714",
   },
   {
-    cod: "PIR0266",
+    code: "38547",
   },
   {
-    cod: "P10.10.03",
+    code: "40282",
   },
   {
-    cod: "P12.10.04",
+    code: "38550",
   },
   {
-    cod: "P12.10.05",
+    code: "YIPAL31A",
   },
   {
-    cod: "P12.10.06",
+    code: "SILIOVAL",
   },
   {
-    cod: "P12.10.07",
+    code: "SIYES",
   },
   {
-    cod: "P14.10",
+    code: "SILISIRENA",
   },
   {
-    cod: "PGORRO.10",
+    code: "S806",
   },
   {
-    cod: "P10.10.04",
+    code: "PLACATEX1",
   },
   {
-    cod: "P10.10.02",
+    code: "SILIDONA",
   },
   {
-    cod: "P10.10.01",
+    code: "42555",
   },
   {
-    cod: "P23.10",
+    code: "42196",
   },
   {
-    cod: "P25.10",
+    code: "42798",
   },
   {
-    cod: "P40.10.02",
+    code: "P08034",
   },
   {
-    cod: "P40.10.03",
+    code: "PIR5009X8C",
   },
   {
-    cod: "P40.10.01",
+    code: "DISC14",
   },
   {
-    cod: "P40.10.04",
+    code: "BB332",
   },
   {
-    cod: "P40.10.05",
+    code: "DBRP20",
   },
   {
-    cod: "P40.10.06",
+    code: "13941",
   },
   {
-    cod: "P44.10",
+    code: "25076",
   },
   {
-    cod: "P46.10",
+    code: "35544",
   },
   {
-    cod: "P59.10",
+    code: "CHINMAQ",
   },
   {
-    cod: "P43.10",
+    code: "SILIMANO",
   },
   {
-    cod: "PIR0266.08",
+    code: "SILINAVIDAD",
   },
   {
-    cod: "P12.08.03",
+    code: "DQ2413",
   },
   {
-    cod: "P12.08.04",
+    code: "CAPI8",
   },
   {
-    cod: "P12.08.05",
+    code: "CAPI6",
   },
   {
-    cod: "P12.08.06",
+    code: "CAPI17",
   },
   {
-    cod: "P12.08.07",
+    code: "CAPI16",
   },
   {
-    cod: "P14.08",
+    code: "AX17030",
   },
   {
-    cod: "P10.08.04",
+    code: "7103624",
   },
   {
-    cod: "P10.08.02",
+    code: "7103621",
   },
   {
-    cod: "P10.08.01",
+    code: "7103625",
   },
   {
-    cod: "P10.08.03",
+    code: "7103627",
   },
   {
-    cod: "P23.08",
+    code: "23085023",
   },
   {
-    cod: "P25.08",
+    code: "7106683",
   },
   {
-    cod: "P40.08.02",
+    code: "4196540",
   },
   {
-    cod: "P40.08.03",
+    code: "4196544",
   },
   {
-    cod: "P40.08.01",
+    code: "4191516G",
   },
   {
-    cod: "P40.08.04",
+    code: "4196545",
   },
   {
-    cod: "P40.08.05",
+    code: "4196554",
   },
   {
-    cod: "P40.08.06",
+    code: "104195",
   },
   {
-    cod: "PISAMAPER",
+    code: "4196553",
   },
   {
-    cod: "PISBCOPER",
+    code: "4186298",
   },
   {
-    cod: "18128",
+    code: "4191516B",
   },
   {
-    cod: "18132",
+    code: "4191516A",
   },
   {
-    cod: "PISLILAPER",
+    code: "FUDOR3",
   },
   {
-    cod: "PISNEGPER",
+    code: "3294202",
   },
   {
-    cod: "PISROSAPER",
+    code: "3294200",
   },
   {
-    cod: "4092529",
+    code: "CHEESS",
   },
   {
-    cod: "BOTI027B",
+    code: "MALVABUFFYFRESA",
   },
   {
-    cod: "6B10",
+    code: "S127",
   },
   {
-    cod: "106103A4",
+    code: "41354",
   },
   {
-    cod: "106103A3",
+    code: "B0789",
   },
   {
-    cod: "2593",
+    code: "YDGC197",
   },
   {
-    cod: "106103A1",
+    code: "1907-1363",
   },
   {
-    cod: "SUGARPLACA",
+    code: "GF22",
   },
   {
-    cod: "VC18009",
+    code: "CAPI2",
   },
   {
-    cod: "BOTI007B",
+    code: "CAPI4",
   },
   {
-    cod: "WIL041",
+    code: "FLANFLOR - 3294",
   },
   {
-    cod: "WIL042",
+    code: "1907-1350",
   },
   {
-    cod: "WIL039",
+    code: "41774",
   },
   {
-    cod: "4092548",
+    code: "4171005",
   },
   {
-    cod: "PION4",
+    code: "A69004",
   },
   {
-    cod: "PION5",
+    code: "1719C",
   },
   {
-    cod: "PION6",
+    code: "ZAPATOCH",
   },
   {
-    cod: "PION7",
+    code: "zapatoacri",
   },
   {
-    cod: "237187594006",
+    code: "3260060",
   },
   {
-    cod: "CA.39",
+    code: "PG.NE",
   },
   {
-    cod: "CA.45.BM",
+    code: "PG.RO",
   },
   {
-    cod: "4093188",
+    code: "PG.BL",
   },
   {
-    cod: "4092558",
+    code: "PG.AZN",
   },
   {
-    cod: "4092552",
+    code: "CINTAEM",
   },
   {
-    cod: "4092565",
+    code: "S451",
   },
   {
-    cod: "4097726",
+    code: "S452",
   },
   {
-    cod: "409-3189",
+    code: "02-0-0009",
   },
   {
-    cod: "409-7724",
+    code: "02-0-0001",
   },
   {
-    cod: "43190",
+    code: "503221-3",
   },
   {
-    cod: "CAI1321",
+    code: "1907-1088",
   },
   {
-    cod: "CHINTBCO1",
+    code: "1.10E+16",
   },
   {
-    cod: "CHINTENC1",
+    code: "RP5190",
   },
   {
-    cod: "CHINTENC2",
+    code: "SWEETANA",
   },
   {
-    cod: "WIL040",
+    code: "SWQCR",
   },
   {
-    cod: "409-3186",
+    code: "SWMEN",
   },
   {
-    cod: "4092563",
+    code: "SWEETCARA",
   },
   {
-    cod: "TFG10",
+    code: "SC310",
   },
   {
-    cod: "94208",
+    code: "SH158",
   },
   {
-    cod: "LBI.11",
+    code: "SH157",
   },
   {
-    cod: "LBI.14",
+    code: "NEONNARA",
   },
   {
-    cod: "SPX3",
+    code: "007f2",
   },
   {
-    cod: "INN291",
+    code: "7103623",
   },
   {
-    cod: "FAIRYPLATA",
+    code: "710-3622",
   },
   {
-    cod: "FLECOLPET.91",
+    code: "3DBA",
   },
   {
-    cod: "WIL073.1",
+    code: "paste751",
   },
   {
-    cod: "4160525",
+    code: "paste130",
   },
   {
-    cod: "4160525C",
+    code: "paste126",
   },
   {
-    cod: "YIPLAGIRBLOQ",
+    code: "PASTE127",
   },
   {
-    cod: "YIPLAGIRVOL",
+    code: "PASTE553",
   },
   {
-    cod: "4160525R",
+    code: "paste584",
   },
   {
-    cod: "VI048",
+    code: "paste125",
   },
   {
-    cod: "LAMCOM.56",
+    code: "paste129",
   },
   {
-    cod: "S320",
+    code: "paste112",
   },
   {
-    cod: "ROJO5GR",
+    code: "paste115",
   },
   {
-    cod: "SALMON5GR",
+    code: "PASTE110",
   },
   {
-    cod: "703-211",
+    code: "paste109",
   },
   {
-    cod: "PMI01",
+    code: "paste116",
   },
   {
-    cod: "PMI01AX250F",
+    code: "paste111",
   },
   {
-    cod: "CIRBIHORX1",
+    code: "paste107",
   },
   {
-    cod: "FLEESC.40",
+    code: "REJI",
   },
   {
-    cod: "3DPON",
+    code: "paste106",
   },
   {
-    cod: "TOPPER",
+    code: "spx3",
   },
   {
-    cod: "25218",
+    code: "DELICLASS",
   },
   {
-    cod: "25217",
+    code: "TORTAFLOR - 329",
   },
   {
-    cod: "PRB11",
+    code: "504101",
   },
   {
-    cod: "PRB15",
+    code: "504102",
   },
   {
-    cod: "PBW01",
+    code: "503221.2",
   },
   {
-    cod: "PCK01",
+    code: "CAKE11",
   },
   {
-    cod: "16753",
+    code: "39728",
   },
   {
-    cod: "16754",
+    code: "OREOMDE",
   },
   {
-    cod: "16750",
+    code: "CHIBLAN",
   },
   {
-    cod: "SM788",
+    code: "s750",
   },
   {
-    cod: "PRODULX1",
+    code: "009P3",
   },
   {
-    cod: "PROCOCOAMX1",
+    code: "SK186",
   },
   {
-    cod: "PROCONPLAN2X1",
+    code: "SK189",
   },
   {
-    cod: "PROCONPLAN3X1",
+    code: "SK184",
   },
   {
-    cod: "KINGPTG",
+    code: "SK185",
   },
   {
-    cod: "MR.9",
+    code: "008U3",
   },
   {
-    cod: "R15",
+    code: "007Y2",
   },
   {
-    cod: "R8",
+    code: "23001700",
   },
   {
-    cod: "FPET.08",
+    code: "h1c",
   },
   {
-    cod: "FPET.09",
+    code: "3260050",
   },
   {
-    cod: "WIL73.13",
+    code: "3260060",
   },
   {
-    cod: "FLEESC.41",
+    code: "h1",
   },
   {
-    cod: "LAMCOM.75",
+    code: "MH2",
   },
   {
-    cod: "R13",
+    code: "PC340A",
   },
   {
-    cod: "PUNZ7",
+    code: "GREALVIOLET",
   },
   {
-    cod: "PUNZ6",
+    code: "GREALAZU",
   },
   {
-    cod: "LAMCOM.39",
+    code: "rep2020",
   },
   {
-    cod: "LAMCOM.40",
+    code: "SGUIT5",
   },
   {
-    cod: "LAMCOM.48",
+    code: "DRIP12",
   },
   {
-    cod: "INN512",
+    code: "TULIBLPR",
   },
   {
-    cod: "LAMCOMRD",
+    code: "ChintPRm15",
   },
   {
-    cod: "LAMCOM.70",
+    code: "chintpr7b",
   },
   {
-    cod: "LAMCOM24",
+    code: "PR20",
   },
   {
-    cod: "LAMCOMR8",
+    code: "ChintPRm14",
   },
   {
-    cod: "LAMCOMZ23",
+    code: "S709",
   },
   {
-    cod: "LAMCOMZ24",
+    code: "COT0585",
   },
   {
-    cod: "KINGRG",
+    code: "cot0660",
   },
   {
-    cod: "WIL070",
+    code: "COT0721",
   },
   {
-    cod: "REJILLARECT",
+    code: "COT0684",
   },
   {
-    cod: "R26X40",
+    code: "COT0363",
   },
   {
-    cod: "16755",
+    code: "COT0615",
   },
   {
-    cod: "VE022",
+    code: "COT0295",
   },
   {
-    cod: "LAMCOMRJ",
+    code: "COT0691",
   },
   {
-    cod: "LAMCOM.71",
+    code: "COT1100",
   },
   {
-    cod: "FLEESC.42",
+    code: "COT0646",
   },
   {
-    cod: "RMM",
+    code: "COT0325",
   },
   {
-    cod: "503225",
+    code: "COT0318",
   },
   {
-    cod: "RP10",
+    code: "GUPL10",
   },
   {
-    cod: "RP3",
+    code: "GUT04",
   },
   {
-    cod: "RP4",
+    code: "GUT09",
   },
   {
-    cod: "RP7",
+    code: "GUT07",
   },
   {
-    cod: "RP9",
+    code: "COT1391",
   },
   {
-    cod: "R31",
+    code: "COT1377",
   },
   {
-    cod: "R32",
+    code: "COT0608",
   },
   {
-    cod: "R33",
+    code: "COT0592",
   },
   {
-    cod: "R34",
+    code: "GUT10",
   },
   {
-    cod: "R35",
+    code: "COT0714",
   },
   {
-    cod: "R36",
+    code: "GUT11",
   },
   {
-    cod: "R37",
+    code: "CHINT3DCOR",
   },
   {
-    cod: "R38",
+    code: "CHINT3DCNA",
   },
   {
-    cod: "R39",
+    code: "C1274",
   },
   {
-    cod: "R40",
+    code: "ZAPPLAT",
   },
   {
-    cod: "R41",
+    code: "C1217",
   },
   {
-    cod: "R42",
+    code: "C1276",
   },
   {
-    cod: "R43",
+    code: "CHINT3DCSA",
   },
   {
-    cod: "R44",
+    code: "CHINT3DKT",
   },
   {
-    cod: "R45",
+    code: "C1216",
   },
   {
-    cod: "R46",
+    code: "CHINTB892",
   },
   {
-    cod: "R47",
+    code: "CHINT2250",
   },
   {
-    cod: "R48",
+    code: "placahue40",
   },
   {
-    cod: "R49",
+    code: "CHINPL1",
   },
   {
-    cod: "R50",
+    code: "placahue30",
   },
   {
-    cod: "R51",
+    code: "DES4557",
   },
   {
-    cod: "R52",
+    code: "big12",
   },
   {
-    cod: "R53",
+    code: "23083803",
   },
   {
-    cod: "R54",
+    code: "23080948",
   },
   {
-    cod: "REPROL01",
+    code: "2103325",
   },
   {
-    cod: "REPROL03",
+    code: "2103324",
   },
   {
-    cod: "RP15",
+    code: "4172574",
   },
   {
-    cod: "RP12",
+    code: "4171661",
   },
   {
-    cod: "RP16",
+    code: "23080092",
   },
   {
-    cod: "RP17",
+    code: "7107653",
   },
   {
-    cod: "RP18",
+    code: "23081125",
   },
   {
-    cod: "RP19",
+    code: "23080946",
   },
   {
-    cod: "RP33",
+    code: "23080915",
   },
   {
-    cod: "RP34",
+    code: "7107287",
   },
   {
-    cod: "RP5",
+    code: "7107290",
   },
   {
-    cod: "RP6",
+    code: "7107283",
   },
   {
-    cod: "RP8",
+    code: "7107289",
   },
   {
-    cod: "RP14",
+    code: "7104105",
   },
   {
-    cod: "RP11",
+    code: "7107284",
   },
   {
-    cod: "1907-1358",
+    code: "7104090",
   },
   {
-    cod: "WIL102",
+    code: "7104091",
   },
   {
-    cod: "FLIPO.03",
+    code: "7104104",
   },
   {
-    cod: "FPETF.RO",
+    code: "7104088",
   },
   {
-    cod: "LIPOROJO",
+    code: "7104114",
   },
   {
-    cod: "PASTE751",
+    code: "7104087",
   },
   {
-    cod: "PASTE110",
+    code: "7104092",
   },
   {
-    cod: "PASTE116",
+    code: "7104086",
   },
   {
-    cod: "DELI2PUNTAR",
+    code: "710041",
   },
   {
-    cod: "DELIPRIMX1R",
+    code: "7104089",
   },
   {
-    cod: "WIL062.10",
+    code: "CARTBGS",
   },
   {
-    cod: "D022",
+    code: "CARTBGM",
   },
   {
-    cod: "FPET.93",
+    code: "SW43",
   },
   {
-    cod: "DRUBI",
+    code: "Flipo.07",
   },
   {
-    cod: "WIL73.11",
+    code: "Flipo.10",
   },
   {
-    cod: "CAPI10",
+    code: "FLIPO.06",
   },
   {
-    cod: "CAPI9",
+    code: "Flipo.08",
   },
   {
-    cod: "CAPI6",
+    code: "Flipo.09",
   },
   {
-    cod: "R11",
+    code: "P08",
   },
   {
-    cod: "CHIN2377",
+    code: "SW209",
   },
   {
-    cod: "GMC154",
+    code: "P09",
   },
   {
-    cod: "FLIPO.04",
+    code: "P06",
   },
   {
-    cod: "FPETF.ROSA",
+    code: "P03",
   },
   {
-    cod: "PASTE130",
+    code: "P05",
   },
   {
-    cod: "PASTE108",
+    code: "SW03",
   },
   {
-    cod: "DELIPASTX1R",
+    code: "SW183",
   },
   {
-    cod: "KINGNROSA",
+    code: "SW122",
   },
   {
-    cod: "WIL073.8",
+    code: "SGP67",
   },
   {
-    cod: "WIL062.9",
+    code: "SGP43",
   },
   {
-    cod: "FPET.12",
+    code: "SC79",
   },
   {
-    cod: "PASTE119",
+    code: "SGP65",
   },
   {
-    cod: "FPET.51",
+    code: "DISC4",
   },
   {
-    cod: "DELI2PUNTAROSA",
+    code: "CHINT0637",
   },
   {
-    cod: "FPET.52",
+    code: "CHINT8969",
   },
   {
-    cod: "FPET.53",
+    code: "CHINT0606",
   },
   {
-    cod: "ROSA G",
+    code: "CHINT6640",
   },
   {
-    cod: "10021015",
+    code: "DT3090",
   },
   {
-    cod: "10021012",
+    code: "CHINT0613",
   },
   {
-    cod: "D009",
+    code: "CHINT0873",
   },
   {
-    cod: "10020715",
+    code: "CHINT0897",
   },
   {
-    cod: "DBRP24",
+    code: "MK105077",
   },
   {
-    cod: "DBRP26",
+    code: "MK105075",
   },
   {
-    cod: "DBRP30",
+    code: "MK106D69",
   },
   {
-    cod: "PUNZ4",
+    code: "Af106003",
   },
   {
-    cod: "PUNZ10",
+    code: "Af105008",
   },
   {
-    cod: "FAIRYRV",
+    code: "Af108002",
   },
   {
-    cod: "R20",
+    code: "af106203",
   },
   {
-    cod: "REPPAL05",
+    code: "Af201002",
   },
   {
-    cod: "S123",
+    code: "ChintSet2",
   },
   {
-    cod: "S113",
+    code: "jarra",
   },
   {
-    cod: "CHINTRM1",
+    code: "LV007",
   },
   {
-    cod: "S112",
+    code: "AS008",
   },
   {
-    cod: "S122",
+    code: "CA003gr",
   },
   {
-    cod: "S102",
+    code: "RC002",
   },
   {
-    cod: "S114",
+    code: "RG006",
   },
   {
-    cod: "S121",
+    code: "NS005",
   },
   {
-    cod: "SIL33",
+    code: "BL001",
   },
   {
-    cod: "S231",
+    code: "AQ004",
   },
   {
-    cod: "S451",
+    code: "chintTP",
   },
   {
-    cod: "S230",
+    code: "fv9-14-10",
   },
   {
-    cod: "S240",
+    code: "chintlap",
   },
   {
-    cod: "S228",
+    code: "PRM16",
   },
   {
-    cod: "STENCILRP",
+    code: "ca9025",
   },
   {
-    cod: "R6",
+    code: "ax333",
   },
   {
-    cod: "STENCILRW",
+    code: "SP01",
   },
   {
-    cod: "STENCILSA",
+    code: "CPR7",
   },
   {
-    cod: "SA150",
+    code: "ChintPRM9",
   },
   {
-    cod: "SF061",
+    code: "S454",
   },
   {
-    cod: "BOTI014B",
+    code: "PRM3",
   },
   {
-    cod: "COT4076",
+    code: "ChintPRM7",
   },
   {
-    cod: "T11",
+    code: "S456",
   },
   {
-    cod: "COT4032",
+    code: "S130",
   },
   {
-    cod: "COT4080",
+    code: "S128",
   },
   {
-    cod: "STENCILSB",
+    code: "S129",
   },
   {
-    cod: "STENCILSC",
+    code: "S664",
   },
   {
-    cod: "BOTI018B",
+    code: "chint2012",
   },
   {
-    cod: "SCRARECTO",
+    code: "MZ",
   },
   {
-    cod: "S6255",
+    code: "chint640",
   },
   {
-    cod: "S6257",
+    code: "2105-6082",
   },
   {
-    cod: "S6252",
+    code: "19071094",
   },
   {
-    cod: "SP17",
+    code: "SA179",
   },
   {
-    cod: "S6254",
+    code: "1907-1095",
   },
   {
-    cod: "S6253",
+    code: "SA183",
   },
   {
-    cod: "AZ040",
+    code: "1907-1096",
   },
   {
-    cod: "S48",
+    code: "SA184",
   },
   {
-    cod: "BOTI003B",
+    code: "SA181",
   },
   {
-    cod: "SF049",
+    code: "SA182",
   },
   {
-    cod: "SSRAY",
+    code: "SA180",
   },
   {
-    cod: "STENCILSET",
+    code: "AX2010",
   },
   {
-    cod: "SETCORNET",
+    code: "ax2057",
   },
   {
-    cod: "SET01",
+    code: "S644",
   },
   {
-    cod: "SET02",
+    code: "sw89",
   },
   {
-    cod: "S651",
+    code: "sa139",
   },
   {
-    cod: "REP5049",
+    code: "sc182",
   },
   {
-    cod: "AX-M5GA",
+    code: "sw215",
   },
   {
-    cod: "AX1011",
+    code: "sw214",
   },
   {
-    cod: "SETTJ",
+    code: "sw156",
   },
   {
-    cod: "S449",
+    code: "sr105",
   },
   {
-    cod: "STENCILSG",
+    code: "sa60",
   },
   {
-    cod: "SG8",
+    code: "sr102",
   },
   {
-    cod: "STENCILSGP",
+    code: "sr50",
   },
   {
-    cod: "KINGSS",
+    code: "sr104",
   },
   {
-    cod: "LAMCOMS1",
+    code: "sa161",
   },
   {
-    cod: "SK187",
+    code: "sa65",
   },
   {
-    cod: "SK189",
+    code: "sr27",
   },
   {
-    cod: "SK61",
+    code: "sr17",
   },
   {
-    cod: "SK188",
+    code: "sr68",
   },
   {
-    cod: "STENCILSK",
+    code: "sk47",
   },
   {
-    cod: "SK186",
+    code: "sr28",
   },
   {
-    cod: "SK184",
+    code: "sk85",
   },
   {
-    cod: "SK138",
+    code: "sk73",
   },
   {
-    cod: "SK185",
+    code: "sk167",
   },
   {
-    cod: "SK170",
+    code: "sk146",
   },
   {
-    cod: "SK136",
+    code: "sk157",
   },
   {
-    cod: "SK190",
+    code: "sk130",
   },
   {
-    cod: "SRPX2",
+    code: "sk97",
   },
   {
-    cod: "STENCILSN",
+    code: "SK102",
   },
   {
-    cod: "MULTISOGA",
+    code: "SK105",
   },
   {
-    cod: "GA9",
+    code: "pezkoi",
   },
   {
-    cod: "41774",
+    code: "ch16089",
   },
   {
-    cod: "SORBENEGRO",
+    code: "S3169",
   },
   {
-    cod: "7109979",
+    code: "2105-956",
   },
   {
-    cod: "MAPABC",
+    code: "S654",
   },
   {
-    cod: "PASTENAV",
+    code: "S3161",
   },
   {
-    cod: "7101129",
+    code: "4160882",
   },
   {
-    cod: "STENCILSR",
+    code: "DZ.03",
   },
   {
-    cod: "STENCILST",
+    code: "CH0203",
   },
   {
-    cod: "ABC6",
+    code: "pirohaw",
   },
   {
-    cod: "ABC11",
+    code: "pirohaw8",
   },
   {
-    cod: "ABC4",
+    code: "wincopops",
   },
   {
-    cod: "RL24",
+    code: "COXXXL",
   },
   {
-    cod: "RL27",
+    code: "TF1515",
   },
   {
-    cod: "SW202",
+    code: "tester",
   },
   {
-    cod: "SET27",
+    code: "PAR19",
   },
   {
-    cod: "SW185",
+    code: "PAR23",
   },
   {
-    cod: "SET35",
+    code: "504103",
   },
   {
-    cod: "SW136",
+    code: "504105",
   },
   {
-    cod: "SK227",
+    code: "capi13",
   },
   {
-    cod: "SK53",
+    code: "rep5082",
   },
   {
-    cod: "SET30",
+    code: "YI2535",
   },
   {
-    cod: "STENCIL",
+    code: "rep5072",
   },
   {
-    cod: "ABC2.5CM6",
+    code: "unicx7",
   },
   {
-    cod: "ABC3CM11",
+    code: "ax2059",
   },
   {
-    cod: "ABC3CM4",
+    code: "Dropshuesitos",
   },
   {
-    cod: "SETSTEN.21",
+    code: "Ax2000",
   },
   {
-    cod: "SGP107",
+    code: "MCY6",
   },
   {
-    cod: "SW27",
+    code: "TARS",
   },
   {
-    cod: "SGP30",
+    code: "21050911",
   },
   {
-    cod: "SW116",
+    code: "Wilcorzx2",
   },
   {
-    cod: "SK105",
+    code: "2105957",
   },
   {
-    cod: "SK36",
+    code: "2105-958",
   },
   {
-    cod: "SK146",
+    code: "rep5067",
   },
   {
-    cod: "SN11",
+    code: "box42x32",
   },
   {
-    cod: "SR29",
+    code: "CK12M",
   },
   {
-    cod: "SET8",
+    code: "sw277",
   },
   {
-    cod: "SA203",
+    code: "SA168",
   },
   {
-    cod: "SA162",
+    code: "SA166",
   },
   {
-    cod: "SK97",
+    code: "SA59",
   },
   {
-    cod: "SN3",
+    code: "3294330",
   },
   {
-    cod: "RC203",
+    code: "503226",
   },
   {
-    cod: "STENLLA",
+    code: "MMBAE",
   },
   {
-    cod: "TB003",
+    code: "MMBA",
   },
   {
-    cod: "TB010",
+    code: "BUDINFLOR - 329",
   },
   {
-    cod: "TC015",
+    code: "S450",
   },
   {
-    cod: "TD005",
+    code: "S439",
   },
   {
-    cod: "TD006",
+    code: "S317",
   },
   {
-    cod: "TE003",
+    code: "S449",
   },
   {
-    cod: "STENMRYMRS",
+    code: "S653",
   },
   {
-    cod: "RL28",
+    code: "S448",
   },
   {
-    cod: "RL03",
+    code: "S651",
   },
   {
-    cod: "168 169",
+    code: "Tar",
   },
   {
-    cod: "STONEX8",
+    code: "CoXs",
   },
   {
-    cod: "D-002SILVER",
+    code: "CoXm",
   },
   {
-    cod: "D-057",
+    code: "COXL",
   },
   {
-    cod: "D-002",
+    code: "CoXxm",
   },
   {
-    cod: "D-005",
+    code: "12Cup",
   },
   {
-    cod: "D-095",
+    code: "Drip25",
   },
   {
-    cod: "D057",
+    code: "Drip32",
   },
   {
-    cod: "P007",
+    code: "4171089",
   },
   {
-    cod: "RGOLD",
+    code: "acrirosa",
   },
   {
-    cod: "10KGOLD",
+    code: "rep4008",
   },
   {
-    cod: "H002",
+    code: "SET30",
   },
   {
-    cod: "8275F",
+    code: "SET32",
   },
   {
-    cod: "LD-004",
+    code: "set25",
   },
   {
-    cod: "LD-044",
+    code: "SET22",
   },
   {
-    cod: "PLD-004",
+    code: "SET35",
   },
   {
-    cod: "FLECOLPET.55",
+    code: "setsten.18",
   },
   {
-    cod: "FPET.56",
+    code: "SET7",
   },
   {
-    cod: "COT4058",
+    code: "SET15",
   },
   {
-    cod: "COT4064",
+    code: "setsten.6",
   },
   {
-    cod: "COT4068",
+    code: "setsten.20",
   },
   {
-    cod: "SUPERMAN",
+    code: "setsten.13",
   },
   {
-    cod: "STENCILSW",
+    code: "SET5",
   },
   {
-    cod: "SIL57",
+    code: "Rep5017",
   },
   {
-    cod: "SIL58",
+    code: "Rep5060",
   },
   {
-    cod: "TAMIZ",
+    code: "Rep5092",
   },
   {
-    cod: "TAMIZP",
+    code: "SWCHB",
   },
   {
-    cod: "TAPABOCA",
+    code: "Rep5057",
   },
   {
-    cod: "COA0716",
+    code: "XD2114",
   },
   {
-    cod: "COA0718",
+    code: "1907-1345",
   },
   {
-    cod: "TARTEREC11X6",
+    code: "cucu",
   },
   {
-    cod: "HOJ-PFRD-20",
+    code: "fv91211",
   },
   {
-    cod: "HOJ-PFRD-22",
+    code: "S611",
   },
   {
-    cod: "503224",
+    code: "S623",
   },
   {
-    cod: "STENCILTB",
+    code: "S638",
   },
   {
-    cod: "STENCILTC",
+    code: "S609",
   },
   {
-    cod: "STENCILTD",
+    code: "S622",
   },
   {
-    cod: "STENCILTE",
+    code: "S625",
   },
   {
-    cod: "RT",
+    code: "4176106",
   },
   {
-    cod: "ARAÑA",
+    code: "104014",
   },
   {
-    cod: "20071800",
+    code: "S649",
   },
   {
-    cod: "BS1010",
+    code: "S648",
   },
   {
-    cod: "BS1515",
+    code: "S647",
   },
   {
-    cod: "BS2020",
+    code: "SPIR12",
   },
   {
-    cod: "BS2525",
+    code: "T08",
   },
   {
-    cod: "BS3030",
+    code: "papelmante",
   },
   {
-    cod: "BACUASD35X35X2",
+    code: "rep4001",
   },
   {
-    cod: "BACUASD40X40X2",
+    code: "t09",
   },
   {
-    cod: "BACUASD45X45X2",
+    code: "MCY1",
   },
   {
-    cod: "BACUASD50X50X2",
+    code: "MCY0",
   },
   {
-    cod: "BASD20X2",
+    code: "MCY5",
   },
   {
-    cod: "BASD16X2",
+    code: "yipal43a",
   },
   {
-    cod: "BASD18X2",
+    code: "MCY3",
   },
   {
-    cod: "BASD22X2",
+    code: "MCY4",
   },
   {
-    cod: "BASD24X2",
+    code: "MCY2",
   },
   {
-    cod: "BASD26X2",
+    code: "batix3",
   },
   {
-    cod: "BASD28X2",
+    code: "S3167",
   },
   {
-    cod: "BASD30X2",
+    code: "S3166",
   },
   {
-    cod: "BASD32X2",
+    code: "rep5052",
   },
   {
-    cod: "BASD34X2",
+    code: "lamina",
   },
   {
-    cod: "BASD36X2",
+    code: "Alambrebco18",
   },
   {
-    cod: "BARECSD20X30X2",
+    code: "FPET.22",
   },
   {
-    cod: "BARECSD25X35X2",
+    code: "2308-2012",
   },
   {
-    cod: "BARECSD30X40X2",
+    code: "PUN.78",
   },
   {
-    cod: "BARECSD35X45X2",
+    code: "GF06",
   },
   {
-    cod: "BARECSD40X50X2",
+    code: "S3148",
   },
   {
-    cod: "TFT18",
+    code: "S320",
   },
   {
-    cod: "TFT24",
+    code: "Budin18",
   },
   {
-    cod: "TFT30",
+    code: "REP4006",
   },
   {
-    cod: "TFTOPSY14",
+    code: "budin20",
   },
   {
-    cod: "TOP16",
+    code: "S397",
   },
   {
-    cod: "TFTOPSY20",
+    code: "S643",
   },
   {
-    cod: "TFTOPSY26",
+    code: "S351",
   },
   {
-    cod: "TFTOPSY24",
+    code: "yicake02",
   },
   {
-    cod: "B4050",
+    code: "S124",
   },
   {
-    cod: "B3525",
+    code: "Disc1",
   },
   {
-    cod: "TELGOTOP",
+    code: "capi",
   },
   {
-    cod: "AX7120",
+    code: "REP5043",
   },
   {
-    cod: "CHINT4125",
+    code: "LT2510",
   },
   {
-    cod: "FPET.57",
+    code: "AM017",
   },
   {
-    cod: "S653",
+    code: "AZ031",
   },
   {
-    cod: "TIJERA",
+    code: "piroemogi",
   },
   {
-    cod: "YI2033",
+    code: "S3159",
   },
   {
-    cod: "4186475",
+    code: "S3157",
   },
   {
-    cod: "4186478",
+    code: "S3155",
   },
   {
-    cod: "4186473",
+    code: "S3158",
   },
   {
-    cod: "4186477",
+    code: "mbuffylim",
   },
   {
-    cod: "TOPMIL",
+    code: "MBUFFYFRUT",
   },
   {
-    cod: "TPG",
+    code: "MBUFFYCHO",
   },
   {
-    cod: "SIL36",
+    code: "picoglobo",
   },
   {
-    cod: "SIL35",
+    code: "GF05",
   },
   {
-    cod: "HOJACUA16X10",
+    code: "REP4009",
   },
   {
-    cod: "HOJACUA20X10",
+    code: "capi10",
   },
   {
-    cod: "HOJACUA24X10",
+    code: "2592",
   },
   {
-    cod: "HOJACUA28X10",
+    code: "Sc34",
   },
   {
-    cod: "HOJACUA14X10",
+    code: "4160883",
   },
   {
-    cod: "HOJACUA18X10",
+    code: "4160881",
   },
   {
-    cod: "HOJACUA22X10",
+    code: "GA72",
   },
   {
-    cod: "HOJACUA26X10",
+    code: "MSC4",
   },
   {
-    cod: "CA 30X10",
+    code: "23080900",
   },
   {
-    cod: "CA.21",
+    code: "19041023",
   },
   {
-    cod: "CA.22",
+    code: "REP5004",
   },
   {
-    cod: "HOJADCUA20X10",
+    code: "REP5005",
   },
   {
-    cod: "HOJADCUA22X10",
+    code: "REP5008",
   },
   {
-    cod: "HOJADCUA24X10",
+    code: "YI2600",
   },
   {
-    cod: "HOJADCUA26X10",
+    code: "REP5007",
   },
   {
-    cod: "HOJADCUA28X10",
+    code: "19071089",
   },
   {
-    cod: "HOJADCUA30X10",
+    code: "FPET.73",
   },
   {
-    cod: "HOJAD28X10",
+    code: "FPET.76",
   },
   {
-    cod: "HOJAD30X10",
+    code: "FPET.72",
   },
   {
-    cod: "HOJAD24X10",
+    code: "FPET.86",
   },
   {
-    cod: "HOJARECT20X10X1",
+    code: "FPET.74",
   },
   {
-    cod: "HOJARECT22X12X1",
+    code: "FPET.69",
   },
   {
-    cod: "HOJARECT26X16X1",
+    code: "FLECOLPET.62",
   },
   {
-    cod: "HOJARECT30X20X1",
+    code: "FPET.60",
   },
   {
-    cod: "HOJARECT24X14X1",
+    code: "FPET.64",
   },
   {
-    cod: "HOJARECT28X18X1",
+    code: "FPET.59",
   },
   {
-    cod: "CA.31",
+    code: "FLEESC 102",
   },
   {
-    cod: "CA.32",
+    code: "FPET.52",
   },
   {
-    cod: "CA.700",
+    code: "FPET.53",
   },
   {
-    cod: "HOJA16X6",
+    code: "FPET.50",
   },
   {
-    cod: "HOJA18X6",
+    code: "REPANT10",
   },
   {
-    cod: "HOJA20X6",
+    code: "126256",
   },
   {
-    cod: "HOJA28X6",
+    code: "stapuldur880",
   },
   {
-    cod: "HOJA30X6",
+    code: "stapulana880",
   },
   {
-    cod: "H1810",
+    code: "11275",
   },
   {
-    cod: "H2010",
+    code: "Pallentverx0.5",
   },
   {
-    cod: "HOJAREN22X6",
+    code: "Pallentrox0.5",
   },
   {
-    cod: "HOJAREN24X6",
+    code: "Pallentblx0.5",
   },
   {
-    cod: "HOJAREN26X10",
+    code: "Rocklenchox1",
   },
   {
-    cod: "HOJAREN26X6",
+    code: "Pallentrosx0.5",
   },
   {
-    cod: "CA.11",
+    code: "Pallentazx0.5",
   },
   {
-    cod: "CA.12",
+    code: "Pallentamax0.5",
   },
   {
-    cod: "HOJAREN28X10",
+    code: "Pallentnax0.5",
   },
   {
-    cod: "CA.14",
+    code: "Pallentviox0.5",
   },
   {
-    cod: "SIL49",
+    code: "Pallentmirox0.5",
   },
   {
-    cod: "SIL50",
+    code: "PALLENTMIROSX0.",
   },
   {
-    cod: "SIL48",
+    code: "Pallentmiazx0.5",
   },
   {
-    cod: "SIL47",
+    code: "Pallentmiviox0.",
   },
   {
-    cod: "INN044",
+    code: "PALMINICHOOK1K",
   },
   {
-    cod: "INN009",
+    code: "PALLENTMIVERX0.",
   },
   {
-    cod: "TRANSFX1",
+    code: "Pallentminax0.5",
   },
   {
-    cod: "WIL084",
+    code: "Pallentmiblx0.5",
   },
   {
-    cod: "CHINTRIA",
+    code: "PALLENTMIAMAX0.",
   },
   {
-    cod: "TULI50",
+    code: "Pallentchookx1",
   },
   {
-    cod: "PASTE126",
+    code: "chauvai",
   },
   {
-    cod: "FAIRYTUR",
+    code: "ARGCERCHOMUL105",
   },
   {
-    cod: "KINGTG",
+    code: "Proesevaix1l",
   },
   {
-    cod: "FLEESC.43",
+    code: "Cocobcox250",
   },
   {
-    cod: "COT4037",
+    code: "Dewechipx1",
   },
   {
-    cod: "GA75",
+    code: "Carx0.75",
   },
   {
-    cod: "COT4027",
+    code: "Carx1.5",
   },
   {
-    cod: "COT4077",
+    code: "GA48",
   },
   {
-    cod: "COT4023",
+    code: "GA28",
   },
   {
-    cod: "COT4081",
+    code: "GA36",
   },
   {
-    cod: "LAMCOM.54",
+    code: "GA15",
   },
   {
-    cod: "LAMCOM.53",
+    code: "GA25",
   },
   {
-    cod: "S456",
+    code: "GA2",
   },
   {
-    cod: "PASTE02A",
+    code: "GA10",
   },
   {
-    cod: "PASTE02",
+    code: "FH03",
   },
   {
-    cod: "SF103",
+    code: "FH02",
   },
   {
-    cod: "VALR394",
+    code: "FH01",
   },
   {
-    cod: "VAR09P",
+    code: "FA114",
   },
   {
-    cod: "VAR009",
+    code: "FA106",
   },
   {
-    cod: "OUTLETVAR",
+    code: "FA100",
   },
   {
-    cod: "BOTI017B",
+    code: "FA151",
   },
   {
-    cod: "VTSB",
+    code: "FA376",
   },
   {
-    cod: "79146",
+    code: "FA381",
   },
   {
-    cod: "COT5734",
+    code: "FA363",
   },
   {
-    cod: "FLIPO.05",
+    code: "FA360",
   },
   {
-    cod: "FPETF.VE",
+    code: "FA372",
   },
   {
-    cod: "DELIPRIMX1V",
+    code: "FA357",
   },
   {
-    cod: "KINGNVER",
+    code: "FA343",
   },
   {
-    cod: "WIL062.5",
+    code: "FA328",
   },
   {
-    cod: "FPET.59",
+    code: "FA277",
   },
   {
-    cod: "PASTE101",
+    code: "FA235",
   },
   {
-    cod: "PIR5009X8VA",
+    code: "FA231",
   },
   {
-    cod: "FPET.60",
+    code: "FA210",
   },
   {
-    cod: "D029",
+    code: "FA197",
   },
   {
-    cod: "FPET.15",
+    code: "FA055",
   },
   {
-    cod: "KINGVERDE",
+    code: "FA018",
   },
   {
-    cod: "WIL73.12",
+    code: "S615",
   },
   {
-    cod: "FPET.61",
+    code: "S605",
   },
   {
-    cod: "DELI2PUNTAVER",
+    code: "S603",
   },
   {
-    cod: "FLECOLPET.62",
+    code: "S607",
   },
   {
-    cod: "FAIRYVL",
+    code: "S629",
   },
   {
-    cod: "FAIRYVM",
+    code: "S602",
   },
   {
-    cod: "FLIPO.08",
+    code: "S3143",
   },
   {
-    cod: "FLECOLPET.63",
+    code: "S3129",
   },
   {
-    cod: "FPET.64",
+    code: "S3121",
   },
   {
-    cod: "FPET.94",
+    code: "S3110",
   },
   {
-    cod: "PUNZ5",
+    code: "S601",
   },
   {
-    cod: "KINGVI",
+    code: "S441",
   },
   {
-    cod: "FLIPO.06",
+    code: "S3111",
   },
   {
-    cod: "FPETF.VIO",
+    code: "S366",
   },
   {
-    cod: "FPET.16",
+    code: "S382",
   },
   {
-    cod: "PASTE129",
+    code: "S372",
   },
   {
-    cod: "PASTE122",
+    code: "S3103",
   },
   {
-    cod: "PASTE117",
+    code: "S3102",
   },
   {
-    cod: "DELIPASTX1V",
+    code: "S361",
   },
   {
-    cod: "WIL073.7",
+    code: "S386",
   },
   {
-    cod: "PUNZ1",
+    code: "S228",
   },
   {
-    cod: "WIL062.4",
+    code: "S123",
   },
   {
-    cod: "FPET.17",
+    code: "S207",
   },
   {
-    cod: "FPET.18",
+    code: "S224",
   },
   {
-    cod: "DBVP24",
+    code: "S122",
   },
   {
-    cod: "SOLP0326",
+    code: "S230",
   },
   {
-    cod: "SOLP0330",
+    code: "S341",
   },
   {
-    cod: "FD3692",
+    code: "S336",
   },
   {
-    cod: "PUN.78",
+    code: "S240",
   },
   {
-    cod: "FLEESC.52",
+    code: "S231",
   },
   {
-    cod: "KINGWR",
+    code: "S118",
   },
   {
-    cod: "SIL28",
+    code: "S108",
   },
   {
-    cod: "SIL27",
+    code: "S111",
   },
   {
-    cod: "SIL30",
+    code: "S112",
   },
   {
-    cod: "SIL29",
+    code: "S113",
   },
   {
-    cod: "SIL07",
+    code: "S121",
   },
   {
-    cod: "LAMCOM.41",
+    code: "S114",
   },
   {
-    cod: "LAMCOM.42",
+    code: "S102",
   },
   {
-    cod: "PS25",
+    code: "SGP8",
   },
   {
-    cod: "R18",
+    code: "SGP14",
   },
   {
-    cod: "710-2916",
+    code: "SGP23",
   },
   {
-    cod: "ACITRI",
+    code: "SGP30",
   },
   {
-    cod: "AGENDA",
+    code: "SGP60",
   },
   {
-    cod: "WIL002",
+    code: "SGP10",
   },
   {
-    cod: "568483990304",
+    code: "SGP13",
   },
   {
-    cod: "ALZCOCOAMX1",
+    code: "SGP21",
   },
   {
-    cod: "ALZCOCOAZX1",
+    code: "RW112",
   },
   {
-    cod: "ALZCOCOCEX1",
+    code: "SN12",
   },
   {
-    cod: "ALZCOCOMAX1",
+    code: "SN11",
   },
   {
-    cod: "ALZCOCONAX1",
+    code: "SW88",
   },
   {
-    cod: "ALZCOCOROJX1",
+    code: "SW116",
   },
   {
-    cod: "ALZCOCOROSX1",
+    code: "SW103",
   },
   {
-    cod: "ALZCOCOVEX1",
+    code: "SN3",
   },
   {
-    cod: "1911-1368",
+    code: "SN14",
   },
   {
-    cod: "107",
+    code: "SN7",
   },
   {
-    cod: "102",
+    code: "SW77",
   },
   {
-    cod: "103",
+    code: "SET21",
   },
   {
-    cod: "104",
+    code: "SET28",
   },
   {
-    cod: "113",
+    code: "Setsten.33",
   },
   {
-    cod: "101",
+    code: "SW27",
   },
   {
-    cod: "119",
+    code: "Setsten.29",
   },
   {
-    cod: "110",
+    code: "Setsten.26",
   },
   {
-    cod: "PASTE08",
+    code: "SW20",
   },
   {
-    cod: "32607",
+    code: "SW21",
   },
   {
-    cod: "P001",
+    code: "Setsten.24",
   },
   {
-    cod: "S3",
+    code: "SW71",
   },
   {
-    cod: "ACE10X8",
+    code: "SET3",
   },
   {
-    cod: "ACE12X8",
+    code: "YIPLAGIRALU",
   },
   {
-    cod: "ACE14X8",
+    code: "Setsten.2",
   },
   {
-    cod: "ACE16X8",
+    code: "Setsten.12",
   },
   {
-    cod: "AROMATIZADOR",
+    code: "sc309",
   },
   {
-    cod: "N96103",
+    code: "sc145",
   },
   {
-    cod: "DEC122",
+    code: "sc152",
   },
   {
-    cod: "241010",
+    code: "YI2568",
   },
   {
-    cod: "1911-4320",
+    code: "4160636",
   },
   {
-    cod: "P008",
+    code: "91310",
   },
   {
-    cod: "DB45",
+    code: "P33.10",
   },
   {
-    cod: "TELGIBRE30X2",
+    code: "P33.08",
   },
   {
-    cod: "TELGIBRE30X40X2",
+    code: "P23.10",
   },
   {
-    cod: "TELGIBRE24X5",
+    code: "P37.08.02",
   },
   {
-    cod: "TELGIBRE38X2",
+    code: "P37.10.02",
   },
   {
-    cod: "BF",
+    code: "P37.08.01",
   },
   {
-    cod: "BPCC",
+    code: "P10.08.02",
   },
   {
-    cod: "GA82",
+    code: "P10.08.01",
   },
   {
-    cod: "ace35x5",
+    code: "P37.10.01",
   },
   {
-    cod: "RBAÑOBCO",
+    code: "P10.08.03",
   },
   {
-    cod: "MAPSA60-01",
+    code: "P01.08",
   },
   {
-    cod: "DEC94",
+    code: "P01.10",
   },
   {
-    cod: "DEC103",
+    code: "P27.10",
   },
   {
-    cod: "DEC105",
+    code: "P27.08",
   },
   {
-    cod: "DEC93",
+    code: "P13.10",
   },
   {
-    cod: "DEC102",
+    code: "P18.10",
   },
   {
-    cod: "BATMET185",
+    code: "P06.08",
   },
   {
-    cod: "FPET.83",
+    code: "P18.08",
   },
   {
-    cod: "1911-1300",
+    code: "P06.10",
   },
   {
-    cod: "1911-1367",
+    code: "P35.08",
   },
   {
-    cod: "FLIPO.10",
+    code: "P35.10",
   },
   {
-    cod: "DBB26",
+    code: "P02.10.01",
   },
   {
-    cod: "PUNZ12",
+    code: "P13.08",
   },
   {
-    cod: "PUNZ11",
+    code: "P02.08.01",
   },
   {
-    cod: "BONIFVENTA",
+    code: "P02.08.02",
   },
   {
-    cod: "503221.2",
+    code: "P02.10.02",
   },
   {
-    cod: "503221-3",
+    code: "P12.08.02",
   },
   {
-    cod: "7121",
+    code: "P12.10.02",
   },
   {
-    cod: "7123",
+    code: "P12.08.01",
   },
   {
-    cod: "7127",
+    code: "P12.10.01",
   },
   {
-    cod: "7128",
+    code: "PL0012.10",
   },
   {
-    cod: "7126",
+    code: "FPET.11",
   },
   {
-    cod: "7124",
+    code: "FPET.13",
   },
   {
-    cod: "7130",
+    code: "FPET.12",
   },
   {
-    cod: "504104",
+    code: "FPET.16",
   },
   {
-    cod: "6800",
+    code: "FPET.14",
   },
   {
-    cod: "4176107",
+    code: "FPET.10",
   },
   {
-    cod: "5610",
+    code: "FLIPO.05",
   },
   {
-    cod: "56N",
+    code: "FPET.06",
   },
   {
-    cod: "SUGARCACTUS",
+    code: "FPET.05",
   },
   {
-    cod: "DELY14V",
+    code: "FPET.08",
   },
   {
-    cod: "DELY17CV",
+    code: "FPET.04",
   },
   {
-    cod: "DELY17SV",
+    code: "FPET.02",
   },
   {
-    cod: "DELY22SV",
+    code: "FLIPO.03",
   },
   {
-    cod: "H1C",
+    code: "FLIPO.02",
   },
   {
-    cod: "COM",
+    code: "FLIPO.01",
   },
   {
-    cod: "COS",
+    code: "FLIPO.04",
   },
   {
-    cod: "HEXADES25",
+    code: "FLEESC.42",
   },
   {
-    cod: "CAKE20",
+    code: "FLES37",
   },
   {
-    cod: "T7B",
+    code: "FLEESC.14",
   },
   {
-    cod: "T12MINI",
+    code: "FLEESC.15",
   },
   {
-    cod: "T7",
+    code: "FLEESC.16",
   },
   {
-    cod: "PASTE09",
+    code: "FLEESC.31",
   },
   {
-    cod: "PASTE10",
+    code: "FLEESC.32",
   },
   {
-    cod: "CHOMAPSACUB",
+    code: "FLES11",
   },
   {
-    cod: "MAPSA58-06",
+    code: "FLEESC.10",
   },
   {
-    cod: "MAPSA58-02",
+    code: "FLEESC.12",
   },
   {
-    cod: "MAPSA58-08",
+    code: "FLEESC.06",
   },
   {
-    cod: "COLOFONDSEMIX1",
+    code: "FLES07",
   },
   {
-    cod: "76202X1",
+    code: "FFUL03",
   },
   {
-    cod: "76203/76202B",
+    code: "FFUL06",
   },
   {
-    cod: "76204",
+    code: "FFUL04",
   },
   {
-    cod: "76206",
+    code: "FFUL02",
   },
   {
-    cod: "76207",
+    code: "PUN.71",
   },
   {
-    cod: "76208",
+    code: "FLEILU.02",
   },
   {
-    cod: "56015",
+    code: "FLEILU.04",
   },
   {
-    cod: "LODIBAM12",
+    code: "FLEILU.01",
   },
   {
-    cod: "284M",
+    code: "FLEILU.03",
   },
   {
-    cod: "SWEETCLASSI",
+    code: "FLEILU.05",
   },
   {
-    cod: "SWEETCN",
+    code: "PUN.40",
   },
   {
-    cod: "CEN1220",
+    code: "PUN.02",
   },
   {
-    cod: "COLORDOR",
+    code: "PG DECOR 05",
   },
   {
-    cod: "34952",
+    code: "PG DECOR 07",
   },
   {
-    cod: "SCONC",
+    code: "PG DECOR 06",
   },
   {
-    cod: "LAMCOM.76",
+    code: "PG DECOR 08",
   },
   {
-    cod: "PALCONFX4",
+    code: "PG DECOR 16",
   },
   {
-    cod: "SWEETCOO",
+    code: "PG DECOR 15",
   },
   {
-    cod: "SWEETCOPOS",
+    code: "BR.80",
   },
   {
-    cod: "710-6001",
+    code: "BR.95",
   },
   {
-    cod: "SCORPA",
+    code: "BR.96",
   },
   {
-    cod: "CA.142",
+    code: "BR.78",
   },
   {
-    cod: "MAPCHAN690-2",
+    code: "PA DECOR 01",
   },
   {
-    cod: "CUPSIL",
+    code: "BR.70",
   },
   {
-    cod: "SWEETCUP",
+    code: "BR.73",
   },
   {
-    cod: "VA001",
+    code: "BR.74",
   },
   {
-    cod: "VA005",
+    code: "BR.71",
   },
   {
-    cod: "SWEETDENTELLE",
+    code: "BR.76",
   },
   {
-    cod: "DECOLIPO.1B",
+    code: "MR.10",
   },
   {
-    cod: "DECOLIPO.2",
+    code: "RAP",
   },
   {
-    cod: "DECOLIPO.2B",
+    code: "MR.2",
   },
   {
-    cod: "DECOLIPO.3",
+    code: "MG2",
   },
   {
-    cod: "DECOLIPO.3B",
+    code: "RMPF",
   },
   {
-    cod: "DECOLIPO.4",
+    code: "RCCI",
   },
   {
-    cod: "DECOLIPO.4B",
+    code: "8009",
   },
   {
-    cod: "DECOLIPO.5",
+    code: "Cup17",
   },
   {
-    cod: "DECOLIPO.5B",
+    code: "SIL32",
   },
   {
-    cod: "DECOLIPO.6",
+    code: "417173",
   },
   {
-    cod: "DECOLIPO.6B",
+    code: "1907-1347",
   },
   {
-    cod: "DECOLIPO.7",
+    code: "PS21",
   },
   {
-    cod: "DECOLIPO.7B",
+    code: "SIL30",
   },
   {
-    cod: "DECOLIPO.8",
+    code: "PS20",
   },
   {
-    cod: "DECOLIPO.8B",
+    code: "Wil095",
   },
   {
-    cod: "DEGLABRINEU",
+    code: "PS22",
   },
   {
-    cod: "DBD22",
+    code: "SIL31",
   },
   {
-    cod: "COPADOD",
+    code: "PS35",
   },
   {
-    cod: "DOSI01",
+    code: "21055495",
   },
   {
-    cod: "SWEETDROP",
+    code: "Wil083",
   },
   {
-    cod: "SWEETDUBLING",
+    code: "6016200",
   },
   {
-    cod: "VC1916",
+    code: "2105-5745",
   },
   {
-    cod: "DULR01A",
+    code: "Wil079",
   },
   {
-    cod: "DULCE CAR",
+    code: "703212",
   },
   {
-    cod: "LORANN",
+    code: "7105521",
   },
   {
-    cod: "DEWESEVAIX5L",
+    code: "710773",
   },
   {
-    cod: "19071077",
+    code: "7101133",
   },
   {
-    cod: "P010",
+    code: "7101132",
   },
   {
-    cod: "SWEETF",
+    code: "402230",
   },
   {
-    cod: "DOLCREFI",
+    code: "710041",
   },
   {
-    cod: "FCORHIPO",
+    code: "7101130",
   },
   {
-    cod: "FA317",
+    code: "710044",
   },
   {
-    cod: "FA353",
+    code: "7101129",
   },
   {
-    cod: "FA123",
+    code: "4024400",
   },
   {
-    cod: "FA208",
+    code: "402-1005",
   },
   {
-    cod: "FA209",
+    code: "21050614",
   },
   {
-    cod: "FA207",
+    code: "4021002",
   },
   {
-    cod: "FA355",
+    code: "Wil019",
   },
   {
-    cod: "FA309",
+    code: "4021274",
   },
   {
-    cod: "FA342",
+    code: "4021007",
   },
   {
-    cod: "FLOGUSRODTEXTU",
+    code: "402366",
   },
   {
-    cod: "FLOGUSRODTEXPIE",
+    code: "4097714",
   },
   {
-    cod: "710-353",
+    code: "4097716",
   },
   {
-    cod: "SFLRO",
+    code: "4097712",
   },
   {
-    cod: "CA.66",
+    code: "4097715",
   },
   {
-    cod: "4303",
-  },
-  {
-    cod: "5315",
-  },
-  {
-    cod: "FRATCOMB2X1",
-  },
-  {
-    cod: "4302",
-  },
-  {
-    cod: "217",
-  },
-  {
-    cod: "1115",
-  },
-  {
-    cod: "BCOLFUC",
-  },
-  {
-    cod: "GA82",
-  },
-  {
-    cod: "P004",
-  },
-  {
-    cod: "ARGGARRAMAN1062",
-  },
-  {
-    cod: "CIRGELS/SX1",
-  },
-  {
-    cod: "8009",
-  },
-  {
-    cod: "12164A",
-  },
-  {
-    cod: "402003",
-  },
-  {
-    cod: "DEWGLUX180",
-  },
-  {
-    cod: "DEWGLUX6",
-  },
-  {
-    cod: "P006",
-  },
-  {
-    cod: "P005",
-  },
-  {
-    cod: "MAPEESFER",
-  },
-  {
-    cod: "MAPCHOC",
-  },
-  {
-    cod: "GRANA",
-  },
-  {
-    cod: "PROGRANAAMX1",
-  },
-  {
-    cod: "PROGRANAAZX1",
-  },
-  {
-    cod: "PROGRANABCAX1",
-  },
-  {
-    cod: "PROGRANACEX1",
-  },
-  {
-    cod: "PROGRANACHOX1",
-  },
-  {
-    cod: "PROGRANALIX1",
-  },
-  {
-    cod: "PROGRANAMAX1",
-  },
-  {
-    cod: "PROGRANAMULTIX1",
-  },
-  {
-    cod: "PROGRANANARX1",
-  },
-  {
-    cod: "PROGRANANEX1",
-  },
-  {
-    cod: "PROGRANAPLAX1",
-  },
-  {
-    cod: "PROGRANAROJX1",
-  },
-  {
-    cod: "PROGRANAROSX1",
-  },
-  {
-    cod: "PROGRANAVEMX1",
-  },
-  {
-    cod: "PROGRANAVEX1",
-  },
-  {
-    cod: "GRA15",
-  },
-  {
-    cod: "SWEETGR",
-  },
-  {
-    cod: "SIL55",
-  },
-  {
-    cod: "ALFGUAYMA",
-  },
-  {
-    cod: "SWEETG",
-  },
-  {
-    cod: "SWEETI",
-  },
-  {
-    cod: "JABONL",
-  },
-  {
-    cod: "CIRJALFANX10",
-  },
-  {
-    cod: "CHINTLAP",
-  },
-  {
-    cod: "DISLENCHOX0.5",
-  },
-  {
-    cod: "LENTCHOCGR",
-  },
-  {
-    cod: "VC7026",
-  },
-  {
-    cod: "P014",
-  },
-  {
-    cod: "MOLDECHOCLOVE",
-  },
-  {
-    cod: "P003",
-  },
-  {
-    cod: "MBUFFYFRUT",
-  },
-  {
-    cod: "GONMALVX300",
-  },
-  {
-    cod: "PUNTCOMMANT",
-  },
-  {
-    cod: "MAPSABOMSE1KG",
-  },
-  {
-    cod: "MAPMULTI",
-  },
-  {
-    cod: "MAPRELLDUL59-28",
-  },
-  {
-    cod: "MAPRELLFRU59-24",
-  },
-  {
-    cod: "MAPRELLMEN59-29",
-  },
-  {
-    cod: "MAPPECES",
-  },
-  {
-    cod: "MAPRELLTIRA59-4",
-  },
-  {
-    cod: "CHINT14132",
-  },
-  {
-    cod: "SIL22",
-  },
-  {
-    cod: "WIL010",
-  },
-  {
-    cod: "710-7160",
-  },
-  {
-    cod: "1925",
-  },
-  {
-    cod: "VC7010",
-  },
-  {
-    cod: "115019",
-  },
-  {
-    cod: "5017",
-  },
-  {
-    cod: "30023",
-  },
-  {
-    cod: "5022",
-  },
-  {
-    cod: "3294331",
-  },
-  {
-    cod: "MOLDSTARDWARS",
-  },
-  {
-    cod: "WIL000",
-  },
-  {
-    cod: "WIL001",
-  },
-  {
-    cod: "MOLDTORTERAALUM",
-  },
-  {
-    cod: "ALU103",
-  },
-  {
-    cod: "ALU83",
-  },
-  {
-    cod: "1817",
-  },
-  {
-    cod: "1818",
-  },
-  {
-    cod: "710-2217",
-  },
-  {
-    cod: "SWEETMOON",
-  },
-  {
-    cod: "32638",
-  },
-  {
-    cod: "MAPMOUCAFXK693-",
-  },
-  {
-    cod: "MAPMOUCAFXK698-",
-  },
-  {
-    cod: "MAPMOUCHOXK697-",
-  },
-  {
-    cod: "MAPMOUFRUXK695-",
-  },
-  {
-    cod: "MAPMOUVAIXK696-",
-  },
-  {
-    cod: "MAPMOULIMXK694-",
-  },
-  {
-    cod: "MAPMOUMARAXK690",
-  },
-  {
-    cod: "1911-491",
-  },
-  {
-    cod: "1911-490",
-  },
-  {
-    cod: "1911-402",
-  },
-  {
-    cod: "OUTLETMOLDSILI",
-  },
-  {
-    cod: "OUTLETCORTEXP",
-  },
-  {
-    cod: "PALMCOFITE",
-  },
-  {
-    cod: "PALMLETEJACHOOK",
-  },
-  {
-    cod: "SUGARPALO",
-  },
-  {
-    cod: "BOTI012",
-  },
-  {
-    cod: "PRULE",
-  },
-  {
-    cod: "PAPELH",
-  },
-  {
-    cod: "BOMBB",
-  },
-  {
-    cod: "BOMBR",
-  },
-  {
-    cod: "BOMBBM",
-  },
-  {
-    cod: "BOMBBR",
-  },
-  {
-    cod: "BOMBC",
-  },
-  {
-    cod: "BOMBBC",
-  },
-  {
-    cod: "BOMBAC",
-  },
-  {
-    cod: "BOMBOR",
-  },
-  {
-    cod: "BOMBCEL",
-  },
-  {
-    cod: "BOMBDOR",
-  },
-  {
-    cod: "BOMBAM",
-  },
-  {
-    cod: "BOMBROJ",
-  },
-  {
-    cod: "BOMBAR",
-  },
-  {
-    cod: "MAPRELLALM59-44",
-  },
-  {
-    cod: "MAPRELLCAF59-47",
-  },
-  {
-    cod: "MAPRELLCHOC59-2",
-  },
-  {
-    cod: "MAPRELLLIM59-43",
-  },
-  {
-    cod: "MAPRELLSAM59-45",
-  },
-  {
-    cod: "GHEMARR1043-6",
-  },
-  {
-    cod: "MAPRELLNUT59-26",
-  },
-  {
-    cod: "GHEALM1013-6",
-  },
-  {
-    cod: "SWEETPEARLS",
-  },
-  {
-    cod: "710-478",
-  },
-  {
-    cod: "PERAMA50",
-  },
-  {
-    cod: "PERCELES50",
-  },
-  {
-    cod: "PERDORA50",
-  },
-  {
-    cod: "PERROJAS50",
-  },
-  {
-    cod: "PERLAVERNAV",
-  },
-  {
-    cod: "PERVERDES50",
-  },
-  {
-    cod: "PERVIOLETA50",
-  },
-  {
-    cod: "SIL14",
-  },
-  {
-    cod: "SIL16",
-  },
-  {
-    cod: "SIL17",
-  },
-  {
-    cod: "SIL11",
-  },
-  {
-    cod: "SIL13",
-  },
-  {
-    cod: "SIL12",
-  },
-  {
-    cod: "PICOGLOBO11",
-  },
-  {
-    cod: "PICOGLOBO12",
-  },
-  {
-    cod: "PICOGLOBO14",
-  },
-  {
-    cod: "PICOGLOBO17",
-  },
-  {
-    cod: "ATECO795",
-  },
-  {
-    cod: "7131",
-  },
-  {
-    cod: "ESTR20",
-  },
-  {
-    cod: "HGC20",
-  },
-  {
-    cod: "HGC24",
-  },
-  {
-    cod: "LGR20P",
-  },
-  {
-    cod: "LGRP",
-  },
-  {
-    cod: "PINCELSILI",
-  },
-  {
-    cod: "2591",
-  },
-  {
-    cod: "VC18010",
-  },
-  {
-    cod: "CA45AM",
-  },
-  {
-    cod: "CA45C",
-  },
-  {
-    cod: "MP",
-  },
-  {
-    cod: "COPADOP",
-  },
-  {
-    cod: "PROPLN1X4",
-  },
-  {
-    cod: "SWEETPLUM",
-  },
-  {
-    cod: "PQ01A2",
-  },
-  {
-    cod: "23080915",
-  },
-  {
-    cod: "200014",
-  },
-  {
-    cod: "SUGARPUNZON",
-  },
-  {
-    cod: "130",
-  },
-  {
-    cod: "165",
-  },
-  {
-    cod: "516M",
-  },
-  {
-    cod: "INN007",
-  },
-  {
-    cod: "AX8231",
-  },
-  {
-    cod: "1911-1364",
-  },
-  {
-    cod: "PAPELMANTE",
-  },
-  {
-    cod: "57042",
-  },
-  {
-    cod: "784",
-  },
-  {
-    cod: "1911-1361",
-  },
-  {
-    cod: "164",
-  },
-  {
-    cod: "P009",
-  },
-  {
-    cod: "P0017",
-  },
-  {
-    cod: "SWEETROSE",
-  },
-  {
-    cod: "PUNROSES",
-  },
-  {
-    cod: "SWEETR",
-  },
-  {
-    cod: "19071367",
-  },
-  {
-    cod: "AGUISALSCHOC",
-  },
-  {
-    cod: "KEU01",
-  },
-  {
-    cod: "KEU03",
-  },
-  {
-    cod: "SEMAMAX1",
-  },
-  {
-    cod: "SEMSESAX1",
-  },
-  {
-    cod: "CSET6",
-  },
-  {
-    cod: "SIL19",
-  },
-  {
-    cod: "SIL18",
-  },
-  {
-    cod: "PREDRO",
-  },
-  {
-    cod: "SOPLETELAPIZ",
-  },
-  {
-    cod: "WIL236",
-  },
-  {
-    cod: "STENSA",
-  },
-  {
-    cod: "STENSC",
-  },
-  {
-    cod: "STENSK",
-  },
-  {
-    cod: "STENSR",
-  },
-  {
-    cod: "STENCYLRP",
-  },
-  {
-    cod: "D023",
-  },
-  {
-    cod: "D041",
-  },
-  {
-    cod: "120",
-  },
-  {
-    cod: "TARTEX10",
-  },
-  {
-    cod: "TARTEX12",
-  },
-  {
-    cod: "TARTEX6",
-  },
-  {
-    cod: "TARTEX8",
-  },
-  {
-    cod: "COA0720",
-  },
-  {
-    cod: "TELGOTORT",
-  },
-  {
-    cod: "SWEETTIARA",
-  },
-  {
-    cod: "TIME",
-  },
-  {
-    cod: "7237",
-  },
-  {
-    cod: "7244",
-  },
-  {
-    cod: "7235",
-  },
-  {
-    cod: "7241",
-  },
-  {
-    cod: "SILITORTA",
-  },
-  {
-    cod: "DHZDES18X6",
-  },
-  {
-    cod: "TRANSCIRCORA",
-  },
-  {
-    cod: "TRANSKITTY",
-  },
-  {
-    cod: "P011",
-  },
-  {
-    cod: "128",
-  },
-  {
-    cod: "P002",
-  },
-  {
-    cod: "SWEETUNIC",
-  },
-  {
-    cod: "PASTE12",
-  },
-  {
-    cod: "568483990314",
-  },
-  {
-    cod: "79139",
-  },
-  {
-    cod: "79147",
-  },
-  {
-    cod: "1911-1356",
-  },
-  {
-    cod: "PASTE8002",
-  },
-  {
-    cod: "1911-401",
-  },
-  {
-    cod: "1911-1358",
-  },
-  {
-    cod: "122",
-  },
-  {
-    cod: "SWEETWAVES",
-  },
-  {
-    cod: "SWEETZ",
-  },
-  {
-    cod: "AEROM",
-  },
-  {
-    cod: "ALBUMX1",
-  },
-  {
-    cod: "REP4631",
-  },
-  {
-    cod: "AZNEGRALZ",
-  },
-  {
-    cod: "AZRUBALZ",
-  },
-  {
-    cod: "318712",
-  },
-  {
-    cod: "C1371",
-  },
-  {
-    cod: "40862",
-  },
-  {
-    cod: "ICEPOPGRANDEB",
-  },
-  {
-    cod: "105051",
-  },
-  {
-    cod: "CLOUD",
-  },
-  {
-    cod: "C311",
-  },
-  {
-    cod: "CTART",
-  },
-  {
-    cod: "BDESH",
-  },
-  {
-    cod: "7026016",
-  },
-  {
-    cod: "SOLP0528D",
-  },
-  {
-    cod: "5044",
-  },
-  {
-    cod: "PURATOS",
-  },
-  {
-    cod: "5046",
-  },
-  {
-    cod: "COLCHOC",
-  },
-  {
-    cod: "COLFRUT",
-  },
-  {
-    cod: "COLVAI",
-  },
-  {
-    cod: "CHOCOL1",
-  },
-  {
-    cod: "S681",
-  },
-  {
-    cod: "4897049199132",
-  },
-  {
-    cod: "P23",
-  },
-  {
-    cod: "P025D",
-  },
-  {
-    cod: "P024",
-  },
-  {
-    cod: "BR0036",
-  },
-  {
-    cod: "GLUCOSAX3",
-  },
-  {
-    cod: "DOLCREHA",
-  },
-  {
-    cod: "DOLCREHALP",
-  },
-  {
-    cod: "FH0036",
-  },
-  {
-    cod: "7016",
-  },
-  {
-    cod: "VC7300",
-  },
-  {
-    cod: "VC6300",
-  },
-  {
-    cod: "ROCKLENCHOX1",
-  },
-  {
-    cod: "COT8069X150",
-  },
-  {
-    cod: "42327",
-  },
-  {
-    cod: "MLUP",
-  },
-  {
-    cod: "MPAC",
-  },
-  {
-    cod: "REP3602",
-  },
-  {
-    cod: "DOLCREOH150",
-  },
-  {
-    cod: "P022",
-  },
-  {
-    cod: "OUTCARX1.5",
-  },
-  {
-    cod: "OUTBAMAZAX0.5",
-  },
-  {
-    cod: "S458",
-  },
-  {
-    cod: "BOMBDORD",
-  },
-  {
-    cod: "BOMBFUCS",
-  },
-  {
-    cod: "BOMBAMA",
-  },
-  {
-    cod: "BOMBAB",
-  },
-  {
-    cod: "BOMBARO",
-  },
-  {
-    cod: "BOMBCE",
-  },
-  {
-    cod: "BOMBCM",
-  },
-  {
-    cod: "BOMBCOB",
-  },
-  {
-    cod: "BOMBCU",
-  },
-  {
-    cod: "BOMBDC",
-  },
-  {
-    cod: "BOMBLI",
-  },
-  {
-    cod: "BOMBCMA",
-  },
-  {
-    cod: "BOMBNB",
-  },
-  {
-    cod: "BOMBNEG",
-  },
-  {
-    cod: "BOMNB",
-  },
-  {
-    cod: "BOMBRB",
-  },
-  {
-    cod: "BOMBROB",
-  },
-  {
-    cod: "BOMBRG",
-  },
-  {
-    cod: "BOMBVR",
-  },
-  {
-    cod: "BOMBVM",
-  },
-  {
-    cod: "BOMBVEM",
-  },
-  {
-    cod: "BOMBVB",
-  },
-  {
-    cod: "BOMBVIO",
-  },
-  {
-    cod: "PU500",
-  },
-  {
-    cod: "VCHH134",
-  },
-  {
-    cod: "PHOR",
-  },
-  {
-    cod: "DBROW",
-  },
-  {
-    cod: "DBUDV",
-  },
-  {
-    cod: "DCREMC",
-  },
-  {
-    cod: "DDONC",
-  },
-  {
-    cod: "DDONAVAI",
-  },
-  {
-    cod: "DGLASE",
-  },
-  {
-    cod: "DMEREN",
-  },
-  {
-    cod: "DMUFFB",
-  },
-  {
-    cod: "DMUFFC",
-  },
-  {
-    cod: "DOLCRERF150",
-  },
-  {
-    cod: "350052",
-  },
-  {
-    cod: "DOLCRESUP150",
-  },
-  {
-    cod: "P020",
-  },
-  {
-    cod: "BC24X2",
-  },
-  {
-    cod: "P019",
-  },
-  {
-    cod: "B002",
-  },
-  {
-    cod: "008U3",
-  },
-  {
-    cod: "79270",
-  },
-  {
-    cod: "ACE18X8",
-  },
-  {
-    cod: "SILIFLORF",
-  },
-  {
-    cod: "acecann",
-  },
-  {
-    cod: "AX0100",
-  },
-  {
-    cod: "BRECT40",
-  },
-  {
-    cod: "BRECT30403",
-  },
-  {
-    cod: "54787",
-  },
-  {
-    cod: "1907-1367",
-  },
-  {
-    cod: "4172581",
-  },
-  {
-    cod: "CH3110",
-  },
-  {
-    cod: "FAIRYAQ",
-  },
-  {
-    cod: "GAN01",
-  },
-  {
-    cod: "CAC91",
-  },
-  {
-    cod: "BLUE",
-  },
-  {
-    cod: "PIROMIXROSA",
-  },
-  {
-    cod: "PUNZ13",
-  },
-  {
-    cod: "PUNZ14",
-  },
-  {
-    cod: "CANDY1",
-  },
-  {
-    cod: "CANDY2",
-  },
-  {
-    cod: "CANDY3",
-  },
-  {
-    cod: "CANDY5",
-  },
-  {
-    cod: "CANDY6",
-  },
-  {
-    cod: "CANDY7",
-  },
-  {
-    cod: "CANDY8",
-  },
-  {
-    cod: "CANDY9",
-  },
-  {
-    cod: "SILIANIV",
-  },
-  {
-    cod: "HEXAMID12",
-  },
-  {
-    cod: "CARTBAGXS",
-  },
-  {
-    cod: "CARTBAGM",
-  },
-  {
-    cod: "CARTBAGL",
-  },
-  {
-    cod: "CP7.5",
-  },
-  {
-    cod: "2CUPREC",
-  },
-  {
-    cod: "CACAOPRO",
-  },
-  {
-    cod: "CACAOPROE",
-  },
-  {
-    cod: "402008",
-  },
-  {
-    cod: "402035",
-  },
-  {
-    cod: "60105",
-  },
-  {
-    cod: "BV25MN",
-  },
-  {
-    cod: "BV20MN",
-  },
-  {
-    cod: "BV20HD",
-  },
-  {
-    cod: "DPOLH",
-  },
-  {
-    cod: "BV20MB",
-  },
-  {
-    cod: "BV20GEOR",
-  },
-  {
-    cod: "BV20F",
-  },
-  {
-    cod: "GAN12P",
-  },
-  {
-    cod: "GAN30P",
-  },
-  {
-    cod: "3DAUS",
-  },
-  {
-    cod: "4097726",
-  },
-  {
-    cod: "4093188",
-  },
-  {
-    cod: "405006",
-  },
-  {
-    cod: "4081",
-  },
-  {
-    cod: "710088",
-  },
-  {
-    cod: "GAN40P",
-  },
-  {
-    cod: "SILIFORMAS",
-  },
-  {
-    cod: "HOLA30",
-  },
-  {
-    cod: "HOLA40",
-  },
-  {
-    cod: "HOLA50",
-  },
-  {
-    cod: "HOLATRE",
-  },
-  {
-    cod: "HOLACUA",
-  },
-  {
-    cod: "HOLACIN",
-  },
-  {
-    cod: "TOPPFC",
-  },
-  {
-    cod: "TOPPFCC",
-  },
-  {
-    cod: "TOPPFCH",
-  },
-  {
-    cod: "TOPPCD",
-  },
-  {
-    cod: "TOPPED",
-  },
-  {
-    cod: "TOPPDD",
-  },
-  {
-    cod: "TOPPMD",
-  },
-  {
-    cod: "TOPCZD",
-  },
-  {
-    cod: "TOPPSLP",
-  },
-  {
-    cod: "TOPPSFR",
-  },
-  {
-    cod: "TOPPST",
-  },
-  {
-    cod: "TOPPSCH",
-  },
-  {
-    cod: "SWEETROSA",
-  },
-  {
-    cod: "BALANZAX5",
-  },
-  {
-    cod: "MINIMUFFX12",
-  },
-  {
-    cod: "HIDROAMAC",
-  },
-  {
-    cod: "HIDROANA",
-  },
-  {
-    cod: "HIDROAZB",
-  },
-  {
-    cod: "HIDROAZM",
-  },
-  {
-    cod: "HIDROBCO",
-  },
-  {
-    cod: "HIDROBOR",
-  },
-  {
-    cod: "HIDROCEL",
-  },
-  {
-    cod: "HIDROLILA",
-  },
-  {
-    cod: "HIDRONSKIN",
-  },
-  {
-    cod: "HIDRONHUMO",
-  },
-  {
-    cod: "HIDROROJOCH",
-  },
-  {
-    cod: "HIDROROJOC",
-  },
-  {
-    cod: "HIDROROSAS",
-  },
-  {
-    cod: "HIDROROSAT",
-  },
-  {
-    cod: "HIDROTUR",
-  },
-  {
-    cod: "HIDROVERH",
-  },
-  {
-    cod: "HIDROVERL",
-  },
-  {
-    cod: "HIDROVERV",
-  },
-  {
-    cod: "HIDROVIOP",
-  },
-  {
-    cod: "DECODOR",
-  },
-  {
-    cod: "DECOMAGIC",
-  },
-  {
-    cod: "DECOLOVE",
-  },
-  {
-    cod: "DECOPRIN",
-  },
-  {
-    cod: "DECOLOL",
-  },
-  {
-    cod: "DECOUNI",
-  },
-  {
-    cod: "DECOPAST",
-  },
-  {
-    cod: "DECOVAM",
-  },
-  {
-    cod: "DECOMAR",
-  },
-  {
-    cod: "DECOPARIS",
-  },
-  {
-    cod: "DECOFROZ",
-  },
-  {
-    cod: "DNEA",
-  },
-  {
-    cod: "DRVP",
-  },
-  {
-    cod: "SETNORTE",
-  },
-  {
-    cod: "CERECARLE200",
-  },
-  {
-    cod: "PANDULCE1000VL",
-  },
-  {
-    cod: "PANDULCE1000GOA",
-  },
-  {
-    cod: "PANDULCE500GOA",
-  },
-  {
-    cod: "PANDULCE500VL",
-  },
-  {
-    cod: "PANDULCE500PAZ",
-  },
-  {
-    cod: "PANDULCE250GOA",
-  },
-  {
-    cod: "PANDULCE250VL",
-  },
-  {
-    cod: "PANDULCE100VL",
-  },
-  {
-    cod: "PANDULCE100GOA",
-  },
-  {
-    cod: "PANDULCE100PAZ",
-  },
-  {
-    cod: "B003",
-  },
-  {
-    cod: "B001",
-  },
-  {
-    cod: "B007",
-  },
-  {
-    cod: "B014",
-  },
-  {
-    cod: "B017",
-  },
-  {
-    cod: "B023",
-  },
-  {
-    cod: "B024",
-  },
-  {
-    cod: "B025",
-  },
-  {
-    cod: "P013",
-  },
-  {
-    cod: "P16",
-  },
-  {
-    cod: "P021",
-  },
-  {
-    cod: "CANDY11",
-  },
-  {
-    cod: "SILIANIMX38",
-  },
-  {
-    cod: "DMUFFV",
-  },
-  {
-    cod: "MCAKE20",
-  },
-  {
-    cod: "DISCO15",
-  },
-  {
-    cod: "ACE20X8",
-  },
-  {
-    cod: "ACE22X8",
-  },
-  {
-    cod: "ACE24X8",
-  },
-  {
-    cod: "ESCHOCO",
-  },
-  {
-    cod: "55BA7678",
-  },
-  {
-    cod: "55BA7679",
-  },
-  {
-    cod: "S31891",
-  },
-  {
-    cod: "S3192",
-  },
-  {
-    cod: "S694",
-  },
-  {
-    cod: "S729",
-  },
-  {
-    cod: "STX1",
-  },
-  {
-    cod: "STX2",
-  },
-  {
-    cod: "S31893",
-  },
-  {
-    cod: "S31911",
-  },
-  {
-    cod: "S31912",
-  },
-  {
-    cod: "S31913",
-  },
-  {
-    cod: "PANDULCE500F",
-  },
-  {
-    cod: "FC0033",
-  },
-  {
-    cod: "2001405",
-  },
-  {
-    cod: "634805",
-  },
-  {
-    cod: "241020",
-  },
-  {
-    cod: "DECODINO",
-  },
-  {
-    cod: "DECOSUP",
-  },
-  {
-    cod: "OB10SS",
-  },
-  {
-    cod: "BOTI034B",
-  },
-  {
-    cod: "BOTI033B",
-  },
-  {
-    cod: "SP1",
-  },
-  {
-    cod: "210500149",
-  },
-  {
-    cod: "210500071",
-  },
-  {
-    cod: "210500066",
-  },
-  {
-    cod: "210500145",
-  },
-  {
-    cod: "210500067",
-  },
-  {
-    cod: "210500070",
-  },
-  {
-    cod: "BB20",
-  },
-  {
-    cod: "BCUAMOT",
-  },
-  {
-    cod: "B22X9",
-  },
-  {
-    cod: "BZIGR",
-  },
-  {
-    cod: "BRECTCOP",
-  },
-  {
-    cod: "BRECTMER",
-  },
-  {
-    cod: "BRMUE",
-  },
-  {
-    cod: "BBM20",
-  },
-  {
-    cod: "BBM25MC",
-  },
-  {
-    cod: "BBM25FN",
-  },
-  {
-    cod: "BBC25MC",
-  },
-  {
-    cod: "BB25ROSV",
-  },
-  {
-    cod: "CAJABUD",
-  },
-  {
-    cod: "CAJADIVNAV",
-  },
-  {
-    cod: "CAJAPDNAV",
-  },
-  {
-    cod: "B016",
-  },
-  {
-    cod: "B013",
-  },
-  {
-    cod: "BOTI031",
-  },
-  {
-    cod: "BOTI032B",
-  },
-  {
-    cod: "BOTI031B",
-  },
-  {
-    cod: "OTA300",
-  },
-  {
-    cod: "HOJADCUAD14X10",
-  },
-  {
-    cod: "HOJADCUAD16X10",
-  },
-  {
-    cod: "HOJADCUAD18X10",
-  },
-  {
-    cod: "HOJRECD20",
-  },
-  {
-    cod: "HOJRECD22",
-  },
-  {
-    cod: "HOJRECD24",
-  },
-  {
-    cod: "KINGTIFF",
-  },
-  {
-    cod: "KINGSPR",
-  },
-  {
-    cod: "KINGSPS",
-  },
-  {
-    cod: "SILIHELATX3",
-  },
-  {
-    cod: "KINGLASERLB",
-  },
-  {
-    cod: "KINGLASERFG",
-  },
-  {
-    cod: "KINGLASERFP",
-  },
-  {
-    cod: "KINGLASERFO",
-  },
-  {
-    cod: "PUNZ15",
-  },
-  {
-    cod: "BOTI035B",
-  },
-  {
-    cod: "952332",
-  },
-  {
-    cod: "952769",
-  },
-  {
-    cod: "952776",
-  },
-  {
-    cod: "208707",
-  },
-  {
-    cod: "208738",
-  },
-  {
-    cod: "208721",
-  },
-  {
-    cod: "208714",
-  },
-  {
-    cod: "208745",
-  },
-  {
-    cod: "GLOBOBT",
-  },
-  {
-    cod: "TOPPLP",
-  },
-  {
-    cod: "TOPPCH",
-  },
-  {
-    cod: "TOPPFY",
-  },
-  {
-    cod: "TOPPBE",
-  },
-  {
-    cod: "TOPPALL",
-  },
-  {
-    cod: "TOPPDES",
-  },
-  {
-    cod: "TOPPSMI",
-  },
-  {
-    cod: "TOPPSIEM",
-  },
-  {
-    cod: "TOPPVIVE",
-  },
-  {
-    cod: "TOPPFDIA",
-  },
-  {
-    cod: "TOPPLOVE",
-  },
-  {
-    cod: "TOPPBDE",
-  },
-  {
-    cod: "TOPPJLP",
-  },
-  {
-    cod: "TOPPYLY",
-  },
-  {
-    cod: "TFCCN",
-  },
-  {
-    cod: "TFCHC",
-  },
-  {
-    cod: "TFCHN",
-  },
-  {
-    cod: "TFCHE",
-  },
-  {
-    cod: "P028",
-  },
-  {
-    cod: "B028",
-  },
-  {
-    cod: "ALU1011",
-  },
-  {
-    cod: "ESP0329",
-  },
-  {
-    cod: "MH1",
-  },
-  {
-    cod: "TH1",
-  },
-  {
-    cod: "FBN24",
-  },
-  {
-    cod: "FARE24",
-  },
-  {
-    cod: "FBCOPN",
-  },
-  {
-    cod: "SIDR20",
-  },
-  {
-    cod: "SID20",
-  },
-  {
-    cod: "HG20",
-  },
-  {
-    cod: "HG24",
-  },
-  {
-    cod: "HC20",
-  },
-  {
-    cod: "HC24",
-  },
-  {
-    cod: "BCERAMICA",
-  },
-  {
-    cod: "942",
-  },
-  {
-    cod: "COOLMAY",
-  },
-  {
-    cod: "COOLMIN",
-  },
-  {
-    cod: "QUESOM",
-  },
-  {
-    cod: "ZN2363",
-  },
-  {
-    cod: "4186479",
-  },
-  {
-    cod: "4186480",
-  },
-  {
-    cod: "1719C",
-  },
-  {
-    cod: "10022703",
-  },
-  {
-    cod: "SOL0003B",
-  },
-  {
-    cod: "4082",
-  },
-  {
-    cod: "4034",
-  },
-  {
-    cod: "4030",
-  },
-  {
-    cod: "4038",
-  },
-  {
-    cod: "4040",
-  },
-  {
-    cod: "4044",
-  },
-  {
-    cod: "4045",
-  },
-  {
-    cod: "DOL118",
-  },
-  {
-    cod: "B30405",
-  },
-  {
-    cod: "SDONAG",
-  },
-  {
-    cod: "OB05CE",
-  },
-  {
-    cod: "OB05RS",
-  },
-  {
-    cod: "CH0420",
-  },
-  {
-    cod: "CH0418",
-  },
-  {
-    cod: "CH0416",
-  },
-  {
-    cod: "021B4",
-  },
-  {
-    cod: "464145",
-  },
-  {
-    cod: "464121",
-  },
-  {
-    cod: "464138",
-  },
-  {
-    cod: "MANSS",
-  },
-  {
-    cod: "MANCS",
-  },
-  {
-    cod: "PUMJ",
-  },
-  {
-    cod: "BAND",
-  },
-  {
-    cod: "MIXPAP",
-  },
-  {
-    cod: "CCTS2",
-  },
-  {
-    cod: "CW4",
-  },
-  {
-    cod: "ALME",
-  },
-  {
-    cod: "NUEPE",
-  },
-  {
-    cod: "CANDY12",
-  },
-  {
-    cod: "60011",
-  },
-  {
-    cod: "336C",
-  },
-  {
-    cod: "32744",
-  },
-  {
-    cod: "PIST",
-  },
-  {
-    cod: "AVE",
-  },
-  {
-    cod: "MANSSX2",
-  },
-  {
-    cod: "LM20",
-  },
-  {
-    cod: "LM4524",
-  },
-  {
-    cod: "LMR20",
-  },
-  {
-    cod: "LMR24",
-  },
-  {
-    cod: "FBN27",
-  },
-  {
-    cod: "FARE28",
-  },
-  {
-    cod: "FUJIRB",
-  },
-  {
-    cod: "FV24",
-  },
-  {
-    cod: "FUJIB",
-  },
-  {
-    cod: "BV30MB",
-  },
-  {
-    cod: "BV30MR",
-  },
-  {
-    cod: "BV25MB",
-  },
-  {
-    cod: "BV20MR",
-  },
-  {
-    cod: "B018",
-  },
-  {
-    cod: "P018",
-  },
-  {
-    cod: "DECOTOPP",
-  },
-  {
-    cod: "DECOPAS",
-  },
-  {
-    cod: "BV30F",
-  },
-  {
-    cod: "BV25HD",
-  },
-  {
-    cod: "BV25FH",
-  },
-  {
-    cod: "BV25HA",
-  },
-  {
-    cod: "BV25MV",
-  },
-  {
-    cod: "BV25HV",
-  },
-  {
-    cod: "BV25HVAN",
-  },
-  {
-    cod: "BV25AG",
-  },
-  {
-    cod: "CAJA15x15x15R",
-  },
-  {
-    cod: "CAJA12x12x12R",
-  },
-  {
-    cod: "CAJA15x15x18R",
-  },
-  {
-    cod: "CAJA15x10x1",
-  },
-  {
-    cod: "CAJARPR",
-  },
-  {
-    cod: "CAJA23x16",
-  },
-  {
-    cod: "CAJA16.5",
-  },
-  {
-    cod: "CAJA18x15",
-  },
-  {
-    cod: "PC340A",
-  },
-  {
-    cod: "CAJA15x15x15C",
-  },
-  {
-    cod: "CAJA15x15x15G",
-  },
-  {
-    cod: "CAJA12x12x12C",
-  },
-  {
-    cod: "CAJA15x15x18C",
-  },
-  {
-    cod: "CAJARPG",
-  },
-  {
-    cod: "BREC30205",
-  },
-  {
-    cod: "DM4543",
-  },
-  {
-    cod: "DM4686",
-  },
-  {
-    cod: "3DBA",
-  },
-  {
-    cod: "BOTI036B",
-  },
-  {
-    cod: "404098",
-  },
-  {
-    cod: "404097",
-  },
-  {
-    cod: "BOMBROSA8X8",
-  },
-  {
-    cod: "BOMBRYD",
-  },
-  {
-    cod: "BOMBABBP",
-  },
-  {
-    cod: "BOMBBV",
-  },
-  {
-    cod: "BOMBBT",
-  },
-  {
-    cod: "BOMBBF",
-  },
-  {
-    cod: "BOMBBMT",
-  },
-  {
-    cod: "BOMBBVP",
-  },
-  {
-    cod: "DGELBR",
-  },
-  {
-    cod: "321524M",
-  },
-  {
-    cod: "321524F",
-  },
-  {
-    cod: "321524T",
-  },
-  {
-    cod: "CHIN018G10",
-  },
-  {
-    cod: "PASTEB",
-  },
-  {
-    cod: "BCERA",
-  },
-  {
-    cod: "PI100",
-  },
-  {
-    cod: "F530",
-  },
-  {
-    cod: "1.10E+16",
-  },
-  {
-    cod: "BB20X3",
-  },
-  {
-    cod: "BB25X3",
-  },
-  {
-    cod: "BBF25X3",
-  },
-  {
-    cod: "BBF203",
-  },
-  {
-    cod: "BBO20X3",
-  },
-  {
-    cod: "BBO25X3",
-  },
-  {
-    cod: "HASP",
-  },
-  {
-    cod: "AZUM",
-  },
-  {
-    cod: "CORA",
-  },
-  {
-    cod: "NM500",
-  },
-  {
-    cod: "OUTACE",
-  },
-  {
-    cod: "PICOGLOBO2",
-  },
-  {
-    cod: "PICOGLOBO13",
-  },
-  {
-    cod: "GLF11",
-  },
-  {
-    cod: "GLF10",
-  },
-  {
-    cod: "GLF09",
-  },
-  {
-    cod: "GB23",
-  },
-  {
-    cod: "GR23",
-  },
-  {
-    cod: "GVP25",
-  },
-  {
-    cod: "sil20",
-  },
-  {
-    cod: "7125",
-  },
-  {
-    cod: "7125g",
-  },
-  {
-    cod: "7132",
-  },
-  {
-    cod: "7134",
-  },
-  {
-    cod: "7135",
-  },
-  {
-    cod: "3DRACING",
-  },
-  {
-    cod: "MMbudin",
-  },
-  {
-    cod: "mmtarteleta",
-  },
-  {
-    cod: "7574ro",
-  },
-  {
-    cod: "7574ve",
-  },
-  {
-    cod: "7574Gri",
-  },
-  {
-    cod: "7574neg",
-  },
-  {
-    cod: "GCOOK",
-  },
-  {
-    cod: "MMTART",
-  },
-  {
-    cod: "RAMO",
-  },
-  {
-    cod: "MR.12",
-  },
-  {
-    cod: "MR.13",
-  },
-  {
-    cod: "MR.15",
-  },
-  {
-    cod: "MR.16",
-  },
-  {
-    cod: "MR.17",
-  },
-  {
-    cod: "MR.20",
-  },
-  {
-    cod: "MR.22",
-  },
-  {
-    cod: "MR.25",
-  },
-  {
-    cod: "MR.26",
-  },
-  {
-    cod: "MR.29",
-  },
-  {
-    cod: "MC001",
-  },
-  {
-    cod: "MR002",
-  },
-  {
-    cod: "AB002",
-  },
-  {
-    cod: "F4950",
-  },
-  {
-    cod: "CAI588",
-  },
-  {
-    cod: "65459",
-  },
-  {
-    cod: "46105",
-  },
-  {
-    cod: "65459",
-  },
-  {
-    cod: "10495",
-  },
-  {
-    cod: "MMUFx15",
-  },
-  {
-    cod: "GP15",
-  },
-  {
-    cod: "GP16",
-  },
-  {
-    cod: "GP17",
-  },
-  {
-    cod: "GP18",
-  },
-  {
-    cod: "GP19",
-  },
-  {
-    cod: "GP20",
-  },
-  {
-    cod: "GP21",
-  },
-  {
-    cod: "GP22",
-  },
-  {
-    cod: "GP23",
-  },
-  {
-    cod: "901053",
-  },
-  {
-    cod: "KINGROG",
-  },
-  {
-    cod: "TFCCD",
-  },
-  {
-    cod: "TFCHCD",
-  },
-  {
-    cod: "TFCHD",
-  },
-  {
-    cod: "TDHB",
-  },
-  {
-    cod: "TDFCG",
-  },
-  {
-    cod: "TFCHED",
-  },
-  {
-    cod: "TNHB",
-  },
-  {
-    cod: "TNFCG",
-  },
-  {
-    cod: "10021511",
-  },
-  {
-    cod: "10020811",
-  },
-  {
-    cod: "10021011",
-  },
-  {
-    cod: "BBO20X5",
-  },
-  {
-    cod: "BF205",
-  },
-  {
-    cod: "GAN13",
-  },
-  {
-    cod: "B19CRM",
-  },
-  {
-    cod: "B19CNS",
-  },
-  {
-    cod: "B19CDR",
-  },
-  {
-    cod: "B19BCD",
-  },
-  {
-    cod: "B19VCV",
-  },
-  {
-    cod: "B19BCCA",
-  },
-  {
-    cod: "B19CCRR",
-  },
-  {
-    cod: "B19BCDC",
-  },
-  {
-    cod: "B19BFRR",
-  },
-  {
-    cod: "B19GR",
-  },
-  {
-    cod: "B19BRNCV",
-  },
-  {
-    cod: "B19VCN",
-  },
-  {
-    cod: "B19BCN",
-  },
-  {
-    cod: "B25CU",
-  },
-  {
-    cod: "B25M3",
-  },
-  {
-    cod: "BV25CF",
-  },
-  {
-    cod: "B25PV",
-  },
-  {
-    cod: "B25CC",
-  },
-  {
-    cod: "B25LRV",
-  },
-  {
-    cod: "B25MBG",
-  },
-  {
-    cod: "BF25BCG",
-  },
-  {
-    cod: "B30CC",
-  },
-  {
-    cod: "B30CU",
-  },
-  {
-    cod: "BV30GR",
-  },
-  {
-    cod: "B30VE",
-  },
-  {
-    cod: "B30GRB",
-  },
-  {
-    cod: "BV30CF",
-  },
-  {
-    cod: "B30HVAN",
-  },
-  {
-    cod: "B30BM",
-  },
-  {
-    cod: "B30M3",
-  },
-  {
-    cod: "P08036S",
-  },
-  {
-    cod: "BCOLDOR",
-  },
-  {
-    cod: "MR.31",
-  },
-  {
-    cod: "PBOMRRPM",
-  },
-  {
-    cod: "PBOMRVNM",
-  },
-  {
-    cod: "PBOMRDNM",
-  },
-  {
-    cod: "PR002",
-  },
-  {
-    cod: "PIR5008VI",
-  },
-  {
-    cod: "TABLETASMV",
-  },
-  {
-    cod: "TABLETASM",
-  },
-  {
-    cod: "8001",
-  },
-  {
-    cod: "943",
-  },
-  {
-    cod: "946",
-  },
-  {
-    cod: "945",
-  },
-  {
-    cod: "980",
-  },
-  {
-    cod: "973",
-  },
-  {
-    cod: "997",
-  },
-  {
-    cod: "VC95081",
-  },
-  {
-    cod: "68841L",
-  },
-  {
-    cod: "68841A",
-  },
-  {
-    cod: "68841R",
-  },
-  {
-    cod: "68841V",
-  },
-  {
-    cod: "BP26101",
-  },
-  {
-    cod: "BP01101",
-  },
-  {
-    cod: "BP02101",
-  },
-  {
-    cod: "11002001",
-  },
-  {
-    cod: "BP26001",
-  },
-  {
-    cod: "BP26003",
-  },
-  {
-    cod: "BP01001",
-  },
-  {
-    cod: "GLOBTIK",
-  },
-  {
-    cod: "95448",
-  },
-  {
-    cod: "GLOBOPVE",
-  },
-  {
-    cod: "SET04",
-  },
-  {
-    cod: "CAJACM",
-  },
-  {
-    cod: "CAJAROCK",
-  },
-  {
-    cod: "M2844",
-  },
-  {
-    cod: "M2486",
-  },
-  {
-    cod: "M2613",
-  },
-  {
-    cod: "M60",
-  },
-  {
-    cod: "M154",
-  },
-  {
-    cod: "M2024",
-  },
-  {
-    cod: "MK2846",
-  },
-  {
-    cod: "610954",
-  },
-  {
-    cod: "610952",
-  },
-  {
-    cod: "610950",
-  },
-  {
-    cod: "610949",
-  },
-  {
-    cod: "610948",
-  },
-  {
-    cod: "BOTI046B",
-  },
-  {
-    cod: "BOTI047B",
-  },
-  {
-    cod: "P10ANIM",
-  },
-  {
-    cod: "4092557",
-  },
-  {
-    cod: "CAJAROCKBYN",
-  },
-  {
-    cod: "CAJACM20",
-  },
-  {
-    cod: "CAJARBYN20",
-  },
-  {
-    cod: "CAJACC15",
-  },
-  {
-    cod: "KINGSPFW",
-  },
-  {
-    cod: "48051",
-  },
-  {
-    cod: "536R",
-  },
-  {
-    cod: "536L",
-  },
-  {
-    cod: "536V",
-  },
-  {
-    cod: "540R",
-  },
-  {
-    cod: "540L",
-  },
-  {
-    cod: "540V",
-  },
-  {
-    cod: "MK74",
-  },
-  {
-    cod: "MK2688",
-  },
-  {
-    cod: "MK2508",
-  },
-  {
-    cod: "SPCOLAC",
-  },
-  {
-    cod: "SPCUP",
-  },
-  {
-    cod: "P1505",
-  },
-  {
-    cod: "SPESTMAR",
-  },
-  {
-    cod: "P1482",
-  },
-  {
-    cod: "SPGOTA",
-  },
-  {
-    cod: "SPUNIC",
-  },
-  {
-    cod: "SPPINA",
-  },
-  {
-    cod: "SPCOLAR",
-  },
-  {
-    cod: "MK93",
-  },
-  {
-    cod: "PION6I",
-  },
-  {
-    cod: "16741",
-  },
-  {
-    cod: "15888",
-  },
-  {
-    cod: "16246",
-  },
-  {
-    cod: "17146",
-  },
-  {
-    cod: "16263",
-  },
-  {
-    cod: "15894",
-  },
-  {
-    cod: "17149",
-  },
-  {
-    cod: "19140",
-  },
-  {
-    cod: "19139",
-  },
-  {
-    cod: "19167",
-  },
-  {
-    cod: "REPFRA31",
-  },
-  {
-    cod: "REPFRA32",
-  },
-  {
-    cod: "CH0165X500",
-  },
-  {
-    cod: "F530X500",
-  },
-  {
-    cod: "PBOMBCR",
-  },
-  {
-    cod: "PBOMTANM",
-  },
-  {
-    cod: "7502LP",
-  },
-  {
-    cod: "7502AP",
-  },
-  {
-    cod: "7502VP",
-  },
-  {
-    cod: "7502CP",
-  },
-  {
-    cod: "503LP",
-  },
-  {
-    cod: "503AP",
-  },
-  {
-    cod: "503VP",
-  },
-  {
-    cod: "SPCN",
-  },
-  {
-    cod: "SPSCR",
-  },
-  {
-    cod: "RC1",
-  },
-  {
-    cod: "BBM30X5",
-  },
-  {
-    cod: "B2525",
-  },
-  {
-    cod: "SOLMC30",
-  },
-  {
-    cod: "BA40RD",
-  },
-  {
-    cod: "BA45RD",
-  },
-  {
-    cod: "BA50RD",
-  },
-  {
-    cod: "BA55RD",
-  },
-  {
-    cod: "BA60RD",
-  },
-  {
-    cod: "BA30CD",
-  },
-  {
-    cod: "BA35CD",
-  },
-  {
-    cod: "BA40CD",
-  },
-  {
-    cod: "BA55CD",
-  },
-  {
-    cod: "BA60CD",
-  },
-  {
-    cod: "BA35X45",
-  },
-  {
-    cod: "BA40X50",
-  },
-  {
-    cod: "BA40X60",
-  },
-  {
-    cod: "BOTI015B",
-  },
-  {
-    cod: "601600",
-  },
-  {
-    cod: "DBA50",
-  },
-  {
-    cod: "DGL50",
-  },
-  {
-    cod: "DPI50",
-  },
-  {
-    cod: "DCU50",
-  },
-  {
-    cod: "DFR50",
-  },
-  {
-    cod: "DPA50",
-  },
-  {
-    cod: "DAM50",
-  },
-  {
-    cod: "DPR50",
-  },
-  {
-    cod: "DFRO50",
-  },
-  {
-    cod: "DVE50",
-  },
-  {
-    cod: "DDO50",
-  },
-  {
-    cod: "DFL40",
-  },
-  {
-    cod: "DTR40",
-  },
-  {
-    cod: "DSI40",
-  },
-  {
-    cod: "DFM40",
-  },
-  {
-    cod: "DCU40",
-  },
-  {
-    cod: "DDI40",
-  },
-  {
-    cod: "BBF500",
-  },
-  {
-    cod: "CSFCV",
-  },
-  {
-    cod: "CSCCV",
-  },
-  {
-    cod: "CDCV",
-  },
-  {
-    cod: "LI0101",
-  },
-  {
-    cod: "ME0101",
-  },
-  {
-    cod: "BL7001",
-  },
-  {
-    cod: "4093190",
-  },
-  {
-    cod: "300163",
-  },
-  {
-    cod: "300187",
-  },
-  {
-    cod: "300200",
-  },
-  {
-    cod: "300146",
-  },
-  {
-    cod: "300184",
-  },
-  {
-    cod: "300207",
-  },
-  {
-    cod: "300245",
-  },
-  {
-    cod: "EMUB",
-  },
-  {
-    cod: "EMUBL",
-  },
-  {
-    cod: "EMUBV",
-  },
-  {
-    cod: "EMUBSD",
-  },
-  {
-    cod: "EMUCH",
-  },
-  {
-    cod: "EMUCS",
-  },
-  {
-    cod: "EXTVI",
-  },
-  {
-    cod: "EMUC",
-  },
-  {
-    cod: "EMUCO",
-  },
-  {
-    cod: "EMUCC",
-  },
-  {
-    cod: "EMUHA",
-  },
-  {
-    cod: "EMUKS",
-  },
-  {
-    cod: "EMULM",
-  },
-  {
-    cod: "EMULE",
-  },
-  {
-    cod: "EMUM",
-  },
-  {
-    cod: "EMUO",
-  },
-  {
-    cod: "EMUP",
-  },
-  {
-    cod: "EMUCCO",
-  },
-  {
-    cod: "EMUR",
-  },
-  {
-    cod: "EMURV",
-  },
-  {
-    cod: "EMURU",
-  },
-  {
-    cod: "EMUST",
-  },
-  {
-    cod: "EMUAK",
-  },
-  {
-    cod: "EMUMC",
-  },
-  {
-    cod: "DDLRH",
-  },
-  {
-    cod: "DDLFH",
-  },
-  {
-    cod: "300221",
-  },
-  {
-    cod: "323236",
-  },
-  {
-    cod: "332320",
-  },
-  {
-    cod: "42075N",
-  },
-  {
-    cod: "42075V",
-  },
-  {
-    cod: "42075L",
-  },
-  {
-    cod: "5435A",
-  },
-  {
-    cod: "5435AM",
-  },
-  {
-    cod: "5435V",
-  },
-  {
-    cod: "5435VE",
-  },
-  {
-    cod: "15085",
-  },
-  {
-    cod: "MTARXL",
-  },
-  {
-    cod: "DONUTSV+DIV",
-  },
-  {
-    cod: "PBBLN",
-  },
-  {
-    cod: "1245C",
-  },
-  {
-    cod: "245CSC",
-  },
-  {
-    cod: "245CSL",
-  },
-  {
-    cod: "245CSR",
-  },
-  {
-    cod: "1245V",
-  },
-  {
-    cod: "1245L",
-  },
-  {
-    cod: "1245R",
-  },
-  {
-    cod: "CRX500",
-  },
-  {
-    cod: "KLB15",
-  },
-  {
-    cod: "KLLB15",
-  },
-  {
-    cod: "KLW15",
-  },
-  {
-    cod: "KLBL15",
-  },
-  {
-    cod: "KLGD15",
-  },
-  {
-    cod: "KLM15",
-  },
-  {
-    cod: "KLNV15",
-  },
-  {
-    cod: "KLR15",
-  },
-  {
-    cod: "I21100",
-  },
-  {
-    cod: "I21101",
-  },
-  {
-    cod: "80216",
-  },
-  {
-    cod: "80217",
-  },
-  {
-    cod: "CANDY13",
-  },
-  {
-    cod: "COLCA",
-  },
-  {
-    cod: "SECI",
-  },
-  {
-    cod: "I21200",
-  },
-  {
-    cod: "BV25F",
-  },
-  {
-    cod: "BBM205",
-  },
-  {
-    cod: "I21201",
-  },
-  {
-    cod: "I21202",
-  },
-  {
-    cod: "I21203",
-  },
-  {
-    cod: "I21204",
-  },
-  {
-    cod: "I21205",
-  },
-  {
-    cod: "I21300",
-  },
-  {
-    cod: "I21301",
-  },
-  {
-    cod: "I21302",
-  },
-  {
-    cod: "I21304",
-  },
-  {
-    cod: "I21308",
-  },
-  {
-    cod: "I21307",
-  },
-  {
-    cod: "I21310",
-  },
-  {
-    cod: "I21312",
-  },
-  {
-    cod: "I21313",
-  },
-  {
-    cod: "I21314",
-  },
-  {
-    cod: "I21315",
-  },
-  {
-    cod: "I21316",
-  },
-  {
-    cod: "I21317",
-  },
-  {
-    cod: "I21318",
-  },
-  {
-    cod: "I21319",
-  },
-  {
-    cod: "I21320",
-  },
-  {
-    cod: "I21400",
-  },
-  {
-    cod: "I21402",
-  },
-  {
-    cod: "I21403",
-  },
-  {
-    cod: "I21404",
-  },
-  {
-    cod: "I21405",
-  },
-  {
-    cod: "I21305",
-  },
-  {
-    cod: "318713",
-  },
-  {
-    cod: "12754",
-  },
-  {
-    cod: "236",
-  },
-  {
-    cod: "12882",
-  },
-  {
-    cod: "SP26",
-  },
-  {
-    cod: "SP33",
-  },
-  {
-    cod: "SP9",
-  },
-  {
-    cod: "SP25",
-  },
-  {
-    cod: "SP12",
-  },
-  {
-    cod: "SP21",
-  },
-  {
-    cod: "SP24",
-  },
-  {
-    cod: "SP7",
-  },
-  {
-    cod: "SP18",
-  },
-  {
-    cod: "SP22",
-  },
-  {
-    cod: "SP23",
-  },
-  {
-    cod: "SP10",
-  },
-  {
-    cod: "SP20",
-  },
-  {
-    cod: "SP16",
-  },
-  {
-    cod: "SP14",
-  },
-  {
-    cod: "SP19",
-  },
-  {
-    cod: "SP11",
-  },
-  {
-    cod: "SP5",
-  },
-  {
-    cod: "SP31",
-  },
-  {
-    cod: "SP2",
-  },
-  {
-    cod: "SP8",
-  },
-  {
-    cod: "SP32",
-  },
-  {
-    cod: "SP13",
-  },
-  {
-    cod: "SP28",
-  },
-  {
-    cod: "SP35",
-  },
-  {
-    cod: "SP34",
-  },
-  {
-    cod: "SP4",
-  },
-  {
-    cod: "SP36",
-  },
-  {
-    cod: "SP3",
-  },
-  {
-    cod: "SP27",
-  },
-  {
-    cod: "SP6",
-  },
-  {
-    cod: "SP15",
-  },
-  {
-    cod: "SP29",
-  },
-  {
-    cod: "SP30",
-  },
-  {
-    cod: "OS100",
-  },
-  {
-    cod: "OS300",
-  },
-  {
-    cod: "OB100",
-  },
-  {
-    cod: "OB300",
-  },
-  {
-    cod: "OM100",
-  },
-  {
-    cod: "OM300",
-  },
-  {
-    cod: "OL100",
-  },
-  {
-    cod: "OL300",
-  },
-  {
-    cod: "KIEV20",
-  },
-  {
-    cod: "401408",
-  },
-  {
-    cod: "15602",
-  },
-  {
-    cod: "106421",
-  },
-  {
-    cod: "I21206",
-  },
-  {
-    cod: "11002002",
-  },
-  {
-    cod: "I21500B",
-  },
-  {
-    cod: "I21501B",
-  },
-  {
-    cod: "I21502B",
-  },
-  {
-    cod: "I21503B",
-  },
-  {
-    cod: "KLRO15",
-  },
-  {
-    cod: "ADC",
-  },
-  {
-    cod: "F2324",
-  },
-  {
-    cod: "F1920",
-  },
-  {
-    cod: "F1516",
-  },
-  {
-    cod: "F2122",
-  },
-  {
-    cod: "F1718",
-  },
-  {
-    cod: "F12",
-  },
-  {
-    cod: "F1314",
-  },
-  {
-    cod: "F910",
-  },
-  {
-    cod: "F5152",
-  },
-  {
-    cod: "F4142",
-  },
-  {
-    cod: "F34",
-  },
-  {
-    cod: "F3738",
-  },
-  {
-    cod: "F1112",
-  },
-  {
-    cod: "AL500",
-  },
-  {
-    cod: "MCHAL",
-  },
-  {
-    cod: "EMUPT",
-  },
-  {
-    cod: "112303349",
-  },
-  {
-    cod: "112303345",
-  },
-  {
-    cod: "112303346",
-  },
-  {
-    cod: "GBCP",
-  },
-  {
-    cod: "DBAM30",
-  },
-  {
-    cod: "4753",
-  },
-  {
-    cod: "ACE18",
-  },
-  {
-    cod: "503RP",
-  },
-  {
-    cod: "46041",
-  },
-  {
-    cod: "46044",
-  },
-  {
-    cod: "46029",
-  },
-  {
-    cod: "MK2509",
-  },
-  {
-    cod: "TFCCP",
-  },
-  {
-    cod: "TFCHEP",
-  },
-  {
-    cod: "TFCHCP",
-  },
-  {
-    cod: "TFCGP",
-  },
-  {
-    cod: "THBP",
-  },
-  {
-    cod: "TFCHP",
-  },
-  {
-    cod: "HWR20",
-  },
-  {
-    cod: "HWB20",
-  },
-  {
-    cod: "SIN26",
-  },
-  {
-    cod: "SPHP",
-  },
-  {
-    cod: "SPNET",
-  },
-  {
-    cod: "SPDIN",
-  },
-  {
-    cod: "SPCAR",
-  },
-  {
-    cod: "SPSIR",
-  },
-  {
-    cod: "SPCK",
-  },
-  {
-    cod: "SPHA",
-  },
-  {
-    cod: "SPMAR",
-  },
-  {
-    cod: "SPFRO",
-  },
-  {
-    cod: "SPUNI",
-  },
-  {
-    cod: "2022",
-  },
-  {
-    cod: "BOTI050B",
-  },
-  {
-    cod: "20056809",
-  },
-  {
-    cod: "23159A",
-  },
-  {
-    cod: "23159R",
-  },
-  {
-    cod: "S125",
-  },
-  {
-    cod: "S3170",
-  },
-  {
-    cod: "S3219",
-  },
-  {
-    cod: "S515",
-  },
-  {
-    cod: "S1209",
-  },
-  {
-    cod: "S1239",
-  },
-  {
-    cod: "S1260",
-  },
-  {
-    cod: "S1265",
-  },
-  {
-    cod: "S1266",
-  },
-  {
-    cod: "CYHAL",
-  },
-  {
-    cod: "LCA",
-  },
-  {
-    cod: "42168800",
-  },
-  {
-    cod: "GLF12",
-  },
-  {
-    cod: "GLF13",
-  },
-  {
-    cod: "GLF14",
-  },
-  {
-    cod: "GLF15",
-  },
-  {
-    cod: "I21407",
-  },
-  {
-    cod: "I21321",
-  },
-  {
-    cod: "I21322",
-  },
-  {
-    cod: "I21323",
-  },
-  {
-    cod: "D6130",
-  },
-  {
-    cod: "D6131",
-  },
-  {
-    cod: "D6132",
-  },
-  {
-    cod: "I21504B",
-  },
-  {
-    cod: "I21505B",
-  },
-  {
-    cod: "I21506B",
-  },
-  {
-    cod: "I21507B",
-  },
-  {
-    cod: "I21508B",
-  },
-  {
-    cod: "I21509B",
-  },
-  {
-    cod: "TDHMPC",
-  },
-  {
-    cod: "TDCMPC",
-  },
-  {
-    cod: "I21408",
-  },
-  {
-    cod: "I21324",
-  },
-  {
-    cod: "I21325",
-  },
-  {
-    cod: "I21326",
-  },
-  {
-    cod: "P107",
-  },
-  {
-    cod: "P140",
-  },
-  {
-    cod: "CY18",
-  },
-  {
-    cod: "CY11",
-  },
-  {
-    cod: "PANDULCE100RL",
-  },
-  {
-    cod: "PANDULCE100PNC",
-  },
-  {
-    cod: "PANDULCE100CA",
-  },
-  {
-    cod: "PANDULCE100BR",
-  },
-  {
-    cod: "PANDULCE250CA",
-  },
-  {
-    cod: "PANDULCE250PNC",
-  },
-  {
-    cod: "PANDULCE250BR",
-  },
-  {
-    cod: "PANDULCE500BR",
-  },
-  {
-    cod: "PANDULCE500PNC",
-  },
-  {
-    cod: "PANDULCE500CA",
-  },
-  {
-    cod: "PANDULCE1000BR",
-  },
-  {
-    cod: "PANDULCE1000PNC",
-  },
-  {
-    cod: "PANDULCE1000CA",
-  },
-  {
-    cod: "P10LFV",
-  },
-  {
-    cod: "EMUQC",
-  },
-  {
-    cod: "EMUAP",
-  },
-  {
-    cod: "EMUMM",
-  },
-  {
-    cod: "EMULB",
-  },
-  {
-    cod: "342135",
-  },
-  {
-    cod: "342333",
-  },
-  {
-    cod: "SPLST",
-  },
-  {
-    cod: "SPMIN",
-  },
-  {
-    cod: "STREN",
-  },
-  {
-    cod: "STARN",
-  },
-  {
-    cod: "STMJE",
-  },
-  {
-    cod: "BB24",
-  },
-  {
-    cod: "BV25A",
-  },
-  {
-    cod: "B25ANE",
-  },
-  {
-    cod: "B25HC",
-  },
-  {
-    cod: "B25HS",
-  },
-  {
-    cod: "B25HM",
-  },
-  {
-    cod: "B25HVM",
-  },
-  {
-    cod: "DBUDB",
-  },
-  {
-    cod: "MK1460",
-  },
-  {
-    cod: "SPNAV",
-  },
-  {
-    cod: "SOLP05",
-  },
-  {
-    cod: "I21410",
-  },
-  {
-    cod: "I21327",
-  },
-  {
-    cod: "I21328",
-  },
-  {
-    cod: "I21329",
-  },
-  {
-    cod: "I21332",
-  },
-  {
-    cod: "BR0004",
-  },
-  {
-    cod: "BOTI040B",
-  },
-  {
-    cod: "BOTI039B",
-  },
-  {
-    cod: "I21336",
-  },
-  {
-    cod: "I21338",
-  },
-  {
-    cod: "I21413",
-  },
-  {
-    cod: "I21339",
-  },
-  {
-    cod: "I21340",
-  },
-  {
-    cod: "I21341",
-  },
-  {
-    cod: "I21342",
-  },
-  {
-    cod: "I21344",
-  },
-  {
-    cod: "I21414",
-  },
-  {
-    cod: "MFAP",
-  },
-  {
-    cod: "I21345",
-  },
-  {
-    cod: "LIPOABET",
-  },
-  {
-    cod: "BCE32",
-  },
-  {
-    cod: "I21415",
-  },
-  {
-    cod: "I21416",
-  },
-  {
-    cod: "I21417",
-  },
-  {
-    cod: "I21419",
-  },
-  {
-    cod: "I21348",
-  },
-  {
-    cod: "I21350",
-  },
-  {
-    cod: "I21351",
-  },
-  {
-    cod: "I21352",
-  },
-  {
-    cod: "I21353",
-  },
-  {
-    cod: "I21355",
-  },
-  {
-    cod: "I21356",
-  },
-  {
-    cod: "I21357",
-  },
-  {
-    cod: "I21358",
-  },
-  {
-    cod: "BOTI051B",
-  },
-  {
-    cod: "BOTI052B",
-  },
-  {
-    cod: "BOTI053B",
-  },
-  {
-    cod: "BOTI054B",
-  },
-  {
-    cod: "CH0539",
-  },
-  {
-    cod: "CH0537",
-  },
-  {
-    cod: "I21359",
-  },
-  {
-    cod: "241012",
-  },
-  {
-    cod: "43293",
-  },
-  {
-    cod: "43294",
-  },
-  {
-    cod: "DNBCA",
-  },
-  {
-    cod: "DNDR",
-  },
-  {
-    cod: "DCOR",
-  },
-  {
-    cod: "DRGO",
-  },
-  {
-    cod: "MTVP",
-  },
-  {
-    cod: "MTVD",
-  },
-  {
-    cod: "KFDIB",
-  },
-  {
-    cod: "KDPBG",
-  },
-  {
-    cod: "KFDSB",
-  },
-  {
-    cod: "KINGAG",
-  },
-  {
-    cod: "CBNR",
-  },
-  {
-    cod: "CBNV",
-  },
-  {
-    cod: "BMND",
-  },
-  {
-    cod: "VPMN",
-  },
-  {
-    cod: "I21526",
-  },
-  {
-    cod: "TRFCHC",
-  },
-  {
-    cod: "TRFCHE",
-  },
-  {
-    cod: "TRFCC",
-  },
-  {
-    cod: "TFCHR",
-  },
-  {
-    cod: "TRFCG",
-  },
-  {
-    cod: "TRH",
-  },
-  {
-    cod: "TAGNAV",
-  },
-  {
-    cod: "TAGFD",
-  },
-  {
-    cod: "TAGFC",
-  },
-  {
-    cod: "F01O",
-  },
-  {
-    cod: "F02O",
-  },
-  {
-    cod: "F02MTART",
-  },
-  {
-    cod: "5195",
-  },
-  {
-    cod: "F01CHEES",
-  },
-  {
-    cod: "107440",
-  },
-  {
-    cod: "MTVB",
-  },
-  {
-    cod: "MTVRP",
-  },
-  {
-    cod: "R103048",
-  },
-  {
-    cod: "R103047",
-  },
-  {
-    cod: "I21528",
-  },
-  {
-    cod: "SPMN",
-  },
-  {
-    cod: "SPPNR",
-  },
-  {
-    cod: "SPPNG",
-  },
-  {
-    cod: "SPAN",
-  },
-  {
-    cod: "DBUDC",
-  },
-  {
-    cod: "HACP",
-  },
-  {
-    cod: "TC2112",
-  },
-  {
-    cod: "TC2113",
-  },
-  {
-    cod: "TC2115",
-  },
-  {
-    cod: "TC2114",
-  },
-  {
-    cod: "7570",
-  },
-  {
-    cod: "N8752026",
-  },
-  {
-    cod: "AXM5",
-  },
-  {
-    cod: "DECOMN",
-  },
-  {
-    cod: "DECOBN",
-  },
-  {
-    cod: "DECOBO",
-  },
-  {
-    cod: "DECORN",
-  },
-  {
-    cod: "DECOHJ",
-  },
-  {
-    cod: "DECOBA",
-  },
-  {
-    cod: "DPCM",
-  },
-  {
-    cod: "DPMRC",
-  },
-  {
-    cod: "DECOBR",
-  },
-  {
-    cod: "DECOMD",
-  },
-  {
-    cod: "DPPRO",
-  },
-  {
-    cod: "DECOMP",
-  },
-  {
-    cod: "DECOMF",
-  },
-  {
-    cod: "DECORG",
-  },
-  {
-    cod: "DPPC",
-  },
-  {
-    cod: "DECOPB",
-  },
-  {
-    cod: "DECOPA",
-  },
-  {
-    cod: "DECOPL",
-  },
-  {
-    cod: "DECOPD",
-  },
-  {
-    cod: "DECOLI",
-  },
-  {
-    cod: "DECOPC",
-  },
-  {
-    cod: "DPSRC",
-  },
-  {
-    cod: "DECOML",
-  },
-  {
-    cod: "DNBRVD",
-  },
-  {
-    cod: "DNRVD",
-  },
-  {
-    cod: "68834V",
-  },
-  {
-    cod: "68834C",
-  },
-  {
-    cod: "68834L",
-  },
-  {
-    cod: "68842V",
-  },
-  {
-    cod: "68842C",
-  },
-  {
-    cod: "68842L",
-  },
-  {
-    cod: "68843V",
-  },
-  {
-    cod: "68843C",
-  },
-  {
-    cod: "68843R",
-  },
-  {
-    cod: "68844C",
-  },
-  {
-    cod: "68844V",
-  },
-  {
-    cod: "68845V",
-  },
-  {
-    cod: "68845R",
-  },
-  {
-    cod: "68845C",
-  },
-  {
-    cod: "68848C",
-  },
-  {
-    cod: "68848L",
-  },
-  {
-    cod: "68848V",
-  },
-  {
-    cod: "68853V",
-  },
-  {
-    cod: "68853L",
-  },
-  {
-    cod: "68853R",
-  },
-  {
-    cod: "68853C",
-  },
-  {
-    cod: "68852V",
-  },
-  {
-    cod: "68852C",
-  },
-  {
-    cod: "68852R",
-  },
-  {
-    cod: "68852L",
-  },
-  {
-    cod: "68852S",
-  },
-  {
-    cod: "68852M",
-  },
-  {
-    cod: "68847V",
-  },
-  {
-    cod: "COA717",
-  },
-  {
-    cod: "CHIP19",
-  },
-  {
-    cod: "PUNZ16",
-  },
-  {
-    cod: "I21360",
-  },
-  {
-    cod: "I21361",
-  },
-  {
-    cod: "I21362",
-  },
-  {
-    cod: "I21363",
-  },
-  {
-    cod: "I21365",
-  },
-  {
-    cod: "I21366",
-  },
-  {
-    cod: "I21367",
-  },
-  {
-    cod: "I21421",
-  },
-  {
-    cod: "DECOFL",
-  },
-  {
-    cod: "DECODM",
-  },
-  {
-    cod: "DECOCA",
-  },
-  {
-    cod: "DECORO",
-  },
-  {
-    cod: "DECODI",
-  },
-  {
-    cod: "DECOAR",
-  },
-  {
-    cod: "DMVIO",
-  },
-  {
-    cod: "DMVE",
-  },
-  {
-    cod: "DMRO",
-  },
-  {
-    cod: "DMAZ",
-  },
-  {
-    cod: "DPPAQ",
-  },
-  {
-    cod: "DPPVM",
-  },
-  {
-    cod: "DPPRB",
-  },
-  {
-    cod: "PASTE1222",
-  },
-  {
-    cod: "PASTE1260",
-  },
-  {
-    cod: "PASTE1277",
-  },
-  {
-    cod: "PASTE1284",
-  },
-  {
-    cod: "1291",
-  },
-  {
-    cod: "44014",
-  },
-  {
-    cod: "21107L",
-  },
-  {
-    cod: "MALH",
-  },
-  {
-    cod: "5410V",
-  },
-  {
-    cod: "5410R",
-  },
-  {
-    cod: "77301R",
-  },
-  {
-    cod: "77301C",
-  },
-  {
-    cod: "77301V",
-  },
-  {
-    cod: "77301L",
-  },
-  {
-    cod: "77301N",
-  },
-  {
-    cod: "BAM02",
-  },
-  {
-    cod: "BAM03",
-  },
-  {
-    cod: "BAM01",
-  },
-  {
-    cod: "MAH02P",
-  },
-  {
-    cod: "MAV65",
-  },
-  {
-    cod: "BAMP03",
-  },
-  {
-    cod: "BAMP02",
-  },
-  {
-    cod: "BAMP01",
-  },
-  {
-    cod: "BP01002",
-  },
-  {
-    cod: "BP01003",
-  },
-  {
-    cod: "BP01004",
-  },
-  {
-    cod: "BP01005",
-  },
-  {
-    cod: "BP26004",
-  },
-  {
-    cod: "BP26006",
-  },
-  {
-    cod: "BP26007",
-  },
-  {
-    cod: "GXAN1",
-  },
-  {
-    cod: "CHIP01",
-  },
-  {
-    cod: "113CA",
-  },
-  {
-    cod: "97803",
-  },
-  {
-    cod: "BR3832",
-  },
-  {
-    cod: "34223",
-  },
-  {
-    cod: "34233",
-  },
-  {
-    cod: "793CA",
-  },
-  {
-    cod: "1321",
-  },
-  {
-    cod: "1338",
-  },
-  {
-    cod: "951",
-  },
-  {
-    cod: "952",
-  },
-  {
-    cod: "953",
-  },
-  {
-    cod: "COC1",
-  },
-  {
-    cod: "COC2",
-  },
-  {
-    cod: "COFC",
-  },
-  {
-    cod: "114CA",
-  },
-  {
-    cod: "122CA",
-  },
-  {
-    cod: "VC9508",
-  },
-  {
-    cod: "BAR10",
-  },
-  {
-    cod: "BAR06",
-  },
-  {
-    cod: "BOTI55B",
-  },
-  {
-    cod: "HAX300",
-  },
-  {
-    cod: "BCR5",
-  },
-  {
-    cod: "VSTX39",
-  },
-  {
-    cod: "BRM11",
-  },
-  {
-    cod: "BRX3",
-  },
-  {
-    cod: "VTO 22/03/22",
-  },
-  {
-    cod: "48869",
-  },
-  {
-    cod: "15894A",
-  },
-  {
-    cod: "TAGPA",
-  },
-  {
-    cod: "TAGPAR",
-  },
-  {
-    cod: "TAGFDC",
-  },
-  {
-    cod: "O01MH2",
-  },
-  {
-    cod: "O02MH2",
-  },
-  {
-    cod: "O03MH2",
-  },
-  {
-    cod: "O04MH2",
-  },
-  {
-    cod: "O01H1",
-  },
-  {
-    cod: "O02H1",
-  },
-  {
-    cod: "O03H1",
-  },
-  {
-    cod: "O04H1",
-  },
-  {
-    cod: "CANDYP",
-  },
-  {
-    cod: "AVEP",
-  },
-  {
-    cod: "CSSR",
-  },
-  {
-    cod: "CSSN",
-  },
-  {
-    cod: "CSSD",
-  },
-  {
-    cod: "CSSP",
-  },
-  {
-    cod: "TFCCDC",
-  },
-  {
-    cod: "TFCCNC",
-  },
-  {
-    cod: "TFCCPC",
-  },
-  {
-    cod: "CMVI",
-  },
-  {
-    cod: "TSMIRG",
-  },
-  {
-    cod: "TSMIP",
-  },
-  {
-    cod: "TSMID",
-  },
-  {
-    cod: "TFCCRG",
-  },
-  {
-    cod: "10481P",
-  },
-  {
-    cod: "TULBPR50",
-  },
-  {
-    cod: "TULAP50",
-  },
-  {
-    cod: "TULAM50",
-  },
-  {
-    cod: "TULAQP50",
-  },
-  {
-    cod: "TULAZ50",
-  },
-  {
-    cod: "TULB50",
-  },
-  {
-    cod: "TULCE50",
-  },
-  {
-    cod: "TULF50",
-  },
-  {
-    cod: "TULM50",
-  },
-  {
-    cod: "TULNA50",
-  },
-  {
-    cod: "TULNE50",
-  },
-  {
-    cod: "TULP50",
-  },
-  {
-    cod: "TULRO",
-  },
-  {
-    cod: "TULR",
-  },
-  {
-    cod: "TULV",
-  },
-  {
-    cod: "TULVP50",
-  },
-  {
-    cod: "TULV50",
-  },
-  {
-    cod: "TULCP50",
-  },
-  {
-    cod: "TULRP",
-  },
-  {
-    cod: "KITBOTI",
-  },
-  {
-    cod: "CAJA23x16K",
-  },
-  {
-    cod: "CAJA16.5K",
-  },
-  {
-    cod: "CAJA18x15K",
-  },
-  {
-    cod: "CAJARPFP",
-  },
-  {
-    cod: "CAJA17x17x20",
-  },
-  {
-    cod: "CAJA12x12x16",
-  },
-  {
-    cod: "PPFAM5",
-  },
-  {
-    cod: "REP2018",
-  },
-  {
-    cod: "CANDY14",
-  },
-  {
-    cod: "511",
-  },
-  {
-    cod: "PHPB2",
-  },
-  {
-    cod: "PCLFRO",
-  },
-  {
-    cod: "VFIES",
-  },
-  {
-    cod: "VRETRO",
-  },
-  {
-    cod: "793.7CA",
-  },
-  {
-    cod: "DMUFFL",
-  },
-  {
-    cod: "DBUDL",
-  },
-  {
-    cod: "DPANQ",
-  },
-  {
-    cod: "GRA500",
-  },
-  {
-    cod: "131CA05",
-  },
-  {
-    cod: "ENVC",
-  },
-  {
-    cod: "DRAIP",
-  },
-  {
-    cod: "M2846",
-  },
-  {
-    cod: "C537",
-  },
-  {
-    cod: "TM15D",
-  },
-  {
-    cod: "T15D",
-  },
-  {
-    cod: "TBD",
-  },
-  {
-    cod: "TTAD",
-  },
-  {
-    cod: "TLD",
-  },
-  {
-    cod: "10303T",
-  },
-  {
-    cod: "10303D",
-  },
-  {
-    cod: "ASP50",
-  },
-  {
-    cod: "ALP50",
-  },
-  {
-    cod: "AVP50",
-  },
-  {
-    cod: "ABLA50",
-  },
-  {
-    cod: "AFUC50",
-  },
-  {
-    cod: "PINL2",
-  },
-  {
-    cod: "PINL6",
-  },
-  {
-    cod: "PINL10",
-  },
-  {
-    cod: "PINL12",
-  },
-  {
-    cod: "PINL8",
-  },
-  {
-    cod: "PINL4",
-  },
-  {
-    cod: "404100",
-  },
-  {
-    cod: "BP01020",
-  },
-  {
-    cod: "BP01021",
-  },
-  {
-    cod: "3886C",
-  },
-  {
-    cod: "3886V",
-  },
-  {
-    cod: "3886R",
-  },
-  {
-    cod: "3893R",
-  },
-  {
-    cod: "3893V",
-  },
-  {
-    cod: "3893C",
-  },
-  {
-    cod: "3893L",
-  },
-  {
-    cod: "3894L",
-  },
-  {
-    cod: "3894C",
-  },
-  {
-    cod: "3894V",
-  },
-  {
-    cod: "3895V",
-  },
-  {
-    cod: "3895C",
-  },
-  {
-    cod: "3895R",
-  },
-  {
-    cod: "3895L",
-  },
-  {
-    cod: "PUN131",
-  },
-  {
-    cod: "FDP1201",
-  },
-  {
-    cod: "FDP1202",
-  },
-  {
-    cod: "FDPR1201",
-  },
-  {
-    cod: "FDPR1202",
-  },
-  {
-    cod: "610-314",
-  },
-  {
-    cod: "402-1",
-  },
-  {
-    cod: "HA300",
-  },
-  {
-    cod: "GUIAPA",
-  },
-  {
-    cod: "PCC6",
-  },
-  {
-    cod: "PCE6",
-  },
-  {
-    cod: "PCR6",
-  },
-  {
-    cod: "VC1750",
-  },
-  {
-    cod: "VC1742",
-  },
-  {
-    cod: "813775",
-  },
-  {
-    cod: "813782",
-  },
-  {
-    cod: "813799",
-  },
-  {
-    cod: "40999",
-  },
-  {
-    cod: "SWEETARA",
-  },
-  {
-    cod: "6033",
-  },
-  {
-    cod: "AZI01A",
-  },
-  {
-    cod: "BMBD2",
-  },
-  {
-    cod: "B25HDN",
-  },
-  {
-    cod: "B25MII",
-  },
-  {
-    cod: "BV30A",
-  },
-  {
-    cod: "B30HC",
-  },
-  {
-    cod: "10303G",
-  },
-  {
-    cod: "106040",
-  },
-  {
-    cod: "F04MTART",
-  },
-  {
-    cod: "PC500",
-  },
-  {
-    cod: "COB03",
-  },
-  {
-    cod: "FC0051",
-  },
-  {
-    cod: "1413",
-  },
-  {
-    cod: "KLFR15",
-  },
-  {
-    cod: "PMOUC",
-  },
-  {
-    cod: "28863",
-  },
-  {
-    cod: "28862",
-  },
-  {
-    cod: "34233A",
-  },
-  {
-    cod: "80062",
-  },
-  {
-    cod: "80055",
-  },
-  {
-    cod: "PHOR1",
-  },
-  {
-    cod: "AD0174",
-  },
-  {
-    cod: "COPREM",
-  },
-  {
-    cod: "MAPCOR",
-  },
-  {
-    cod: "C",
-  },
-  {
-    cod: "a",
-  },
-  {
-    cod: "P1468",
-  },
-  {
-    cod: "P1475",
-  },
-  {
-    cod: "P1499",
-  },
-  {
-    cod: "P128",
-  },
-  {
-    cod: "P1529",
-  },
-  {
-    cod: "P1536",
-  },
-  {
-    cod: "P1574",
-  },
-  {
-    cod: "P1598",
-  },
-  {
-    cod: "P1604",
-  },
-  {
-    cod: "128143",
-  },
-  {
-    cod: "128144",
-  },
-  {
-    cod: "8147VP",
-  },
-  {
-    cod: "8147LP",
-  },
-  {
-    cod: "8147RP",
-  },
-  {
-    cod: "8147CP",
-  },
-  {
-    cod: "Y",
-  },
-  {
-    cod: "128153",
-  },
-  {
-    cod: "VTFGR",
-  },
-  {
-    cod: "VTFMA",
-  },
-  {
-    cod: "VTFVM",
-  },
-  {
-    cod: "VTFAZ",
-  },
-  {
-    cod: "CCTS",
-  },
-  {
-    cod: "MIXPR2",
-  },
-  {
-    cod: "B30HDN",
-  },
-  {
-    cod: "AGUILA",
-  },
-  {
-    cod: "DMV400",
-  },
-  {
-    cod: "PBC400",
-  },
-  {
-    cod: "MIXPA2",
-  },
-  {
-    cod: "PUMJ2",
-  },
-  {
-    cod: "DBIZCC",
-  },
-  {
-    cod: "4072",
-  },
-  {
-    cod: "4075",
-  },
-  {
-    cod: "CDL18",
-  },
-  {
-    cod: "MARHR",
-  },
-  {
-    cod: "QMAC2",
-  },
-  {
-    cod: "CAKEPOP",
-  },
-  {
-    cod: "BOTI037B",
-  },
-  {
-    cod: "BOTI038B",
-  },
-  {
-    cod: "BOTI042B",
-  },
-  {
-    cod: "BOTI041B",
-  },
-  {
-    cod: "CPMEM",
-  },
-  {
-    cod: "CPKIN",
-  },
-  {
-    cod: "PCUCUR",
-  },
-  {
-    cod: "PPALE",
-  },
-  {
-    cod: "PPERRO",
-  },
-  {
-    cod: "BOTI043B",
-  },
-  {
-    cod: "BOTI044B",
-  },
-  {
-    cod: "SICO257",
-  },
-  {
-    cod: "SICO295",
-  },
-  {
-    cod: "S3206.1",
-  },
-  {
-    cod: "S619",
-  },
-  {
-    cod: "MTROQ",
-  },
-  {
-    cod: "MMIXT",
-  },
-  {
-    cod: "950755",
-  },
-  {
-    cod: "44015",
-  },
-  {
-    cod: "77302C",
-  },
-  {
-    cod: "77302V",
-  },
-  {
-    cod: "77302R",
-  },
-  {
-    cod: "77302L",
-  },
-  {
-    cod: "BOTI060B",
-  },
-  {
-    cod: "K",
-  },
-  {
-    cod: "TFFL",
-  },
-  {
-    cod: "TFFF",
-  },
-  {
-    cod: "TFFA",
-  },
-  {
-    cod: "TFFR",
-  },
-  {
-    cod: "TFFAQ",
-  },
-  {
-    cod: "TFFC",
-  },
-  {
-    cod: "TFFM",
-  },
-  {
-    cod: "TFFD",
-  },
-  {
-    cod: "TFFMA",
-  },
-  {
-    cod: "TFFRG",
-  },
-  {
-    cod: "TFFP",
-  },
-  {
-    cod: "TFFLM",
-  },
-  {
-    cod: "TFFDM",
-  },
-  {
-    cod: "TFFNE",
-  },
-  {
-    cod: "TM15RG",
-  },
-  {
-    cod: "TM15M",
-  },
-  {
-    cod: "TM15N",
-  },
-  {
-    cod: "TM15DM",
-  },
-  {
-    cod: "TM15P",
-  },
-  {
-    cod: "TM18A",
-  },
-  {
-    cod: "TM18D",
-  },
-  {
-    cod: "TM18N",
-  },
-  {
-    cod: "TM18AM",
-  },
-  {
-    cod: "TM40A",
-  },
-  {
-    cod: "TM50P",
-  },
-  {
-    cod: "TM50C",
-  },
-  {
-    cod: "TM50DM",
-  },
-  {
-    cod: "TM50M",
-  },
-  {
-    cod: "TM50L",
-  },
-  {
-    cod: "TMCD",
-  },
-  {
-    cod: "TMBP",
-  },
-  {
-    cod: "TMBC",
-  },
-  {
-    cod: "TMBR",
-  },
-  {
-    cod: "TFCRA",
-  },
-  {
-    cod: "TFCRP",
-  },
-  {
-    cod: "TFCRM",
-  },
-  {
-    cod: "TFCRDM",
-  },
-  {
-    cod: "TFCRC",
-  },
-  {
-    cod: "TFCHRG",
-  },
-  {
-    cod: "TFCHPM",
-  },
-  {
-    cod: "TFCCPM",
-  },
-  {
-    cod: "TFCCDM",
-  },
-  {
-    cod: "TFCHDM",
-  },
-  {
-    cod: "TFMR",
-  },
-  {
-    cod: "TFMA",
-  },
-  {
-    cod: "TFMM",
-  },
-  {
-    cod: "TFMPM",
-  },
-  {
-    cod: "TFMDM",
-  },
-  {
-    cod: "TFCMR",
-  },
-  {
-    cod: "TFCMA",
-  },
-  {
-    cod: "TFCMC",
-  },
-  {
-    cod: "TFCMN",
-  },
-  {
-    cod: "TFCMP",
-  },
-  {
-    cod: "BBRF20",
-  },
-  {
-    cod: "BBRF22",
-  },
-  {
-    cod: "BBRF24",
-  },
-  {
-    cod: "BBRF26",
-  },
-  {
-    cod: "BBRF29",
-  },
-  {
-    cod: "BF2940",
-  },
-  {
-    cod: "P1307",
-  },
-  {
-    cod: "SHCM",
-  },
-  {
-    cod: "SMNRD",
-  },
-  {
-    cod: "SSBM",
-  },
-  {
-    cod: "SBAYA",
-  },
-  {
-    cod: "SRRB",
-  },
-  {
-    cod: "SPPS",
-  },
-  {
-    cod: "SASS",
-  },
-  {
-    cod: "SCPP",
-  },
-  {
-    cod: "SCAD",
-  },
-  {
-    cod: "SDIN",
-  },
-  {
-    cod: "SNYN",
-  },
-  {
-    cod: "STTK",
-  },
-  {
-    cod: "SMCO",
-  },
-  {
-    cod: "SUAR",
-  },
-  {
-    cod: "SUNIC",
-  },
-  {
-    cod: "SFCL",
-  },
-  {
-    cod: "SRZR",
-  },
-  {
-    cod: "SFCC",
-  },
-  {
-    cod: "STCVD",
-  },
-  {
-    cod: "SNBBO",
-  },
-  {
-    cod: "SMRO",
-  },
-  {
-    cod: "SAVA",
-  },
-  {
-    cod: "SLYP",
-  },
-  {
-    cod: "SLFVD",
-  },
-  {
-    cod: "FCPAC",
-  },
-  {
-    cod: "DCM04",
-  },
-  {
-    cod: "DCM01",
-  },
-  {
-    cod: "PCM10",
-  },
-  {
-    cod: "RCM15",
-  },
-  {
-    cod: "SPCCB",
-  },
-  {
-    cod: "PCRGP",
-  },
-  {
-    cod: "PCAGP",
-  },
-  {
-    cod: "PCAZGP",
-  },
-  {
-    cod: "PCVGP",
-  },
-  {
-    cod: "PCFGP",
-  },
-  {
-    cod: "PCNAGP",
-  },
-  {
-    cod: "PCVIGP",
-  },
-  {
-    cod: "CO1201",
-  },
-  {
-    cod: "COM01",
-  },
-  {
-    cod: "CAPBRE",
-  },
-  {
-    cod: "TFX100",
-  },
-  {
-    cod: "MMRL",
-  },
-  {
-    cod: "PUN131",
-  },
-  {
-    cod: "CCHALL",
-  },
-  {
-    cod: "CCHH",
-  },
-  {
-    cod: "MERDIN",
-  },
-  {
-    cod: "MEROP",
-  },
-  {
-    cod: "MEROS",
-  },
-  {
-    cod: "MERAR",
-  },
-  {
-    cod: "MERWP",
-  },
-  {
-    cod: "MERCU",
-  },
-  {
-    cod: "MEROF",
-  },
-  {
-    cod: "MECOS",
-  },
-  {
-    cod: "MECK",
-  },
-  {
-    cod: "MECHP",
-  },
-  {
-    cod: "MECP",
-  },
-  {
-    cod: "MERPO",
-  },
-  {
-    cod: "MERMI",
-  },
-  {
-    cod: "MERCUN",
-  },
-  {
-    cod: "MERWPO",
-  },
-  {
-    cod: "MERAP",
-  },
-  {
-    cod: "MERCOS",
-  },
-  {
-    cod: "PANCAS100",
-  },
-  {
-    cod: "PANCAS1",
-  },
-  {
-    cod: "PANCAS500",
-  },
-  {
-    cod: "PANCAS250",
-  },
-  {
-    cod: "PANOP250",
-  },
-  {
-    cod: "PANOP500",
-  },
-  {
-    cod: "PANOP1",
-  },
-  {
-    cod: "PLFA",
-  },
-  {
-    cod: "PLFS",
-  },
-  {
-    cod: "PLFVA",
-  },
-  {
-    cod: "DVA074",
-  },
-  {
-    cod: "103062",
-  },
-  {
-    cod: "PA DECOR 01",
-  },
-  {
-    cod: "PR2RP",
-  },
-  {
-    cod: "PA4RP",
-  },
-  {
-    cod: "PC6RP",
-  },
-  {
-    cod: "PL10RP",
-  },
-  {
-    cod: "PR12RP",
-  },
-  {
-    cod: "PC8RP",
-  },
-  {
-    cod: "LMB",
-  },
-  {
-    cod: "LMM",
-  },
-  {
-    cod: "LTS",
-  },
-  {
-    cod: "LUN",
-  },
-  {
-    cod: "LPA",
-  },
-  {
-    cod: "LNA",
-  },
-  {
-    cod: "LCAM",
-  },
-  {
-    cod: "LFLA",
-  },
-  {
-    cod: "MEP11",
-  },
-  {
-    cod: "95447",
-  },
-  {
-    cod: "15524",
-  },
-  {
-    cod: "15779",
-  },
-  {
-    cod: "PL0012.10",
-  },
-  {
-    cod: "SODP",
-  },
-  {
-    cod: "MLAC",
-  },
-  {
-    cod: "MTAC",
-  },
-  {
-    cod: "MLLC",
-  },
-  {
-    cod: "MLRC",
-  },
-  {
-    cod: "MLRC2",
-  },
-  {
-    cod: "MTLVC",
-  },
-  {
-    cod: "MTVC",
-  },
-  {
-    cod: "LCMSM",
-  },
-  {
-    cod: "LCMP5",
-  },
-  {
-    cod: "LCPIO",
-  },
-  {
-    cod: "LCPOC",
-  },
-  {
-    cod: "LCPIC",
-  },
-  {
-    cod: "LCPCC",
-  },
-  {
-    cod: "LPICM",
-  },
-  {
-    cod: "LCPTO",
-  },
-  {
-    cod: "LCPHH",
-  },
-  {
-    cod: "LCPCH",
-  },
-  {
-    cod: "LCPTR",
-  },
-  {
-    cod: "LCPRO",
-  },
-  {
-    cod: "MLTR",
-  },
-  {
-    cod: "BGS",
-  },
-  {
-    cod: "POMCN",
-  },
-  {
-    cod: "POMMR",
-  },
-  {
-    cod: "POMAN",
-  },
-  {
-    cod: "POMRE",
-  },
-  {
-    cod: "POMBA",
-  },
-  {
-    cod: "POMJE",
-  },
-  {
-    cod: "60211",
-  },
-  {
-    cod: "60004",
-  },
-  {
-    cod: "60004A",
-  },
-  {
-    cod: "60004R",
-  },
-  {
-    cod: "60004V",
-  },
-  {
-    cod: "60004S",
-  },
-  {
-    cod: "60004N",
-  },
-  {
-    cod: "PANOP100",
-  },
-  {
-    cod: "SNBR",
-  },
-  {
-    cod: "SMRVD",
-  },
-  {
-    cod: "MCCVF",
-  },
-  {
-    cod: "MCCRG",
-  },
-  {
-    cod: "SORFR",
-  },
-  {
-    cod: "SORLI",
-  },
-  {
-    cod: "SORCH",
-  },
-  {
-    cod: "SHNYN",
-  },
-  {
-    cod: "SNABP",
-  },
-  {
-    cod: "SNHJC",
-  },
-  {
-    cod: "SNPBL",
-  },
-  {
-    cod: "SNP40",
-  },
-  {
-    cod: "2060850FB",
-  },
-  {
-    cod: "2060850LB",
-  },
-  {
-    cod: "2060850NB",
-  },
-  {
-    cod: "79273B",
-  },
-  {
-    cod: "79183B",
-  },
-  {
-    cod: "79185B",
-  },
-  {
-    cod: "79272B",
-  },
-  {
-    cod: "79142B",
-  },
-  {
-    cod: "79190B",
-  },
-  {
-    cod: "79277B",
-  },
-  {
-    cod: "79146B",
-  },
-  {
-    cod: "79193B",
-  },
-  {
-    cod: "79204B",
-  },
-  {
-    cod: "79191B",
-  },
-  {
-    cod: "79194B",
-  },
-  {
-    cod: "79184B",
-  },
-  {
-    cod: "79519B",
-  },
-  {
-    cod: "79187B",
-  },
-  {
-    cod: "79195B",
-  },
-  {
-    cod: "79198B",
-  },
-  {
-    cod: "79189B",
-  },
-  {
-    cod: "2060850PB",
-  },
-  {
-    cod: "2060850RJB",
-  },
-  {
-    cod: "2060850RB",
-  },
-  {
-    cod: "2060850TB",
-  },
-  {
-    cod: "2060850VAB",
-  },
-  {
-    cod: "2060850VB",
-  },
-  {
-    cod: "79186B",
-  },
-  {
-    cod: "79139B",
-  },
-  {
-    cod: "79188B",
-  },
-  {
-    cod: "79147B",
-  },
-  {
-    cod: "2060850SB",
-  },
-  {
-    cod: "79270B",
-  },
-  {
-    cod: "COM25",
-  },
-  {
-    cod: "CCMUN",
-  },
-  {
-    cod: "TAGMU",
-  },
-  {
-    cod: "CCNAV",
-  },
-  {
-    cod: "CORFN",
-  },
-  {
-    cod: "ESAL24",
-  },
-  {
-    cod: "ESAD20",
-  },
-  {
-    cod: "ESAD24",
-  },
-  {
-    cod: "ESD24",
-  },
-  {
-    cod: "ESD20",
-  },
-  {
-    cod: "BASE35",
-  },
-  {
-    cod: "B2020",
-  },
-  {
-    cod: "B1530",
-  },
-  {
-    cod: "B2424",
-  },
-  {
-    cod: "BAM10B",
-  },
-  {
-    cod: "BAM18B",
-  },
-  {
-    cod: "BAM14B",
-  },
-  {
-    cod: "BAM12B",
-  },
-  {
-    cod: "BAM16B",
-  },
-  {
-    cod: "BAM20B",
-  },
-  {
-    cod: "PA DECOR 07B",
-  },
-  {
-    cod: "PA DECOR 06B",
-  },
-  {
-    cod: "PA DECOR 08B",
-  },
-  {
-    cod: "PA DECOR 01B",
-  },
-  {
-    cod: "PA DECOR 22B",
-  },
-  {
-    cod: "PA DECOR 30B",
-  },
-  {
-    cod: "PA DECOR 15B",
-  },
-  {
-    cod: "PA DECOR 04B",
-  },
-  {
-    cod: "PA DECOR 05B",
-  },
-  {
-    cod: "PA DECOR 21B",
-  },
-  {
-    cod: "PA DECOR 32B",
-  },
-  {
-    cod: "PA DECOR 23B",
-  },
-  {
-    cod: "PA DECOR 31B",
-  },
-  {
-    cod: "PA DECOR 02B",
-  },
-  {
-    cod: "TFHF",
-  },
-  {
-    cod: "TFHC",
-  },
-  {
-    cod: "TFHSB",
-  },
-  {
-    cod: "TFHTR",
-  },
-  {
-    cod: "PMDDL",
-  },
-  {
-    cod: "PBVAI",
-  },
-  {
-    cod: "PMFRU",
-  },
-  {
-    cod: "LCDNA",
-  },
-  {
-    cod: "LCPNA",
-  },
-  {
-    cod: "LCION",
-  },
-  {
-    cod: "TFCD",
-  },
-  {
-    cod: "TFCOP",
-  },
-  {
-    cod: "TFCOD",
-  },
-  {
-    cod: "TFCOM",
-  },
-  {
-    cod: "TFREM",
-  },
-  {
-    cod: "TFRED",
-  },
-  {
-    cod: "TFREP",
-  },
-  {
-    cod: "TFRMA",
-  },
-  {
-    cod: "TFCRD",
-  },
-  {
-    cod: "TFARV",
-  },
-  {
-    cod: "TFARD",
-  },
-  {
-    cod: "TFARP",
-  },
-  {
-    cod: "TFEPL",
-  },
-  {
-    cod: "TFEDO",
-  },
-  {
-    cod: "TFFNM",
-  },
-  {
-    cod: "TFFNV",
-  },
-  {
-    cod: "TFFNP",
-  },
-  {
-    cod: "TFFNR",
-  },
-  {
-    cod: "TFFND",
-  },
-  {
-    cod: "TFPF",
-  },
-  {
-    cod: "TFBF",
-  },
-  {
-    cod: "TFCTB",
-  },
-  {
-    cod: "TFCTC",
-  },
-  {
-    cod: "TFFME",
-  },
-  {
-    cod: "S1272",
-  },
-  {
-    cod: "TFFV",
-  },
-  {
-    cod: "15018B",
-  },
-  {
-    cod: "PCTRC",
-  },
-  {
-    cod: "PCANC",
-  },
-  {
-    cod: "PCCC",
-  },
-  {
-    cod: "MAI450",
-  },
-  {
-    cod: "VC500",
-  },
-  {
-    cod: "2208R",
-  },
-  {
-    cod: "2208V",
-  },
-  {
-    cod: "2270B",
-  },
-  {
-    cod: "17B10",
-  },
-  {
-    cod: "TNX100",
-  },
-  {
-    cod: "PANDULCE1000FGB",
-  },
-  {
-    cod: "PANDULCE1000B",
-  },
-  {
-    cod: "PANDULCE1000VCB!!",
-  },
-  {
-    cod: "PANDULCE1000.2B",
-  },
-  {
-    cod: "PANDULCE100PNB",
-  },
-  {
-    cod: "PANDULCE100VCB",
-  },
-  {
-    cod: "PANDULCE100B",
-  },
-  {
-    cod: "PANDULCE250FGB",
-  },
-  {
-    cod: "PANDULCE250PNB",
-  },
-  {
-    cod: "PANDULCE250VCB",
-  },
-  {
-    cod: "PANDULCE250B",
-  },
-  {
-    cod: "PANDULCE500B",
-  },
-  {
-    cod: "PANDULCE500VCB",
-  },
-  {
-    cod: "PANDULCE500.2B",
-  },
-  {
-    cod: "PANDULCE1000VLB",
-  },
-  {
-    cod: "PANDULCE1000GOAB",
-  },
-  {
-    cod: "PANDULCE500GOAB",
-  },
-  {
-    cod: "PANDULCE500VLB",
-  },
-  {
-    cod: "PANDULCE500PAZB",
-  },
-  {
-    cod: "PANDULCE250GOAB",
-  },
-  {
-    cod: "PANDULCE250VLB",
-  },
-  {
-    cod: "PANDULCE100VLB",
-  },
-  {
-    cod: "PANDULCE100GOAB",
-  },
-  {
-    cod: "PANDULCE100PAZB",
-  },
-  {
-    cod: "PANDULCE500FB",
-  },
-  {
-    cod: "PANDULCE100RLB",
-  },
-  {
-    cod: "PANDULCE100PNCB",
-  },
-  {
-    cod: "PANDULCE100CAB",
-  },
-  {
-    cod: "PANDULCE100BRB",
-  },
-  {
-    cod: "PANDULCE250CAB",
-  },
-  {
-    cod: "PANDULCE250PNCB",
-  },
-  {
-    cod: "PANDULCE250BRB",
-  },
-  {
-    cod: "PANDULCE500BRB",
-  },
-  {
-    cod: "PANDULCE500PNCB",
-  },
-  {
-    cod: "PANDULCE500CAB",
-  },
-  {
-    cod: "PANDULCE1000BRB",
-  },
-  {
-    cod: "PANDULCE1000PNCB",
-  },
-  {
-    cod: "PANDULCE1000CAB",
-  },
-  {
-    cod: "PANCAS100B",
-  },
-  {
-    cod: "PANCAS1B",
-  },
-  {
-    cod: "PANCAS500B",
-  },
-  {
-    cod: "PANCAS250B",
-  },
-  {
-    cod: "PANOP250B",
-  },
-  {
-    cod: "PANOP500B",
-  },
-  {
-    cod: "PANOP1B",
-  },
-  {
-    cod: "PANOP100B",
-  },
-  {
-    cod: "40830B",
-  },
-  {
-    cod: "40828B",
-  },
-  {
-    cod: "BALLCHOX3B",
-  },
-  {
-    cod: "BALLIFORMHX3B",
-  },
-  {
-    cod: "BALLVAIX3B",
-  },
-  {
-    cod: "BALLCHOX0.75B",
-  },
-  {
-    cod: "BALLIFORMHB",
-  },
-  {
-    cod: "BALLVAIX0.75B",
-  },
-  {
-    cod: "BAFONX0.5B",
-  },
-  {
-    cod: "DEWAZTALCX1B",
-  },
-  {
-    cod: "PRB11B",
-  },
-  {
-    cod: "PRB15B",
-  },
-  {
-    cod: "PBN05B",
-  },
-  {
-    cod: "PBW01B",
-  },
-  {
-    cod: "PCK01B",
-  },
-  {
-    cod: "PC15AB",
-  },
-  {
-    cod: "BAGOMX0.5NB",
-  },
-  {
-    cod: "BAGOMX0.5RB",
-  },
-  {
-    cod: "BAGOMX0.5B",
-  },
-  {
-    cod: "BALLIAMARILLA50B",
-  },
-  {
-    cod: "BALLIAZUL500B",
-  },
-  {
-    cod: "BALLCACX0.5B",
-  },
-  {
-    cod: "BALICEL500B",
-  },
-  {
-    cod: "BALLCHOX0.5B",
-  },
-  {
-    cod: "BALLINEGRA500B",
-  },
-  {
-    cod: "BALLIROJO500B",
-  },
-  {
-    cod: "BALLIROSA500B",
-  },
-  {
-    cod: "BALLVAIX0.5B",
-  },
-  {
-    cod: "BALLIVERDE500B",
-  },
-  {
-    cod: "BALL0012B",
-  },
-  {
-    cod: "BALLMODX0.5B",
-  },
-  {
-    cod: "TLX100",
-  },
-  {
-    cod: "2062380B",
-  },
-  {
-    cod: "31725B",
-  },
-  {
-    cod: "38613B",
-  },
-  {
-    cod: "16961B",
-  },
-  {
-    cod: "206014BB",
-  },
-  {
-    cod: "206014CB",
-  },
-  {
-    cod: "16956B",
-  },
-  {
-    cod: "206014FB",
-  },
-  {
-    cod: "16959B",
-  },
-  {
-    cod: "41878B",
-  },
-  {
-    cod: "40957B",
-  },
-  {
-    cod: "40814B",
-  },
-  {
-    cod: "16953B",
-  },
-  {
-    cod: "16964B",
-  },
-  {
-    cod: "16957B",
-  },
-  {
-    cod: "40221B",
-  },
-  {
-    cod: "16963B",
-  },
-  {
-    cod: "16962B",
-  },
-  {
-    cod: "40797B",
-  },
-  {
-    cod: "2060140RB",
-  },
-  {
-    cod: "206014VB",
-  },
-  {
-    cod: "28800AB",
-  },
-  {
-    cod: "28800CB",
-  },
-  {
-    cod: "20628600B",
-  },
-  {
-    cod: "20628900B",
-  },
-  {
-    cod: "28800LB",
-  },
-  {
-    cod: "20626000B",
-  },
-  {
-    cod: "28800RB",
-  },
-  {
-    cod: "POM43P",
-  },
-  {
-    cod: "FENCOBSEMDULX1P",
-  },
-  {
-    cod: "28800VB",
-  },
-  {
-    cod: "44956B",
-  },
-  {
-    cod: "44236B",
-  },
-  {
-    cod: "44034B",
-  },
-  {
-    cod: "44035B",
-  },
-  {
-    cod: "44688B",
-  },
-  {
-    cod: "44689B",
-  },
-  {
-    cod: "44687B",
-  },
-  {
-    cod: "44237B",
-  },
-  {
-    cod: "44238B",
-  },
-  {
-    cod: "44235B",
-  },
-  {
-    cod: "BUNIB",
-  },
-  {
-    cod: "BUNBB",
-  },
-  {
-    cod: "44690B",
-  },
-  {
-    cod: "BL001BB",
-  },
-  {
-    cod: "47304B",
-  },
-  {
-    cod: "47306B",
-  },
-  {
-    cod: "47305B",
-  },
-  {
-    cod: "47302B",
-  },
-  {
-    cod: "47268B",
-  },
-  {
-    cod: "38237B",
-  },
-  {
-    cod: "38236B",
-  },
-  {
-    cod: "DLF001",
-  },
-  {
-    cod: "47303B",
-  },
-  {
-    cod: "DLF014",
-  },
-  {
-    cod: "17211",
-  },
-  {
-    cod: "BNM5",
-  },
-  {
-    cod: "CCPN",
-  },
-  {
-    cod: "CCPNR",
-  },
-  {
-    cod: "BCN16",
-  },
-  {
-    cod: "CCAN",
-  },
-  {
-    cod: "CCRN",
-  },
-  {
-    cod: "CCREN",
-  },
-  {
-    cod: "CCMNN",
-  },
-  {
-    cod: "CCHJN",
-  },
-  {
-    cod: "CCBN",
-  },
-  {
-    cod: "CCPNO",
-  },
-  {
-    cod: "CDVV",
-  },
-  {
-    cod: "CDVR",
-  },
-  {
-    cod: "CDVAM",
-  },
-  {
-    cod: "BOTI025A",
-  },
-  {
-    cod: "P122CA",
-  },
-  {
-    cod: "404085",
-  },
-  {
-    cod: "80219C",
-  },
-  {
-    cod: "80219V",
-  },
-  {
-    cod: "80219F",
-  },
-  {
-    cod: "80219B",
-  },
-  {
-    cod: "80219",
-  },
-  {
-    cod: "PASTE1642",
-  },
-  {
-    cod: "PASTE1673",
-  },
-  {
-    cod: "TT250",
-  },
-  {
-    cod: "V5SC50",
-  },
-  {
-    cod: "CH9050",
-  },
-  {
-    cod: "CO350",
-  },
-  {
-    cod: "CR0850",
-  },
-  {
-    cod: "CHB250",
-  },
-  {
-    cod: "KC250",
-  },
-  {
-    cod: "CAR150",
-  },
-  {
-    cod: "DL150",
-  },
-  {
-    cod: "PA250",
-  },
-  {
-    cod: "CF1250",
-  },
-  {
-    cod: "CA150",
-  },
-  {
-    cod: "AL150",
-  },
-  {
-    cod: "AZ250",
-  },
-  {
-    cod: "OR150",
-  },
-  {
-    cod: "LC250",
-  },
-  {
-    cod: "V150",
-  },
-  {
-    cod: "MTK450",
-  },
-  {
-    cod: "V1SC50",
-  },
-  {
-    cod: "SK253",
-  },
-  {
-    cod: "SK245",
-  },
-  {
-    cod: "SMNRA",
-  },
-  {
-    cod: "SSBMM",
-  },
-  {
-    cod: "SFYN",
-  },
-  {
-    cod: "SCAN",
-  },
-  {
-    cod: "SLOVE",
-  },
-  {
-    cod: "SNEDP",
-  },
-  {
-    cod: "STCV",
-  },
-  {
-    cod: "PP0038B",
-  },
-  {
-    cod: "PP0195B",
-  },
-  {
-    cod: "PP0039B",
-  },
-  {
-    cod: "MEBOSI21",
-  },
-  {
-    cod: "700204",
-  },
-  {
-    cod: "PCROP",
-  },
-  {
-    cod: "PCVEP",
-  },
-  {
-    cod: "Z04054",
-  },
-  {
-    cod: "Z04052",
-  },
-  {
-    cod: "Z01024",
-  },
-  {
-    cod: "Z04098",
-  },
-  {
-    cod: "GAN.L",
-  },
-  {
-    cod: "240430",
-  },
-  {
-    cod: "240413",
-  },
-  {
-    cod: "BRLX2",
-  },
-  {
-    cod: "BRDX2",
-  },
-  {
-    cod: "BRPX2",
-  },
-  {
-    cod: "BRFX2",
-  },
-  {
-    cod: "PUN.39",
-  },
-  {
-    cod: "SAMOR",
-  },
-  {
-    cod: "SBESO",
-  },
-  {
-    cod: "SCUPI",
-  },
-  {
-    cod: "SALAS",
-  },
-  {
-    cod: "SPCBL",
-  },
-  {
-    cod: "SPCRH",
-  },
-  {
-    cod: "MCCRO",
-  },
-  {
-    cod: "BL500",
-  },
-  {
-    cod: "32000",
-  },
-  {
-    cod: "BTL500",
-  },
-  {
-    cod: "BSL6",
-  },
-  {
-    cod: "PAF500",
-  },
-  {
-    cod: "PAF35",
-  },
-  {
-    cod: "BSB6",
-  },
-  {
-    cod: "BSSA6",
-  },
-  {
-    cod: "PGLFEB",
-  },
-  {
-    cod: "CCB5",
-  },
-  {
-    cod: "PA DECOR 43",
-  },
-  {
-    cod: "1",
-  },
-  {
-    cod: "CPX50",
-  },
-  {
-    cod: "MLAC2",
-  },
-  {
-    cod: "MLCC2",
-  },
-  {
-    cod: "MLCEC2",
-  },
-  {
-    cod: "MMBLT",
-  },
-  {
-    cod: "MMRBLT",
-  },
-  {
-    cod: "BAM03F",
-  },
-  {
-    cod: "122CAF",
-  },
-  {
-    cod: "BANOLE",
-  },
-  {
-    cod: "GANMAN",
-  },
-  {
-    cod: "GANMAR",
-  },
-  {
-    cod: "SASIA",
-  },
-  {
-    cod: "DBBVTO",
-  },
-  {
-    cod: "DBLVTO",
-  },
-  {
-    cod: "DMLVTO",
-  },
-  {
-    cod: "DMBVTO",
-  },
-  {
-    cod: "DDCVTO",
-  },
-  {
-    cod: "DBVVTO",
-  },
-  {
-    cod: "DMCVTO",
-  },
-  {
-    cod: "DBCVTO",
-  },
-  {
-    cod: "4072V",
-  },
-  {
-    cod: "4075V",
-  },
-  {
-    cod: "MAC12",
-  },
-  {
-    cod: "1005",
-  },
-  {
-    cod: "1702",
-  },
-  {
-    cod: "DLFVTO",
-  },
-  {
-    cod: "10000203B",
-  },
-  {
-    cod: "CODVTO",
-  },
-  {
-    cod: "104049",
-  },
-  {
-    cod: "103037G",
-  },
-  {
-    cod: "103037T",
-  },
-  {
-    cod: "SPH11P",
-  },
-  {
-    cod: "BAGORO",
-  },
-  {
-    cod: "BAGONE",
-  },
-  {
-    cod: "PASTBALL",
-  },
-  {
-    cod: "PINL1",
-  },
-  {
-    cod: "PINL3",
-  },
-  {
-    cod: "PINL5",
-  },
-  {
-    cod: "PA DECOR 01B",
-  },
-  {
-    cod: "RP51961",
-  },
-  {
-    cod: "5129V",
-  },
-  {
-    cod: "PRROP",
-  },
-  {
-    cod: "PRVEP",
-  },
-  {
-    cod: "PAVEP",
-  },
-  {
-    cod: "MCFAR",
-  },
-  {
-    cod: "MCFNR",
-  },
-  {
-    cod: "131500",
-  },
-  {
-    cod: "95140600",
-  },
-  {
-    cod: "MOULED",
-  },
-  {
-    cod: "DF400",
-  },
-  {
-    cod: "PFL200",
-  },
-  {
-    cod: "COLNAR",
-  },
-  {
-    cod: "COLLIM",
-  },
-  {
-    cod: "ARGCERCHOMUL105",
-  },
-  {
-    cod: "PAS500",
-  },
-  {
-    cod: "GP500",
-  },
-  {
-    cod: "PGA500",
-  },
-  {
-    cod: "PGB500",
-  },
-  {
-    cod: "PGV500",
-  },
-  {
-    cod: "PGV200",
-  },
-  {
-    cod: "GVL500",
-  },
-  {
-    cod: "PGN500",
-  },
-  {
-    cod: "MAN250",
-  },
-  {
-    cod: "PGLA1",
-  },
-  {
-    cod: "LHE",
-  },
-  {
-    cod: "LPAW",
-  },
-  {
-    cod: "LCOM",
-  },
-  {
-    cod: "LBT21",
-  },
-  {
-    cod: "TMX100",
-  },
-  {
-    cod: "PDCPM",
-  },
-  {
-    cod: "30016",
-  },
-  {
-    cod: "DM0439",
-  },
-  {
-    cod: "DM0371",
-  },
-  {
-    cod: "BOTISET6",
-  },
-  {
-    cod: "BOTISET5",
-  },
-  {
-    cod: "BOTISET4",
-  },
-  {
-    cod: "BOTISET2",
-  },
-  {
-    cod: "BOTISET1",
-  },
-  {
-    cod: "BOTISET7",
-  },
-  {
-    cod: "BOTISET3",
-  },
-  {
-    cod: "COL",
-  },
-  {
-    cod: "OUTMC",
-  },
-  {
-    cod: "C1474",
-  },
-  {
-    cod: "SMCO1",
-  },
-  {
-    cod: "SESAMO",
-  },
-  {
-    cod: "PIMROS",
-  },
-  {
-    cod: "CPN1",
-  },
-  {
-    cod: "PGLA5",
-  },
-  {
-    cod: "LECHE",
-  },
-  {
-    cod: "PUPAS",
-  },
-  {
-    cod: "CAS5",
-  },
-  {
-    cod: "CACR",
-  },
-  {
-    cod: "CAS1",
-  },
-  {
-    cod: "CAS200",
-  },
-  {
-    cod: "200708",
-  },
-  {
-    cod: "1033L",
-  },
-  {
-    cod: "1038L",
-  },
-  {
-    cod: "49593",
-  },
-  {
-    cod: "CARI",
-  },
-  {
-    cod: "071L",
-  },
-  {
-    cod: "TGBER",
-  },
-  {
-    cod: "TGBEF",
-  },
-  {
-    cod: "TGBERO",
-  },
-  {
-    cod: "103037D",
-  },
-  {
-    cod: "71000432",
-  },
-  {
-    cod: "211500231",
-  },
-  {
-    cod: "CUNEG",
-  },
-  {
-    cod: "603413",
-  },
-  {
-    cod: "DRIP25C",
-  },
-  {
-    cod: "MID32C",
-  },
-  {
-    cod: "12CUPV",
-  },
-  {
-    cod: "MTARB",
-  },
-  {
-    cod: "CHEESSC",
-  },
-  {
-    cod: "CPBVS",
-  },
-  {
-    cod: "BOTI048B",
-  },
-  {
-    cod: "BOTI049B",
-  },
-  {
-    cod: "RA102",
-  },
-  {
-    cod: "P1529",
-  },
-  {
-    cod: "VMARC",
-  },
-  {
-    cod: "C1479",
-  },
-  {
-    cod: "5360L",
-  },
-  {
-    cod: "PANRBA",
-  },
-  {
-    cod: "PANPLA",
-  },
-  {
-    cod: "PANGLO",
-  },
-  {
-    cod: "PANPL100",
-  },
-  {
-    cod: "PANGN100",
-  },
-  {
-    cod: "PANBA100",
-  },
-  {
-    cod: "PANPL250",
-  },
-  {
-    cod: "PANRB250",
-  },
-  {
-    cod: "PANGN250",
-  },
-  {
-    cod: "PANPL5",
-  },
-  {
-    cod: "PANGN5",
-  },
-  {
-    cod: "PANRB5",
-  },
-  {
-    cod: "LOCOM1",
-  },
-  {
-    cod: "114BO20",
-  },
-  {
-    cod: "HOLD",
-  },
-  {
-    cod: "COSSS",
-  },
-  {
-    cod: "COXMM",
-  },
-  {
-    cod: "CARTBGXS",
-  },
-  {
-    cod: "ARA2",
-  },
-  {
-    cod: "BAY2",
-  },
-  {
-    cod: "DUR3",
-  },
-  {
-    cod: "MRC2",
-  },
-  {
-    cod: "BAM100",
-  },
-  {
-    cod: "MER40",
-  },
-  {
-    cod: "1352C",
-  },
-  {
-    cod: "GVPE50",
-  },
-  {
-    cod: "3DLOEN",
-  },
-  {
-    cod: "PRISMA",
-  },
-  {
-    cod: "651A",
-  },
-  {
-    cod: "651R",
-  },
-  {
-    cod: "651",
-  },
-  {
-    cod: "1664R",
-  },
-  {
-    cod: "3741R",
-  },
-  {
-    cod: "3741A",
-  },
-  {
-    cod: "Y438V",
-  },
-  {
-    cod: "Y440",
-  },
-  {
-    cod: "OLEO",
-  },
-  {
-    cod: "48133",
-  },
-  {
-    cod: "16751",
-  },
-  {
-    cod: "ACEB10",
-  },
-  {
-    cod: "ACEB20",
-  },
-  {
-    cod: "MID25C",
-  },
-  {
-    cod: "12615",
-  },
-  {
-    cod: "404088",
-  },
-  {
-    cod: "404087",
-  },
-  {
-    cod: "404086",
-  },
-  {
-    cod: "3DCNT",
-  },
-  {
-    cod: "BOTI056B",
-  },
-  {
-    cod: "BOTI058B",
-  },
-  {
-    cod: "87/10",
-  },
-  {
-    cod: "26310",
-  },
-  {
-    cod: "BBBA5023",
-  },
-  {
-    cod: "BCUADIB",
-  },
-  {
-    cod: "C213SA",
-  },
-  {
-    cod: "3DCUB",
-  },
-  {
-    cod: "PASRICH",
-  },
-  {
-    cod: "MR269",
-  },
-  {
-    cod: "MR268",
-  },
-  {
-    cod: "LVP250",
-  },
-  {
-    cod: "DRIPLE120",
-  },
-  {
-    cod: "NUMLE113",
-  },
-  {
-    cod: "DESLE105",
-  },
-  {
-    cod: "DELLE103",
-  },
-  {
-    cod: "KOPYAN05",
-  },
-  {
-    cod: "DEXT",
-  },
-  {
-    cod: "CTVI",
-  },
-  {
-    cod: "42078A",
-  },
-  {
-    cod: "42078C",
-  },
-  {
-    cod: "119696",
-  },
-  {
-    cod: "119724",
-  },
-  {
-    cod: "CAPAGEOR13",
-  },
-  {
-    cod: "CAPAGEOR14",
-  },
-  {
-    cod: "CAPAGEOR15",
-  },
-  {
-    cod: "VTORN",
-  },
-  {
-    cod: "VTOUHT",
-  },
-  {
-    cod: "VTOCFRUT",
-  },
-  {
-    cod: "VTO30/05C",
-  },
-  {
-    cod: "VTO19/05C",
-  },
-  {
-    cod: "BOTI059B",
-  },
-  {
-    cod: "100774",
-  },
-  {
-    cod: "588M",
-  },
-  {
-    cod: "demochocolartpapa",
-  },
-  {
-    cod: "demoflor",
-  },
-  {
-    cod: "W2094117",
-  },
-  {
-    cod: "104161O",
-  },
-  {
-    cod: "104161V",
-  },
-  {
-    cod: "STENCILABC",
-  },
-  {
-    cod: "SILINORDICO",
-  },
-  {
-    cod: "PS3040",
-  },
-  {
-    cod: "I21730",
-  },
-  {
-    cod: "PALAM",
-  },
-  {
-    cod: "MH210921",
-  },
-  {
-    cod: "REP5072",
-  },
-  {
-    cod: "MSTCD",
-  },
-  {
-    cod: "104038",
-  },
-  {
-    cod: "TORTA3",
-  },
-  {
-    cod: "AX4002",
-  },
-  {
-    cod: "3DKOC",
-  },
-  {
-    cod: "2561272",
-  },
-  {
-    cod: "161653V",
-  },
-  {
-    cod: "LC125C",
-  },
-  {
-    cod: "MPHRR",
-  },
-  {
-    cod: "ECO",
-  },
-  {
-    cod: "BSKPLAT",
-  },
-  {
-    cod: "BSKINGFBCO",
-  },
-  {
-    cod: "BSMD18R1",
-  },
-  {
-    cod: "BM1929",
+    code: "4097702",
   },
 ];
 
 export const disableTnProducts = async () => {
   const disabledCodesSet = new Set(
-    disabledCodes.map((code) => code.cod.toUpperCase())
+    disabledCodes.map((code) => code.code.toUpperCase())
   );
-  const tnProducts = await tnNormalStore.getAllProducts();
+  const tnProducts = await tnWholesaleStore.getAllProducts({
+    includeGiftCards: true,
+    includeVirtualProducts: true,
+  });
 
   const productsToDisable = tnProducts.filter((product) => {
-    const sku = product.variants[0].sku?.toUpperCase();
+    const sku = product.variants[0].sku;
     if (!sku) return false;
     return disabledCodesSet.has(sku);
   });
 
   console.log(`Disabling ${productsToDisable.length} products`);
 
-  await tnNormalStore.updateProducts(
+  await tnWholesaleStore.updateProducts(
     productsToDisable.map((product) => ({
       productId: product.id,
       variantId: product.variants[0].id,

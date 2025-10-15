@@ -1,6 +1,6 @@
-import { findErpDisabledProducts } from "../scripts/find_erp_disabled_products.js";
+import { disableTnProducts } from "../scripts/disable_tn_products.js";
 
-await findErpDisabledProducts();
+await disableTnProducts();
 
 console.log("Done");
 console.log("Waiting forever...");

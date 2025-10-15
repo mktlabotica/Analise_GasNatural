@@ -25,7 +25,8 @@ const getAllProducts = async (
     withImages?: boolean;
     published?: boolean;
     created_at_min?: string;
-    requiresShipping?: boolean;
+    includeVirtualProducts?: boolean;
+    includeGiftCards?: boolean;
   } & ClientOpts
 ) => {
   const output: { page: number; data: GetProductsResponse }[] = [];
@@ -74,11 +75,18 @@ const getAllProducts = async (
 
   await writeFile("getAllProducts.json", JSON.stringify(output, null, 2));
 
-  return products.filter((product) => {
-    if (product.variants[0].sku === "GIFTY") return false;
-    if (!product.requires_shipping) return false;
-    return true;
-  });
+  return products
+    .filter((product) => {
+      if (product.variants[0].sku === "GIFTY") return !!opts.includeGiftCards;
+      if (!product.requires_shipping) return !!opts.includeVirtualProducts;
+      return true;
+    })
+    .map((product) => {
+      if (product.variants[0].sku) {
+        product.variants[0].sku = product.variants[0].sku.toUpperCase();
+      }
+      return product;
+    });
 };
 
 const getOneProductsPage = async (
@@ -95,7 +103,7 @@ const getOneProductsPage = async (
   const urlParams = new URLSearchParams({
     per_page: "200",
     fields:
-      "id,variants,published,name,categories,created_at,requires_shipping,description,handle" +
+      "id,variants,tags,published,name,categories,created_at,requires_shipping,description,handle" +
       (opts.withImages ? ",images" : ""),
     sort_by: "created-at-ascending",
   });
@@ -207,7 +215,7 @@ const updateProducts = async (
     let token = opts.tokens[i % opts.tokens.length];
     if (!token) throw new Error("No se encontró el token de TiendaNube");
 
-    if (product.categories || product.published !== undefined)
+    if (product.categories || product.published !== undefined || product.tags)
       await fetch(`${opts.baseUrl}/products/${product.productId}`, {
         method: "PUT",
         headers: {
@@ -218,6 +226,7 @@ const updateProducts = async (
         body: JSON.stringify({
           categories: product.categories,
           published: product.published,
+          tags: product.tags,
         }),
       }).then((response) => waitRequestLimit(response));
 
@@ -437,7 +446,7 @@ export const getNewOrders = async (
   } else {
     urlParams.set(
       "created_at_min",
-      new Date(new Date().getTime() - dayInMs * 4).toISOString()
+      new Date(new Date().getTime() - dayInMs * 21).toISOString()
     );
   }
 
@@ -541,7 +550,6 @@ const getAllCategories = async (
     withImages?: boolean;
     published?: boolean;
     created_at_min?: string;
-    requiresShipping?: boolean;
   } & ClientOpts
 ) => {
   const output: { page: number; data: Category[] }[] = [];
@@ -668,6 +676,7 @@ export const createProduct = async (
           price: input.price,
           promotional_price: input.promotional_price,
           stock: input.stock,
+          stock_management: input.stock === null ? false : true,
           sku: input.sku,
           barcode: input.barcode,
           weight: input.weight,
